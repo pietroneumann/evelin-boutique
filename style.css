@@ -1,0 +1,183 @@
+body {
+    background-color: #FAF7F2;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #D8A7A7;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #292525;
+}
+
+nav a {
+    color: #292525;
+    padding: 10px;
+    font: 15pt normal Arial;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+#inicio {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+#inicio h2 {
+    font: 20pt normal arial;
+}
+
+#inicio p {
+    font: 14pt normal arial
+}
+
+#inicio a {
+    background-color: #D8A7A7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #292525;
+    text-decoration: none;
+}
+
+#inicio a:hover {
+    background-color: #A67C68;
+    color: #FFFFFF;
+}
+
+#novidades {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#novidades h2 {
+    font: 20pt normal arial;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #D8A7A7;
+    width: 300px;
+    border: #DCC8B6 solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.produto img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#categorias {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#categorias h2 {
+    font: 20pt normal arial;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.categoria {
+    background-color: #D8A7A7;
+    width: 300px;
+    border: #DCC8B6 solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#sobre {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#sobre h2{
+    font: 20pt normal arial;
+}
+
+#sobre p {
+    font: 14pt normal arial;
+    max-width: 700px;
+    margin: auto;
+}
+
+#contato {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contato h2 {
+    font: 20pt normal arial;
+}
+
+#contato p {
+    font: 14pt normal arial;
+}
+
+#contato a {
+    background-color: #D8A7A7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #292525;
+    text-decoration: none;
+}
+#contato a:hover {
+    background-color: #A67C68;
+    color: #FFFFFF;
+}
+
+footer {
+    font: 14pt normal arial;
+    text-align: center;
+    background-color: #D8A7A7;
+    padding: 20px;
+}
+
+.botao-whatsapp {
+    background-color: #292525;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #D8A7A7;
+    text-decoration: none;
+    
+}
+
+.botao-whatsapp:hover{
+    background-color: #A67C68;
+    color: #FFFFFF;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #D8A7A7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #292525;
+    text-decoration: none;
+    border: #DCC8B6 solid;
+}
