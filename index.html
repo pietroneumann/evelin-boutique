@@ -30,6 +30,12 @@
 
         <section id="novidades">
             <h2>Novidades</h2>
+            <input 
+                type="text"
+                id="busca"
+                placeholder="Buscar produto..."
+                >
+                <p id="quantidade-produtos"></p>
             <div class="produtos">
                 
             </div>
@@ -40,17 +46,17 @@
 
         <section id="categorias"><h2>Categorias</h2>
             <div class="categorias">
-                <div class="categoria" onclick="clicar('Vestidos')">
+                <div class="categoria" onclick="clicar('Vestidos', this)">
                     <h3>Vestidos</h3>
                 </div>
-                <div class="categoria" onclick="clicar('Pijamas')">
-                    <h3>Pijamas</h3>
+                <div class="categoria" onclick="clicar('Blusas', this)">
+                    <h3>Blusas</h3>
                 </div>
-                <div class="categoria" onclick="clicar('Plus Size')">
-                    <h3>Plus Size</h3>
+                <div class="categoria" onclick="clicar('Saias', this)">
+                    <h3>Saias</h3>
                 </div>
             </div>
-             <button onclick="mostrarProdutos()">
+             <button onclick="mostrarTodos()">
                     Ver todo o catálogo
                 </button>
         </section>

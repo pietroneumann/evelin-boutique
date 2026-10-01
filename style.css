@@ -2,50 +2,76 @@ body {
     background-color: #FAF7F2;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #292525;
 }
+
+/* =========================
+   HEADER
+========================= */
 
 header {
     background-color: #D8A7A7;
     text-align: center;
-    padding: 20px;
+    padding: 25px 20px;
 }
 
 header h1 {
+    margin: 0 0 15px;
     color: #292525;
+}
+
+/* =========================
+   MENU
+========================= */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 nav a {
+    padding: 10px 16px;
     color: #292525;
-    padding: 10px;
-    font: 15pt normal Arial;
     text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s ease;
 }
 
 nav a:hover {
+    background-color: #A67C68;
     color: #FFFFFF;
 }
 
+/* =========================
+   INÍCIO
+========================= */
+
 #inicio {
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
-    
+    padding: 0 20px;
 }
 
 #inicio h2 {
-    font: 20pt normal arial;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 #inicio p {
-    font: 14pt normal arial
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #inicio a {
     background-color: #D8A7A7;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 12px 22px;
     display: inline-block;
     color: #292525;
     text-decoration: none;
+    transition: 0.2s ease;
 }
 
 #inicio a:hover {
@@ -53,44 +79,177 @@ nav a:hover {
     color: #FFFFFF;
 }
 
+/* =========================
+   NOVIDADES
+========================= */
+
 #novidades {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 90px;
+    padding: 0 20px;
 }
 
 #novidades h2 {
-    font: 20pt normal arial;
+    font-size: 28px;
+    margin-bottom: 30px;
 }
 
 .produtos {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 24px;
     flex-wrap: wrap;
 }
 
-.produto {
-    background-color: #D8A7A7;
-    width: 300px;
-    border: #DCC8B6 solid;
+/* =========================
+    BUSCA
+========================== */
+
+#busca {
+    width: 320px;
+    max-width: 90%;
+
+    padding: 12px 16px;
+
+    margin-bottom: 30px;
+
+    border: 1px solid #DCC8B6;
     border-radius: 10px;
-    padding: 20px;
+
+    background-color: #FFFFFF;
+
+    color: #292525;
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.2s ease;
+
+    box-sizing: border-box;
+}
+
+#busca:focus {
+    border-color: #A67C68;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(166, 124, 104, 0.12);
+}
+
+#busca::placeholder {
+    color: #A67C68;
+}
+
+
+
+/* =========================
+   CARD PRODUTO
+========================= */
+
+.produto {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 1px solid #DCC8B6;
+    border-radius: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 22px
+        rgba(0, 0, 0, 0.08);
 }
 
 .produto img {
     width: 100%;
     height: 400px;
+
     object-fit: cover;
-    border-radius: 20px;
+    object-position: center;
+
+    border-radius: 14px;
 }
+
+.produto h3 {
+    margin: 14px 0 6px;
+    font-size: 20px;
+}
+
+.categoria-produto {
+    color: #A67C68;
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.preco {
+    font-weight: bold;
+    margin: 10px 0 14px;
+    font-size: 17px;
+}
+
+.mensagem-vazia {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: #A67C68;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border: 1px solid #DCC8B6;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+#quantidade-produtos {
+    margin-bottom: 25px;
+    color: #A67C68;
+    font-size: 15px;
+}
+
+/* =========================
+   WHATSAPP
+========================= */
+
+.botao-whatsapp {
+    background-color: #292525;
+    color: #D8A7A7;
+
+    border-radius: 10px;
+
+    padding: 10px 18px;
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+.botao-whatsapp:hover {
+    background-color: #A67C68;
+    color: #FFFFFF;
+}
+
+/* =========================
+   CATEGORIAS
+========================= */
 
 #categorias {
     text-align: center;
     margin-top: 100px;
+    padding: 0 20px;
 }
 
 #categorias h2 {
-    font: 20pt normal arial;
+    font-size: 28px;
+    margin-bottom: 30px;
 }
 
 .categorias {
@@ -99,85 +258,207 @@ nav a:hover {
     gap: 20px;
     flex-wrap: wrap;
 }
+
 .categoria {
     background-color: #D8A7A7;
-    width: 300px;
-    border: #DCC8B6 solid;
-    border-radius: 10px;
-    padding: 20px;
+
+    width: 260px;
+
+    border: 1px solid #DCC8B6;
+    border-radius: 12px;
+
+    padding: 22px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        color 0.2s ease;
 }
+
+.categoria:hover {
+    transform: translateY(-4px);
+
+    background-color: #A67C68;
+    color: #FFFFFF;
+}
+
+.categoria.ativa {
+    background-color: #A67C68;
+    color: white;
+}
+
+/* =========================
+   BOTÃO CATÁLOGO
+========================= */
+
+button {
+    margin-top: 18px;
+
+    background-color: #D8A7A7;
+
+    border-radius: 10px;
+
+    padding: 10px 20px;
+
+    color: #292525;
+
+    border: 1px solid #DCC8B6;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background-color: #A67C68;
+    color: #FFFFFF;
+}
+
+/* =========================
+   SOBRE
+========================= */
 
 #sobre {
     text-align: center;
     margin-top: 100px;
+    padding: 0 20px;
 }
 
-#sobre h2{
-    font: 20pt normal arial;
+#sobre h2 {
+    font-size: 28px;
 }
 
 #sobre p {
-    font: 14pt normal arial;
+    font-size: 18px;
+
     max-width: 700px;
+
     margin: auto;
+
+    line-height: 1.6;
 }
+
+/* =========================
+   CONTATO
+========================= */
 
 #contato {
     margin-top: 100px;
+    margin-bottom: 60px;
+
     text-align: center;
-    margin-bottom: 50px;
+
+    padding: 0 20px;
 }
 
 #contato h2 {
-    font: 20pt normal arial;
+    font-size: 28px;
 }
 
 #contato p {
-    font: 14pt normal arial;
+    font-size: 18px;
 }
 
 #contato a {
     background-color: #D8A7A7;
+
     border-radius: 10px;
+
     padding: 10px 20px;
+
     display: inline-block;
+
     color: #292525;
+
     text-decoration: none;
+
+    transition: 0.2s ease;
 }
+
 #contato a:hover {
     background-color: #A67C68;
     color: #FFFFFF;
 }
 
+/* =========================
+   FOOTER
+========================= */
+
 footer {
-    font: 14pt normal arial;
     text-align: center;
-    background-color: #D8A7A7;
-    padding: 20px;
-}
 
-.botao-whatsapp {
-    background-color: #292525;
-    border-radius: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    color: #D8A7A7;
-    text-decoration: none;
+    background-color: #D8A7A7;
     
+    padding: 22px;
+
+    font-size: 16px;
 }
 
-.botao-whatsapp:hover{
-    background-color: #A67C68;
-    color: #FFFFFF;
-}
+/* =========================
+   CELULAR
+========================= */
 
-button{
-    margin-top: 10px;
-    background-color: #D8A7A7;
-    border-radius: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    color: #292525;
-    text-decoration: none;
-    border: #DCC8B6 solid;
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    #inicio,
+    #novidades,
+    #categorias,
+    #sobre,
+    #contato {
+        margin-top: 60px;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto {
+        width: 90%;
+        max-width: 340px;
+    }
+
+    .produto img {
+        height: 420px;
+    }
+
+    .categorias {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categoria {
+        width: 85%;
+        box-sizing: border-box;
+    }
+
+    #inicio h2,
+    #novidades h2,
+    #categorias h2,
+    #sobre h2,
+    #contato h2 {
+        font-size: 24px;
+    }
+
+    #inicio p,
+    #sobre p,
+    #contato p {
+        font-size: 16px;
+    }
 }
