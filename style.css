@@ -1,9 +1,21 @@
 body {
     background-color: #FAF7F2;
+
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
     color: #292525;
 }
+
+
+img {
+    max-width: 100%;
+}
+
 
 /* =========================
    HEADER
@@ -11,14 +23,19 @@ body {
 
 header {
     background-color: #D8A7A7;
+
     text-align: center;
+
     padding: 25px 20px;
 }
 
+
 header h1 {
     margin: 0 0 15px;
+
     color: #292525;
 }
+
 
 /* =========================
    MENU
@@ -26,23 +43,34 @@ header h1 {
 
 nav {
     display: flex;
+
     justify-content: center;
+
     gap: 12px;
+
     flex-wrap: wrap;
 }
 
+
 nav a {
     padding: 10px 16px;
+
     color: #292525;
+
     text-decoration: none;
+
     border-radius: 8px;
+
     transition: 0.2s ease;
 }
 
+
 nav a:hover {
     background-color: #A67C68;
+
     color: #FFFFFF;
 }
+
 
 /* =========================
    INÍCIO
@@ -50,34 +78,50 @@ nav a:hover {
 
 #inicio {
     margin-top: 80px;
+
     text-align: center;
+
     padding: 0 20px;
 }
 
+
 #inicio h2 {
     font-size: 28px;
+
     margin-bottom: 10px;
 }
 
+
 #inicio p {
     font-size: 18px;
+
     margin-bottom: 20px;
 }
 
+
 #inicio a {
     background-color: #D8A7A7;
+
     border-radius: 10px;
+
     padding: 12px 22px;
+
     display: inline-block;
+
     color: #292525;
+
     text-decoration: none;
+
     transition: 0.2s ease;
 }
 
+
 #inicio a:hover {
     background-color: #A67C68;
+
     color: #FFFFFF;
 }
+
 
 /* =========================
    NOVIDADES
@@ -85,40 +129,54 @@ nav a:hover {
 
 #novidades {
     text-align: center;
+
     margin-top: 90px;
+
     padding: 0 20px;
 }
 
+
 #novidades h2 {
     font-size: 28px;
+
     margin-bottom: 30px;
 }
 
+
 .produtos {
     display: flex;
+
     justify-content: center;
+
     gap: 24px;
+
     flex-wrap: wrap;
 }
 
+
 /* =========================
-    BUSCA
-========================== */
+   BUSCA
+========================= */
 
 #busca {
     width: 320px;
+
     max-width: 90%;
 
     padding: 12px 16px;
 
     margin-bottom: 30px;
 
-    border: 1px solid #DCC8B6;
+    border:
+        1px solid
+        #DCC8B6;
+
     border-radius: 10px;
 
     background-color: #FFFFFF;
 
     color: #292525;
+
     font-size: 16px;
 
     outline: none;
@@ -128,6 +186,7 @@ nav a:hover {
     box-sizing: border-box;
 }
 
+
 #busca:focus {
     border-color: #A67C68;
 
@@ -136,10 +195,19 @@ nav a:hover {
         rgba(166, 124, 104, 0.12);
 }
 
+
 #busca::placeholder {
     color: #A67C68;
 }
 
+
+#quantidade-produtos {
+    margin-bottom: 25px;
+
+    color: #A67C68;
+
+    font-size: 15px;
+}
 
 
 /* =========================
@@ -148,10 +216,17 @@ nav a:hover {
 
 .produto {
     background-color: #FFFFFF;
+
     width: 300px;
-    border: 1px solid #DCC8B6;
+
+    border:
+        1px solid
+        #DCC8B6;
+
     border-radius: 16px;
+
     padding: 12px;
+
     box-sizing: border-box;
 
     transition:
@@ -159,59 +234,79 @@ nav a:hover {
         box-shadow 0.2s ease;
 }
 
+
 .produto:hover {
-    transform: translateY(-5px);
+    transform:
+        translateY(-5px);
 
     box-shadow:
         0 8px 22px
         rgba(0, 0, 0, 0.08);
 }
 
+
 .produto img {
     width: 100%;
+
     height: 400px;
 
     object-fit: cover;
+
     object-position: center;
 
     border-radius: 14px;
 }
 
+
 .produto h3 {
     margin: 14px 0 6px;
+
     font-size: 20px;
 }
 
+
 .categoria-produto {
     color: #A67C68;
+
     margin: 4px 0;
+
     font-size: 15px;
 }
+
 
 .preco {
     font-weight: bold;
+
     margin: 10px 0 14px;
+
     font-size: 17px;
 }
 
+
 .mensagem-vazia {
     width: 100%;
+
     text-align: center;
+
     margin-top: 20px;
+
     padding: 20px;
+
     color: #A67C68;
+
     font-size: 18px;
+
     background-color: #FFFFFF;
-    border: 1px solid #DCC8B6;
+
+    border:
+        1px solid
+        #DCC8B6;
+
     border-radius: 12px;
+
     box-sizing: border-box;
 }
 
-#quantidade-produtos {
-    margin-bottom: 25px;
-    color: #A67C68;
-    font-size: 15px;
-}
 
 /* =========================
    WHATSAPP
@@ -219,6 +314,7 @@ nav a:hover {
 
 .botao-whatsapp {
     background-color: #292525;
+
     color: #D8A7A7;
 
     border-radius: 10px;
@@ -232,10 +328,13 @@ nav a:hover {
     transition: 0.2s ease;
 }
 
+
 .botao-whatsapp:hover {
     background-color: #A67C68;
+
     color: #FFFFFF;
 }
+
 
 /* =========================
    CATEGORIAS
@@ -243,28 +342,40 @@ nav a:hover {
 
 #categorias {
     text-align: center;
+
     margin-top: 100px;
+
     padding: 0 20px;
 }
 
+
 #categorias h2 {
     font-size: 28px;
+
     margin-bottom: 30px;
 }
 
+
 .categorias {
     display: flex;
+
     justify-content: center;
+
     gap: 20px;
+
     flex-wrap: wrap;
 }
+
 
 .categoria {
     background-color: #D8A7A7;
 
     width: 260px;
 
-    border: 1px solid #DCC8B6;
+    border:
+        1px solid
+        #DCC8B6;
+
     border-radius: 12px;
 
     padding: 22px;
@@ -277,17 +388,23 @@ nav a:hover {
         color 0.2s ease;
 }
 
+
 .categoria:hover {
-    transform: translateY(-4px);
+    transform:
+        translateY(-4px);
 
     background-color: #A67C68;
+
     color: #FFFFFF;
 }
 
+
 .categoria.ativa {
     background-color: #A67C68;
-    color: white;
+
+    color: #FFFFFF;
 }
+
 
 /* =========================
    BOTÃO CATÁLOGO
@@ -304,17 +421,22 @@ button {
 
     color: #292525;
 
-    border: 1px solid #DCC8B6;
+    border:
+        1px solid
+        #DCC8B6;
 
     cursor: pointer;
 
     transition: 0.2s ease;
 }
 
+
 button:hover {
     background-color: #A67C68;
+
     color: #FFFFFF;
 }
+
 
 /* =========================
    SOBRE
@@ -322,13 +444,17 @@ button:hover {
 
 #sobre {
     text-align: center;
+
     margin-top: 100px;
+
     padding: 0 20px;
 }
+
 
 #sobre h2 {
     font-size: 28px;
 }
+
 
 #sobre p {
     font-size: 18px;
@@ -340,12 +466,14 @@ button:hover {
     line-height: 1.6;
 }
 
+
 /* =========================
    CONTATO
 ========================= */
 
 #contato {
     margin-top: 100px;
+
     margin-bottom: 60px;
 
     text-align: center;
@@ -353,13 +481,16 @@ button:hover {
     padding: 0 20px;
 }
 
+
 #contato h2 {
     font-size: 28px;
 }
 
+
 #contato p {
     font-size: 18px;
 }
+
 
 #contato a {
     background-color: #D8A7A7;
@@ -377,10 +508,13 @@ button:hover {
     transition: 0.2s ease;
 }
 
+
 #contato a:hover {
     background-color: #A67C68;
+
     color: #FFFFFF;
 }
+
 
 /* =========================
    FOOTER
@@ -390,11 +524,12 @@ footer {
     text-align: center;
 
     background-color: #D8A7A7;
-    
+
     padding: 22px;
 
     font-size: 16px;
 }
+
 
 /* =========================
    CELULAR
@@ -406,15 +541,20 @@ footer {
         padding: 20px 15px;
     }
 
+
     nav {
         flex-direction: column;
+
         align-items: center;
     }
 
+
     nav a {
         width: 80%;
+
         box-sizing: border-box;
     }
+
 
     #inicio,
     #novidades,
@@ -424,29 +564,39 @@ footer {
         margin-top: 60px;
     }
 
+
     .produtos {
         flex-direction: column;
+
         align-items: center;
     }
 
+
     .produto {
         width: 90%;
+
         max-width: 340px;
     }
+
 
     .produto img {
         height: 420px;
     }
 
+
     .categorias {
         flex-direction: column;
+
         align-items: center;
     }
 
+
     .categoria {
         width: 85%;
+
         box-sizing: border-box;
     }
+
 
     #inicio h2,
     #novidades h2,
@@ -455,6 +605,7 @@ footer {
     #contato h2 {
         font-size: 24px;
     }
+
 
     #inicio p,
     #sobre p,

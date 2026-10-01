@@ -3,96 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <title>Projeto</title>
+
+    <title>Evelin Boutique Delivery</title>
 </head>
+
 <body>
+
     <header>
         <h1>Evelin Boutique</h1>
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#novidades">Novidades</a>
-        <a href="#categorias">Categorias</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-    </nav>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#novidades">Novidades</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
-   
 
     <main>
-        <section id="inicio">
-            <h2>Evelin Boutique Delivery</h2>
-            <p>Moda feminina para todos os momentos</p>
-            <a href="#novidades">Confira nossas peças</a>
-        </section>
 
+        <section id="inicio">
+
+            <h2>Evelin Boutique Delivery</h2>
+
+            <p>
+                Moda feminina para todos os momentos
+            </p>
+
+            <a href="#novidades">
+                Confira nossas peças
+            </a>
+
+        </section>
 
 
         <section id="novidades">
+
             <h2>Novidades</h2>
-            <input 
+
+            <input
                 type="text"
                 id="busca"
                 placeholder="Buscar produto..."
-                >
-                <p id="quantidade-produtos"></p>
-            <div class="produtos">
-                
-            </div>
+            >
+
+            <p id="quantidade-produtos"></p>
+
+            <div class="produtos"></div>
+
         </section>
 
 
+        <section id="categorias">
 
+            <h2>Categorias</h2>
 
-        <section id="categorias"><h2>Categorias</h2>
             <div class="categorias">
-                <div class="categoria" onclick="clicar('Vestidos', this)">
+
+                <div
+                    class="categoria"
+                    onclick="clicar('Vestidos', this)"
+                >
                     <h3>Vestidos</h3>
                 </div>
-                <div class="categoria" onclick="clicar('Blusas', this)">
+
+                <div
+                    class="categoria"
+                    onclick="clicar('Blusas', this)"
+                >
                     <h3>Blusas</h3>
                 </div>
-                <div class="categoria" onclick="clicar('Saias', this)">
+
+                <div
+                    class="categoria"
+                    onclick="clicar('Saias', this)"
+                >
                     <h3>Saias</h3>
                 </div>
+
             </div>
-             <button onclick="mostrarTodos()">
-                    Ver todo o catálogo
-                </button>
+
+            <button onclick="mostrarTodos()">
+                Ver todo o catálogo
+            </button>
+
         </section>
 
 
+        <section id="sobre">
 
+            <h2>Sobre</h2>
 
-        <section id="sobre"><h2>Sobre</h2>
             <p>
-                    A Evelin Boutique Delivery trabalha com moda feminina, oferecendo peças selecionadas com atendimento personalizado e entrega.
+                A Evelin Boutique Delivery trabalha com moda feminina,
+                oferecendo peças selecionadas com atendimento personalizado
+                e entrega.
             </p>
+
         </section>
 
 
+        <section id="contato">
 
+            <h2>Contato</h2>
 
-        <section id="contato"><h2>Contato</h2>
             <p>
                 Faça seu pedido ou tire suas dúvidas através
                 dos nossos canais de atendimento.
             </p>
+
             <p>
-                <a href="#">WhatsApp</a>
+                <a
+                    href="https://wa.me/5511971949711"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    WhatsApp
+                </a>
             </p>
+
             <p>
-                <a href="#">Instagram</a>
+                <a
+                    href="https://www.instagram.com/evelinboutiquedelivery/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Instagram
+                </a>
             </p>
+
         </section>
+
     </main>
 
 
     <footer>
+
         <p>
-            &copy;2026 Evelin Boutique Delivery - Todos os direitos reservados.
+            &copy; 2026 Evelin Boutique Delivery -
+            Todos os direitos reservados.
         </p>
+
     </footer>
+
     <script src="script.js"></script>
+
 </body>
 </html>
