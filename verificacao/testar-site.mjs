@@ -34,7 +34,22 @@ for (const categoria of ['Vestidos', 'Blusas', 'Saias']) {
     assert.equal(produtos.filter(p => p.novidade && p.categoria === categoria).length, 3);
 }
 for (const original of evidencia.estadoInicial.produtos) {
-    assert.deepEqual(produtos.find(p => p.nome === original.nome), original);
+    const {codigoFornecedor, ...camposAnteriores} = produtos.find(p => p.nome === original.nome);
+    assert.deepEqual(camposAnteriores, original);
+}
+const camposProduto = ['nome', 'codigoFornecedor', 'categoria', 'preco', 'tamanhos', 'cores', 'novidade', 'imagem'];
+for (const produto of produtos) {
+    assert.deepEqual(Object.keys(produto), camposProduto);
+    assert.ok(produto.codigoFornecedor === null || (typeof produto.codigoFornecedor === 'string' && produto.codigoFornecedor.trim().length > 0));
+    assert.equal(produto.preco, null);
+}
+const evidenciaCodigos = path.join(pastaVerificacao, 'v2-codigos-fornecedor.json');
+if (fs.existsSync(evidenciaCodigos)) {
+    const codigos = JSON.parse(fs.readFileSync(evidenciaCodigos, 'utf8'));
+    assert.equal(codigos.produtos.length, produtos.length);
+    for (const registro of codigos.produtos) {
+        assert.equal(produtos.find(p => p.nome === registro.nome).codigoFornecedor, registro.codigoFornecedor);
+    }
 }
 for (const [arquivo, hash] of Object.entries(evidencia.estadoInicial.hashes)) {
     const bytes = fs.readFileSync(path.join(raiz, 'assets/imagens/produtos', arquivo));

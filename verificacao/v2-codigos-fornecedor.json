@@ -1,0 +1,4246 @@
+{
+  "baseline": "c6ba0dbedefa8019a71eb6523a0200c7012556ee",
+  "fontesHistoricas": true,
+  "consultaCatalogo": "2026-10-02T20:56:55.3063920Z",
+  "resumo": {
+    "total": 260,
+    "comCodigo": 124,
+    "semCodigo": 136,
+    "ambiguos": [
+      "Vestido Priscila",
+      "Vestido Sindy",
+      "Saia Telma",
+      "Saia Melissa"
+    ],
+    "porCategoria": {
+      "Vestidos": {
+        "comCodigo": 45,
+        "semCodigo": 52
+      },
+      "Blusas": {
+        "comCodigo": 39,
+        "semCodigo": 25
+      },
+      "Saias": {
+        "comCodigo": 29,
+        "semCodigo": 22
+      },
+      "Conjuntos": {
+        "comCodigo": 6,
+        "semCodigo": 26
+      },
+      "Camisas": {
+        "comCodigo": 2,
+        "semCodigo": 4
+      },
+      "Blazers": {
+        "comCodigo": 0,
+        "semCodigo": 1
+      },
+      "Outros": {
+        "comCodigo": 3,
+        "semCodigo": 6
+      }
+    }
+  },
+  "produtos": [
+    {
+      "nome": "Vestido Clarissa",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Mariel",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Gleide",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Mariana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01367",
+      "referenciasEncontradas": [
+        "01367"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 54,
+          "codigo": "01367",
+          "textos": "Vestido Mariana\nCód: 01367 (PP,P,M,G,GG) R$ 189,90\nElástico na Cintura / Sem zíper / Com Bordado\nTecido Lese de Malha"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Karol",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01416",
+      "referenciasEncontradas": [
+        "01416"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 63,
+          "codigo": "01416",
+          "textos": "Vestido Karol\nCód: 01416 (P,M,G) R$ 179,90\nCom zíper / Elástico na Cintura\nTecido Sedinha Estampada"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Ana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Camily",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Stella",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Priscila",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados.",
+        "Descrições e tecidos diferentes entre ocorrências sem referência; identidade pendente."
+      ],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Sindy",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados.",
+        "Descrições e tecidos diferentes entre ocorrências sem referência; identidade pendente."
+      ],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Clara",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Grace",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Lais",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Julieta",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Dinah",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Tamara",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Janete",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Cecy",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Malu",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Carla",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Lenita",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Thaila",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Jennifer",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Carolina",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Suzete",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Emília",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Laila",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01404",
+      "referenciasEncontradas": [
+        "01404"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 68,
+          "codigo": "01404",
+          "textos": "Vestido Laila\nCód: 01404 (PP,P,M,G,GG) R$ 199,90\nCom zíper e faixa\nTecido crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01404",
+          "imagem": "assets/imagens/produtos/vestido-laila.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Analise",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Gildete",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01391",
+      "referenciasEncontradas": [
+        "01391"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 77,
+          "codigo": "01391",
+          "textos": "Vestido Gildete\nCód: 01391 (P,M,G,EXG) R$ 189,90\nCom Lástex nas Costas\nTecido Musseline"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01391",
+          "imagem": "assets/imagens/produtos/vestido-gildete.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Nicole",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01419",
+      "referenciasEncontradas": [
+        "01419"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 87,
+          "codigo": "01419",
+          "textos": "Vestido Nicole\nCód:01419 (M) R$ 199,90\nCom zíper e faixa\nTecido Jeans"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01419",
+          "imagem": "assets/imagens/produtos/vestido-nicole.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Tamires",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Aquila",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01046",
+      "referenciasEncontradas": [
+        "01046"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 95,
+          "codigo": "01046",
+          "textos": "Vestido Aquila\nCód: 01046 (P,M,G,GG,EXG) R$ 199,90\nBordado Manga curta\ndetalhe em gota atrás\nTecido Malha Crepe C/ Renda"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01046",
+          "imagem": "assets/imagens/produtos/vestido-aquila.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Jade",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Gislaine",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Solange",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Úrsula",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Maitê",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01049",
+      "referenciasEncontradas": [
+        "01049"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 217,
+          "codigo": "01049",
+          "textos": "Vestido Maitê\nCód: 01049 (P) R$ 239,90\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01049",
+          "imagem": "assets/imagens/produtos/vestido-maite.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Anne",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Lorena",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Jordana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Sandra",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Joana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Juliana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Marion",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Jaqueline",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Ayla",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Zuleica",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Olga",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Alexa",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Composé Rafaela",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01183",
+      "referenciasEncontradas": [
+        "01183"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 175,
+          "codigo": "01183",
+          "textos": "Vestido Composé Rafaela\nCod: 01183 (GG) R$ 149,90\nSem zíper\nTecido Tweed de Malha/Tule de Malha"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01183",
+          "imagem": "assets/imagens/produtos/vestido-compose-rafaela.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Adele",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Leonora",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Salete",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Roberta",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Julia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01057",
+      "referenciasEncontradas": [
+        "01057"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 192,
+          "codigo": "01057",
+          "textos": "Vestido Julia\nCód: 01057 (P,M) R$ 199,90\nGodê / manga curta / com ziper\nTecido Crepe Dunas"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01057",
+          "imagem": "assets/imagens/produtos/vestido-julia.png"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Rebeca",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Hortência",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01224",
+      "referenciasEncontradas": [
+        "01224"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 197,
+          "codigo": "01224",
+          "textos": "Vestido Hortência\nCod: 01224 (P,M,GG,EXG,48,50) R$ 149,90\nCom cinto e zíper\nTecido Malha Premium"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01224",
+          "imagem": "assets/imagens/produtos/vestido-hortencia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Lavinia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01113",
+      "referenciasEncontradas": [
+        "01113"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 198,
+          "codigo": "01113",
+          "textos": "Vestido Lavinia\nCód: 01113 (P,M) R$ 239,90\nCom zíper\nTecido crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01113",
+          "imagem": "assets/imagens/produtos/vestido-lavinia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Estela",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01221",
+      "referenciasEncontradas": [
+        "01221"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 213,
+          "codigo": "01221",
+          "textos": "Vestido Estela\nCod: 01221 (P,M,G,GG) R$ 169,90\nSem zíper\nTecido Sedinha Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01221",
+          "imagem": "assets/imagens/produtos/vestido-estela.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Dandara",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01168",
+      "referenciasEncontradas": [
+        "01168"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 214,
+          "codigo": "01168",
+          "textos": "Vestido Dandara\nCod: 01168 (P,M) R$ 199,90\nCom zíper\nTecido Lese de Linho"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01168",
+          "imagem": "assets/imagens/produtos/vestido-dandara.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Tânia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01102",
+      "referenciasEncontradas": [
+        "01102"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 227,
+          "codigo": "01102",
+          "textos": "Vestido Tânia\nCód: 01102 (P) R$ 179,90\nManga 3/4 com lástex / botões não funcionais\nS/ zíper\nTecido Chiffon"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01102",
+          "imagem": "assets/imagens/produtos/vestido-tania.png"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Paloma",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01174",
+      "referenciasEncontradas": [
+        "01174"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 230,
+          "codigo": "01174",
+          "textos": "Vestido Paloma\nCod: 01174 (M ) R$ 169,90\nLastex na Cintura e sem Zíper\nTecido Sedinha Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01174",
+          "imagem": "assets/imagens/produtos/vestido-paloma.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Jessica",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01254",
+      "referenciasEncontradas": [
+        "01254"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 231,
+          "codigo": "01254",
+          "textos": "Vestido Jessica\nCod: 01254 (PP,P) R$ 179,90\nDetalhe em renda na manga / Com zíper\nTecido Viscose"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01254",
+          "imagem": "assets/imagens/produtos/vestido-jessica.png"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Leia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01035",
+      "referenciasEncontradas": [
+        "01035"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 234,
+          "codigo": "01035",
+          "textos": "Vestido Leia\nCód: 01035 (PP,P) R$ 139,90\nTecido Malha Canelada Premium"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01035",
+          "imagem": "assets/imagens/produtos/vestido-leia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Celina",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01201",
+      "referenciasEncontradas": [
+        "01201"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 235,
+          "codigo": "01201",
+          "textos": "Vestido Celina\nCód: 01201 (P,M) R$ 179,90\nSem Zíper / Com Lastex na cintura (atrás)\nTecido Chiffon de Seda"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01201",
+          "imagem": "assets/imagens/produtos/vestido-celina.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Liliane",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01285",
+      "referenciasEncontradas": [
+        "01285"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 244,
+          "codigo": "01285",
+          "textos": "Vestido Liliane\nCód: 01285 (M,G,GG) R$ 189,90\nSem zíper / Detalhe em guipir\nTecido Lese de Malha"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01285",
+          "imagem": "assets/imagens/produtos/vestido-liliane.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Cacilda",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01162",
+      "referenciasEncontradas": [
+        "01162"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 246,
+          "codigo": "01162",
+          "textos": "Vestido Cacilda\nCod: 01162 (P,M,48,50) R$ 149,90\nSem zíper\nTecido Malha Montaria/Malha Premium"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01162",
+          "imagem": "assets/imagens/produtos/vestido-cacilda.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Telma",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Pamela",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Gisele",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Aurora",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Sônia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01351",
+      "referenciasEncontradas": [
+        "01351"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 275,
+          "codigo": "01351",
+          "textos": "Vestido Sônia\nCód: 01351 (P,M,G) R$ 199,90\nCom zíper / Detalhes em guipir / Botões Funcionais\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01351",
+          "imagem": "assets/imagens/produtos/vestido-sonia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Letícia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01207",
+      "referenciasEncontradas": [
+        "01207"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 276,
+          "codigo": "01207",
+          "textos": "Vestido Letícia\nCod: 01207 (P,M) R$ 159,90\nCom Zíper na frente\nTecido Malha Premium"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01207",
+          "imagem": "assets/imagens/produtos/vestido-leticia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Emily",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01289",
+      "referenciasEncontradas": [
+        "01289"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 277,
+          "codigo": "01289",
+          "textos": "Vestido Emily\nCód: 01289 (M,G,GG) R$ 199,90\nSem zíper / Detalhe em Bordado\nTecido Lese de Malha"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01289",
+          "imagem": "assets/imagens/produtos/vestido-emily.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Vivien",
+      "categoria": "Vestidos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Vestido Sofia",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01415",
+      "referenciasEncontradas": [
+        "01415"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 284,
+          "codigo": "01415",
+          "textos": "Vestido Sofia\nCód: 01415 (P,G,GG) R$ 199,90\nCom zíper / Acompanha Broche de flor\nTecido Crepe Alfaiataria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01415",
+          "imagem": "assets/imagens/produtos/vestido-sofia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Isadora",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01336",
+      "referenciasEncontradas": [
+        "01336"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 289,
+          "codigo": "01336",
+          "textos": "Vestido Isadora\nCód: 01336 (P) R$ 189,90\nBotões funcionais\nTecido Jeans"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01336",
+          "imagem": "assets/imagens/produtos/vestido-isadora.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Flora",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01424",
+      "referenciasEncontradas": [
+        "01424"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 295,
+          "codigo": "01424",
+          "textos": "Vestido Flora\nCód: 01424 (P) R$ 109,90\nSem zíper\nTecido malha canelada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01424",
+          "imagem": "assets/imagens/produtos/vestido-flora.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Guta",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01425",
+      "referenciasEncontradas": [
+        "01425"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 296,
+          "codigo": "01425",
+          "textos": "Vestido Guta\nCód: 01425 (P,M,G ) R$ 219,90\nCom zíper\nTecido Lese de Algodão"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01425",
+          "imagem": "assets/imagens/produtos/vestido-guta.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Eliana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01364",
+      "referenciasEncontradas": [
+        "01364"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 297,
+          "codigo": "01364",
+          "textos": "Vestido Eliana\nCód: 01364 (P) R$ 219,90\nPlissado / Com Fivela Fixa / Com zíper\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01364",
+          "imagem": "assets/imagens/produtos/vestido-eliana.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Isaura",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01257",
+      "referenciasEncontradas": [
+        "01257"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 303,
+          "codigo": "01257",
+          "textos": "Vestido Isaura\nCod: 01257 (P,M,G,GG,EXG) R$ 179,90\nCom zíper / Botões não funcionais\nTecido Malha Alfaiataria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01257",
+          "imagem": "assets/imagens/produtos/vestido-isaura.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Simône",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01350",
+      "referenciasEncontradas": [
+        "01350"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 313,
+          "codigo": "01350",
+          "textos": "Vestido Simône\nCód: 01350 (P,M,G,GG,EXG) R$ 189,90\nCom zíper\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01350",
+          "imagem": "assets/imagens/produtos/vestido-simone.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Raquel",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01342",
+      "referenciasEncontradas": [
+        "01342"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 319,
+          "codigo": "01342",
+          "textos": "Vestido Raquel\nCód: 01342 (M,G,GG,EXG) R$ 219,90\nCom zíper / Acompanha broche de laço\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01342",
+          "imagem": "assets/imagens/produtos/vestido-raquel.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Vera",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01343",
+      "referenciasEncontradas": [
+        "01343"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 329,
+          "codigo": "01343",
+          "textos": "Vestido Vera\nCód: 01343 (P,M,G) R$ 199,90\nCom zíper\nTecido Chiffon Trabalhado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01343",
+          "imagem": "assets/imagens/produtos/vestido-vera.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Suzana",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01361",
+      "referenciasEncontradas": [
+        "01361"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 331,
+          "codigo": "01361",
+          "textos": "Vestido Suzana\nCód: 01361 (M,G,GG,EXG) R$169,90\nElástico na cintura / Sem zíper / Com faixa\nTecido Crepe Maquinetado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01361",
+          "imagem": "assets/imagens/produtos/vestido-suzana.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Mayumi",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01365",
+      "referenciasEncontradas": [
+        "01365"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 336,
+          "codigo": "01365",
+          "textos": "Vestido Mayumi\nCód: 01365 (P,G) R$ 199,90\nCom zíper\nTecido Lese de Algodão"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01365",
+          "imagem": "assets/imagens/produtos/vestido-mayumi.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Thaís",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01360",
+      "referenciasEncontradas": [
+        "01360"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 338,
+          "codigo": "01360",
+          "textos": "Vestido Thaís\nCód: 01360 (P) R$ 189,90\nBotões Funcionais / Sem zíper\nTecido Jeans"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01360",
+          "imagem": "assets/imagens/produtos/vestido-thais.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Edite",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "00479",
+      "referenciasEncontradas": [
+        "00479"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 339,
+          "codigo": "00479",
+          "textos": "Vestido Edite\nCód:00479 (M,G,GG) R$119,90\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00479",
+          "imagem": "assets/imagens/produtos/vestido-edite.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Joyce",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01345",
+      "referenciasEncontradas": [
+        "01345"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 345,
+          "codigo": "01345",
+          "textos": "Vestido Joyce\nCód: 01345 (M G GG ) R$ 219,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01345",
+          "imagem": "assets/imagens/produtos/vestido-joyce.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Geane",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01092",
+      "referenciasEncontradas": [
+        "01092"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 364,
+          "codigo": "01092",
+          "textos": "Vestido Geane\nCód: 01092 (P) R$ 119,90\nSem zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01092",
+          "imagem": "assets/imagens/produtos/vestido-geane.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Sol",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01281",
+      "referenciasEncontradas": [
+        "01281"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 367,
+          "codigo": "01281",
+          "textos": "Vestido Sol\nCód: 01281 (P) R$ 199,90\nCom zíper / Botões não funcionais / Com aplicação\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01281",
+          "imagem": "assets/imagens/produtos/vestido-sol.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Thereza",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01271",
+      "referenciasEncontradas": [
+        "01271"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 368,
+          "codigo": "01271",
+          "textos": "Vestido Thereza\nCód: 01271 (M ) R$ 199,90\nCom Zíper / Com Faixa Pespontada\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01271",
+          "imagem": "assets/imagens/produtos/vestido-thereza.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Elis",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "00954",
+      "referenciasEncontradas": [
+        "00954"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 373,
+          "codigo": "00954",
+          "textos": "Vestido Elis\nCód: 00954 (PP,P) R$ 89,90\nTecido Malha Canelada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00954",
+          "imagem": "assets/imagens/produtos/vestido-elis.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Kyara",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01100",
+      "referenciasEncontradas": [
+        "01100"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 375,
+          "codigo": "01100",
+          "textos": "Vestido Kyara\nCód: 01100 (P) R$ 199,90\nTecido Viscolinho Estampado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01100",
+          "imagem": "assets/imagens/produtos/vestido-kyara.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Elizabeth",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "01231",
+      "referenciasEncontradas": [
+        "01231"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 377,
+          "codigo": "01231",
+          "textos": "Vestido Elizabeth\nCod: 01231 (P,M,G,GG) R$ 219,90\nCom zíper\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01231",
+          "imagem": "assets/imagens/produtos/vestido-elizabeth.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Silmara",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "00187",
+      "referenciasEncontradas": [
+        "00187"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 393,
+          "codigo": "00187",
+          "textos": "Vestido Silmara\nCód: 00187 (EXG) R$119,90\nSem z[iper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00187",
+          "imagem": "assets/imagens/produtos/vestido-silmara.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Vestido Fernanda",
+      "categoria": "Vestidos",
+      "codigoFornecedor": "00964",
+      "referenciasEncontradas": [
+        "00964"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 395,
+          "codigo": "00964",
+          "textos": "Vestido Fernanda\nCód: 00964 (P,G) R$ 179,90\nTecido Viscose"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00964",
+          "imagem": "assets/imagens/produtos/vestido-fernanda.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Jussara",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Soraya",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Jêssica",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Katy",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01397",
+      "referenciasEncontradas": [
+        "01397"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 78,
+          "codigo": "01397",
+          "textos": "Blusa Katy\nCód: 01397 (G,GG) R$ 89,90\nCom amarração na gola\nTecido Ice Drop"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 100,
+          "codigo": "01397",
+          "textos": "Blusa Katy\nCód: 01397 (G,GG) R$ 89,90\nCom Amarração na gola Tecido Ice Drop"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 254,
+          "codigo": "01397",
+          "textos": "Blusa Katy\nCód: 01397 (P,M,G,GG,EXG) R$ 89,90\nCom Amarração na gola\nTecido Ice Drop"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Adele",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Sofia",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Charlote",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Emanuelly",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Helena",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Debora",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Agatha",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Andreza",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01101",
+      "referenciasEncontradas": [
+        "01101"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 220,
+          "codigo": "01101",
+          "textos": "Blusa Andreza\nCód: 01101 (P,M,G,GG,EXG) R$ 89,90\nCom detalhes em gripir\nTecido crepe"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "01101",
+          "imagem": "assets/imagens/produtos/blusa-andreza.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Vera",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00598",
+      "referenciasEncontradas": [
+        "00598"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 241,
+          "codigo": "00598",
+          "textos": "Blusa Vera\nCód: 00598 (P) R$ 39,90"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "00598",
+          "imagem": "assets/imagens/produtos/blusa-vera.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Valentina",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Kelly",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Tânia",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Patrícia",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Marta",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Guta",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Bruna",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Melissa",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Lenita",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Lavinia",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Fabiola",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Catarina",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01362",
+      "referenciasEncontradas": [
+        "01362"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 195,
+          "codigo": "01362",
+          "textos": "Blusa Catarina\nCód: 01362 (M,G,GG,EXG) R$ 89,90\nBotões não funcionais\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01362",
+          "imagem": "assets/imagens/produtos/blusa-catarina.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Yara",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Valesca",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Lais",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Mari",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01294",
+      "referenciasEncontradas": [
+        "01294"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 205,
+          "codigo": "01294",
+          "textos": "Blusa Mari\nCód: 01294 (P,M,G) R$ 79,90\nDetalhe em Gripir\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01294",
+          "imagem": "assets/imagens/produtos/blusa-mari.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Andréia",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01375",
+      "referenciasEncontradas": [
+        "01375"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 330,
+          "codigo": "01375",
+          "textos": "Blusa Andréia\nCód: 01375 (P,M,G,GG,EXG) R$ 89,90\nBotões não Funcionais\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01375",
+          "imagem": "assets/imagens/produtos/blusa-andreia.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Lucilene",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01252",
+      "referenciasEncontradas": [
+        "01252"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 239,
+          "codigo": "01252",
+          "textos": "Blusa Lucilene\nCod: 01252 (P,M,G) R$ 79,90\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01252",
+          "imagem": "assets/imagens/produtos/blusa-lucilene.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Clara",
+      "categoria": "Blusas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Blusa Solange",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01272",
+      "referenciasEncontradas": [
+        "01272"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 250,
+          "codigo": "01272",
+          "textos": "Blusa Solange\nCód: 01272 (P,M) R$ 79,90\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01272",
+          "imagem": "assets/imagens/produtos/blusa-solange.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Bella",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00424",
+      "referenciasEncontradas": [
+        "00424"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 251,
+          "codigo": "00424",
+          "textos": "Blusa Bella\nCód: 00424 (M) R$ 79,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00424",
+          "imagem": "assets/imagens/produtos/blusa-bella.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Fabiana",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00699",
+      "referenciasEncontradas": [
+        "00699"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 252,
+          "codigo": "00699",
+          "textos": "Blusa Fabiana\nCód: 00699 (P) R$ 89,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00699",
+          "imagem": "assets/imagens/produtos/blusa-fabiana.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Alanis",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01233",
+      "referenciasEncontradas": [
+        "01233"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 304,
+          "codigo": "01233",
+          "textos": "Blusa Alanis\nCod: 01233 (P,M) R$ 74,90\nDetalhe em Amarração\nTecido Cetim Acetinado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01233",
+          "imagem": "assets/imagens/produtos/blusa-alanis.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Iolanda Plus Size",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01047",
+      "referenciasEncontradas": [
+        "01047"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 307,
+          "codigo": "01047",
+          "textos": "Blusa Iolanda Plus Size\nCód: 01047 (48I50I52I54) R$ 79,90\nCom laço não removível\nTecido crepe pele de pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01047",
+          "imagem": "assets/imagens/produtos/blusa-iolanda-plus-size.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Rosana",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01028",
+      "referenciasEncontradas": [
+        "01028"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 309,
+          "codigo": "01028",
+          "textos": "Blusa Rosana\nCód: 01028 (48,50,52,54) R$ 89,90\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01028",
+          "imagem": "assets/imagens/produtos/blusa-rosana.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Jane",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01376",
+      "referenciasEncontradas": [
+        "01376"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 326,
+          "codigo": "01376",
+          "textos": "Blusa Jane\nCód: 01376 (M,G,GG) R$ 89,90\nDetalhe em Guipir / Com Amarração na Gola\nTecido"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01376",
+          "imagem": "assets/imagens/produtos/blusa-jane.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Elisa",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01277",
+      "referenciasEncontradas": [
+        "01277"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 334,
+          "codigo": "01277",
+          "textos": "Blusa Elisa\nCód: 01277 (P,G) R$ 79,90\nCom Detalhe e Amarração na Gola\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01277",
+          "imagem": "assets/imagens/produtos/blusa-elisa.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Cibele",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01316",
+      "referenciasEncontradas": [
+        "01316"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 340,
+          "codigo": "01316",
+          "textos": "Blusa Cibele\nCód: 01316 (P,M,G) R$ 79,90\nDetalhe em Guipir\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01316",
+          "imagem": "assets/imagens/produtos/blusa-cibele.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Cristiane",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01192",
+      "referenciasEncontradas": [
+        "01192"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 343,
+          "codigo": "01192",
+          "textos": "Blusa Cristiane\nCód: 01192 (P) R$ 99,90\nAmarração em laço\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01192",
+          "imagem": "assets/imagens/produtos/blusa-cristiane.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Paola",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00873",
+      "referenciasEncontradas": [
+        "00873"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 353,
+          "codigo": "00873",
+          "textos": "Blusa Paola\nCód: 00873 (P) R$ 79,90\nTecido Sedinha Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00873",
+          "imagem": "assets/imagens/produtos/blusa-paola.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Ingrid",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01213",
+      "referenciasEncontradas": [
+        "01213"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 357,
+          "codigo": "01213",
+          "textos": "Blusa Ingrid\nCod: 01213 (P,GG) R$ 79,90\nTecido Crepe pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01213",
+          "imagem": "assets/imagens/produtos/blusa-ingrid.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Priscila",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01279",
+      "referenciasEncontradas": [
+        "01279"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 359,
+          "codigo": "01279",
+          "textos": "Blusa Priscila\nCód: 01279 (G,EXG) R$ 79,90\nTecido Crepe com Elastano"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01279",
+          "imagem": "assets/imagens/produtos/blusa-priscila.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Edna",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01261",
+      "referenciasEncontradas": [
+        "01261"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 362,
+          "codigo": "01261",
+          "textos": "Blusa Edna\nCód: 01261 (M,G) R$ 79,90\nGola com detalhe em Laço fixo\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01261",
+          "imagem": "assets/imagens/produtos/blusa-edna.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Pamela",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01297",
+      "referenciasEncontradas": [
+        "01297"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 366,
+          "codigo": "01297",
+          "textos": "Blusa Pamela\nCód: 01297 ( P, GG ) R$ 79,90\nC/ detalhes em renda\nTecido crepe pele de pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01297",
+          "imagem": "assets/imagens/produtos/blusa-pamela.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Leona",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01292",
+      "referenciasEncontradas": [
+        "01292"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 376,
+          "codigo": "01292",
+          "textos": "Blusa Leona\nCód: 01292 (M,GG,EXG) R$ 74,90\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01292",
+          "imagem": "assets/imagens/produtos/blusa-leona.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Carolina",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01232",
+      "referenciasEncontradas": [
+        "01232"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 378,
+          "codigo": "01232",
+          "textos": "Blusa Carolina\nCod: 01232 (P,M,G) R$ 79,90\nTecido Cetim Acetinado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01232",
+          "imagem": "assets/imagens/produtos/blusa-carolina.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Thalita",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00729",
+      "referenciasEncontradas": [
+        "00729"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 379,
+          "codigo": "00729",
+          "textos": "Blusa Thalita\nCód: 00729 (P,M,GG,EXG) R$ 49,90\nTecido Crepe Acetinado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00729",
+          "imagem": "assets/imagens/produtos/blusa-thalita.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Rafaela",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00994",
+      "referenciasEncontradas": [
+        "00994"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 388,
+          "codigo": "00994",
+          "textos": "Blusa Rafaela\nCód: 00994 (P) R$ 79,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00994",
+          "imagem": "assets/imagens/produtos/blusa-rafaela.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Daniele",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00913",
+      "referenciasEncontradas": [
+        "00913"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 389,
+          "codigo": "00913",
+          "textos": "Blusa Daniele\nCód: 00913 (P) R$ 79,90\nTecido Sedinha Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00913",
+          "imagem": "assets/imagens/produtos/blusa-daniele.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Jasmim",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00909",
+      "referenciasEncontradas": [
+        "00909"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 391,
+          "codigo": "00909",
+          "textos": "Blusa Jasmim\nCód: 00909 (P) R$ 69,90\nTecido Sedinha Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00909",
+          "imagem": "assets/imagens/produtos/blusa-jasmim.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Camily",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00866",
+      "referenciasEncontradas": [
+        "00866"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 392,
+          "codigo": "00866",
+          "textos": "Blusa Camily\nCód: 00866 (P,M) R$ 49,90\nTecido Viscose Maquinetada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00866",
+          "imagem": "assets/imagens/produtos/blusa-camily.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Marê",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00707",
+      "referenciasEncontradas": [
+        "00707"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 396,
+          "codigo": "00707",
+          "textos": "Blusa Marê\nCód: 00707 (M,GG) R$ 69,90\nTecido Crepe acetinado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00707",
+          "imagem": "assets/imagens/produtos/blusa-mare.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Betina",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00675",
+      "referenciasEncontradas": [
+        "00675"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 398,
+          "codigo": "00675",
+          "textos": "Blusa Betina\nCód: 00675 (P,M,GG) R$ 69,90\nTecido Crepe Acetinado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00675",
+          "imagem": "assets/imagens/produtos/blusa-betina.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Marléia",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01399",
+      "referenciasEncontradas": [
+        "01399"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 399,
+          "codigo": "01399",
+          "textos": "Blusa Marléia\nCód: 01399 (P,M,G,GG,EXG) R$ 79,90\nDetalhe na Manga Tecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01399",
+          "imagem": "assets/imagens/produtos/blusa-marleia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Sol",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01157",
+      "referenciasEncontradas": [
+        "01157"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 400,
+          "codigo": "01157",
+          "textos": "Blusa Sol\nCód: 01157 (P M G ) R$79,90\nTecido crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01157",
+          "imagem": "assets/imagens/produtos/blusa-sol.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Isa",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01118",
+      "referenciasEncontradas": [
+        "01118"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 402,
+          "codigo": "01118",
+          "textos": "Blusa Isa\nCod: 01118 (P) R$ 99,90\nDetalhes em guipir\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01118",
+          "imagem": "assets/imagens/produtos/blusa-isa.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Otília",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00046",
+      "referenciasEncontradas": [
+        "00046"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 403,
+          "codigo": "00046",
+          "textos": "Blusa Otília\nCód: 00046 (GG,EXG) R$ 79,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00046",
+          "imagem": "assets/imagens/produtos/blusa-otilia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Ludmila",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00959",
+      "referenciasEncontradas": [
+        "00959"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 405,
+          "codigo": "00959",
+          "textos": "Blusa Ludmila\nCód: 00959 (P) R$ 79,90\nTecido Crepe acetinado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00959",
+          "imagem": "assets/imagens/produtos/blusa-ludmila.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Nayane",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00388",
+      "referenciasEncontradas": [
+        "00388"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 406,
+          "codigo": "00388",
+          "textos": "Blusa Nayane\nCód: 00388 (P) R$ 59,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00388",
+          "imagem": "assets/imagens/produtos/blusa-nayane.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Lucy",
+      "categoria": "Blusas",
+      "codigoFornecedor": "00028",
+      "referenciasEncontradas": [
+        "00028"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 407,
+          "codigo": "00028",
+          "textos": "Blusa Lucy\nCód: 00028 (PP) R$ 69,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00028",
+          "imagem": "assets/imagens/produtos/blusa-lucy.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Blusa Paula",
+      "categoria": "Blusas",
+      "codigoFornecedor": "01369",
+      "referenciasEncontradas": [
+        "01369"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 408,
+          "codigo": "01369",
+          "textos": "Blusa Paula\nCód: 01369 (G) R$ 89,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01369",
+          "imagem": "assets/imagens/produtos/blusa-paula.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Paula",
+      "categoria": "Saias",
+      "codigoFornecedor": "00697",
+      "referenciasEncontradas": [
+        "00697"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 14,
+          "codigo": "00697",
+          "textos": "Saia Paula\nCod: 00697 (P,M,G,GG,EXG) R$ 89,90\nSem zíper\nTecido Malha Poliamida"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 304,
+          "codigo": "00697",
+          "textos": "Saia Paula\nCod: 00697 (P,M,G,GG,EXG) R$ 89,90\nSem zíper\nTecido Malha Poliamida"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 335,
+          "codigo": "00697",
+          "textos": "Saia Paula\nCod: 00697 (P,M,G,GG,EXG) R$ 89,90\nSem zíper\nTecido Malha Poliamida"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 378,
+          "codigo": "00697",
+          "textos": "Saia Paula\nCod: 00697 (P,M,G,GG,EXG) R$ 89,90\nSem zíper\nTecido Malha Poliamida"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 381,
+          "codigo": "00697",
+          "textos": "Saia Paula\nCód: 00697 (P,M,G,GG,EXG) R$ 89,90\nSem ziper Tecido Poliamida"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 398,
+          "codigo": "00697",
+          "textos": "Saia Paula\nCód: 00697 (PP,P,M,G,GG,EXG) R$ 89,90\nTecido Malha Poliamida"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Telma",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [
+        "00181",
+        "00178"
+      ],
+      "motivo": "Mais de uma referência para o mesmo nome; identidade não confirmada.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 388,
+          "codigo": "00181",
+          "textos": "Saia Telma\nCód: 00181 (P,M) R$ 33,90\nTecido Malha Montaria Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 394,
+          "codigo": "00181",
+          "textos": "Saia Telma\nCód: 00181 (P,M) R$ 33,90\nTecido Malha Montaria Estampada"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 397,
+          "codigo": "00181",
+          "textos": "Saia Telma\nCód: 00181 (P,M) R$ 33,90\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 429,
+          "codigo": "00181",
+          "textos": "Saia Telma\nCód: 00181(P,M,G) R$ 33,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 431,
+          "codigo": "00178",
+          "textos": "Saia Telma\nCód: 00178 (PP,P,M,G,GG,EXG) R$71,90\nDisponível em outras cores"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 432,
+          "codigo": "00178",
+          "textos": "Saia Telma\nCód: 00178 (M,G,GG,EXG) R$71,90\nTecido Crepe de Malha"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Andréia",
+      "categoria": "Saias",
+      "codigoFornecedor": "01234",
+      "referenciasEncontradas": [
+        "01234"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 37,
+          "codigo": "01234",
+          "textos": "Saia Andréia\nCód: 01234 (P,M,G,GG, EXG) R$ 99,90\nCom zíper / Acompanha Cinto\nTecido Malha Montaria"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Ema",
+      "categoria": "Saias",
+      "codigoFornecedor": "01188",
+      "referenciasEncontradas": [
+        "01188"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 78,
+          "codigo": "01188",
+          "textos": "Saia Ema\nCód: 01188 (PP,P,M,G) R$ 89,90\ncom zíper\nTecido malha crochê"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Bela",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Melissa",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [
+        "01426"
+      ],
+      "motivo": "Modelos homônimos: o cadastro corresponde ao bloco 66, sem código e com PP/P; 01426 está no bloco 223, com PP/P/M/G e preço diferente. Não associar pelo nome.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 223,
+          "codigo": "01426",
+          "textos": "Saia Melissa\nCód: 01426 (PP,P,M,G) R$ 119,90\nCom zíper / Acompanha Cinto\nTecido Crepe Alfaiataria"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Samara",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Graciela",
+      "categoria": "Saias",
+      "codigoFornecedor": "01301",
+      "referenciasEncontradas": [
+        "01301"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 205,
+          "codigo": "01301",
+          "textos": "Saia Graciela\nCód: 01301 (M,EXG) R$ 109,90\nCom zíper / Cinto de Couro\nTecido Malha Montaria"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Rosane Plus Size",
+      "categoria": "Saias",
+      "codigoFornecedor": "00840",
+      "referenciasEncontradas": [
+        "00840"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [
+        "00840 confirmado em seis registros próprios. A associação à Blusa Regina no bloco 207 é um erro de segmentação do inventário; não é referência confirmada da blusa."
+      ],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 113,
+          "codigo": "00840",
+          "textos": "Saia Rosane Plus Size\nCód: 00840 (48I50I52I54) R$ 81,90\nCom zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 114,
+          "codigo": "00840",
+          "textos": "Saia Rosane Plus Size\nCód: 00840 (48I50I52I54) R$ 81,90\nCom zíper Tecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 115,
+          "codigo": "00840",
+          "textos": "Saia Rosane Plus Size\nCód: 00840 (48I50I52I54) R$ 81,90\nCom zíper Tecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 208,
+          "codigo": "00840",
+          "textos": "Saia Rosane Plus Size\nCód: 00840 (48I50I52I54)R$ 81,90\ncom zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 307,
+          "codigo": "00840",
+          "textos": "Saia Rosane Plus Size\nCód: 00840 (48I50I52I54) R$ 81,90\nC/ zíper - Tecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 308,
+          "codigo": "00840",
+          "textos": "Saia Rosane Plus Size\nCód: 00840 (48I50I52I54) R$ 81,90\nC/ ziper - Tecido Malha Montaria"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Karen",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Luciana",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Yamares",
+      "categoria": "Saias",
+      "codigoFornecedor": "01155",
+      "referenciasEncontradas": [
+        "01155"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 413,
+          "codigo": "01155",
+          "textos": "Saia Yamares\nCod: 01155 (GG) R$ 119,90\nCom Zíper e Cinto\nTecido Malha Alfaiataria"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "01155",
+          "imagem": "assets/imagens/produtos/saia-yamares.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Zelda",
+      "categoria": "Saias",
+      "codigoFornecedor": "00483",
+      "referenciasEncontradas": [
+        "00483"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 415,
+          "codigo": "00483",
+          "textos": "Saia Zelda\nCód: 00483 (P,M,G,GG,EXG) R$99,90\nTecido Malha Montaria C/ziper"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "00483",
+          "imagem": "assets/imagens/produtos/saia-zelda.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Amanda",
+      "categoria": "Saias",
+      "codigoFornecedor": "01052",
+      "referenciasEncontradas": [
+        "01052"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 419,
+          "codigo": "01052",
+          "textos": "Saia Amanda\nCod: 01052 (G,GG,EXG) R$ 94,90\nCom Zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "01052",
+          "imagem": "assets/imagens/produtos/saia-amanda.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Kelly",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Sueli",
+      "categoria": "Saias",
+      "codigoFornecedor": "01180",
+      "referenciasEncontradas": [
+        "01180"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 39,
+          "codigo": "01180",
+          "textos": "Saia Sueli\nCód: 01180 (P,M,G,GG,EXG) R$ 79,90\nCom Zíper / Botões não funcionais\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01180",
+          "imagem": "assets/imagens/produtos/saia-sueli.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Alessandra",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Katy",
+      "categoria": "Saias",
+      "codigoFornecedor": "01396",
+      "referenciasEncontradas": [
+        "01396"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 100,
+          "codigo": "01396",
+          "textos": "Saia Katy\nCód: 01396 (P,M,G,GG,EXG) R$ 94,90\nCom zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01396",
+          "imagem": "assets/imagens/produtos/saia-katy.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Jéssica",
+      "categoria": "Saias",
+      "codigoFornecedor": "00990",
+      "referenciasEncontradas": [
+        "00990"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00990",
+          "imagem": "assets/imagens/produtos/saia-jessica.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Marjorie",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Larissa",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Ester",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Nataly",
+      "categoria": "Saias",
+      "codigoFornecedor": "00168",
+      "referenciasEncontradas": [
+        "00168"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 423,
+          "codigo": "00168",
+          "textos": "Saia Nataly\nCód: 00168 (GG,EXG) R$ 72,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00168",
+          "imagem": "assets/imagens/produtos/saia-nataly.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Yasmim",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Gabriele",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Tamires",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Nancy",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Nathalia",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Thalia",
+      "categoria": "Saias",
+      "codigoFornecedor": "01454",
+      "referenciasEncontradas": [
+        "01454"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 204,
+          "codigo": "01454",
+          "textos": "Saia Thalia\nCód:01454 (P) R$119,90\nCom zíper\nTecido crepe trabalhado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01454",
+          "imagem": "assets/imagens/produtos/saia-thalia.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Claudia",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Cibele",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Eliete",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Camila",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Pamela",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Clara",
+      "categoria": "Saias",
+      "codigoFornecedor": "00754",
+      "referenciasEncontradas": [
+        "00754"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 252,
+          "codigo": "00754",
+          "textos": "Saia Clara\nCód: 00754 (EXG) R$ 99,90\nTecido Linho com Elastano"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00754",
+          "imagem": "assets/imagens/produtos/saia-clara.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Perla",
+      "categoria": "Saias",
+      "codigoFornecedor": "01082",
+      "referenciasEncontradas": [
+        "01082"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 281,
+          "codigo": "01082",
+          "textos": "Saia Perla\nCod: 01082 (P) R$ 109,90\nCom zíper e Bolsos\nTecido Viscolinho"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01082",
+          "imagem": "assets/imagens/produtos/saia-perla.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Vilma",
+      "categoria": "Saias",
+      "codigoFornecedor": "00696",
+      "referenciasEncontradas": [
+        "00696"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 293,
+          "codigo": "00696",
+          "textos": "Saia Vilma\nCód: 00696 (P,M,G,GG,EXG) R$ 89,90\nFivela fixa / Com zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00696",
+          "imagem": "assets/imagens/produtos/saia-vilma.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Eliz",
+      "categoria": "Saias",
+      "codigoFornecedor": "01378",
+      "referenciasEncontradas": [
+        "01378"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 332,
+          "codigo": "01378",
+          "textos": "Saia Eliz\nCód: 01378 (P,GG,EXG) R$ 89,90\nBotões não Funcionais / Com zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01378",
+          "imagem": "assets/imagens/produtos/saia-eliz.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Valentina",
+      "categoria": "Saias",
+      "codigoFornecedor": "01348",
+      "referenciasEncontradas": [
+        "01348"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 340,
+          "codigo": "01348",
+          "textos": "Saia Valentina\nCód: 01348 (GG, EXG) R$ 79,90\nCom zíper\nTecido Alfaiataria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01348",
+          "imagem": "assets/imagens/produtos/saia-valentina.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Celeste",
+      "categoria": "Saias",
+      "codigoFornecedor": "01339",
+      "referenciasEncontradas": [
+        "01339"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 343,
+          "codigo": "01339",
+          "textos": "Saia Celeste\nCód: 01339 (G) R$ 89,90\nCom zíper\nTecido Viscolinho"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01339",
+          "imagem": "assets/imagens/produtos/saia-celeste.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Breda",
+      "categoria": "Saias",
+      "codigoFornecedor": "01136",
+      "referenciasEncontradas": [
+        "01136"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 347,
+          "codigo": "01136",
+          "textos": "Saia Breda\nCód: 01136 (P,G,EXG) R$ 109,90\nCom zíper e Strass\nTecido Alfaiataria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01136",
+          "imagem": "assets/imagens/produtos/saia-breda.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Ruth",
+      "categoria": "Saias",
+      "codigoFornecedor": "01230",
+      "referenciasEncontradas": [
+        "01230"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 348,
+          "codigo": "01230",
+          "textos": "Saia Ruth\nCód: 01230 (P,GG,EXG) R$ 79,90\nCom zíper\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01230",
+          "imagem": "assets/imagens/produtos/saia-ruth.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Gildete",
+      "categoria": "Saias",
+      "codigoFornecedor": "00450",
+      "referenciasEncontradas": [
+        "00450"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 358,
+          "codigo": "00450",
+          "textos": "Saia Gildete\nCód: 00450 (P,M,G,GG,EXG) R$ 89,90\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00450",
+          "imagem": "assets/imagens/produtos/saia-gildete.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Ayla",
+      "categoria": "Saias",
+      "codigoFornecedor": "00797",
+      "referenciasEncontradas": [
+        "00797"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 360,
+          "codigo": "00797",
+          "textos": "Saia Ayla\nCód: 00797 (G GG) R$ 89,90\nTecido Alfaiataria com Elastano"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00797",
+          "imagem": "assets/imagens/produtos/saia-ayla.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Patrícia",
+      "categoria": "Saias",
+      "codigoFornecedor": "00872",
+      "referenciasEncontradas": [
+        "00872"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 386,
+          "codigo": "00872",
+          "textos": "Saia Patrícia\nCód: 00872 (M,G,EXG) R$ 89,90\nTecido Malha Montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00872",
+          "imagem": "assets/imagens/produtos/saia-patricia.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Jamily",
+      "categoria": "Saias",
+      "codigoFornecedor": "00926",
+      "referenciasEncontradas": [
+        "00926"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 391,
+          "codigo": "00926",
+          "textos": "Saia Jamily\nCód: 00926 (P,EXG) R$ 89,90\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00926",
+          "imagem": "assets/imagens/produtos/saia-jamily.png"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Marieta",
+      "categoria": "Saias",
+      "codigoFornecedor": "01112",
+      "referenciasEncontradas": [
+        "01112"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 420,
+          "codigo": "01112",
+          "textos": "Saia Marieta\nCód: 01112 (P) R$ 129,90\nBotão funcional /Bolsos e Zíper\nTecido Alfaiataria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01112",
+          "imagem": "assets/imagens/produtos/saia-marieta.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Meire",
+      "categoria": "Saias",
+      "codigoFornecedor": "00137",
+      "referenciasEncontradas": [
+        "00137"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 421,
+          "codigo": "00137",
+          "textos": "Saia Meire\nCód:00137 (P,G,GG,EXG) R$ 72,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00137",
+          "imagem": "assets/imagens/produtos/saia-meire.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Jussara",
+      "categoria": "Saias",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Saia Reder",
+      "categoria": "Saias",
+      "codigoFornecedor": "01310",
+      "referenciasEncontradas": [
+        "01310"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 426,
+          "codigo": "01310",
+          "textos": "Saia Reder\nCód: 01310 (M,G,GG,EXG) R$79,90\nC/ zíper C/ zíper nas laterais\nTecido malha"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01310",
+          "imagem": "assets/imagens/produtos/saia-reder.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Saia Carla",
+      "categoria": "Saias",
+      "codigoFornecedor": "00154",
+      "referenciasEncontradas": [
+        "00154"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 428,
+          "codigo": "00154",
+          "textos": "Saia Carla\nCód: 00154 (GG) R$99,90"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00154",
+          "imagem": "assets/imagens/produtos/saia-carla.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Conjunto Talita",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Yara",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": "01409",
+      "referenciasEncontradas": [
+        "01409"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 47,
+          "codigo": "01409",
+          "textos": "Conjunto Yara\nCód: 01409 (P,M,G,GG,EXG) R$149,90\nCropped\nC/ lastex nas costas\nSaia\nC/ elástico na cintura atrás\nTecido crepe"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "01409",
+          "imagem": "assets/imagens/produtos/conjunto-yara.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Conjunto Eny",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Marina",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Cecilia",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Tamy",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Mayara",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Dandara",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Katharina",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Olivia",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Ludmila",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Magnolia",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Dione",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Pamela",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Lena",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Tiffany",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Emma",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Shirley",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Laura",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Alanes",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Charlotte",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Clara",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Jeh",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Rafaela",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Edite",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": "01144",
+      "referenciasEncontradas": [
+        "01144"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 162,
+          "codigo": "01144",
+          "textos": "Conjunto Edite\nCod: 01144 (M,G,GG,EXG) R$ 189,90\nCasaco com botões funcionais\nSaia com zíper\nTecido malha montaria"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01144",
+          "imagem": "assets/imagens/produtos/conjunto-edite.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Conjunto Ariane",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Evilyn",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Nataly",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": "01267",
+      "referenciasEncontradas": [
+        "01267"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 232,
+          "codigo": "01267",
+          "textos": "Conjunto Nataly\nCód: 01267 (PP,P) R$ 229,90\nCropped com lastex nas costas / Saia com Zíper\nTecido Lese de Algodão"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01267",
+          "imagem": "assets/imagens/produtos/conjunto-nataly.png"
+        }
+      ]
+    },
+    {
+      "nome": "Conjunto Lidia",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Conjunto Mariah",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": "01392",
+      "referenciasEncontradas": [
+        "01392"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 286,
+          "codigo": "01392",
+          "textos": "Conjunto Mariah\nCód: 01392 (P)R$ 169,90\nCom Fivela / sem ziper\nTecido malha moletinho /malha Premium"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01392",
+          "imagem": "assets/imagens/produtos/conjunto-mariah.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Conjunto Isabela",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": "01401",
+      "referenciasEncontradas": [
+        "01401"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 288,
+          "codigo": "01401",
+          "textos": "Conjunto Isabela\nCód: 01401 (PP,P,M,G) R$ 189,90\nCom zíper\nTecido Crepe"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01401",
+          "imagem": "assets/imagens/produtos/conjunto-isabela.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Conjunto Larissa",
+      "categoria": "Conjuntos",
+      "codigoFornecedor": "01295",
+      "referenciasEncontradas": [
+        "01295"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 369,
+          "codigo": "01295",
+          "textos": "Conjunto Larissa\nCód: 01295 (GG,EXG) R$ 219,90\nCropped com Lastex nas costas\nSaia com zíper\nTecido Alfaitaria Marrant"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01295",
+          "imagem": "assets/imagens/produtos/conjunto-larissa.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Camisa Maisa",
+      "categoria": "Camisas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Camisa Eugenia",
+      "categoria": "Camisas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Camisa Beatriz",
+      "categoria": "Camisas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Camisa Jaqueline",
+      "categoria": "Camisas",
+      "codigoFornecedor": "01400",
+      "referenciasEncontradas": [
+        "01400"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 226,
+          "codigo": "01400",
+          "textos": "Camisa Jaqueline\nCód: 01400 (M,G,GG,EXG) R$ 99,90\nDetalhe em Babado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 292,
+          "codigo": "01400",
+          "textos": "Camisa Jaqueline\nCód: 01400 (M,G,GG,EXG) R$ 99,90\nDetalhe em Babado"
+        },
+        {
+          "arquivo": "verificacao/importacao.json",
+          "codigo": "01400",
+          "imagem": "assets/imagens/produtos/camisa-jaqueline.png"
+        }
+      ]
+    },
+    {
+      "nome": "Camisa Relga",
+      "categoria": "Camisas",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Camisa Ludmila",
+      "categoria": "Camisas",
+      "codigoFornecedor": "01146",
+      "referenciasEncontradas": [
+        "01146"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 382,
+          "codigo": "01146",
+          "textos": "Camisa Ludmila\nCód: 01146 (P) R$ 99,90\nC/ botões funcionais\nTecido chiffon trabalhado"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01146",
+          "imagem": "assets/imagens/produtos/camisa-ludmila.png"
+        }
+      ]
+    },
+    {
+      "nome": "Blazer Helena",
+      "categoria": "Blazers",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Chemise Beth",
+      "categoria": "Outros",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [
+        "Grades diferentes nas ocorrências; tamanhos do site preservados."
+      ],
+      "fontes": []
+    },
+    {
+      "nome": "Salopete com blusa Luiza",
+      "categoria": "Outros",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Sobretudo Tamires",
+      "categoria": "Outros",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Sobretudo Michelle",
+      "categoria": "Outros",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Casaquinho Iolanda",
+      "categoria": "Outros",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Jardineira com Blusa Olivia",
+      "categoria": "Outros",
+      "codigoFornecedor": "01186",
+      "referenciasEncontradas": [
+        "01186"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 112,
+          "codigo": "01186",
+          "textos": "Jardineira com Blusa Olivia\nCod: 01186 (EXG) R$ 249,90\nBlusa com Laço na Gola\nTecido Crepe Pele de Pêssego"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01186",
+          "imagem": "assets/imagens/produtos/jardineira-com-blusa-olivia.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Trijunto Julia",
+      "categoria": "Outros",
+      "codigoFornecedor": null,
+      "referenciasEncontradas": [],
+      "motivo": "Referência não informada nas fontes locais.",
+      "observacoes": [],
+      "fontes": []
+    },
+    {
+      "nome": "Tubinho Laura",
+      "categoria": "Outros",
+      "codigoFornecedor": "01209",
+      "referenciasEncontradas": [
+        "01209"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 219,
+          "codigo": "01209",
+          "textos": "Tubinho Laura\nCod: 01209 (GG,EXG) R$ 169,90\nSem zíper /Botões funcionais\nTecido Malha Premium"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "01209",
+          "imagem": "assets/imagens/produtos/tubinho-laura.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "T-Shirt Sara",
+      "categoria": "Outros",
+      "codigoFornecedor": "00612",
+      "referenciasEncontradas": [
+        "00612"
+      ],
+      "motivo": "Referência única confirmada nos registros locais.",
+      "observacoes": [],
+      "fontes": [
+        {
+          "arquivo": "verificacao/expansao-completa/analise.json",
+          "bloco": 410,
+          "codigo": "00612",
+          "textos": "T-Shirt Sara\nCód: 00612 (PP,P,) R$ 49,90\nTecido Moletinho"
+        },
+        {
+          "arquivo": "verificacao/expansao-completa/importacao.json",
+          "codigo": "00612",
+          "imagem": "assets/imagens/produtos/t-shirt-sara.jpg"
+        }
+      ]
+    }
+  ],
+  "validacao": {
+    "navegador": "Chrome/154.0.8037.95",
+    "produtosPreservados": 260,
+    "categorias": 7,
+    "novidades": 9,
+    "codigosDistintos": 124,
+    "camposAnterioresPreservados": true,
+    "funcoesPreservadas": true,
+    "precosTodosNull": true,
+    "imagensDecodificadas": 260,
+    "mensagensWhatsAppVerificadas": 260,
+    "buscaFiltrosOrdenacaoPaginacao": true,
+    "telas": [
+      1440,
+      768,
+      390
+    ],
+    "errosConsole": 0
+  }
+}

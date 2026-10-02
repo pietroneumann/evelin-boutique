@@ -6,6 +6,7 @@ let produtos = [
 
     {
         nome: 'Vestido Clarissa',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
@@ -16,6 +17,7 @@ let produtos = [
 
     {
         nome: 'Vestido Mariel',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -26,6 +28,7 @@ let produtos = [
 
     {
         nome: 'Vestido Gleide',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -36,6 +39,7 @@ let produtos = [
 
     {
         nome: 'Vestido Mariana',
+        codigoFornecedor: "01367",
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
@@ -46,6 +50,7 @@ let produtos = [
 
     {
         nome: 'Vestido Karol',
+        codigoFornecedor: "01416",
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G'],
@@ -56,6 +61,7 @@ let produtos = [
 
     {
         nome: 'Vestido Ana',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M'],
@@ -66,6 +72,7 @@ let produtos = [
 
     {
         nome: 'Vestido Camily',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG'],
@@ -76,6 +83,7 @@ let produtos = [
 
     {
         nome: 'Vestido Stella',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'EXG'],
@@ -86,6 +94,7 @@ let produtos = [
 
     {
         nome: 'Vestido Priscila',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -96,6 +105,7 @@ let produtos = [
 
     {
         nome: 'Vestido Sindy',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -107,6 +117,7 @@ let produtos = [
 
     {
         nome: 'Vestido Clara',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG', 'EXG'],
@@ -117,6 +128,7 @@ let produtos = [
 
     {
         nome: 'Vestido Grace',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG'],
@@ -127,6 +139,7 @@ let produtos = [
 
     {
         nome: 'Vestido Lais',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['P', 'M'],
@@ -137,6 +150,7 @@ let produtos = [
 
     {
         nome: 'Vestido Julieta',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['M', 'G', 'GG', 'EXG'],
@@ -147,6 +161,7 @@ let produtos = [
 
     {
         nome: 'Vestido Dinah',
+        codigoFornecedor: null,
         categoria: 'Vestidos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
@@ -157,6 +172,7 @@ let produtos = [
 
     {
         nome: "Vestido Tamara",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -167,6 +183,7 @@ let produtos = [
 
     {
         nome: "Vestido Janete",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -177,6 +194,7 @@ let produtos = [
 
     {
         nome: "Vestido Cecy",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -187,6 +205,7 @@ let produtos = [
 
     {
         nome: "Vestido Malu",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -197,6 +216,7 @@ let produtos = [
 
     {
         nome: "Vestido Carla",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -207,6 +227,7 @@ let produtos = [
 
     {
         nome: "Vestido Lenita",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -217,6 +238,7 @@ let produtos = [
 
     {
         nome: "Vestido Thaila",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -227,6 +249,7 @@ let produtos = [
 
     {
         nome: "Vestido Jennifer",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -237,6 +260,7 @@ let produtos = [
 
     {
         nome: "Vestido Carolina",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","EXG"],
@@ -247,6 +271,7 @@ let produtos = [
 
     {
         nome: "Vestido Suzete",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -257,6 +282,7 @@ let produtos = [
 
     {
         nome: "Vestido Emília",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M"],
@@ -267,6 +293,7 @@ let produtos = [
 
     {
         nome: "Vestido Laila",
+        codigoFornecedor: "01404",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -277,6 +304,7 @@ let produtos = [
 
     {
         nome: "Vestido Analise",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -287,6 +315,7 @@ let produtos = [
 
     {
         nome: "Vestido Gildete",
+        codigoFornecedor: "01391",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","EXG"],
@@ -297,6 +326,7 @@ let produtos = [
 
     {
         nome: "Vestido Nicole",
+        codigoFornecedor: "01419",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M"],
@@ -307,6 +337,7 @@ let produtos = [
 
     {
         nome: "Vestido Tamires",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -317,6 +348,7 @@ let produtos = [
 
     {
         nome: "Vestido Aquila",
+        codigoFornecedor: "01046",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -327,6 +359,7 @@ let produtos = [
 
     {
         nome: "Vestido Jade",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -337,6 +370,7 @@ let produtos = [
 
     {
         nome: "Vestido Gislaine",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P","M","G","EXG"],
@@ -347,6 +381,7 @@ let produtos = [
 
     {
         nome: "Vestido Solange",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","EXG"],
@@ -357,6 +392,7 @@ let produtos = [
 
     {
         nome: "Vestido Úrsula",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["50"],
@@ -367,6 +403,7 @@ let produtos = [
 
     {
         nome: "Vestido Maitê",
+        codigoFornecedor: "01049",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -377,6 +414,7 @@ let produtos = [
 
     {
         nome: "Vestido Anne",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["GG"],
@@ -387,6 +425,7 @@ let produtos = [
 
     {
         nome: "Vestido Lorena",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP"],
@@ -397,6 +436,7 @@ let produtos = [
 
     {
         nome: "Vestido Jordana",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -407,6 +447,7 @@ let produtos = [
 
     {
         nome: "Vestido Sandra",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -417,6 +458,7 @@ let produtos = [
 
     {
         nome: "Vestido Joana",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["G","GG","EXG"],
@@ -427,6 +469,7 @@ let produtos = [
 
     {
         nome: "Vestido Juliana",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -437,6 +480,7 @@ let produtos = [
 
     {
         nome: "Vestido Marion",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -447,6 +491,7 @@ let produtos = [
 
     {
         nome: "Vestido Jaqueline",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -457,6 +502,7 @@ let produtos = [
 
     {
         nome: "Vestido Ayla",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -467,6 +513,7 @@ let produtos = [
 
     {
         nome: "Vestido Zuleica",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -477,6 +524,7 @@ let produtos = [
 
     {
         nome: "Vestido Olga",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -487,6 +535,7 @@ let produtos = [
 
     {
         nome: "Vestido Alexa",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -497,6 +546,7 @@ let produtos = [
 
     {
         nome: "Vestido Composé Rafaela",
+        codigoFornecedor: "01183",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["GG"],
@@ -507,6 +557,7 @@ let produtos = [
 
     {
         nome: "Vestido Adele",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -517,6 +568,7 @@ let produtos = [
 
     {
         nome: "Vestido Leonora",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["G","EXG"],
@@ -527,6 +579,7 @@ let produtos = [
 
     {
         nome: "Vestido Salete",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -537,6 +590,7 @@ let produtos = [
 
     {
         nome: "Vestido Roberta",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -547,6 +601,7 @@ let produtos = [
 
     {
         nome: "Vestido Julia",
+        codigoFornecedor: "01057",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -557,6 +612,7 @@ let produtos = [
 
     {
         nome: "Vestido Rebeca",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -567,6 +623,7 @@ let produtos = [
 
     {
         nome: "Vestido Hortência",
+        codigoFornecedor: "01224",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","GG","EXG","48","50"],
@@ -577,6 +634,7 @@ let produtos = [
 
     {
         nome: "Vestido Lavinia",
+        codigoFornecedor: "01113",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -587,6 +645,7 @@ let produtos = [
 
     {
         nome: "Vestido Estela",
+        codigoFornecedor: "01221",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -597,6 +656,7 @@ let produtos = [
 
     {
         nome: "Vestido Dandara",
+        codigoFornecedor: "01168",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -607,6 +667,7 @@ let produtos = [
 
     {
         nome: "Vestido Tânia",
+        codigoFornecedor: "01102",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -617,6 +678,7 @@ let produtos = [
 
     {
         nome: "Vestido Paloma",
+        codigoFornecedor: "01174",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M"],
@@ -627,6 +689,7 @@ let produtos = [
 
     {
         nome: "Vestido Jessica",
+        codigoFornecedor: "01254",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P"],
@@ -637,6 +700,7 @@ let produtos = [
 
     {
         nome: "Vestido Leia",
+        codigoFornecedor: "01035",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P"],
@@ -647,6 +711,7 @@ let produtos = [
 
     {
         nome: "Vestido Celina",
+        codigoFornecedor: "01201",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -657,6 +722,7 @@ let produtos = [
 
     {
         nome: "Vestido Liliane",
+        codigoFornecedor: "01285",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG"],
@@ -667,6 +733,7 @@ let produtos = [
 
     {
         nome: "Vestido Cacilda",
+        codigoFornecedor: "01162",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","48","50"],
@@ -677,6 +744,7 @@ let produtos = [
 
     {
         nome: "Vestido Telma",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -687,6 +755,7 @@ let produtos = [
 
     {
         nome: "Vestido Pamela",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -697,6 +766,7 @@ let produtos = [
 
     {
         nome: "Vestido Gisele",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G"],
@@ -707,6 +777,7 @@ let produtos = [
 
     {
         nome: "Vestido Aurora",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","GG"],
@@ -717,6 +788,7 @@ let produtos = [
 
     {
         nome: "Vestido Sônia",
+        codigoFornecedor: "01351",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -727,6 +799,7 @@ let produtos = [
 
     {
         nome: "Vestido Letícia",
+        codigoFornecedor: "01207",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M"],
@@ -737,6 +810,7 @@ let produtos = [
 
     {
         nome: "Vestido Emily",
+        codigoFornecedor: "01289",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG"],
@@ -747,6 +821,7 @@ let produtos = [
 
     {
         nome: "Vestido Vivien",
+        codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["G","EXG"],
@@ -757,6 +832,7 @@ let produtos = [
 
     {
         nome: "Vestido Sofia",
+        codigoFornecedor: "01415",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","G","GG"],
@@ -767,6 +843,7 @@ let produtos = [
 
     {
         nome: "Vestido Isadora",
+        codigoFornecedor: "01336",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -777,6 +854,7 @@ let produtos = [
 
     {
         nome: "Vestido Flora",
+        codigoFornecedor: "01424",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -787,6 +865,7 @@ let produtos = [
 
     {
         nome: "Vestido Guta",
+        codigoFornecedor: "01425",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -797,6 +876,7 @@ let produtos = [
 
     {
         nome: "Vestido Eliana",
+        codigoFornecedor: "01364",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -807,6 +887,7 @@ let produtos = [
 
     {
         nome: "Vestido Isaura",
+        codigoFornecedor: "01257",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -817,6 +898,7 @@ let produtos = [
 
     {
         nome: "Vestido Simône",
+        codigoFornecedor: "01350",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -827,6 +909,7 @@ let produtos = [
 
     {
         nome: "Vestido Raquel",
+        codigoFornecedor: "01342",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -837,6 +920,7 @@ let produtos = [
 
     {
         nome: "Vestido Vera",
+        codigoFornecedor: "01343",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -847,6 +931,7 @@ let produtos = [
 
     {
         nome: "Vestido Suzana",
+        codigoFornecedor: "01361",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -857,6 +942,7 @@ let produtos = [
 
     {
         nome: "Vestido Mayumi",
+        codigoFornecedor: "01365",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","G"],
@@ -867,6 +953,7 @@ let produtos = [
 
     {
         nome: "Vestido Thaís",
+        codigoFornecedor: "01360",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -877,6 +964,7 @@ let produtos = [
 
     {
         nome: "Vestido Edite",
+        codigoFornecedor: "00479",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG"],
@@ -887,6 +975,7 @@ let produtos = [
 
     {
         nome: "Vestido Joyce",
+        codigoFornecedor: "01345",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M","G","GG"],
@@ -897,6 +986,7 @@ let produtos = [
 
     {
         nome: "Vestido Geane",
+        codigoFornecedor: "01092",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -907,6 +997,7 @@ let produtos = [
 
     {
         nome: "Vestido Sol",
+        codigoFornecedor: "01281",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -917,6 +1008,7 @@ let produtos = [
 
     {
         nome: "Vestido Thereza",
+        codigoFornecedor: "01271",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["M"],
@@ -927,6 +1019,7 @@ let produtos = [
 
     {
         nome: "Vestido Elis",
+        codigoFornecedor: "00954",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["PP","P"],
@@ -937,6 +1030,7 @@ let produtos = [
 
     {
         nome: "Vestido Kyara",
+        codigoFornecedor: "01100",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P"],
@@ -947,6 +1041,7 @@ let produtos = [
 
     {
         nome: "Vestido Elizabeth",
+        codigoFornecedor: "01231",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -957,6 +1052,7 @@ let produtos = [
 
     {
         nome: "Vestido Silmara",
+        codigoFornecedor: "00187",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["EXG"],
@@ -967,6 +1063,7 @@ let produtos = [
 
     {
         nome: "Vestido Fernanda",
+        codigoFornecedor: "00964",
         categoria: "Vestidos",
         preco: null,
         tamanhos: ["P","G"],
@@ -981,6 +1078,7 @@ let produtos = [
 
     {
         nome: 'Blusa Jussara',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -991,6 +1089,7 @@ let produtos = [
 
     {
         nome: 'Blusa Soraya',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['48', '50', '52', '54'],
@@ -1001,6 +1100,7 @@ let produtos = [
 
     {
         nome: 'Blusa Jêssica',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M'],
@@ -1011,6 +1111,7 @@ let produtos = [
 
     {
         nome: 'Blusa Katy',
+        codigoFornecedor: "01397",
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['G', 'GG'],
@@ -1021,6 +1122,7 @@ let produtos = [
 
     {
         nome: 'Blusa Adele',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1031,6 +1133,7 @@ let produtos = [
 
     {
         nome: 'Blusa Sofia',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1041,6 +1144,7 @@ let produtos = [
 
     {
         nome: 'Blusa Charlote',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1051,6 +1155,7 @@ let produtos = [
 
     {
         nome: 'Blusa Emanuelly',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1061,6 +1166,7 @@ let produtos = [
 
     {
         nome: 'Blusa Helena',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['48', '50', '52', '54'],
@@ -1072,6 +1178,7 @@ let produtos = [
 
     {
         nome: 'Blusa Debora',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1082,6 +1189,7 @@ let produtos = [
 
     {
         nome: 'Blusa Agatha',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'EXG'],
@@ -1092,6 +1200,7 @@ let produtos = [
 
     {
         nome: 'Blusa Andreza',
+        codigoFornecedor: "01101",
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1102,6 +1211,7 @@ let produtos = [
 
     {
         nome: 'Blusa Vera',
+        codigoFornecedor: "00598",
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P'],
@@ -1112,6 +1222,7 @@ let produtos = [
 
     {
         nome: 'Blusa Valentina',
+        codigoFornecedor: null,
         categoria: 'Blusas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG'],
@@ -1122,6 +1233,7 @@ let produtos = [
 
     {
         nome: "Blusa Kelly",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1132,6 +1244,7 @@ let produtos = [
 
     {
         nome: "Blusa Tânia",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1142,6 +1255,7 @@ let produtos = [
 
     {
         nome: "Blusa Patrícia",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","EXG"],
@@ -1152,6 +1266,7 @@ let produtos = [
 
     {
         nome: "Blusa Marta",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","EXG"],
@@ -1162,6 +1277,7 @@ let produtos = [
 
     {
         nome: "Blusa Guta",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","GG","EXG"],
@@ -1172,6 +1288,7 @@ let produtos = [
 
     {
         nome: "Blusa Bruna",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1182,6 +1299,7 @@ let produtos = [
 
     {
         nome: "Blusa Melissa",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1192,6 +1310,7 @@ let produtos = [
 
     {
         nome: "Blusa Lenita",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -1202,6 +1321,7 @@ let produtos = [
 
     {
         nome: "Blusa Lavinia",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1212,6 +1332,7 @@ let produtos = [
 
     {
         nome: "Blusa Fabiola",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["G","GG","EXG"],
@@ -1222,6 +1343,7 @@ let produtos = [
 
     {
         nome: "Blusa Catarina",
+        codigoFornecedor: "01362",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -1232,6 +1354,7 @@ let produtos = [
 
     {
         nome: "Blusa Yara",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1242,6 +1365,7 @@ let produtos = [
 
     {
         nome: "Blusa Valesca",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","EXG"],
@@ -1252,6 +1376,7 @@ let produtos = [
 
     {
         nome: "Blusa Lais",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1262,6 +1387,7 @@ let produtos = [
 
     {
         nome: "Blusa Mari",
+        codigoFornecedor: "01294",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -1272,6 +1398,7 @@ let produtos = [
 
     {
         nome: "Blusa Andréia",
+        codigoFornecedor: "01375",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1282,6 +1409,7 @@ let produtos = [
 
     {
         nome: "Blusa Lucilene",
+        codigoFornecedor: "01252",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -1292,6 +1420,7 @@ let produtos = [
 
     {
         nome: "Blusa Clara",
+        codigoFornecedor: null,
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -1302,6 +1431,7 @@ let produtos = [
 
     {
         nome: "Blusa Solange",
+        codigoFornecedor: "01272",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M"],
@@ -1312,6 +1442,7 @@ let produtos = [
 
     {
         nome: "Blusa Bella",
+        codigoFornecedor: "00424",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M"],
@@ -1322,6 +1453,7 @@ let produtos = [
 
     {
         nome: "Blusa Fabiana",
+        codigoFornecedor: "00699",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1332,6 +1464,7 @@ let produtos = [
 
     {
         nome: "Blusa Alanis",
+        codigoFornecedor: "01233",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M"],
@@ -1342,6 +1475,7 @@ let produtos = [
 
     {
         nome: "Blusa Iolanda Plus Size",
+        codigoFornecedor: "01047",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["48","50","52","54"],
@@ -1352,6 +1486,7 @@ let produtos = [
 
     {
         nome: "Blusa Rosana",
+        codigoFornecedor: "01028",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["48","50","52","54"],
@@ -1362,6 +1497,7 @@ let produtos = [
 
     {
         nome: "Blusa Jane",
+        codigoFornecedor: "01376",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M","G","GG"],
@@ -1372,6 +1508,7 @@ let produtos = [
 
     {
         nome: "Blusa Elisa",
+        codigoFornecedor: "01277",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","G"],
@@ -1382,6 +1519,7 @@ let produtos = [
 
     {
         nome: "Blusa Cibele",
+        codigoFornecedor: "01316",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -1392,6 +1530,7 @@ let produtos = [
 
     {
         nome: "Blusa Cristiane",
+        codigoFornecedor: "01192",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1402,6 +1541,7 @@ let produtos = [
 
     {
         nome: "Blusa Paola",
+        codigoFornecedor: "00873",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1412,6 +1552,7 @@ let produtos = [
 
     {
         nome: "Blusa Ingrid",
+        codigoFornecedor: "01213",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","GG"],
@@ -1422,6 +1563,7 @@ let produtos = [
 
     {
         nome: "Blusa Priscila",
+        codigoFornecedor: "01279",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["G","EXG"],
@@ -1432,6 +1574,7 @@ let produtos = [
 
     {
         nome: "Blusa Edna",
+        codigoFornecedor: "01261",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M","G"],
@@ -1442,6 +1585,7 @@ let produtos = [
 
     {
         nome: "Blusa Pamela",
+        codigoFornecedor: "01297",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","GG"],
@@ -1452,6 +1596,7 @@ let produtos = [
 
     {
         nome: "Blusa Leona",
+        codigoFornecedor: "01292",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M","GG","EXG"],
@@ -1462,6 +1607,7 @@ let produtos = [
 
     {
         nome: "Blusa Carolina",
+        codigoFornecedor: "01232",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -1472,6 +1618,7 @@ let produtos = [
 
     {
         nome: "Blusa Thalita",
+        codigoFornecedor: "00729",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","GG","EXG"],
@@ -1482,6 +1629,7 @@ let produtos = [
 
     {
         nome: "Blusa Rafaela",
+        codigoFornecedor: "00994",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1492,6 +1640,7 @@ let produtos = [
 
     {
         nome: "Blusa Daniele",
+        codigoFornecedor: "00913",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1502,6 +1651,7 @@ let produtos = [
 
     {
         nome: "Blusa Jasmim",
+        codigoFornecedor: "00909",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1512,6 +1662,7 @@ let produtos = [
 
     {
         nome: "Blusa Camily",
+        codigoFornecedor: "00866",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M"],
@@ -1522,6 +1673,7 @@ let produtos = [
 
     {
         nome: "Blusa Marê",
+        codigoFornecedor: "00707",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["M","GG"],
@@ -1532,6 +1684,7 @@ let produtos = [
 
     {
         nome: "Blusa Betina",
+        codigoFornecedor: "00675",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","GG"],
@@ -1542,6 +1695,7 @@ let produtos = [
 
     {
         nome: "Blusa Marléia",
+        codigoFornecedor: "01399",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1552,6 +1706,7 @@ let produtos = [
 
     {
         nome: "Blusa Sol",
+        codigoFornecedor: "01157",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P","M","G"],
@@ -1562,6 +1717,7 @@ let produtos = [
 
     {
         nome: "Blusa Isa",
+        codigoFornecedor: "01118",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1572,6 +1728,7 @@ let produtos = [
 
     {
         nome: "Blusa Otília",
+        codigoFornecedor: "00046",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["GG","EXG"],
@@ -1582,6 +1739,7 @@ let produtos = [
 
     {
         nome: "Blusa Ludmila",
+        codigoFornecedor: "00959",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1592,6 +1750,7 @@ let produtos = [
 
     {
         nome: "Blusa Nayane",
+        codigoFornecedor: "00388",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["P"],
@@ -1602,6 +1761,7 @@ let produtos = [
 
     {
         nome: "Blusa Lucy",
+        codigoFornecedor: "00028",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["PP"],
@@ -1612,6 +1772,7 @@ let produtos = [
 
     {
         nome: "Blusa Paula",
+        codigoFornecedor: "01369",
         categoria: "Blusas",
         preco: null,
         tamanhos: ["G"],
@@ -1626,6 +1787,7 @@ let produtos = [
 
     {
         nome: 'Saia Paula',
+        codigoFornecedor: "00697",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1636,6 +1798,7 @@ let produtos = [
 
     {
         nome: 'Saia Telma',
+        codigoFornecedor: null,
         categoria: 'Saias',
         preco: null,
         tamanhos: ['48', '50', '52', '54'],
@@ -1646,6 +1809,7 @@ let produtos = [
 
     {
         nome: 'Saia Andréia',
+        codigoFornecedor: "01234",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1656,6 +1820,7 @@ let produtos = [
 
     {
         nome: 'Saia Ema',
+        codigoFornecedor: "01188",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G'],
@@ -1666,6 +1831,7 @@ let produtos = [
 
     {
         nome: 'Saia Bela',
+        codigoFornecedor: null,
         categoria: 'Saias',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
@@ -1676,6 +1842,7 @@ let produtos = [
 
     {
         nome: 'Saia Melissa',
+        codigoFornecedor: null,
         categoria: 'Saias',
         preco: null,
         tamanhos: ['PP', 'P'],
@@ -1686,6 +1853,7 @@ let produtos = [
 
     {
         nome: 'Saia Samara',
+        codigoFornecedor: null,
         categoria: 'Saias',
         preco: null,
         tamanhos: ['M', 'G', 'GG', 'EXG'],
@@ -1696,6 +1864,7 @@ let produtos = [
 
     {
         nome: 'Saia Graciela',
+        codigoFornecedor: "01301",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['M', 'EXG'],
@@ -1706,6 +1875,7 @@ let produtos = [
 
     {
         nome: 'Saia Rosane Plus Size',
+        codigoFornecedor: "00840",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['48', '50', '52', '54'],
@@ -1715,6 +1885,7 @@ let produtos = [
     },
     {
         nome: 'Saia Karen',
+        codigoFornecedor: null,
         categoria: 'Saias',
         preco: null,
         tamanhos: ['G', 'EXG'],
@@ -1725,6 +1896,7 @@ let produtos = [
 
     {
         nome: 'Saia Luciana',
+        codigoFornecedor: null,
         categoria: 'Saias',
         preco: null,
         tamanhos: ['P', 'EXG'],
@@ -1735,6 +1907,7 @@ let produtos = [
 
     {
         nome: 'Saia Yamares',
+        codigoFornecedor: "01155",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['GG'],
@@ -1745,6 +1918,7 @@ let produtos = [
 
     {
         nome: 'Saia Zelda',
+        codigoFornecedor: "00483",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -1755,6 +1929,7 @@ let produtos = [
 
     {
         nome: 'Saia Amanda',
+        codigoFornecedor: "01052",
         categoria: 'Saias',
         preco: null,
         tamanhos: ['G', 'GG', 'EXG'],
@@ -1765,6 +1940,7 @@ let produtos = [
 
     {
         nome: "Saia Kelly",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -1775,6 +1951,7 @@ let produtos = [
 
     {
         nome: "Saia Sueli",
+        codigoFornecedor: "01180",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1785,6 +1962,7 @@ let produtos = [
 
     {
         nome: "Saia Alessandra",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["PP","P","M","G"],
@@ -1795,6 +1973,7 @@ let produtos = [
 
     {
         nome: "Saia Katy",
+        codigoFornecedor: "01396",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1805,6 +1984,7 @@ let produtos = [
 
     {
         nome: "Saia Jéssica",
+        codigoFornecedor: "00990",
         categoria: "Saias",
         preco: null,
         tamanhos: ["PP","P","M","G","GG","EXG"],
@@ -1815,6 +1995,7 @@ let produtos = [
 
     {
         nome: "Saia Marjorie",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","EXG"],
@@ -1825,6 +2006,7 @@ let produtos = [
 
     {
         nome: "Saia Larissa",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","G"],
@@ -1835,6 +2017,7 @@ let produtos = [
 
     {
         nome: "Saia Ester",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -1845,6 +2028,7 @@ let produtos = [
 
     {
         nome: "Saia Nataly",
+        codigoFornecedor: "00168",
         categoria: "Saias",
         preco: null,
         tamanhos: ["GG","EXG"],
@@ -1855,6 +2039,7 @@ let produtos = [
 
     {
         nome: "Saia Yasmim",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","EXG"],
@@ -1865,6 +2050,7 @@ let produtos = [
 
     {
         nome: "Saia Gabriele",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1875,6 +2061,7 @@ let produtos = [
 
     {
         nome: "Saia Tamires",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["M","G"],
@@ -1885,6 +2072,7 @@ let produtos = [
 
     {
         nome: "Saia Nancy",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1895,6 +2083,7 @@ let produtos = [
 
     {
         nome: "Saia Nathalia",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1905,6 +2094,7 @@ let produtos = [
 
     {
         nome: "Saia Thalia",
+        codigoFornecedor: "01454",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P"],
@@ -1915,6 +2105,7 @@ let produtos = [
 
     {
         nome: "Saia Claudia",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["PP","P"],
@@ -1925,6 +2116,7 @@ let produtos = [
 
     {
         nome: "Saia Cibele",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -1935,6 +2127,7 @@ let produtos = [
 
     {
         nome: "Saia Eliete",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -1945,6 +2138,7 @@ let produtos = [
 
     {
         nome: "Saia Camila",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["PP","P"],
@@ -1955,6 +2149,7 @@ let produtos = [
 
     {
         nome: "Saia Pamela",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["EXG"],
@@ -1965,6 +2160,7 @@ let produtos = [
 
     {
         nome: "Saia Clara",
+        codigoFornecedor: "00754",
         categoria: "Saias",
         preco: null,
         tamanhos: ["EXG"],
@@ -1975,6 +2171,7 @@ let produtos = [
 
     {
         nome: "Saia Perla",
+        codigoFornecedor: "01082",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P"],
@@ -1985,6 +2182,7 @@ let produtos = [
 
     {
         nome: "Saia Vilma",
+        codigoFornecedor: "00696",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -1995,6 +2193,7 @@ let produtos = [
 
     {
         nome: "Saia Eliz",
+        codigoFornecedor: "01378",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","GG","EXG"],
@@ -2005,6 +2204,7 @@ let produtos = [
 
     {
         nome: "Saia Valentina",
+        codigoFornecedor: "01348",
         categoria: "Saias",
         preco: null,
         tamanhos: ["GG","EXG"],
@@ -2015,6 +2215,7 @@ let produtos = [
 
     {
         nome: "Saia Celeste",
+        codigoFornecedor: "01339",
         categoria: "Saias",
         preco: null,
         tamanhos: ["G"],
@@ -2025,6 +2226,7 @@ let produtos = [
 
     {
         nome: "Saia Breda",
+        codigoFornecedor: "01136",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","G","EXG"],
@@ -2035,6 +2237,7 @@ let produtos = [
 
     {
         nome: "Saia Ruth",
+        codigoFornecedor: "01230",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","GG","EXG"],
@@ -2045,6 +2248,7 @@ let produtos = [
 
     {
         nome: "Saia Gildete",
+        codigoFornecedor: "00450",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2055,6 +2259,7 @@ let produtos = [
 
     {
         nome: "Saia Ayla",
+        codigoFornecedor: "00797",
         categoria: "Saias",
         preco: null,
         tamanhos: ["G","GG"],
@@ -2065,6 +2270,7 @@ let produtos = [
 
     {
         nome: "Saia Patrícia",
+        codigoFornecedor: "00872",
         categoria: "Saias",
         preco: null,
         tamanhos: ["M","G","EXG"],
@@ -2075,6 +2281,7 @@ let produtos = [
 
     {
         nome: "Saia Jamily",
+        codigoFornecedor: "00926",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","EXG"],
@@ -2085,6 +2292,7 @@ let produtos = [
 
     {
         nome: "Saia Marieta",
+        codigoFornecedor: "01112",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P"],
@@ -2095,6 +2303,7 @@ let produtos = [
 
     {
         nome: "Saia Meire",
+        codigoFornecedor: "00137",
         categoria: "Saias",
         preco: null,
         tamanhos: ["P","G","GG","EXG"],
@@ -2105,6 +2314,7 @@ let produtos = [
 
     {
         nome: "Saia Jussara",
+        codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
         tamanhos: ["GG","EXG"],
@@ -2115,6 +2325,7 @@ let produtos = [
 
     {
         nome: "Saia Reder",
+        codigoFornecedor: "01310",
         categoria: "Saias",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -2125,6 +2336,7 @@ let produtos = [
 
     {
         nome: "Saia Carla",
+        codigoFornecedor: "00154",
         categoria: "Saias",
         preco: null,
         tamanhos: ["GG"],
@@ -2137,6 +2349,7 @@ let produtos = [
 
     {
         nome: 'Conjunto Talita',
+        codigoFornecedor: null,
         categoria: 'Conjuntos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
@@ -2147,6 +2360,7 @@ let produtos = [
 
     {
         nome: 'Conjunto Yara',
+        codigoFornecedor: "01409",
         categoria: 'Conjuntos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -2157,6 +2371,7 @@ let produtos = [
 
     {
         nome: 'Conjunto Eny',
+        codigoFornecedor: null,
         categoria: 'Conjuntos',
         preco: null,
         tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
@@ -2167,6 +2382,7 @@ let produtos = [
 
     {
         nome: 'Conjunto Marina',
+        codigoFornecedor: null,
         categoria: 'Conjuntos',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -2177,6 +2393,7 @@ let produtos = [
 
     {
         nome: 'Conjunto Cecilia',
+        codigoFornecedor: null,
         categoria: 'Conjuntos',
         preco: null,
         tamanhos: ['G', 'GG', 'EXG'],
@@ -2187,6 +2404,7 @@ let produtos = [
 
     {
         nome: "Conjunto Tamy",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["EXG"],
@@ -2197,6 +2415,7 @@ let produtos = [
 
     {
         nome: "Conjunto Mayara",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2207,6 +2426,7 @@ let produtos = [
 
     {
         nome: "Conjunto Dandara",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -2217,6 +2437,7 @@ let produtos = [
 
     {
         nome: "Conjunto Katharina",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2227,6 +2448,7 @@ let produtos = [
 
     {
         nome: "Conjunto Olivia",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -2237,6 +2459,7 @@ let produtos = [
 
     {
         nome: "Conjunto Ludmila",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["PP","P"],
@@ -2247,6 +2470,7 @@ let produtos = [
 
     {
         nome: "Conjunto Magnolia",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2257,6 +2481,7 @@ let produtos = [
 
     {
         nome: "Conjunto Dione",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2267,6 +2492,7 @@ let produtos = [
 
     {
         nome: "Conjunto Pamela",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -2277,6 +2503,7 @@ let produtos = [
 
     {
         nome: "Conjunto Lena",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["G","GG","EXG"],
@@ -2287,6 +2514,7 @@ let produtos = [
 
     {
         nome: "Conjunto Tiffany",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2297,6 +2525,7 @@ let produtos = [
 
     {
         nome: "Conjunto Emma",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG"],
@@ -2307,6 +2536,7 @@ let produtos = [
 
     {
         nome: "Conjunto Shirley",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","EXG"],
@@ -2317,6 +2547,7 @@ let produtos = [
 
     {
         nome: "Conjunto Laura",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["GG"],
@@ -2327,6 +2558,7 @@ let produtos = [
 
     {
         nome: "Conjunto Alanes",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -2337,6 +2569,7 @@ let produtos = [
 
     {
         nome: "Conjunto Charlotte",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2347,6 +2580,7 @@ let produtos = [
 
     {
         nome: "Conjunto Clara",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M","G","GG","EXG"],
@@ -2357,6 +2591,7 @@ let produtos = [
 
     {
         nome: "Conjunto Jeh",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -2367,6 +2602,7 @@ let produtos = [
 
     {
         nome: "Conjunto Rafaela",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["G"],
@@ -2377,6 +2613,7 @@ let produtos = [
 
     {
         nome: "Conjunto Edite",
+        codigoFornecedor: "01144",
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["M","G","GG","EXG"],
@@ -2387,6 +2624,7 @@ let produtos = [
 
     {
         nome: "Conjunto Ariane",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["G"],
@@ -2397,6 +2635,7 @@ let produtos = [
 
     {
         nome: "Conjunto Evilyn",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["GG"],
@@ -2407,6 +2646,7 @@ let produtos = [
 
     {
         nome: "Conjunto Nataly",
+        codigoFornecedor: "01267",
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["PP","P"],
@@ -2417,6 +2657,7 @@ let produtos = [
 
     {
         nome: "Conjunto Lidia",
+        codigoFornecedor: null,
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P","M"],
@@ -2427,6 +2668,7 @@ let produtos = [
 
     {
         nome: "Conjunto Mariah",
+        codigoFornecedor: "01392",
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["P"],
@@ -2437,6 +2679,7 @@ let produtos = [
 
     {
         nome: "Conjunto Isabela",
+        codigoFornecedor: "01401",
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["PP","P","M","G"],
@@ -2447,6 +2690,7 @@ let produtos = [
 
     {
         nome: "Conjunto Larissa",
+        codigoFornecedor: "01295",
         categoria: "Conjuntos",
         preco: null,
         tamanhos: ["GG","EXG"],
@@ -2459,6 +2703,7 @@ let produtos = [
 
     {
         nome: 'Camisa Maisa',
+        codigoFornecedor: null,
         categoria: 'Camisas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -2469,6 +2714,7 @@ let produtos = [
 
     {
         nome: 'Camisa Eugenia',
+        codigoFornecedor: null,
         categoria: 'Camisas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'EXG'],
@@ -2479,6 +2725,7 @@ let produtos = [
 
     {
         nome: 'Camisa Beatriz',
+        codigoFornecedor: null,
         categoria: 'Camisas',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -2489,6 +2736,7 @@ let produtos = [
 
     {
         nome: 'Camisa Jaqueline',
+        codigoFornecedor: "01400",
         categoria: 'Camisas',
         preco: null,
         tamanhos: ['M', 'G', 'GG', 'EXG'],
@@ -2499,6 +2747,7 @@ let produtos = [
 
     {
         nome: 'Camisa Relga',
+        codigoFornecedor: null,
         categoria: 'Camisas',
         preco: null,
         tamanhos: ['GG', 'EXG'],
@@ -2509,6 +2758,7 @@ let produtos = [
 
     {
         nome: "Camisa Ludmila",
+        codigoFornecedor: "01146",
         categoria: "Camisas",
         preco: null,
         tamanhos: ["P"],
@@ -2521,6 +2771,7 @@ let produtos = [
 
     {
         nome: 'Blazer Helena',
+        codigoFornecedor: null,
         categoria: 'Blazers',
         preco: null,
         tamanhos: ['50'],
@@ -2533,6 +2784,7 @@ let produtos = [
 
     {
         nome: 'Chemise Beth',
+        codigoFornecedor: null,
         categoria: 'Outros',
         preco: null,
         tamanhos: ['P', 'M', 'G'],
@@ -2543,6 +2795,7 @@ let produtos = [
 
     {
         nome: 'Salopete com blusa Luiza',
+        codigoFornecedor: null,
         categoria: 'Outros',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG'],
@@ -2553,6 +2806,7 @@ let produtos = [
 
     {
         nome: 'Sobretudo Tamires',
+        codigoFornecedor: null,
         categoria: 'Outros',
         preco: null,
         tamanhos: ['P', 'M', 'G'],
@@ -2563,6 +2817,7 @@ let produtos = [
 
     {
         nome: 'Sobretudo Michelle',
+        codigoFornecedor: null,
         categoria: 'Outros',
         preco: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
@@ -2573,6 +2828,7 @@ let produtos = [
 
     {
         nome: 'Casaquinho Iolanda',
+        codigoFornecedor: null,
         categoria: 'Outros',
         preco: null,
         tamanhos: ['P', 'EXG'],
@@ -2583,6 +2839,7 @@ let produtos = [
 
     {
         nome: "Jardineira com Blusa Olivia",
+        codigoFornecedor: "01186",
         categoria: "Outros",
         preco: null,
         tamanhos: ["EXG"],
@@ -2593,6 +2850,7 @@ let produtos = [
 
     {
         nome: "Trijunto Julia",
+        codigoFornecedor: null,
         categoria: "Outros",
         preco: null,
         tamanhos: ["PP","P","M","G","GG"],
@@ -2603,6 +2861,7 @@ let produtos = [
 
     {
         nome: "Tubinho Laura",
+        codigoFornecedor: "01209",
         categoria: "Outros",
         preco: null,
         tamanhos: ["GG","EXG"],
@@ -2613,6 +2872,7 @@ let produtos = [
 
     {
         nome: "T-Shirt Sara",
+        codigoFornecedor: "00612",
         categoria: "Outros",
         preco: null,
         tamanhos: ["PP","P"],
