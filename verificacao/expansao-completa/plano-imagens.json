@@ -1,0 +1,6236 @@
+[
+  {
+    "nome": "Blusa Kelly",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 11,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s4X8YgjlXy-VDY08Vq0vGIfyNn44wMFLdiovliFDjMdHncPHfY7x5mP8rMJmVfAhi0B3kxoPNBvJyxMMlI34EE47eInaFaDNVR3PmIRCUGbAxk03xG2Z1hzX3MvjcuVXb529vXiqJlthpP859e1vFA_HTeC_iVVj3l3EZglasSm-7AAxFz5x7oEVOMlA5XGrHVWgTm9eyf6bcVmTubVaFvzAzKLjErjETBkgy2=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Kelly",
+      "(P,M,G,GG,EXG) R$ 79,90",
+      "Blusa com detalhe em laço nas mangas",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      11
+    ],
+    "imagem": "assets/imagens/produtos/blusa-kelly.png",
+    "original": "assets/imagens/produtos/catalogo-0011-original.jpg",
+    "recorte": [
+      0.06,
+      0.02,
+      0.88,
+      0.52
+    ]
+  },
+  {
+    "nome": "Saia Kelly",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "139,90",
+    "indice": 11,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s4X8YgjlXy-VDY08Vq0vGIfyNn44wMFLdiovliFDjMdHncPHfY7x5mP8rMJmVfAhi0B3kxoPNBvJyxMMlI34EE47eInaFaDNVR3PmIRCUGbAxk03xG2Z1hzX3MvjcuVXb529vXiqJlthpP859e1vFA_HTeC_iVVj3l3EZglasSm-7AAxFz5x7oEVOMlA5XGrHVWgTm9eyf6bcVmTubVaFvzAzKLjErjETBkgy2=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Kelly",
+      "(P,M,G,GG) R$ 139,90",
+      "Saia com babados",
+      "Com zíper",
+      "Tecido alfaiataria com elastano"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      11
+    ],
+    "imagem": "assets/imagens/produtos/saia-kelly.png",
+    "original": "assets/imagens/produtos/catalogo-0011-original.jpg",
+    "recorte": [
+      0.18,
+      0.35,
+      0.66,
+      0.6
+    ]
+  },
+  {
+    "nome": "Vestido Tamara",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "214,90",
+    "indice": 16,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vuDe28AHnjg7qJHksRCsb31e0SH2xmnOjFJ9dQ7-jW4UjkxLg7oMp0EVpNVHTd18XbK7NaRtcqkG3xojatwRMy2VyRJ_Efxq7B3wD_2LbV55GGslzHeivM9dez2oa16sGwhA8UUwuUuvoI8vLxC5Owu__0Tou3LMNWJEdznOI88JhSIu2hr68jG41wo0_sNJwx3F4m-AjEl60Wp-5J6UZq0SNuhP-6X9sdSivNdBI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Tamara",
+      "(P,M,G,GG,EXG) R$ 214,90",
+      "Vestido com zíper",
+      "Com detalhes em gripir",
+      "Tecido crepe pele de pêssego"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      16
+    ],
+    "imagem": "assets/imagens/produtos/vestido-tamara.jpg",
+    "original": "assets/imagens/produtos/vestido-tamara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Janete",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 18,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s9RQvTDFygaFI0eJWs6vs33YH8tkPddKPchOAwoEmaCJR7FpSmgpQBwaULqdvwkY9J4q3v51w5Z5pcgBkRsIYAXjkETJXADiDFLA2MrZJXeLIb12KyFKxCx85lhje-nhsZ5lf2WvvpXzgyY7qIPIqkpEtqQIGtc28ULWtt5Y2XSeEIqRLCjkNc_M_vWknuquqTpA8JcCSctU40YOo49lKNHqRU6oZt0OM0uTUPmeg=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Janete",
+      "(P,M,G,GG,EXG) 249,90",
+      "Vestido com zíper",
+      "Tecido tricoline com textura"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      18
+    ],
+    "imagem": "assets/imagens/produtos/vestido-janete.jpg",
+    "original": "assets/imagens/produtos/vestido-janete.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Cecy",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 33,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sFV2lSzGeVrxbu0U3hzcIRM-cAbjwxAxuWgtErekdLoGXMIK2Qd15izH3tjej9J2aa48xzaG_Z9lZSuREMuMGFfwCQi4BSqcejGAQ5CMreM2dFvxYqGz4SHuea2VD0QjJHXNHqtqlXTVqvPQs4nqZKpIqnlXN2H16qZ1eQpTw8uqyrddc1R4f22cdgUtwTF_9MnLkE-NwrGP4scDbh-bC6HeFJ8AxPJI01MeprWQg=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Cecy",
+      "(P,M,G,GG,EXG) R$ 219,90",
+      "longo C/ zíper",
+      "Tecido sedinha estampada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      33
+    ],
+    "imagem": "assets/imagens/produtos/vestido-cecy.jpg",
+    "original": "assets/imagens/produtos/vestido-cecy.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Malu",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 34,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v9rdj_JWyTl7Xqg-FRJq6RO3nvYmv0QmlBN6cG30RjEY-bUjCT4ZBqA_A80NpGM2-jdqF6rIur-9yerD0TZbjrMHGDzwsmrhGnTDDbB_j9Q61_zWqYBuGf1pP5etQ8u5kpFBmnpLtg141GVoYxue9OqmYpBZ0gF-ElgziTNi9L2QwVNo1qWNKVxwe_H3T63z5z2oXlmdlKTsj645dujN_IbT8htHPBdhg7d_TpZ0U=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Malu",
+      "(P,M,G) R$ 219,90",
+      "Vestido C/ zíper C/ botões não funcionais",
+      "Tecido lese de algodão"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      34
+    ],
+    "imagem": "assets/imagens/produtos/vestido-malu.jpg",
+    "original": "assets/imagens/produtos/vestido-malu.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Carla",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 36,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sY9Vr5BXs2OHZWJXNLkTqOnylDRoimUsa8wu8ABnTCyI5fYAnQh2vDSrsj7K3t97sLtx4as3bswsncJMe72Q-iRHykorP3ogxStZn3JPEIW8adWKfyL_inva9WhRJTz4wAAU3OlgqouwW6EBPETAMRaKck21szmxG1G1LJWEC7txZwK7i5HnUPDn1GADiK7cJMKCJzAwYokRK8I9wuoCYqd2BEX4lebPhUK-KS=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Carla",
+      "(PP,P,M,G,GG) R$ 179,90",
+      "Vestido C/ zíper",
+      "Tecido viscose c/ bordados"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      36
+    ],
+    "imagem": "assets/imagens/produtos/vestido-carla.jpg",
+    "original": "assets/imagens/produtos/vestido-carla.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Tânia",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "74,90",
+    "indice": 38,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s8gV6M1nukGuW1BXLZbtnI1lezfhae08tP6_VDO8KinZlYIq1BWs3XdTc7mISeNscRB98Zf5MNmhZWwwa7zJkO-MyZZ2M__xgdMwc1hynVkcRtlj98s5ej2rJ0lqK2Kk_T-BpyPRqtVJ0AD6GIvbNuRCNcgbE2rRZPemJigZj-6AwH9iqPe8CHtyizpv9GE87HLKoEE5oiWxJjBY2GxazzZPmZsp_2w31mxZAY61U=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Tânia",
+      "(P,M,G,GG,EXG) R$ 74,90",
+      "Blusa Manga curta",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      38
+    ],
+    "imagem": "assets/imagens/produtos/blusa-tania.png",
+    "original": "assets/imagens/produtos/catalogo-0038-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Patrícia",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "86,90",
+    "indice": 39,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uKBfp2BlLqK6ruKVwmb-QmOWumC1gJsMBBy8XK79AdxidfoCmscCJ1jW2nqEVKBYZ_bz5H3Q3j7rp5TbPjJ4KU1i7s8kxu3icAAdpN4mzM9raTD3Zy8Lc89vdXmx3_fQo8msqrrgJs_-plIH0doCkP3j1FV-NWhtT8oHLTbO0Vmp27WtHaBGOFMVWRVerfJ54xwF2kUtPD2MU6DDqTIzehE8WBC-ngBFZOtNvITbk=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Patrícia",
+      "(P,M,EXG) R$ 86,90",
+      "C/ 1 botão funcional C/ detalhes em gripir",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      39
+    ],
+    "imagem": "assets/imagens/produtos/blusa-patricia.png",
+    "original": "assets/imagens/produtos/catalogo-0039-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Sueli",
+    "codigo": "01180",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 39,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uKBfp2BlLqK6ruKVwmb-QmOWumC1gJsMBBy8XK79AdxidfoCmscCJ1jW2nqEVKBYZ_bz5H3Q3j7rp5TbPjJ4KU1i7s8kxu3icAAdpN4mzM9raTD3Zy8Lc89vdXmx3_fQo8msqrrgJs_-plIH0doCkP3j1FV-NWhtT8oHLTbO0Vmp27WtHaBGOFMVWRVerfJ54xwF2kUtPD2MU6DDqTIzehE8WBC-ngBFZOtNvITbk=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Sueli",
+      "Cód: 01180 (P,M,G,GG,EXG) R$ 79,90",
+      "Com Zíper / Botões não funcionais",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      39,
+      302
+    ],
+    "imagem": "assets/imagens/produtos/saia-sueli.png",
+    "original": "assets/imagens/produtos/catalogo-0039-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Marta",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "77,90",
+    "indice": 40,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sQxFnEJMR9dLqubKMSpnV3wR6ykQnteypyxb2qrlh7bPA8nPLbe0Z1xXAYj6qrR06fQW-Rqpw7eUlzUiuVH2QLV-b4SMHRDoOz7pu1sK9Np-QCuIXCN_87QU02sg7nAEHruxphyQc24jbnC3g86eJUZgk2S17ab6H7TU9gwUNNePZ_bWUNNoM_xI6mtBSabI6BbY2nD6m0AkuPB81vC3mmaO_Cl-YVE_lKTMf1=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Marta",
+      "(P,M,G,EXG) R$ 77,90",
+      "Blusa Manga curta",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      40
+    ],
+    "imagem": "assets/imagens/produtos/blusa-marta.png",
+    "original": "assets/imagens/produtos/catalogo-0040-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Lenita",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 42,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vLGQ_GmDYb9bS8XzsQ_Mx_0-cYZ4xIbeOqY8E0pNU79iGtI61hZIsfga3E_57Ftiawxr6Lua7MbcHLHIodOMV3xaqwaSC3lZedADijJWkP1r6cguzvPg4ocCet558ARceLCBPcwHhxlJDD0ajZPANbQG7P62vfBs9J1AUILs2G6yqN0U94ALHerfXKY8mOtAzzE8SV_ZZIOPF7if9smLdr92Z1yhn35htQIQmM5sg=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Lenita",
+      "(PP,P,M,G,GG) R$179,90",
+      "Com zíper",
+      "C/ detalhe em amarração em outro tecido",
+      "Tecido crepe c/ elastano / sedinha estampada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      42
+    ],
+    "imagem": "assets/imagens/produtos/vestido-lenita.jpg",
+    "original": "assets/imagens/produtos/vestido-lenita.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Guta",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 46,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tZruhJt8jrnET_bTSbZaeTeibpnlsLaPCDRGwkRQxT8P7cji9R7hqXH2qdaeUMB1MoakCCzNpt2BYRR50yh3KrC6yDWywhlIx6oFRl170PXS_Vf-APBrASDmMUZYce8kpRd3OSbjtsGB3vkCXkfnsPNn8DlrWnoBqzz9jGhAtk8p2g8Go2SlokgLBTJqjAiJCrX2Q4kE9oyxx3UJ6-QzUtpu0w_orrto1an-p7=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Guta",
+      "(P,M,GG,EXG) R$79,90",
+      "Manga c/ elástico",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      46
+    ],
+    "imagem": "assets/imagens/produtos/blusa-guta.png",
+    "original": "assets/imagens/produtos/catalogo-0046-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Thaila",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 49,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ufAqu8R6lvidOxiKEhsyzOCILJWsF3ouAhL0p7fEKGnDWnXiM9mBi3xIxmJUOUo6hknwS4F-7-JZDd4YtDGaObOicq4gJb3HIvDMufQF5jf7Sf4BjsrWTX58fIzTM7rcU3vXgaZcNKZrbDoKczyIeUN-QexGB7-y7RUORDQjTu-PPKuxmS9A0h_-amcEv_glP66pYiZ4L6-VqXH-oeiu7BS213rUTn6FD8Cyig_vU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Thaila",
+      "(PP, P,M,G,GG) R$199,90",
+      "C/ zíper",
+      "Tecido linho c/ bordados"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      49
+    ],
+    "imagem": "assets/imagens/produtos/vestido-thaila.jpg",
+    "original": "assets/imagens/produtos/vestido-thaila.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Jennifer",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "209,90",
+    "indice": 56,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sWdpqUG4UGiwcauD4GP3fhH9yRcauN8MiaHf87PUo-baJ5fFuznPD_O1BFk0yZa60K_Ya10UOZQg-4ENZganakMplIXdc2X7KQVyy9yRhy3XFUQXJo1QZRj0bdTiDT-syBwZA9ePUvzweQRGK6MjQgaXq-d5jVILtqyeV0wBIsYSXhl2NvY-SOLj8cE5W0gnvgV28zrxu-NGlSnG7uWv52InMZqotmhTVGYUVlR4M=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Jennifer",
+      "(P) R$ 209,90",
+      "Detalhe em Renda e Bordado",
+      "Com zíper Tecido Tricoline"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      56
+    ],
+    "imagem": "assets/imagens/produtos/vestido-jennifer.jpg",
+    "original": "assets/imagens/produtos/vestido-jennifer.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Carolina",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 60,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72svwkkC5GzieuN_69WUjB4qlhfR9GPp3UDfo9xcqdkJnLtuNaSG2POX8XYEQ-geRoCCh5pfr0mFU-w5ZGdQBBbQoLXPrsKfvgLzgFI2eeaU2rcWiN2vIAvtDZ5RRpI9GV24cW6NntI4Uib0bvAAKJx0yIqvteDkT7SwzUAjo_jcC_1sOx4hKm-uIHbdzNugMW4dXWe96ec29w5232q8deYVcvTVAkx1bCbu2ndZ=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Carolina",
+      "(P,M,EXG) R$ 219,90",
+      "C/ zíper C/ botões não funcionais",
+      "Tecido sedinha estampada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      60
+    ],
+    "imagem": "assets/imagens/produtos/vestido-carolina.jpg",
+    "original": "assets/imagens/produtos/vestido-carolina.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Suzete",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 61,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ux8Kb-QWHpPOETwL_JWC8T7DpLbYgFPJoMqTu86f1IjaeLbwW2dQIYVJvNvwKzJvw_Svl-u038rZoWCwHdI_eUal2Rfv852Yqa26-HmRP20oAkLxUhuAenfrl2dkqb9I32xnfx5N11IgQoP24j31fCgpXADGLUT3inc8VxouHTdOC0jMFTgBReFsmD5Af8f4dWqrw-JQZYfjS3hBPtrAnFXt7_GnqA4YhjsN-Z=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Suzete",
+      "(P,M,G,GG,EXG) R$ 249,90",
+      "Botões não funcionais / com zíper",
+      "Tecido crepe c/ elastano"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      61
+    ],
+    "imagem": "assets/imagens/produtos/vestido-suzete.jpg",
+    "original": "assets/imagens/produtos/vestido-suzete.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Emília",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 65,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tWfjiZ4xhFxKeBuAim31SBDRPrSj0htaI3Of-3EUYisJNrADHv-QdQSMQ0-oLpia9vnxAd8e4-tebEEl4DVQWgED1JDFK6SgTywoQHwy3WTIsl8PDKs8m23V40JHCp-nHakTTfs3PCJmKFE6B436AXbE2FUBaAiUJ7L1NvdjgtxyiVuQy_2tQ8vIRAF8DGfPlakSLX9550JHxPm2rb0_m2tSUZrD_FTdBXJJCbY54=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Emília",
+      "(PP,P,M) R$ 189,90",
+      "Botões não funcionais / com zíper",
+      "Tecido Tule Bordado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      65
+    ],
+    "imagem": "assets/imagens/produtos/vestido-emilia.jpg",
+    "original": "assets/imagens/produtos/vestido-emilia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Laila",
+    "codigo": "01404",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 68,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u1VTW6_Mr7EWapQxLpb3IbN1OmBZ6bwgKjtiP8lLi1MnfpiB_9gY9ZDdTyKcSbBtFiZNAg1vMl1WQgTwsJS_uiTEfmTBG-7V-DgrXEWuNYLRgysn3ZQIHhJJMdFmYzxwbCOEgcEU4AzsLUYBKK2U4MTj9CJCrtYbDlTKz2d1hcLFjMWWqFlu3sz3lLJCvwTuUj3K3_uYdt52KcyrtD4oVMOIDZ83cZj3RWuIIIXs8=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Laila",
+      "Cód: 01404 (PP,P,M,G,GG) R$ 199,90",
+      "Com zíper e faixa",
+      "Tecido crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      68
+    ],
+    "imagem": "assets/imagens/produtos/vestido-laila.jpg",
+    "original": "assets/imagens/produtos/vestido-laila.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Analise",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 69,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vor95foDEe38LFi5iTQiHKGfnv2I9Mt4m-IT3wANXSvVK5pJNHVz2YdYo9Pu8MZkI5A6d_1Y6PfNj2hP8Lg_DgIiQWZvjOf-4JtWf6aJRVHeJYqb7v_Y5J7Xgs73ytdwXboF2IF3BCVCvgn2QgzH6LyDLxT4AY1KaVHP1wcE1I2xmsEdMHQyTMVM7N1sc6uxmXRbryRGAXDJkSox2dHSsUyDOmuw982aDJA0my2ec=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Analise",
+      "(PP,P,M,G,GG,) R$ 189,90",
+      "S/ zíper C/ botões funcionais",
+      "C/ lastex nas laterais",
+      "Tecido tricoline com elastano"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      69
+    ],
+    "imagem": "assets/imagens/produtos/vestido-analise.jpg",
+    "original": "assets/imagens/produtos/vestido-analise.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Tamy",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "165,90",
+    "indice": 73,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v_etnuF6Xj25lJK-nK0B6r5V0lLX7XGGnuOCUxAsvQb4yPif9LwOUVMDfMQFAird2djM95ENEnuLpkAM6M09N0UwwpZ5DXx9qblKdCtsMqFw_YN6YXdFaDsqtYulaOo_jA-pXfhMqjlFqiLjLJtiaHc4p4xcYhibQEZ4xTaL9nG-VqaTAoslPuyUao-S8Udw8WTGtaB5M3XpzQpifGPn2_KsG7SqGZ8-PEuONapqI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Tamy",
+      "(EXG) R$ 165,90",
+      "Blusa c/ zíper funcional",
+      "Saia S/ zíperC/ elástico C/ bolsos",
+      "C/ detalhe em amarração no cos",
+      "Tecido malha premium"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      73,
+      75,
+      76
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-tamy.jpg",
+    "original": "assets/imagens/produtos/conjunto-tamy.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Gildete",
+    "codigo": "01391",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 77,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vGCSega1g3EvhweZ9qZFZDd2ZjFrfiKlYfa1xu6scRr8aW7PoMuAG6DUO-0-lIrv1xk2ez9hNJVwSYbwplAO5w7r0x47lmPJn3KAIhDxSpPqS_CKDxiYTnfHmbwyaIOHSsL5X9KSdUEOOZ7OQ25xsT_6-Frpd82LfKko1p3XBhpmotkLkH3ruIeqkoPf1IoS_QT8bH-vlAXjHZO9EHN-8qvEryBp_fxuSRt5Qhj0o=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Gildete",
+      "Cód: 01391 (P,M,G,EXG) R$ 189,90",
+      "Com Lástex nas Costas",
+      "Tecido Musseline"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      77
+    ],
+    "imagem": "assets/imagens/produtos/vestido-gildete.jpg",
+    "original": "assets/imagens/produtos/vestido-gildete.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Nicole",
+    "codigo": "01419",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 87,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t6l0jXHgCpUw4Cju-WDT4W9y58TE8XxTmMoHIvyPGPZZyCDwyiem2Ia0pGKvphW51U-HrvZtGv7uAXWf5-NS_bdt3NGvP7EfuwTQ6NNGSM8VlS8rM4uLtvXboJitA3FoKk755nHiGwRgc8OWhwBZpAq1XoVXZbTqx2QaUp09k_c9dX_Xliiy1fCK-yyXWkxNENRUTpRi2_O8_dU7u78nIdZRSyMjTD_Mo1TTri=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Nicole",
+      "Cód:01419 (M) R$ 199,90",
+      "Com zíper e faixa",
+      "Tecido Jeans"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      87
+    ],
+    "imagem": "assets/imagens/produtos/vestido-nicole.jpg",
+    "original": "assets/imagens/produtos/vestido-nicole.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Tamires",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 92,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tfWtz_1BxAylTKpHgG-83FpraaHk10B3tpw0BcpqO5xGXVXBZcy30Wee0GV7r5SMJHUhg6hDxmjP0ReIX7MKvY9_1laq-mmEB5UXeuHiEKizL5c78UCZ2TURlk9tJwojEB8nvrNTB4JcNjG3LOpsAd44gC1co62rqWz8iuK8tT_5uj9sGYVs82Bpt9gFEZQrsfrU-ak2UDkFXdR71YiW4mmP6B3GlrCRlI4Ytw=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Tamires",
+      "(P,M,G,GG,EXG) R$ 179,90",
+      "C/ zíper C/ botões não funcionais",
+      "Tecido malha Jacar"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      92
+    ],
+    "imagem": "assets/imagens/produtos/vestido-tamires.jpg",
+    "original": "assets/imagens/produtos/vestido-tamires.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Bruna",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 94,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sUDXY_fj5xC3MuwbG1l5mKkvEyHWPc_yE5ONqtIgqY655vnK1sjJqdA8pssvWRT0ANCRBlcLK0_CK5SBgaVaDTOtF9B5iaAOAtktisiPpz0kptl2NQ99jD-7aPmLVzh10i1rVN5qqSB33nkRrvONbBPGSW5KfIOqps22QQPhKDeF1-gavP_advbzQqfjnjO6xuNS9voipvcVFqZXX6A18AU81fkYvVkNYfr8IK=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Bruna",
+      "(P,M,G,GG,EXG) R$ 99,90",
+      "Botão funcional",
+      "Tecido crepe",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      94
+    ],
+    "imagem": "assets/imagens/produtos/blusa-bruna.png",
+    "original": "assets/imagens/produtos/catalogo-0094-original.jpg",
+    "recorte": [
+      0.05,
+      0,
+      0.9,
+      0.65
+    ]
+  },
+  {
+    "nome": "Vestido Aquila",
+    "codigo": "01046",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 95,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vm3hnCo-oBjn5H2p2iopYXFajau_Y8nzZYD2ZC4dqZ72P20VlQckn3rg6fuzcK9u1tdoworl--_cIGpUa1DKr5yXx_9q1mMFClcBf3m7AG2CSjAVZWZnewIt-uC8tpM2-Uw4IbdxPdoRpAFxQWiWGTd2i2RaByk58EHDEXvv-KKqq-lFkoBl2eMefRjLhmIZUzpTWT6XG9H3AyelmDa7KE5It-UT4UE2j7-xiPdJ0=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Aquila",
+      "Cód: 01046 (P,M,G,GG,EXG) R$ 199,90",
+      "Bordado Manga curta",
+      "detalhe em gota atrás",
+      "Tecido Malha Crepe C/ Renda"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      95
+    ],
+    "imagem": "assets/imagens/produtos/vestido-aquila.jpg",
+    "original": "assets/imagens/produtos/vestido-aquila.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Alessandra",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "159,90",
+    "indice": 99,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72su8zUEhhCyVFYzidq0YsZfdOfzR4ACY1QX20VQQdjgU-uWLeKWaIjQx3YIvPppUXNX9jBIX91-Wczmu-IC0i2wdNNYB1joF6xhN9dQ31yqFdr0OES997ERJOtDBCkdsDoD8m_RIUK3SosRN3dEqKIVIDW92XhUFq1-kkZZ5KH88bYEbXsrvcpXTlvFuLdA3org2GetVNCARvPrv-7jZFlcPtxqzyKsjs_sCPvnKys=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Alessandra",
+      "(PP,P,M,G) R$ 159,90",
+      "Com zíper",
+      "Tecido renda"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      99
+    ],
+    "imagem": "assets/imagens/produtos/saia-alessandra.png",
+    "original": "assets/imagens/produtos/camisa-maisa-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Saia Katy",
+    "codigo": "01396",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "94,90",
+    "indice": 100,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u_5axvoTKg2a4RZR9rb-Oktvj2rDUWj6fTThfzTKCW153meYiUgfBfjD-IQFQSinla9D31jImMy11aaPy2rvoOLK13YPYI5M39msNvySfpkDbvb7Y8pUSeW2_nPtGdmk1_nTCYdwRPApI85GgrW5j3IYVw4Wi91NaGk7ImYvhvWTUU0JQOvhSMGyqESsQ1J8EeXcTUzzbU_LN34bzOgty_KDElvWW4IWXLNK_j9iY=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Katy",
+      "Cód: 01396 (P,M,G,GG,EXG) R$ 94,90",
+      "Com zíper",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      100
+    ],
+    "imagem": "assets/imagens/produtos/saia-katy.png",
+    "original": "assets/imagens/produtos/catalogo-0100-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Melissa",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 102,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vLVHOLGBNnkXvnuF9RK0hbzXDsdLppxrovIme7ngCtdjsBe6aJnMuaR_YNm2S2qzavNHIO3mV0_wdAZJdpcAf-HI9DFhSZRjCDx4Qs3OFz8lRDvBjR76ZqxI8Y3qFKfDENdFhrQx-evnSwipTw1KQUwnnqQCPGY4lSS-XJq14ZXFvvJSxOqnNRZ6UPSjwX12ebNgw2WFV11aGurp4RHPm0oKjHx7h6_4ClRdeDGTk=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Melissa",
+      "(P,M,G,GG,EXG) R$ 109,90",
+      "com detalhe em laço avulso",
+      "Tecido: crepe de pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      102
+    ],
+    "imagem": "assets/imagens/produtos/blusa-melissa.png",
+    "original": "assets/imagens/produtos/catalogo-0102-original.jpg",
+    "recorte": [
+      0.05,
+      0,
+      0.9,
+      0.61
+    ]
+  },
+  {
+    "nome": "Conjunto Mayara",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 103,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tOiDYXVdSxWVNwo_6mkhBl6LuLympWtk6hjSB6-fQoCZwyxhFJJ5E9RIqNEdM2_Rk_3Pb60oWxNbB6CIjMjFwySgjJO9b1_a1wjO1MxRnJbO5hmdmBb8ZLdJbFcNmlpUguFovquC1c3-8VP--D3mA5Jy31iYPukYqS3JzLPYM87A8-PRAXvp4sFZUq1h_OnqPtf9AOy_fZ3O2LVq0dvmFIahmu3ZQk-nFodrPB0DM=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Mayara",
+      "(P,M,G,GG,EXG) R$ 229,90",
+      "Camisa com botões funcionais",
+      "Detalhe em renda e laço",
+      "Tecido crepe pele de pêssego",
+      "-",
+      "Saia com zíper",
+      "Tecido alfaiataria"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      103
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-mayara.jpg",
+    "original": "assets/imagens/produtos/conjunto-mayara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Dandara",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 104,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tWwUoUc0h8qPEYB_C6U_qEw_9SxTDjKvaK8zPZyHrffqC708zFMFO8Y2PoMjiBVdifmsdWrMwAyfGBcSZ-wa2W_9_TL6o64yn0kI9-sgNu2ocyd0tV3NXQP4MBqI52gw1R7SVzqKe4CConWlIUVvouHQi_FhtdNiEEhJw7vq_WlhAJcmN-5OkeE7MFl9MmT-qgYXDNY-42YD1OilgFanQD77xGFuc57t0CG43OQUc=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Dandara",
+      "(PP,P,M,G,GG) R$ 239,90",
+      "Blusa peplum com botões não funcionais",
+      "e ziper nas costas",
+      "Saia midi gode com ziper",
+      "tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      104
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-dandara.jpg",
+    "original": "assets/imagens/produtos/conjunto-dandara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Jéssica",
+    "codigo": "00990",
+    "categoria": "Saias",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 105,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uSPt6VKT98gVlE-twbd5gYGnvigyc8MQ_-7YvCh2q0ZVK-AYy5vNYWnPEJhpLK-Fyy1ZxdcPLowBEQUJbQdQF1KkFhQGvj-o2OyksQ3XVyxEWKQ6xVeMFCK_6TjhytARfYGvrMSn5gPzeh5M36LPGhkKZT1cNWd16RZ6JygIxLwoPv-Hr3xOLpBfFpN2npmjk4iyiBd21z7z4-9I1c2CW3V5vwhnee2IM6kKCwLxo=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Jéssica",
+      "(PP,P,M,G,GG,EXG) R$ 89,90",
+      "Tecido Malha Poliamida"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      105,
+      228
+    ],
+    "imagem": "assets/imagens/produtos/saia-jessica.png",
+    "original": "assets/imagens/produtos/catalogo-0105-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Conjunto Katharina",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "247,90",
+    "indice": 107,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tUtW9-cYjCGlA3KTt_nyvDmXL3ELulpwL9twNgdH7iBzMsq9DXRoji_BdAZsV7YhZXaJdVAhAs0lmKRZGoSoPg6RoYi0WPE63Y3YUowy41P4VpzPGT6j4SRdY2kffs81T6r2tQuPKsnj5V5Q0JS8EGWU9cqAmeZVe4k9hTR4VLa3CStgbXtSyaj4CPBojzutu7bmxcK1BCDlWV3r-ed_FsxYlD8HDdhUBi_qmg2Ls=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Katharina",
+      "(P,M,G,GG,EXG) R$ 247,90",
+      "Vestido tubinho manga curta, tecido malha Paris detalhe em veludo cotelê na barra",
+      "Casaco com abertura em botões",
+      "Tecido Veludo cotêle"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      107
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-katharina.jpg",
+    "original": "assets/imagens/produtos/conjunto-katharina.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Jardineira com Blusa Olivia",
+    "codigo": "01186",
+    "categoria": "Outros",
+    "tamanhos": [
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 112,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72thRoYl_4DcZetHDztZ8U8uT7f73qafC7t_Fe5JQj5_xVwLv74Nr3ehqFSDvxm5WeGFhXWd8v7WY-ClCp2TXR5gGDz1LxLzIlARDZ7hHR8kHR-jsbxbnIbap-ba0zp2RVWA2tQf1PYzBbfb7OhjlL4bdiWcrm5IeOJqgnPLPV7JpsNxQKRgpPLgxdsmfbAvD_p5Vgb0woY24cBXUldtFLKf_AKC93RfJciIt7lOMe4=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Jardineira com Blusa Olivia",
+      "Cod: 01186 (EXG) R$ 249,90",
+      "Blusa com Laço na Gola",
+      "Tecido Crepe Pele de Pêssego",
+      "*",
+      "Jardineira Com zíper e Botões não funcionais",
+      "Tecido Malha Premium"
+    ],
+    "tipo": "Jardineira",
+    "pecas": 1,
+    "ocorrencias": [
+      112
+    ],
+    "imagem": "assets/imagens/produtos/jardineira-com-blusa-olivia.jpg",
+    "original": "assets/imagens/produtos/jardineira-com-blusa-olivia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Marjorie",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "169,90",
+    "indice": 120,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v4KPKkYJOQwhWxAXxQdnHFfZsAx128fGgpp8WyYDmiGocUyaBs7EHhPaK6fsVRiE7HnHS6q7FBGFJiTYvzbUGhGN_JeB6WHPf_-C16sbnv604HiDC93kOvho6CiO2Nk2AmnCarj7QlL55ilIpC77KABxgXjPvyiZ2YAikc748F21VmaFF9AMCs7ykwdumyAQK8vOwDpThCB22cB1CmiQj0yopOglD_NzjJFGaB=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Marjorie",
+      "(P EXG) R$ 169,90",
+      "Com zíper Tecido courino"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      120
+    ],
+    "imagem": "assets/imagens/produtos/saia-marjorie.png",
+    "original": "assets/imagens/produtos/camisa-beatriz-original.jpg",
+    "recorte": [
+      0.08,
+      0.32,
+      0.85,
+      0.65
+    ]
+  },
+  {
+    "nome": "Vestido Jade",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 122,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uQlrNUaGuS0HwPRd1nhbAlRGGN9XAO5o4ifau4jvnjuxoqLdoIsF2S6tWaF9xEv0CkCO_JXJygeXEb8uj6vBmYEnnbONKL4dTv_d2x6EvtWzY2hW-kZgEvBihbzwOSmjCDyz--k-Oegybu-wQiBcfuRxacCETnMnmFJDrFUsHy24F1Z6bZS0zzSJlou56ZsH9SVam56EHEgtkoXU99b7kBG_Mz96KZVKWNaAqxzyY=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Jade",
+      "(PP,P,M,G,GG) R$ 199,90",
+      "Manga curta C/zíper C/botões não funcionais",
+      "C/ detalhe em bolsosTecido: tweed de malha"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      122
+    ],
+    "imagem": "assets/imagens/produtos/vestido-jade.jpg",
+    "original": "assets/imagens/produtos/vestido-jade.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Olivia",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "259,90",
+    "indice": 124,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ugt74ib5rITeCNX-CTkewKy9mpoixXoKn1iVD5AXSCsRN2OHI3AemflaAGuUSBzQEPQa3C4seRBFAfp2J8JvdCmQxI-X_SpKNy35cpzD2oFr_kN4YWn7quHl8bisCzQB1tdGKXtLJhHmUL7dH4qozsBB81sEVOMg6N_OndwFHJcwBpGwC1rF8Nk8x17xhbOih4T-dhzQGPppXFYNf_LNadHmzXP26lRRKFt91tJRU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Olivia",
+      "(P,M,G,GG) R$ 259,90",
+      "Botões funcionais / Detalhes de tweed /com zíper Tecido Malha Paris"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      124
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-olivia.jpg",
+    "original": "assets/imagens/produtos/conjunto-olivia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Ludmila",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "209,90",
+    "indice": 127,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vQjX2s3z_-J1h3FLO_bODpLL5dEUu15ShMtcIFWTmD3evRLBuYhY5xH7F9Lm3OGdsTy1QXuAr-yhQkkomr8iFofgRrN6dLouwG4ceLOp9YeclbY-BO_BAdbPbeXbTLk7x9Ys0PcbkMpY5EFNhEPDzRRKOR1IkPU2YLU5ASDObcdcczABaFQeoPtEU3j916am8-HcBRmIWHbJt4QiNu7Hw3HRDZgDenWfkvuJQCSyw=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Ludmila",
+      "(PP,P) R$ 209,90",
+      "Jaqueta com botões funcionais e bolsos",
+      "Saia com zíper",
+      "Tecido jeans com elastano"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      127
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-ludmila.jpg",
+    "original": "assets/imagens/produtos/conjunto-ludmila.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Gislaine",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 128,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72soL-XWDAKfhNcHh6JYisd5_dhAxeKlEbjVsRmOn6SwMrAHb08tYFukxjBrEE9xQmte9KrBygw4B4DW_tT3Q5ZJE-AlqnEqcT9afr8ASoYHDMhBi7H1rypekKq4sC2IlIA6ELJHFeGB4_v0O_AYVDwEsh1P5N4Wvt8eo8F0g9WYZV5Yz-lCWQufKxSJZE6XYViDqlnL_g_oO_u91IO7bHEVYgkoELcYYG-0syp-ofU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Gislaine",
+      "(PP,P,M,G,EXG) R$ 229,90",
+      "Sem zíper / elástico na cintura / babados assimétricos",
+      "Tecido chiffon trabalhado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      128
+    ],
+    "imagem": "assets/imagens/produtos/vestido-gislaine.jpg",
+    "original": "assets/imagens/produtos/vestido-gislaine.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Solange",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 130,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sGX4MZtGAaJzxSBr-qd5WYkYUc9eyHnDkLTkZfK9yzmYY8NqRBoyTcrEQ9cwMjkWzGxrrMr4FBF19V0Mj_TGizu4UCujW_cczgwYGHkv2ypbl5Xj8Z1MAN2fzIZpcO9Brqyxz9ca3eqvkaPAjQj70GKFRLxhzbr5eU5dWOyN-m-FJCvyK20cwseO_fCkqz_0-wcP8B6ZsZfrNLcI10D_dbMRF0YSf5vNq6q9M_Jt4=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Solange",
+      "(P,M,G,EXG) R$ 239,90",
+      "Sem zíper / com elástico na cintura",
+      "Tecido chiffon trabalhado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      130
+    ],
+    "imagem": "assets/imagens/produtos/vestido-solange.jpg",
+    "original": "assets/imagens/produtos/vestido-solange.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Magnolia",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 131,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vXFrOmhVZjpdiSAZ6DK7Q30SYq30ggsuBH1YK7Ou79S0k7fz5X2InZ70O9yqLNkae8msKQDzhmka-kvC8EmJGfSiTcBHjyAcnsPRbKafaBhFoIiFaZMnCKYNqDNR85JNKiOv7xOFJIewDRnpPsjTnwo1QSmx0BBazoHPVfLmKeARWd7XQIp-IfmqzYGux-rW06fhLHy5OE2unVH_rQYPM6YsECVZMOcm9hpkjh=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Magnolia",
+      "(P,M,G,GG,EXG) R$ 249,90",
+      "Casaco com botões funcionais",
+      "Saia com zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      131
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-magnolia.jpg",
+    "original": "assets/imagens/produtos/conjunto-magnolia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Lenita",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "129,90",
+    "indice": 133,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v9bEu-PgwHuT1jF7hqMXn-Ra-xNVo3WOFPj0aTIfCi0-nCmmorSnTqh0cEDKImkXZAcDrV80uwlbMeA99ubuXInAOEilX5fIEzLR4iqEhaMuUpyQ_Rx6YlegD8uPvOZKXE7byXXNjjiL5eB7KRgCCb8bhrUmyjJTmwhDweYI9OorSfvxznpG8V2urAoVWpZK1UFCqrX415SYRKlkv6gON0Lr3Ld2cu4D3ufAfuyN0=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Lenita",
+      "(M,G,GG,EXG) R$ 129,90",
+      "Botões funcionais",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      133
+    ],
+    "imagem": "assets/imagens/produtos/blusa-lenita.png",
+    "original": "assets/imagens/produtos/catalogo-0133-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Larissa",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 133,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v9bEu-PgwHuT1jF7hqMXn-Ra-xNVo3WOFPj0aTIfCi0-nCmmorSnTqh0cEDKImkXZAcDrV80uwlbMeA99ubuXInAOEilX5fIEzLR4iqEhaMuUpyQ_Rx6YlegD8uPvOZKXE7byXXNjjiL5eB7KRgCCb8bhrUmyjJTmwhDweYI9OorSfvxznpG8V2urAoVWpZK1UFCqrX415SYRKlkv6gON0Lr3Ld2cu4D3ufAfuyN0=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Larissa",
+      "(P,G) R$ 119,90",
+      "Com zíper e bolsos",
+      "Tecido Alfaiataria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      133
+    ],
+    "imagem": "assets/imagens/produtos/saia-larissa.png",
+    "original": "assets/imagens/produtos/catalogo-0133-original.png",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Saia Ester",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 134,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tdN-MVxZC74ANcY8VMH5s4ExFVao-_1Aab9ZqdJvJAkfQM7_q6zAyFIjtPesZbTORk9626ve6teGtfeX4sp3SowYEuhDkDEqTIFcMtSmfA5NoiV6yGCI3YkaKFBXyJpy5vLVrm8VeKtVylwHJVD6ESXKwtQmIgPg9wH4rgEALBsY7VbjmthrGGGYx31CCXsbTqYcaACHGxHzkhZNc4NYoa6hhb4jBQA4Pt9YUgd2s=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Ester",
+      "(M,G,GG,EXG) R$ 89,90",
+      "Com bolso e detalhe em botão não funcional / com zíper",
+      "Tecido malha montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      134
+    ],
+    "imagem": "assets/imagens/produtos/saia-ester.png",
+    "original": "assets/imagens/produtos/catalogo-0134-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Vestido Úrsula",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "50"
+    ],
+    "cores": null,
+    "precoFornecedor": "139,90",
+    "indice": 135,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vsI-6e5xfDhfrHNCCfy1LuDAqn2z5Fx6jMI6LyxAeI9-lgLoSl-NOgGywAnZfz1oe7bhNeUi2TuUuzcrhOfPf5nvc4vc_vWQ-ZstdrZUSHbfH3yyHBz_0TYgntXnr6k0HRA7VKaw5YNGdvfPT3riulY9Zo4uJAAIVc6Y7YnMKKc6JqAu4wpUii_zfmAjb_kO32sf5lZjn_R2UTG5kLz57AOTg1QznJ4BWvLpxs=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Úrsula",
+      "(50) R$ 139,90",
+      "Sem zíper / Acompanha broche em flor",
+      "Tecido Malha Premium"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      135
+    ],
+    "imagem": "assets/imagens/produtos/vestido-ursula.jpg",
+    "original": "assets/imagens/produtos/vestido-ursula.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Dione",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "269,90",
+    "indice": 136,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vpM2dZf63aEiARqK31rrC8BXFuFYGTgNjpF1WNhS9ibImv4f0MLW4GdQol9PZKo7PS4S6Ohgvz7eQ31_Egb_B__fORV15vIFONF7Juqb65QezGAof6CXEVfEjKeYC-uTodBtIF_YYq6P4w0bAl4FnO6evqyS9q4071_rApgkAhzjWESrtmzDXt_V5ksSg1xwYCnQuwK6WNtmXgoov9v4cClsw51TOYObBS7sPW16M=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Dione",
+      "(P,M,G,GG,EXG) R$ 269,90",
+      "Vestido com zíper / manga curta",
+      "Tecido alfaiataria",
+      "*",
+      "Casaco com botões funcionais",
+      "Tecido tweed aveludado"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      136
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-dione.jpg",
+    "original": "assets/imagens/produtos/conjunto-dione.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Nataly",
+    "codigo": "00168",
+    "categoria": "Saias",
+    "tamanhos": [
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "72,90",
+    "indice": 423,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72scQm_ZuJTStNa5GJSAjhqQjagiamruRD1njT7FeyUiGP652_8OlhZelJw_gpCR447YjakW0fTrqryCzIl5xuYQJ0WI1P9UPf8X7Mr7ZBES5FSrCL4IE7GfyWTg0N4tcwqeSWH7wHPsiEbJx0VLw-nyQgSRG7cy7-ulsODjwF7eU3q3hvyTr-fv2gPZPDikajAODeLqOygVEgjWft2JQtXZOd46H4umBk6nibIlnHo=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Nataly",
+      "Cód: 00168 (GG,EXG) R$ 72,90"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      137,
+      423
+    ],
+    "imagem": "assets/imagens/produtos/saia-nataly.jpg",
+    "original": "assets/imagens/produtos/saia-nataly.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Pamela",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "269,90",
+    "indice": 139,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sFqMM8kSS2qPDANbtFoqGdb2pFMF7rLP9K8llvRxYFjc26dHLSHfPoiLsf-1_wdudFD2aJFOxfXDtByEIbj-he1P3XqxaKv94qrT1gWDngBEGh_WxV4zhgbQBBjMbZmyeAFic8OjuRuxUG3Rck901TINvY5HgUQLTVfpLquKTQp42SClEK2xbiRXAOwWeGI6J_yf6jKU6-NwR_TWjNjrzPQaQB_7HrlPrFrs0=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Pamela",
+      "(P,M,G,GG) R$ 269,90",
+      "Casaco com botões funcionais e aplicações",
+      "Saia com zíper e aplicações",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      139
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-pamela.jpg",
+    "original": "assets/imagens/produtos/conjunto-pamela.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Lena",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 140,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uezSPdOYyhw7_O2yDAE37HedLl22x18viP8rNSFmIsThXR_0U8dcftJBakzSwwp8IYdIMWVy7xdZwA_QSy5l6x9s2bnnK-onVkFqV5shAVbBYxLo7yi_9CevvYIFp37kxDzsxcLtAklYD_D6dZAQWort0siBUVlLZkAab4DDCXlSmwz0MzqiNCsUAkBh9sTO3QOcwDDig-Qx1gmwOTi8-WCVAPUX7SICylqqtuwBU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Lena",
+      "(G,GG,EXG) R$ 249,90",
+      "Casaco com zíper / aplicações em gripir / botões não funcionais",
+      "Saia com zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      140
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-lena.jpg",
+    "original": "assets/imagens/produtos/conjunto-lena.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Trijunto Julia",
+    "codigo": null,
+    "categoria": "Outros",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "329,90",
+    "indice": 141,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vn3sMek8VsZAH_jcl0Hh1ydt7j0mTf1BryS_pr6AGBt8nJWi9x0Er8mHBj8weT4tEX_CUEB_sndoAtABs0l3jzEP5cYVGG15OrStCk5-lEu6PQW9FkwUTXi2NXG5nwXmWjpZngYVuTl-5tG-qvRo-o_7hd_2drJzLrCJ56RTc6NlTR3LM1izRMoLlg3_oQ2gu8xQ_4p_zI8E-L--N1Ev5VdP5fE2_OF3n9ZlU1nIA=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Trijunto Julia",
+      "(PP,P,M,G,GG) R$ 329,90",
+      "Blusa Manga longa Gola alta",
+      "Tecido malha premium",
+      "*",
+      "Colete com botões funcionais",
+      "Saia com lapelas e zíper",
+      "Tecido Cotelê silkado"
+    ],
+    "tipo": "Trijunto",
+    "pecas": 1,
+    "ocorrencias": [
+      141
+    ],
+    "imagem": "assets/imagens/produtos/trijunto-julia.jpg",
+    "original": "assets/imagens/produtos/trijunto-julia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Maitê",
+    "codigo": "01049",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 217,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tbE8Nw8WPVOz_7QdxKL-FGYqOK1bQo5JUb4If7U1afEA8E6Zp6vhd0dxJ-cfnzvfvLITfs8b6rEXuORo5AGa-T3pjD_izp8Z2zTM6j5avVuV2IKRUvAckvmEMxwQs8CSgni6_E8z4YwErtrcPJQ6QDf40-L9gTp9l5zg8pIjd0lJP4QT0TQYVdCETgwQb6wD3Cwsk9Z3_ctCnFYhGysOuI0Y8A-F84gENaDxES=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Maitê",
+      "Cód: 01049 (P) R$ 239,90",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      142,
+      217
+    ],
+    "imagem": "assets/imagens/produtos/vestido-maite.jpg",
+    "original": "assets/imagens/produtos/vestido-maite.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Tiffany",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 148,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vlmxMXB4rva0g5NUVEmVjwq3eUC0gwPn6sLkSUlt2oQC5u_PoH8EPJfpNDLuTcgdrEn2KZ_Ukv4EJ8ar2yvokkeb7Ck2eHcCvMpmYNwv_B9e5KDvXR15UWI1weXiJlB_rsrsyU5_Lmx1rBS3EenVFSvYlpsUNfRuEVX8SHF0XTuYn8q0VwfltvtGnsXwhxw8Ry7IVGo4XKbOP5mp5Q20_Z4tUatsO7cMTlej6T0-g=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Tiffany",
+      "(P,M,G,GG,EXG) R$249,90",
+      "Casaco com botões funcionais / Gola em gripir",
+      "Saia com zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      148
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-tiffany.jpg",
+    "original": "assets/imagens/produtos/conjunto-tiffany.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Emma",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "299,90",
+    "indice": 149,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s5BcLX_u6jTNZJLhIwzH2Adp5TWVx1oG1hdxUE8xa6Tzw17AhK2qpnOgPxFJnWZ_nqobeNVh_44HfxU7R-vXJmwXRKexr-3FNzBPrOMhIFIMVL3wIaRDQT1uecIKZ7xarV5b1hpO5yFNrnGrpwAnB3uMrC1dkYdwp98HhKBmAB3k69APipTjcyFWCpsD3NMbXmnD0nR8-3p63cHbGxz4OslVHsPLPNrFdSX55Mm94=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Emma",
+      "(P,M,G,GG) R$299,90",
+      "Camisa C/ botões funcionais Manga curta",
+      "Tecido crepe pele de pêssego",
+      "*",
+      "Casaco C/ botão funcional C/ aplicações",
+      "Saia C/ zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      149
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-emma.jpg",
+    "original": "assets/imagens/produtos/conjunto-emma.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Shirley",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 150,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72trIFgPCVRo_gTQ3M1LmA2-TptqkbX2FpXMeIZjJ9pm_LJ_HDdylbkgzpibnbfCAoZI-AFLF5x5AL2PW-F7jd3GijB3jvRs_-l0NsjLsb0FsorzNBN1JIX76nxJePI0AJY0Vp_YGkcO_eStSKWJEAbrh73f-Q8LhsvCLTkFn7bCnoHhsFBhGvGmX-TZwz2ig7FlK3WmSRLD0BScjy4Sd0yHz4x7zxqC79KWa20Ot2o=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Shirley",
+      "(P,M,G,EXG) R$ 219,90",
+      "Casaco com botões funcionais",
+      "Saia com bolsos e zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      150
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-shirley.jpg",
+    "original": "assets/imagens/produtos/conjunto-shirley.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Laura",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "289,90",
+    "indice": 151,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sua1k6EsZWHiL82SX7838VEwuX8TcY21j4-68cxtuj0M86UG1xHvut3EdarLdDWLOq9wZuCRhf8eq9T-cDs9I9SAA07wQIs5j3Nelkv5iDwhT8FvaBMBdm6ojPAEnsqYrr4DlgCXuhTd_T24JHt88x9z2eCm2BpBZvYY3adrE5SqPFeAq1U19mpKIg62KSmdm8SFUjGW4eDfKD4eFbOTEKeMoCXL9r1jfm3BgdYeQ=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Laura",
+      "(GG) R$ 289,90",
+      "Casaco com aplicações e lapelas",
+      "Vestido com zíper / botões não funcionais",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      151
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-laura.jpg",
+    "original": "assets/imagens/produtos/conjunto-laura.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Alanes",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "269,90",
+    "indice": 152,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72thx31XaNgVAawy_gAWhpaLMnhNw0N9gXyG6N8st2xzN-by4rNPw2eK-ys7eAhB9GN07-yd9MtSkvrZSoWtr9n5899k4HkiHGRZ4EUXekrRdlgbhIbpmqPj7-0bKoveOZcd7aXPC6aBZu8UVY5OByD65TQlaHjVM2qzuM_sQo1-NETlCaNUnVzEDRlowHQNtoLKeUrijed8rXE3UTjP5fTxhG4YQG7TiWuDygQ8EqU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Alanes",
+      "(PP,P,M,G,GG) R$ 269,90",
+      "Casaco com cinto/Botões funcionais",
+      "Saia com zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      152
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-alanes.jpg",
+    "original": "assets/imagens/produtos/conjunto-alanes.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Charlotte",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 153,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vCMQEN6TEa5y2rMmm3WqMb9p0rDhnLRCLlOp00T2TPCJTOlrrNtxflETe0dEJOQiwSL-jpPpDyMufPI5tIYsI03v-B7pI22w1c2wlJVvmjQi2lANWYEHfAY2j32oDNF0p0ufXM2Zr4JEhxY_cweXx7w2xqG8r3V5YiYoSFeHz621ZAnSNzo2KddEWCQjhm_Yo3y46AmKe7ErnWNN74oFhP2_HvIKfkrGtRqzPn=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Charlotte",
+      "(P,M,G,GG,EXG) R$ 199,90",
+      "Casaco com botões funcionais",
+      "Saia com zíper",
+      "Tecido malha Paris",
+      "ATENÇÃO, Lenço utilizado apenas para composição do look, não incluso no conjunto!"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      153
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-charlotte.jpg",
+    "original": "assets/imagens/produtos/conjunto-charlotte.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Clara",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 154,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tmOlVo9V4tL0MkTxQVvEY-fMeWoRgIDtaqghnx6uZG_D3tiZLxk2XAld3eACUACMCasrrS9lDNWhCcAGH78psYPa8gTYIHevwouyi8xlFm5kD29JMXCrhnQ0oEP3iFQKCfSJpwOfDLSzDgOZu15qtN-VzMdIngiv9EZ8uh3xjg-qUE4KwZnea6-LY8ZBGIZdL70k3kE_-0WApehiRclZo3g838hNKOMS8JKPFi=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Clara",
+      "(P,M,G,GG,EXG) R$ 219,90",
+      "Vestido composê sem zíper /Botões não funcionais",
+      "Tecido malha/ tweed de malha",
+      "*",
+      "Casaco com botões funcionais",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      154
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-clara.jpg",
+    "original": "assets/imagens/produtos/conjunto-clara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Anne",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 156,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v0c3EB4xCHUpc3MLRNjBsgPwPlIS5vrV1BD-F9--78P5n6bNVGF4lRRvXJTqESISl0szIDn0wJjtDv_5EYlHBxQJ1ASeupV32ENIwAPgO6iOmKt3zRua07eBzGZKP09Gb-11MiE4-_EwdwLLwhXX-2U6vdfieye_1a8g1jucyMMgaw4lK3NgAhWRtRsDk2BqqL1ve4IEOPMHmS3iX3Cx7b0KXGxVzBpRwkqMA-jU0=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Anne",
+      "(GG) R$ 229,90",
+      "Estilo salopete / sem zíper / botões no punho",
+      "Tecido tweed de malha / crepe pele de pêssego"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      156
+    ],
+    "imagem": "assets/imagens/produtos/vestido-anne.png",
+    "original": "assets/imagens/produtos/catalogo-0156-original.jpg",
+    "recorte": [
+      0,
+      0,
+      0.92,
+      1
+    ]
+  },
+  {
+    "nome": "Vestido Lorena",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP"
+    ],
+    "cores": null,
+    "precoFornecedor": "209,90",
+    "indice": 158,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tQqEwHu6Y_QAgs3lBo05p6lhUXfK7VpawBKmdLHxr68mYGUV0Xs2aEh5a_cYuLTYaLpzuRbSGVhHhq86CVLyVb5IKG4oRuXTYplEnBo_Hhivk17125LhHFxoXQ3_G0-wFQFuwsHpVOHQo8L2tN78cxv3JGjWJ3OK46GmcoOrH6usG4GLJkrUt4-WdoiHTNVy7qjEoC6GyGkuWwBX7nW4Bvkz0apZZGp8YPRQxopao=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Lorena",
+      "(PP) R$ 209,90",
+      "com zíper",
+      "Tecido jeans"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      158
+    ],
+    "imagem": "assets/imagens/produtos/vestido-lorena.jpg",
+    "original": "assets/imagens/produtos/vestido-lorena.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Jeh",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "269,90",
+    "indice": 159,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vx7uyLzzKe6GR7_A5g5tU8QlV7fxLYnfCm4r0PTt-WGFG0nocGF4ngw9nm_T5OpFtoIXwvlpEQdLeeO1jQgCSRgsnNzbP4T4oLY-wG97NP3aa5PxqqUp7mpJLXrXKEUg-eLO2HFtsxq3e4HFu1CpiZogATkzSiCfEY6BgdtVzLfHObJuxVzt5b0kz6G8_iH1fqlMiTiFhp25Y-s8a6Np5z2SzUhy1RWi7vE9E3sVM=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Jeh",
+      "(PP,P,M,G,GG) R$ 269,90",
+      "Casaco com botões funcionais",
+      "Saia com zíper",
+      "Tecido tweed de malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      159
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-jeh.jpg",
+    "original": "assets/imagens/produtos/conjunto-jeh.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Rafaela",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "269,90",
+    "indice": 160,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sLBiywpeqLLXSBY7ySzQ29MLZXkdG7tT67uHQhwtynwz5CLFeIdWrclfUOn3VdKMAQaL8bK71Ip_qG5n4vF0Ll9zx8FsEWr7m5Z-k1gtrQh-WAL36Ej0h_K0b5mZG8X8_ngHqi3yMRax4B2nxq6k0YbWsmc28ZBQ6u6vRKWcy2Gww-UJpq5XGNgOCqq1GXtRYI9LQNEKP6G73AgDbNPUUhTGqDxGNmJ4vImY-r=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Rafaela",
+      "(G) R$ 269,90",
+      "Casaco com 1 botão funcional Manga longa",
+      "Saia com zíper",
+      "Tecido tweed de malha",
+      "*",
+      "Camisa com amarração em laço / Botões funcionais",
+      "Tecido crepe pele de pêssego"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      160
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-rafaela.jpg",
+    "original": "assets/imagens/produtos/conjunto-rafaela.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Jordana",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 161,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72svwGdh5YOHEuy2gpL-jEsTFPZsJ2ulPmRY0CFb0nGod03JhQ1cJ_z_T7Gkb5piCAl9n8Weetzt0HkiE3MeS6CL-XOl7pR3yjV28UJ9VuQ-TbuP-Q9_ah0y3-uCj2VZYzxge5OhTYq5NM15NpWmlk89HUgtJo3VAP3QoXtg78TWlMW1T44gEwvbygWzLwKngVdw-nsRs4f0_IeFtYBaQfHfirg2nFqOBgpL1kjKthM=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Jordana",
+      "(P,M,G,GG,EXG) R$219,90",
+      "com zíper / laço removível",
+      "Tecido alfaiataria c/ elastano"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      161
+    ],
+    "imagem": "assets/imagens/produtos/vestido-jordana.jpg",
+    "original": "assets/imagens/produtos/vestido-jordana.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Edite",
+    "codigo": "01144",
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 162,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u729YVOzu9Rs9bxRhokGp7hiVjL_2oPDjQ9KGTevnsvC41eo0sse0hQxEhRlepjXVdtZjBzKjgNXT561DawS0k-3-m5ts2TXZAhWml-vVA24pfTJswtiU1gYlSoKtG0VLc_9fMeWsJssvT8AXa3zv7EiepxSVI7uH2G8LTHWi8NEA3es-8Yii2n39rS7ODNS0TmlZ4HtN3l7wCahpxCGh52nB-nsrLOtgYZTz7Uqo=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Edite",
+      "Cod: 01144 (M,G,GG,EXG) R$ 189,90",
+      "Casaco com botões funcionais",
+      "Saia com zíper",
+      "Tecido malha montaria"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      162
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-edite.jpg",
+    "original": "assets/imagens/produtos/conjunto-edite.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Sandra",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 163,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72slzQ0cN9ROt-xh214b5tzumiByoo9vXw9NHj31Ig3DLGbGRCSx4GoSoIBpjhU6QbUA4cGakzDPDIoPMBdaMQ0RKNhXRt9TNjX1wzVKHz0VuMO4vzOeesfv96rqb6C8H5MtbMPnLUGJsna2jELbcHHe4PvA4QCIY4lQljNJRhPOfoww197D9lbA9X2ZWxf-J28AJXVIkI2XpRMz_i2A6b91PyWyhROnFGbcYBIO0gM=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Sandra",
+      "(P,M,G) R$ 229,90",
+      "sem zíper / botão funcional atrás",
+      "Tecido tweed de malha/ crepe pele de pêssego"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      163
+    ],
+    "imagem": "assets/imagens/produtos/vestido-sandra.jpg",
+    "original": "assets/imagens/produtos/vestido-sandra.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Joana",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 164,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vuB7Q-cYQzCvYDLSQK3hCJlS6sQK9skhPE9_o9lOSt8W1H2zqxevKlirg6OQDO_0dde0-S6hTKcd9VjqE1DHbaepOgKtYOYqLRgG3U6cJMAI3uHXOt4G8ZjQf4iKnxqYnE2Eitk7hYp9nexEqE4dE9P1Tp1c__fUM7Pa6n4ppl87rWnbdmK2A3quCJV6GOaVpOztg_WHxydp7kH3sauO4QgM_3KIjEuBX-a1CP=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Joana",
+      "(G,GG,EXG) R$199,90",
+      "Sem zíper / Botões funcionais / Detalhes em gripir",
+      "Tecido crepe maquinetado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      164
+    ],
+    "imagem": "assets/imagens/produtos/vestido-joana.jpg",
+    "original": "assets/imagens/produtos/vestido-joana.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Juliana",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 166,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uRjG-7mqdvSHQ6pAKbf288v0vIpSKEO_TNWfOrzuPjei7V2MVwnXbaC46pH0mD18z8_TBv5lwIN9vX1wswkIZ238aaLHamblS7vFLqif83hgxIKj1gXfEnPE2herfu2g-livyD3V6JGU0VCS0-v2l8S0NZkNrn1D1jm8yd_L64t449nz80O82dWDpnGiCcAQkrR8LghPd1hcosnaH9Vcewp7ikQKnh360I9QclP9s=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Juliana",
+      "(M,G,GG,EXG) R$229,90",
+      "Composê / com zíper /Detalhe em gola laço",
+      "Tecido alfaiataria/renda"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      166
+    ],
+    "imagem": "assets/imagens/produtos/vestido-juliana.jpg",
+    "original": "assets/imagens/produtos/vestido-juliana.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Marion",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 167,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ugw8qIGeURTnGAYubmSpPosgZjToOxlBkVxRKqdkaZjuLuaYoe0wDcQZ4YJPp_tygToAwG-T-fBR9nmcPDD2iU0qPPeAbKtKoG1EM-U-s8037_rZRRqZBoyfoSRlq0icNJ5XA26rk-9e7IAPZS_za1yLaKzcFEJD8WqFy5z4JAl_VetLYA7gi0_ChMx1jL_UJdF56MBircI_MIj1YCnWO2pB-mF6nrxM5R8CUBNsA=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Marion",
+      "(P,M) R$ 199,90",
+      "com zíper / Manga longa",
+      "Tecido veludo trabalhado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      167
+    ],
+    "imagem": "assets/imagens/produtos/vestido-marion.jpg",
+    "original": "assets/imagens/produtos/vestido-marion.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Jaqueline",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 168,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vVEicZk8vQOBJhg7HCaN_Xe3NKKEb7bqmRbS8WRPLEm2Q9qS4_pzjYLMtS6DjAOU17ii7WXru5sZ_9tr9o0V7LG2E-gTZo49GWGxQRsuXEdtE2ZsJv0ViArchSczYR41xLqIn3G7bDH5In9LjFFrSBBNaZPjyS5OYCKLAnGi4gVtNr_ze5QLj9UyCP3bhcjwy4nJgvtPMthgwx3cCfBbPpsJA2M1ZQZXAnPoktfsI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Jaqueline",
+      "(P,M) R$219,90",
+      "sem zíper / elástico na cintura",
+      "Tecido chiffon trabalhado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      168
+    ],
+    "imagem": "assets/imagens/produtos/vestido-jaqueline.jpg",
+    "original": "assets/imagens/produtos/vestido-jaqueline.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Ayla",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "249,90",
+    "indice": 169,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uLvgzxgfdSSN-hAlYwIYqXfcBzP2M08Mb8midNF4PresvJzCKxe9Jk1JoAkL2mTgk-nGOWwa30gC_ApX1PtsYWC5JhFhaL95MUDqc6LF2ofGxEyPh-4buDyUXMc7jLZGmHt4Lb34wO3B4eFHAJcgbjrSP7Cqxhx4rzlqREhbRvZMSeSaETXCub9-4GePjmF1cc8Bc5pWSfvbpxSNozHWanCI5xOjFIFeS4XTg_vGQ=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Ayla (P) R$ 249,90",
+      "Com botões funcionais / sem zíper / faixa bordada Tecido Jeans"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      169
+    ],
+    "imagem": "assets/imagens/produtos/vestido-ayla.jpg",
+    "original": "assets/imagens/produtos/vestido-ayla.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Ariane",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 171,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tXkT4BttJFYZYvHmYhZQn_vjfcDMzgcKaUsAQs-by9a6zUh1vFf-1ghQAAJWhltun2p1KTHu12SLMO4DvKtuDbv3ctm6VVh4uoDYCt1_hg1QjuI5-ug1duAFRc5aZgRRYddU3vJ6ZsmZdrBgYHfcUPweeskm-FPLw9rvPsz89dtMILa8ecXaokBhiEsBUSUb6Xi8KgZRTy0wSbXWDz97v-z6fZ9u3A_TujZssZDMk=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Ariane",
+      "(G) R$ 239,90",
+      "Cropped sem zíper / lastex nas costas / Detalhe em fivela na alça",
+      "Saia com zíper",
+      "Tecido Jeans"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      171
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-ariane.jpg",
+    "original": "assets/imagens/produtos/conjunto-ariane.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Zuleica",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "159,90",
+    "indice": 172,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uZUOiqr7R-6TJWXMv493deGzIxa9q61C_DdmgLVBmqQdBj7teJQkwC6nXMg7nI3quEuSp38MuiX4SCPpsfk5LRjWt_C09akGi7KtPoWLIsL0PZhagxXgREB6fnIcywzwHjI9DnKJcdSsc7jYmgdnmgS5hSFjATBffop92AwUHeKzIInjueGpeV12hKPNBJ7KLVH8zYrzLThVVbXsd0M9qr-i-dhjq3sAFy89ES=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Zuleica",
+      "(P,M) R$ 159,90",
+      "Sem zíper e com cinto",
+      "Tecido Sedinha Estampada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      172
+    ],
+    "imagem": "assets/imagens/produtos/vestido-zuleica.jpg",
+    "original": "assets/imagens/produtos/vestido-zuleica.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Olga",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 173,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sT73XtnCG6nNgvuFJnroXEASBpknqaIoX_4RuajmcjKFQtMxNnMI9N2oE0ylS-ncMbXCjqyBC9uYgsjVbmCh5EztDWa-9pVBMoeFSi-oO0qvjCTobNx63DvAPXbTj_dt_L5cyyOWrQUZCaWdl4SF3186NOl65uG54wtAvKHsc95GNEdP5E0vJaMFIeD7KDPru01z3p-Q4FIrG--Glb1GkhwOqAX3-pkIP59iN5JUU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Olga",
+      "(P) R$ 239,90",
+      "Botões não funcionais / comaplicações",
+      "Tecido malha premium"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      173
+    ],
+    "imagem": "assets/imagens/produtos/vestido-olga.jpg",
+    "original": "assets/imagens/produtos/vestido-olga.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Alexa",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 174,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72szDWekWMN2C9tT8tyh5CZykpQ4bO1dbln5d4f3ojS7ISG0Lu2qDG-8XF8nq9-pGqabnZRVq__fKHJVY1LQUIZ3lD2NFP2TeU1eYL0BCNY4qmS6RA1GE4yDC4GTT31LK_lQ4pYC0Z4_mb-g2tvgtWV8XTGDLhO7Z-384N-gizcriYyVfgxzY0ykxBbJHFCeTWCd9ewUj4KpjPcB9U_lowhNt156gf2c62eysLonLqY=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Alexa",
+      "(P) R$ 219,90",
+      "com zíper /botões não funcionais",
+      "Tecido viscose"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      174
+    ],
+    "imagem": "assets/imagens/produtos/vestido-alexa.jpg",
+    "original": "assets/imagens/produtos/vestido-alexa.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Composé Rafaela",
+    "codigo": "01183",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "149,90",
+    "indice": 175,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72suttXtQfHGVUhThc1yldhOHYyZMBn3RjLSIBsFlLKNTtXCrBsJcs99ICiubu3ED8hrDR_7G9obqlAEw7A_AN4Qr8KP4HPDX5Sa_Zz6yCdss-ImieOcz-6CE947ZXGHZZzbGBaGTQ1cqq6A7Z0Xqf48-dS1sRdxr5UpsCmHLUkxi_gWkWvNxT1DGtNkMxP3ApYKuK_0s8f1Y_t1crOqbdb4FERhLyXtAw08ug=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Composé Rafaela",
+      "Cod: 01183 (GG) R$ 149,90",
+      "Sem zíper",
+      "Tecido Tweed de Malha/Tule de Malha"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      175
+    ],
+    "imagem": "assets/imagens/produtos/vestido-compose-rafaela.jpg",
+    "original": "assets/imagens/produtos/vestido-compose-rafaela.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Adele",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 177,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tMZJS1wdCBMrcm3LRW6h15eOZsSH_9x1xTuysyv6520SL51PtYRlFcHJAdjtwGzTPzHdE0Jx9u3WwCuBCt6QBnSoYAb12V2tmCIxTVwx62no_eoBfmiZpCb2OgI29n5vPrqjt_UKBTp6xGJdsomnBJ1KXRP_f0h_OH5cHRnvYamWk3iWamSXqfkuX2E9uVFndOWl7uncg2fPjVWwbYWgKG2mqV4aWt90cl57id9TE=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Adele",
+      "(P) R$ 179,90",
+      "Acompanha Cinto",
+      "Tecido Malha Neoprene/RendaTrabalhada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      177
+    ],
+    "imagem": "assets/imagens/produtos/vestido-adele.jpg",
+    "original": "assets/imagens/produtos/vestido-adele.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Leonora",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 178,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v2CefKyEFpt1MZnhQ8R8k_dp0MmSd_xUaGNvULAPlYiYDk2DzCxANkKEB6NrP4iYP1gh56q1ORjEpJW81u-ZqP6tXuoiIu86dnOXP91QKbqMJY-LERolFD7HhbyvlWy1KfvVVQNemTw9y9_UxXNZfRfFaqCXpk5PHEDPd9zxz4tgcRUyyBZrquRVTjFhxPVGwJbHX4m-BZemKdC6SGgcXw4LYCiTw_stzVWrzA=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Leonora",
+      "(G, EXG) R$ 199,90",
+      "Sem zíper",
+      "Tecido tule de malha trabalhado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      178
+    ],
+    "imagem": "assets/imagens/produtos/vestido-leonora.jpg",
+    "original": "assets/imagens/produtos/vestido-leonora.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Yasmim",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "159,90",
+    "indice": 180,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uRgCvMpbg5YNHBRE4CfmgnEVYwCdblc7WJ_9Ar9q1KkD1WI7EEM8YYsY3UTd2xbEIQYsq0bGH2cVToN9pa_JlA0KFcGGCPT9EtgrTAm1Bnlc01CC0hbwTlnTaKTcO5d4l5XnGVgXSYGLu-rT7PfhxjV0peMUBXwFQGwClPbxP7MvDW_Znu_c4fqmD6CujWUsC8wJlAOzQiNwKyBbOBdTrBbaKlL1tDK3Xzu-pb=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Yasmim",
+      "(P,EXG) R$159,90",
+      "com zíper",
+      "Tecido couro sintético"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      180,
+      201
+    ],
+    "imagem": "assets/imagens/produtos/saia-yasmim.png",
+    "original": "assets/imagens/produtos/catalogo-0180-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Lavinia",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 223,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vbkk2CfwNO5rNBrQ5vpVHhGj6tN2An8rOcKzaNbVONTmoKItSDE--SEY7WIxTEuDxXYuEE7W6R-FuD7EDCkKl0MH_SV3KVDe31FXnub7B5pmrMZR5PZUqlb50PFOl2nqknKB77_o9r8XIvMW8YZ7EW6XIp_bFShTUzD0Powe2WijOvY4gjBQxwsPeaTZOhwtwXefM_8fmiTXhBaUDK_fHIKeWC4nLJ90XiD5rSAZE=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Lavinia",
+      "(P,M,G,GG,EXG) R$79,90",
+      "Botões não funcionais na manga",
+      "Tecido crepe maquinetado",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      181,
+      223
+    ],
+    "imagem": "assets/imagens/produtos/blusa-lavinia.png",
+    "original": "assets/imagens/produtos/catalogo-0223-original.jpg",
+    "recorte": [
+      0.03,
+      0,
+      0.94,
+      0.77
+    ]
+  },
+  {
+    "nome": "Vestido Salete",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "269,90",
+    "indice": 187,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uB3TVH-im5QmZarxApUUT7eGlbaAEtTyPhdx26lQMVx60hq3RODw40MM9rmm37N80Yn9-gsuGCDlWjsWoMXj_CGMYuKzc-R_AOy9Pd3WuGo6vXGb5wOg86BIwWVozjfmGMo40vhG0uPxNlkca3WvYuuYLT_q4d803lNPOEmGuSU7J0CblJMqvA3gQxg2NBXMtAJovokGC_qgmlRJ2pQ8V9UzvfMvEWE0vljB4d8ow=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Salete",
+      "(P,M,G,GG,EXG) R$ 269,90",
+      "Vestido com zíper",
+      "Tecido alfaiataria",
+      "*",
+      "Blusa com laço na gola",
+      "Tecido chiffon de seda"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      187
+    ],
+    "imagem": "assets/imagens/produtos/vestido-salete.jpg",
+    "original": "assets/imagens/produtos/vestido-salete.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Roberta",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 188,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t2hhZNscLKRhauhV5jlSoh9PSTN_9BbVasu_VjXYvdUrnG0pHSM6cSnhMmuMSidV3O3cIEWJ0NU2EeQSJgV7u9K6FZalYR2BcnewePK6Ca1UgT3J4ycg5qnl6YQEVWmXx3qTxjBEDj2RJC_1sPwLmS7QEGGB0M1j_uP1kIEGOx3hjPMr6IQ9sA36nJZhcqS8eYz9bJOTHrKvAuaFu4FyYfR5YTwnyDE2qfpALsBQk=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Roberta",
+      "(P,M,G,GG,EXG) R$219,90",
+      "Botões não funcionais / com ziper / Modelagem tubinho",
+      "Tecido Malha paris"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      188
+    ],
+    "imagem": "assets/imagens/produtos/vestido-roberta.jpg",
+    "original": "assets/imagens/produtos/vestido-roberta.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Gabriele",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 191,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72up3Cb0fpGkU4F0P8ZKEsP6ZyI_Z0Cm6f0h4MM35_D-YJrCPxXV5OJOS7FtxD7QlNymSygYZ28NxDEqDnG-j1if3ltp3bjrb3aEk5QPxMR5zWbKm_3NtT7yw070KcBlvM9eorzfHywQFLN_PHs17wrQW6aG7M38d-Dl5lC5T10YPQyXTCtlcU4CmhEq8_PY5RsOhHPPyl58cmT4lIEngyQug5hgu9HP9f0OpN9OHag=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Gabriele",
+      "(P,M,G,GG,EXG) R$ 119,90",
+      "Saia com bolsos e zíper",
+      "Tecido linho"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      191
+    ],
+    "imagem": "assets/imagens/produtos/saia-gabriele.png",
+    "original": "assets/imagens/produtos/catalogo-0191-original.jpg",
+    "recorte": [
+      0.08,
+      0.3,
+      0.86,
+      0.67
+    ]
+  },
+  {
+    "nome": "Vestido Julia",
+    "codigo": "01057",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 192,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v7q60g793cpItMSMPRYdntySo7dOluGbQeAS0DxIsVVd7o7xooNI-740Acs4LozEz12rmlGkkHAE1oCEr4kwsZK69LM1eHZFD2VrRt572Vi9KoPDuV8ztdHndKplHzIwY8n_pIMu5gUsUvdlyfwyFss0chpck7o9NBb0xgQK8erY5LOjSuvpn9HtOqDOej8Ym3p_n2mQ6sxnxO2dRzRvGzqccVwasjaIgkkVLIjH0=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Julia",
+      "Cód: 01057 (P,M) R$ 199,90",
+      "Godê / manga curta / com ziper",
+      "Tecido Crepe Dunas"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      192
+    ],
+    "imagem": "assets/imagens/produtos/vestido-julia.png",
+    "original": "assets/imagens/produtos/vestido-julia.png",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Rebeca",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 193,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vHb2olJcJpctqigd6Tqcnv_eE1BQPZKy1BfBcuoP6JL6N5363tB2S7JJ6ENRR19CimqNGJ3qsB3-J5D87RgVXD2YaZzFTaB3TW_w_Ix-mQoQ1Ilu0DpV8i9rP_HMDucNPDf1NIne_smoTJuR1g7AITnX4Xk5tXfU-SsLKWU4Nm-SWYc3Xjo3py649w0Co-b6_r0GAf6ruzDN3jbkHvyXiwuu6ck8gGY0BKDFSrIhY=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Rebeca",
+      "(P,M,G,GG,EXG) 229,90",
+      "Elástico na cintura / sem zíper / Botão funcional atrás / com faixa",
+      "Tecido crepe acetinado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      193
+    ],
+    "imagem": "assets/imagens/produtos/vestido-rebeca.jpg",
+    "original": "assets/imagens/produtos/vestido-rebeca.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Fabiola",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 194,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t41XZ8-LXooEE_upBRt6Frg_hDL0DqkpP2vt878mhCcrVHNRvi-Z_v_7wsuJKOuQjedU972S302Q269rpoiok8r0qAXbTQj_zATLapIPFR3ScbFwRlyK1-TbPb3BZdi74lKP9j3mFEkfI_o18HrO3u2uSD5bmUGkiB18B6v_QC5DEQD7rMjAeYhxa14CQulCIvFm5LFmx_CF6KphwJFz9i7xLmDLecHJS9gvPQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Fabiola",
+      "(G,GG,EXG) R$ 109,90",
+      "Botões não funcionais / Manga longa",
+      "Tecido crepe pele de pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      194
+    ],
+    "imagem": "assets/imagens/produtos/blusa-fabiola.png",
+    "original": "assets/imagens/produtos/catalogo-0194-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Tamires",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 194,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t41XZ8-LXooEE_upBRt6Frg_hDL0DqkpP2vt878mhCcrVHNRvi-Z_v_7wsuJKOuQjedU972S302Q269rpoiok8r0qAXbTQj_zATLapIPFR3ScbFwRlyK1-TbPb3BZdi74lKP9j3mFEkfI_o18HrO3u2uSD5bmUGkiB18B6v_QC5DEQD7rMjAeYhxa14CQulCIvFm5LFmx_CF6KphwJFz9i7xLmDLecHJS9gvPQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Tamires",
+      "(M,G) R$ 99,90",
+      "com cinto / Detalhes em couro",
+      "Tecido malha montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      194
+    ],
+    "imagem": "assets/imagens/produtos/saia-tamires.png",
+    "original": "assets/imagens/produtos/catalogo-0194-original.png",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Catarina",
+    "codigo": "01362",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 195,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u6poXcy8jhZD53vVd57KhosD7j4Kng-FF9OFXjM40Wq8ClvgokejMkl5LyKJryB7EalfhSeatW8xHW-GTL6wQ3FFlDqKBFOqVuVeiURFx_3A59UV1nIiEr36xOb6dSv4bbiRhQAClEp3DXrYt84HsH20UfInDqeu_IEe4658HNawHZ6bKC54FANAmravd1fJAVUR24G9OhXUd1sNITVH3eby0ouw3GiKjBpMnAsek=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Catarina",
+      "Cód: 01362 (M,G,GG,EXG) R$ 89,90",
+      "Botões não funcionais",
+      "Tecido Crepe Pele de Pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      195
+    ],
+    "imagem": "assets/imagens/produtos/blusa-catarina.png",
+    "original": "assets/imagens/produtos/catalogo-0195-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Hortência",
+    "codigo": "01224",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "GG",
+      "EXG",
+      "48",
+      "50"
+    ],
+    "cores": null,
+    "precoFornecedor": "48,50",
+    "indice": 197,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t8unYABwlbihLDGZnHWBTbQ0ZhnHfO5_6Mlbb-zI9vX0cjtEm8sz8_yVIZT-CrlHflC0PcEXiET33ACrA518Eylr0aJic9Xd6WkKdbKcW_-0i8kLsmWUN-JKMgNWs605-RhW9FrY72J5ycFq4mW6nywWKKzzPAVsfbklMuvuhgu7VRfs8--5VsU_yD7248IyeTrTI3IWgAek5kqIgyGxpl9c3ltudfW918jr_1-UA=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Hortência",
+      "Cod: 01224 (P,M,GG,EXG,48,50) R$ 149,90",
+      "Com cinto e zíper",
+      "Tecido Malha Premium"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      197
+    ],
+    "imagem": "assets/imagens/produtos/vestido-hortencia.jpg",
+    "original": "assets/imagens/produtos/vestido-hortencia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Lavinia",
+    "codigo": "01113",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 198,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v233j1WxQciDFa7f6vtBYrQ5uNO3qROhYWVSisY1c6HrStd2jED6fjriiYDkA8msGPHeb5dy4ZJvYxmhIrpJt6A3LN4ruHbvGno4KgIe8PLjmHa7sO4vqNt4AFK9WY7DvWzEH6lmpqKmrbBSpoteSxxXfzw6vWZd1AIZVPHD23JPxeAyMNHCzBd8SrVF_j5Gvd82KucsNP_5TCIGB8fpPc3rbCxFZr6MJc7yFQlyc=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Lavinia",
+      "Cód: 01113 (P,M) R$ 239,90",
+      "Com zíper",
+      "Tecido crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      198
+    ],
+    "imagem": "assets/imagens/produtos/vestido-lavinia.jpg",
+    "original": "assets/imagens/produtos/vestido-lavinia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Yara",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 199,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t9B7I8ltDtewdGo-PO4LPwFbGebLFpr6SoQzOdgO1lolEtCCLjc5U7Lb7wWmSxpo6CsRLjQ0R9XclzMyZYlDwomx5zgVvCjbbT8hkhBm0L2J3p2GRTEGR5DV-ViM0zd29YW_10aU098Woxoqh0PdWbm12Rd4GVtB_KwpCeCiFBBoFoFP4Froom7BgASjRjJ15-p1vtahF9lQTp8YS99zgONko-OAwdol7N3yJQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Yara",
+      "(P,M,G,GG,EXG) R$109,90",
+      "com 1 botão funcional /Detalhes em gripir",
+      "Tecido crepe pele de pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      199
+    ],
+    "imagem": "assets/imagens/produtos/blusa-yara.png",
+    "original": "assets/imagens/produtos/catalogo-0199-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Valesca",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 201,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u14oPvi6JiR68b4kwqrm3f2rtmU6XQJEAC3s087gz_rMAFJKIx65Wa3jThSx5PnO8ZIfy6bZo4yYSgO5ixeak1_2ws4yGoDburycvspqd6VXp-nLAC0zeX67yT0xdzrHTHcydmc3uWZ2lza2bYxnRiJ04K9qwtMoQooyaoC57cyrZxbS0Pxuah_J0UT6wLIGYneAlf0yf3vKUJGYj-aiJeszv9CdM_A01MgjtniMQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Valesca",
+      "(P,M,EXG) R$119,90",
+      "Gola laço",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      201
+    ],
+    "imagem": "assets/imagens/produtos/blusa-valesca.png",
+    "original": "assets/imagens/produtos/catalogo-0201-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Lais",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 202,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tHbgYpGC-ZL0UfQkCcOfg4taAr4_r48eEa0nzjUCtl3_i43p-3eeZRoIA_JrgCiT7KGTzKDz4lCIu1fewYE0RUmdvf_-jrOIxbNVmrTwrVhgkEnsamT7rtvbgDIKqWuJaSwvOKCKMiVnfCnBUltIqj9rue-wynt2HoLSyG2-DaSaHjeZASKvrap2SaoRdma2YBmNwGWtgxaO-aP_Hbwl7wxH8g1ME1QZ3R20RjtLQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Lais",
+      "(P,M,G,GG,EXG) R$99,90",
+      "Blusa Manga 3/4",
+      "Tecido sedinha estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      202
+    ],
+    "imagem": "assets/imagens/produtos/blusa-lais.png",
+    "original": "assets/imagens/produtos/catalogo-0202-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Nancy",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 202,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tHbgYpGC-ZL0UfQkCcOfg4taAr4_r48eEa0nzjUCtl3_i43p-3eeZRoIA_JrgCiT7KGTzKDz4lCIu1fewYE0RUmdvf_-jrOIxbNVmrTwrVhgkEnsamT7rtvbgDIKqWuJaSwvOKCKMiVnfCnBUltIqj9rue-wynt2HoLSyG2-DaSaHjeZASKvrap2SaoRdma2YBmNwGWtgxaO-aP_Hbwl7wxH8g1ME1QZ3R20RjtLQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Nancy",
+      "(P,M,G,GG,EXG) R$ 89,90",
+      "Botões funcionais / com bolsos",
+      "Tecido sarja"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      202
+    ],
+    "imagem": "assets/imagens/produtos/saia-nancy.png",
+    "original": "assets/imagens/produtos/catalogo-0202-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Saia Nathalia",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 221,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72umA94rRc1J1RlNCjt87b1QPIoCoCFz-ByISmSxUG2x77wMfQWw8CUjZqLdP5nEtd-4FDGwn8fnUeJ7VLurKP2qgn4FhSD-cgMSS1CQfvMBqBg3D5pMKkW1AYBRGJVNP6dzsUQnBNiEbU7KC_zwFwijWFJEiXG58Vy26RBnUUSa_z7fCcsig1fIxaDgCLLJtiUBZBNjefPwfPCdG1B9KnfAb5s1SIAfFWL2fBQe1tM=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Nathalia",
+      "(P,M,G,GG,EXG) R$ 109,90",
+      "com zíper",
+      "Tecido alfaiataria"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      203,
+      221
+    ],
+    "imagem": "assets/imagens/produtos/saia-nathalia.jpg",
+    "original": "assets/imagens/produtos/saia-nathalia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Thalia",
+    "codigo": "01454",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 204,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72txKH2CfUZRnwfYOXbBjqVIPft-jCQCSn7XxKc_LCHIFc3E8RfJCa4mecD_KR2XxrcRBhD76d2-JHUx4mvT50M_WghD9lubzgGDaspRzrqeKD221ZR6h9WgTG8TFBBXQrk0mEEPlajf2EGXIAB_k_QtaZUWWR--muoVj7_hfQO3sw4YFtYJAiqTNWEjF0j_ZO1jk-7MxfI7z_pVSFkYK4a_bcBJWseGNPK8UZb3=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Thalia",
+      "Cód:01454 (P) R$119,90",
+      "Com zíper",
+      "Tecido crepe trabalhado"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      204
+    ],
+    "imagem": "assets/imagens/produtos/saia-thalia.png",
+    "original": "assets/imagens/produtos/camisa-relga-original.png",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Mari",
+    "codigo": "01294",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 205,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vGRmGDmGkLNbEMkeia_PF0HVfAoWMCDqm4p_YN_WS0QC1Sf0RKgAiGLt-KnlYu6V19OXMUWx-B5KGoXCjJ4lFwNR-6VC4V_-0tPm0PCOdGSZY_lIt0qTW058psB-aWD0JJek80s57OOhoUGIYL-XxGt-6qcfycKdlirwp2oPMr3xAAqSvVjchHhxs-0xzEep9KQwuzt4zyZ5LbQ2O2uPleEKNQ2te5RxVEhQZMIxs=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Mari",
+      "Cód: 01294 (P,M,G) R$ 79,90",
+      "Detalhe em Gripir",
+      "Tecido Crepe",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      205
+    ],
+    "imagem": "assets/imagens/produtos/blusa-mari.png",
+    "original": "assets/imagens/produtos/catalogo-0205-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Claudia",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 210,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s9cDBWARyFO9JBMMVcZ6IKdjeu04-J8nf9fGVhcDOfXqE5C5RjxWvF_n8vwTe4R1kuuFSulcExp8sKSUW4VdziM_woL81NT7Gi1MNDhUp9ePkZgfkCzxGDw28nyCW-GyZZsJ5frNC3g_b7viY4I2VcJPO1NlIGPjzD6cSDLNEjIynNI-7lOIly6hdOar5nfFq3FknL1oFgNVsRadUdpY5OdBE0K2YoVhDXCPfAGU4=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Claudia",
+      "(PP,P) R$ 119,90",
+      "sem ziper / com cinto",
+      "Tecido malha Premium"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      210
+    ],
+    "imagem": "assets/imagens/produtos/saia-claudia.png",
+    "original": "assets/imagens/produtos/catalogo-0210-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Vestido Estela",
+    "codigo": "01221",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "169,90",
+    "indice": 213,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vf5u9g4Zd_apjCqtntFP-DH5P2SMIzYdAcoi5KltVuxSiQ-3xRvkSKRmquna1kVBrZQYIwcqFPO1d-9xS9TLp76omSUK4bvIlLnUeRdQPktLZ2Qwv6YCx4MrjJzrcBhEa1OLX4hMu7s7jhsO5G80J8HFBOZyITSV7HJFGO_2YAS15KfbZ0lAk75Pw-1kt3dZAGYQnbQ-u5TYIlH9ulz75ff-1mh8zRgOf_Y9zQ=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Estela",
+      "Cod: 01221 (P,M,G,GG) R$ 169,90",
+      "Sem zíper",
+      "Tecido Sedinha Estampada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      213
+    ],
+    "imagem": "assets/imagens/produtos/vestido-estela.jpg",
+    "original": "assets/imagens/produtos/vestido-estela.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Dandara",
+    "codigo": "01168",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 214,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sQ2pmfndrH6fPPPB9ORahwoZ-_HC2X4hB3wyHQvPzYDGip7xYGzKjyQlz-NSBLjMyZ16vgr5FAzd8ur_EupXBh9rEGDwC6t829FEJXQ7UN4rBiMfP_36xhGJWVE52M3w1y_0o3VbRqrPXyXNtpRT4DvmamT24MYpSdqe5sJ4Vfp7GbU6i8qXAIPtmgHKtX6ZfRCm5GDz7u7Phj8Q0U6QqFse7Mw5I8QoMoNa4mlKI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Dandara",
+      "Cod: 01168 (P,M) R$ 199,90",
+      "Com zíper",
+      "Tecido Lese de Linho"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      214
+    ],
+    "imagem": "assets/imagens/produtos/vestido-dandara.jpg",
+    "original": "assets/imagens/produtos/vestido-dandara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Andréia",
+    "codigo": "01375",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 330,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vP6zI1680lSo0ZSEL4InIkTgsJmNGxOCmUiKbWFMBgCocBcoqEqj75W6lQfIb-pCgBlJDmx4O52EOuSlygGmP8BmaFXCvfbji4zx0EfomukTqgk5UOS4X1b8KULlIN5BvSpLpuJ1entINZg2zpOnC7nGdDx2xkVNuZhURIRD5jXHLjqcancdrgm1d4KxF-JVWCyTx612NX6rIyj3mq2Mnh02Dbm5_GwubTHyMSD9w=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Andréia",
+      "Cód: 01375 (P,M,G,GG,EXG) R$ 89,90",
+      "Botões não Funcionais",
+      "Tecido Crepe Pele de Pêssego"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      215,
+      330
+    ],
+    "imagem": "assets/imagens/produtos/blusa-andreia.png",
+    "original": "assets/imagens/produtos/catalogo-0330-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Cibele",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 215,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tsRykD_k6ni9FtXZtjswvOoG4NFoS7UPAiY4GhC3YoO9Yl2jnBJ-dGXDJxJw2vieT1DCuNvu6vMIXdObr6MEFOwdo6bQ6AduT8iio3xmlRCzxVKKDer8WGvzMxXwV_OCt3bJSpTFyyz18NUTax-rgwUcy7nkPzVJW0NrH9wXJUtmX0VoPRvvADkJCrif2zrlj4SZnzXvOi4-hbFlDLH6TwzGUQ5rDoT1JjRp-O=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Cibele",
+      "(PP,P,M,G,GG) R$ 89,90",
+      "Godê com bolso / Acompanha cinto",
+      "Tecido Malha Crepe de Malha",
+      "( o tecido é mais texturizado)"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      215
+    ],
+    "imagem": "assets/imagens/produtos/saia-cibele.png",
+    "original": "assets/imagens/produtos/catalogo-0215-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Tubinho Laura",
+    "codigo": "01209",
+    "categoria": "Outros",
+    "tamanhos": [
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "169,90",
+    "indice": 219,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vH01XDMvHH73_h47cH8zZXmbJxvM9QbVEOsm_tuLZ4fEu9BvKVQ1LiVXnq30f3zOzsezpggL31dDSPG7GN3yKYoon1GkZkvAVnHhFb7FrQU0W0Om2maeKN4FCP91-TowN3TT1YQi9BzJy6EBZ99XF1G9WPudH3NKuTqm63qCS7Ocp68erwj43mWhF_i-RU3TmTA-nh4viIOkIxDTndApG75-PVsr1Q96vqcO9K5o0=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Tubinho Laura",
+      "Cod: 01209 (GG,EXG) R$ 169,90",
+      "Sem zíper /Botões funcionais",
+      "Tecido Malha Premium"
+    ],
+    "tipo": "Tubinho",
+    "pecas": 1,
+    "ocorrencias": [
+      219
+    ],
+    "imagem": "assets/imagens/produtos/tubinho-laura.jpg",
+    "original": "assets/imagens/produtos/tubinho-laura.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Evilyn",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 224,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sponMk9m_lvQNIFpZwXh82ysDyJMjf81z8rg2HxmskUi8GQjIl__ZKQBLxwoYCvUCwl2MfHZbkxMqcphf0BQp-4Ke3-VJbuk-qly3wT0IQwppAGvxkSJNYVIa6pHL_8TtS37AU_i_Zs_ycsNvEZNTVRU27GwVnIFaUxha6uOzRUOhO38xeheCIeEKgYcSgH8O3Cki-UXOdBdBG_90tT51Gu5vAo0KDt0_AQynDsSE=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Evilyn",
+      "(GG) R$189,90",
+      "Blusa com botões não funcionais nas costas",
+      "Saia sem zíper / Modelagem evasê",
+      "Tecido malha"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      224
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-evilyn.jpg",
+    "original": "assets/imagens/produtos/conjunto-evilyn.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Tânia",
+    "codigo": "01102",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 227,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tcFns90ekeLkaKWh2K2NyAou59GtEgpjJkBp4FI12lt-1Qo-8AKqp5UzT2UdTfoeb1Zb-IhulekCodSLHr3SFEl0k_Pkcmn1-FwmFYGmDstQUORdOxvuADOmBSlMMgKPqY78PHFXtgduZ8fwrFtFI6BT285lsSUaHuyRVZrI9AsgpnCoKz3ulizQZauUDQgv2ZE-t2lJY33uzo0lZO8q7hXF_PgQjJi3l_hbD0dhs=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Tânia",
+      "Cód: 01102 (P) R$ 179,90",
+      "Manga 3/4 com lástex / botões não funcionais",
+      "S/ zíper",
+      "Tecido Chiffon"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      227
+    ],
+    "imagem": "assets/imagens/produtos/vestido-tania.png",
+    "original": "assets/imagens/produtos/vestido-tania.png",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Paloma",
+    "codigo": "01174",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "169,90",
+    "indice": 230,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sv1pcH8mgDC8vYQbwMjrXPxPxGq4Rd2qlmG5Gi62lRGbQATlWKrH4VnwTYp3ytpsK-ElxT9vZ8F6kMEkZYUTCMtl8MnXwWX0L3qRBtqn4dBN_9rL98eXYRl_z9PfXxVh5YUj9eE8TuVqxz3XyKIGzbUeRT3_MAz4oKwjL-vHggsFalkvWZI9LQYCyJT4qWZh6irIx7d7m9WwFd2m7GCoPZc8FB9ufx-HcB5Kby=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Paloma",
+      "Cod: 01174 (M ) R$ 169,90",
+      "Lastex na Cintura e sem Zíper",
+      "Tecido Sedinha Estampada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      230
+    ],
+    "imagem": "assets/imagens/produtos/vestido-paloma.jpg",
+    "original": "assets/imagens/produtos/vestido-paloma.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Jessica",
+    "codigo": "01254",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 231,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sm5Pyf0rVDliKFrfc85LoYyr4yAIxE4WWogoIYUR-hhzO_Wzs64Ywzqq4bE5rMKx3ybmkZxcX7_dA8gDWPwHllRDajPJeshI2G8xBWAs_bvYbD28p5168DINocMyTjskQHlaqixAaMvL3eQEG5FV3Lq6VYG8rhjyuSoxT_YbkkRPj1EeCLXwDM2Fv89pNtFLsE24n8kr3uuzEQEbuYJhm_kZYIGOGYFLM3C1JNBr8=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Jessica",
+      "Cod: 01254 (PP,P) R$ 179,90",
+      "Detalhe em renda na manga / Com zíper",
+      "Tecido Viscose"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      231
+    ],
+    "imagem": "assets/imagens/produtos/vestido-jessica.png",
+    "original": "assets/imagens/produtos/vestido-jessica.png",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Nataly",
+    "codigo": "01267",
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 232,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72voxTjgbpEGowNUYlNeqncD7nGQYomeJazKXLs7hUbwsyhi5AYZwbb9pxWa_SEZlaC2m_Y5Lgzis-ppkjHFKaoPrVwf8PtOxI9_w_vawgxqjDBQc08G5kh3uT-tXJB0vOebAjt_3yNuX73sEApBKGuq476Kxpz1Lrotsl4EFkDSm1j3q-KXOWEkKpdnV0edsxajnzT5diYlG94Vk4NhRpCAqnlNkWcUE0kxYPxX=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Nataly",
+      "Cód: 01267 (PP,P) R$ 229,90",
+      "Cropped com lastex nas costas / Saia com Zíper",
+      "Tecido Lese de Algodão"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      232
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-nataly.png",
+    "original": "assets/imagens/produtos/conjunto-nataly.png",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Leia",
+    "codigo": "01035",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "139,90",
+    "indice": 234,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sAL70yqMSY3ASy_Bx5slU3_odzgsZMG_QTjfULSqruBrIpdFs7ggRxfIaTzY_NX9GOSpOi1mKHsZJcaQei6sfK-9Rp7u7Cr1a8DmmiUpXAC09glit2pG1Nh_Q6nCFLb6WyrU47Oll79YQRUV6mPK9Md5f23wRZmMkpjp-sChhOGGubYX4gT4hKlfyCXAbbmRKhk27a57TaEunz3T4E6BiouGQgrUqDYI6NnLJC=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Leia",
+      "Cód: 01035 (PP,P) R$ 139,90",
+      "Tecido Malha Canelada Premium"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      234
+    ],
+    "imagem": "assets/imagens/produtos/vestido-leia.jpg",
+    "original": "assets/imagens/produtos/vestido-leia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Celina",
+    "codigo": "01201",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 235,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v9xt1Bqz3XbnJZZt0O1WTrTpE3_UDkUR-B6AxfmuDKFSRkJ04NBZT1X2yEIOLS33SmZgI17aQ_EjqkhJdOfPnOTgVWexHqmXw-EIEeJ2R9Nndo7uEgzvqumUByhBiefmws7cg_pMVeveuS8VWvf99w-A_nTB9clEzP6cPzeBVGX_rBsu4K0M0s8BdYf2HllUh_K31Rbsst4VDTeEsSEWjBqKzWGvqNvMxNqSXL=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Celina",
+      "Cód: 01201 (P,M) R$ 179,90",
+      "Sem Zíper / Com Lastex na cintura (atrás)",
+      "Tecido Chiffon de Seda"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      235
+    ],
+    "imagem": "assets/imagens/produtos/vestido-celina.jpg",
+    "original": "assets/imagens/produtos/vestido-celina.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Eliete",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 237,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72siYrfWFk55AUs2z2ViPAOAjRiYpbwTJFqt6B523nhuC_35GwJbOLAvdk4SE3GmSz-iIQNILYbmZTeOTb-lHNbmshc7psJRomJxUVTnhRRm4xRTV6Qtf2s5I5G4dISTadqU9LX9fuxHL7YUInmwovDuP-LVUajYPi9kydwIpmKu0KgtKTXL11gfLUQGBiylS8OQCg2wSWkh_aRt0JkzFSudpl68bCaxw0RSQ3MxuO8=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Eliete",
+      "(P,M,G,GG) R$ 79,90",
+      "Sem zíper",
+      "Tecido Malha Poliamida"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      237
+    ],
+    "imagem": "assets/imagens/produtos/saia-eliete.png",
+    "original": "assets/imagens/produtos/catalogo-0237-original.png",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Lucilene",
+    "codigo": "01252",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 239,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u-ZoGxxQ9-CXUIl8puqL_OP03hussDy-pYtxPJQ55jtNBN2PnHw9nwu6JrWUGmHctialSdEx9WKVVstz-xJQfRc8UejotGrZhJfStzjnKp8H-0bExVT9TyF9XtkVbd6qvZzBCTPAuPYYhqywNx2t8_846Zv4trjbjIAlcZeF5hnji_cIontlgLjmdDV9TCUsZYcUkY1xRqyz69NXF9B18iRVGAPfUoP5LBCoUr=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Lucilene",
+      "Cod: 01252 (P,M,G) R$ 79,90",
+      "Tecido Crepe",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      239,
+      294
+    ],
+    "imagem": "assets/imagens/produtos/blusa-lucilene.png",
+    "original": "assets/imagens/produtos/catalogo-0239-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Clara",
+    "codigo": null,
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 240,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uZpUiTLZob_vyCulD8BI_YYnyBbc10liUuk9mNtWUJtAmJXEX6LW1RCVBl-7Bkawkxcr_lUyK8YITLid6SgY5rQE2CVDfk6UR8K1SOcvcT_F3iRJlipxAQf_CoJQ7h45Vrszmo4pExuwMfjmrXqfk0WLmw04KKmzHHJ2_qJQmkzHYJPloeq8MqDd1gG4sSBsx21J0DMHtuhvETpRJj3FmDJ8Jc-vDhxB7r1w=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Clara",
+      "(P,M,G) R$ 79,90",
+      "Tecido Viscose",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      240
+    ],
+    "imagem": "assets/imagens/produtos/blusa-clara.png",
+    "original": "assets/imagens/produtos/catalogo-0240-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Liliane",
+    "codigo": "01285",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 244,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tBGYwr8Iw2oHVvIEuQduFFwI5XGTiozFLE1iBXfbLq2BnHO-3aOzcXcuIlgZZnpXK6lGTfqn-FUY8lrY-7hq-gpRf7xsHRkeBXrT_cTv1sF3rmZ6mgG8UdhH9pKuDEBqTzcje7aSHZKyBDP2Uj1I18BEuv_c84uxZ7W3CVsWT03DqKzolXr-fzU-p3asIhOPfUmNwAGSqbUZR8cP6gHt7sCUxq40YMJv5INFDMoxI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Liliane",
+      "Cód: 01285 (M,G,GG) R$ 189,90",
+      "Sem zíper / Detalhe em guipir",
+      "Tecido Lese de Malha"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      244
+    ],
+    "imagem": "assets/imagens/produtos/vestido-liliane.jpg",
+    "original": "assets/imagens/produtos/vestido-liliane.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Cacilda",
+    "codigo": "01162",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "48",
+      "50"
+    ],
+    "cores": null,
+    "precoFornecedor": "48,50",
+    "indice": 246,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v9hOFzwXNKQ_nqJXE24Ng7hETRnP0dSA26hsx6tarInUbRIr7wtG0Mx2NwGq7cKEGiNM9L-LK4CnPlAhfNuyFoympap5nn8SPKlY2tXmxuHej0tzTf7bokXnn6wAoi-D5dsq6snwi7BRN9wMpi85bQ-Evv59-IjrF9nyEEs7VDBK3fChL-5NGmyocj_Mdmobk717OuUymzyKtQsKISlqWrjgku-Zgb_wuCZ6bM0Pc=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Cacilda",
+      "Cod: 01162 (P,M,48,50) R$ 149,90",
+      "Sem zíper",
+      "Tecido Malha Montaria/Malha Premium"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      246
+    ],
+    "imagem": "assets/imagens/produtos/vestido-cacilda.jpg",
+    "original": "assets/imagens/produtos/vestido-cacilda.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Camila",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 247,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tbmD3pfcU91M5EoK9bemy8dn66juEwBhW2I2_VbKpZjL_WYNj5B7eSjZGQH7PoKAqtsCa4q1HdTG_tTCiX175qzOFPjWB6dUFkLZbX8Fks-mQE_aTilNsZkFOAJYhc7t1Q105mAT5-wz756DLLvWg-H6qod19Dkdw1coKxCOuI6Po6Z0O7jk8o4j6GgIhxwyoRwq2UYN2BYV4BWgKnvZH8x-8-B4k53bUNqwL4=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Camila",
+      "(PP,P,) R$119,90",
+      "sem zíper com elástico na cintura",
+      "Tecido malha premium"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      247
+    ],
+    "imagem": "assets/imagens/produtos/saia-camila.png",
+    "original": "assets/imagens/produtos/catalogo-0247-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Solange",
+    "codigo": "01272",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 250,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tha3f2HljpeeXXELQEre_Pi4c8aDtBL5QMq7TVQCfHSphSrrlmrME3X2l7q_i5KIMgVgYSHdR7lqCwMF5VIUU0cV74_-seNkF7ehGmgFtTKyvj0aSp815ujnFbuZUpA6h6reUxcPANDuUu6BZimWa3prwgJkCdSW431jLwDH7UvYSaDS60dSfWPR0Fq2auX2X0PTCZp-_PvksWROP3tztKkGgmMakn3lApeGJyYLg=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Solange",
+      "Cód: 01272 (P,M) R$ 79,90",
+      "Tecido Crepe",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      250,
+      372
+    ],
+    "imagem": "assets/imagens/produtos/blusa-solange.png",
+    "original": "assets/imagens/produtos/catalogo-0250-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Pamela",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 250,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tha3f2HljpeeXXELQEre_Pi4c8aDtBL5QMq7TVQCfHSphSrrlmrME3X2l7q_i5KIMgVgYSHdR7lqCwMF5VIUU0cV74_-seNkF7ehGmgFtTKyvj0aSp815ujnFbuZUpA6h6reUxcPANDuUu6BZimWa3prwgJkCdSW431jLwDH7UvYSaDS60dSfWPR0Fq2auX2X0PTCZp-_PvksWROP3tztKkGgmMakn3lApeGJyYLg=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Pamela",
+      "(EXG) R$ 119,90",
+      "Com zíper e bolsos",
+      "Tecido Linho"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      250
+    ],
+    "imagem": "assets/imagens/produtos/saia-pamela.png",
+    "original": "assets/imagens/produtos/catalogo-0250-original.png",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Bella",
+    "codigo": "00424",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 251,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t0kgKpUoCVrQksBwjxGLg_sEMh_wkgkjjbWzAC9l2YmVaOALQTH3UAPk3hNu7GGL4_uW7CeVGktUnvQ_rCYMWrg5asCk3iqDzsQL30lttCmnthHRUrGSUlH5ekAbnImXtR50QCV6wimNePMms1_ZfGYiHrfIQYrEWGLoJYGQUrFc5pYzugHlig9VcbcsCD61BSXfNeWNVw2iGihN6BKpf1jgEKRL1EqSAdcfcbwf4=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Bella",
+      "Cód: 00424 (M) R$ 79,90",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      251
+    ],
+    "imagem": "assets/imagens/produtos/blusa-bella.png",
+    "original": "assets/imagens/produtos/catalogo-0251-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Fabiana",
+    "codigo": "00699",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 252,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v8Joj4LQ1vOXZ4zz4tfMSRyBk7krr-kxJzdq54AkNlK6NAI2yuDagl6UopRrNrJn5VS95ElHcSUJWJREoE32FcvFsbjRPAJJIauzzILvTJhYQClTp6g-RlGuAgFCOzJvjVpBlNOaFiEEfRRcPWINDAUMEnGS5qV4KT4z6qBYXzlTQHgXEuFZGVj7WkZuljoNNX_5x877zOCf2YNbWSFjogNQHBxkz_ZwxrwGZbjyo=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Fabiana",
+      "Cód: 00699 (P) R$ 89,90",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      252
+    ],
+    "imagem": "assets/imagens/produtos/blusa-fabiana.png",
+    "original": "assets/imagens/produtos/catalogo-0252-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Clara",
+    "codigo": "00754",
+    "categoria": "Saias",
+    "tamanhos": [
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 252,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v8Joj4LQ1vOXZ4zz4tfMSRyBk7krr-kxJzdq54AkNlK6NAI2yuDagl6UopRrNrJn5VS95ElHcSUJWJREoE32FcvFsbjRPAJJIauzzILvTJhYQClTp6g-RlGuAgFCOzJvjVpBlNOaFiEEfRRcPWINDAUMEnGS5qV4KT4z6qBYXzlTQHgXEuFZGVj7WkZuljoNNX_5x877zOCf2YNbWSFjogNQHBxkz_ZwxrwGZbjyo=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Clara",
+      "Cód: 00754 (EXG) R$ 99,90",
+      "Tecido Linho com Elastano"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      252
+    ],
+    "imagem": "assets/imagens/produtos/saia-clara.png",
+    "original": "assets/imagens/produtos/catalogo-0252-original.png",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Vestido Telma",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "209,90",
+    "indice": 267,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t6PpvCMtj9peVWYa2z6mdQIrZbLBQobvimt-j2N0sk4frFRelwNnXcn60HVJPtgiUAWYFm9n6Y-noPh3V8alehPQbUcbRuw3KS5HaY8mPv5QqiGcain6Ubkoz7Ra0bdV56heajOR_wdOwmHOX1aSKuqnxl8Yi3XbOxvJgiZoN6plvC3bcrl08OiZGOpf80mynobE0Rgtt4e4HoSSsB_W6S79jnw5anc3mqXFmn=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Telma",
+      "(P) R$ 209,90",
+      "com zíper /entremeios em gripir",
+      "Tecido viscolinho"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      267
+    ],
+    "imagem": "assets/imagens/produtos/vestido-telma.jpg",
+    "original": "assets/imagens/produtos/vestido-telma.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Pamela",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "239,90",
+    "indice": 268,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uihvibRWXE0PuO6YxaEHmwBtaGQNDJEnYffGD8G8pRCabxfiIuoLU64D-NG7SXwZRTfFoBLz8dWVgyqeR7ZZQhw7RQm8hrFTcl_TiVHNalAAxirTsunT8PsJy3jfUd8ANtyUXYNdaHUyd0_dvcQogF0XOFA7UpITNTt_a-rNqCD_2J_OgMiW58uHS4QkgGxvEzMGWkxzW6LccplurczwYzVQSLAFTqnaGuLrlr=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Pamela",
+      "(P,M,G,GG) R$ 239,90",
+      "Com zíper / botões não funcionais",
+      "Tecido crepe pele de pêssego"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      268
+    ],
+    "imagem": "assets/imagens/produtos/vestido-pamela.jpg",
+    "original": "assets/imagens/produtos/vestido-pamela.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Gisele",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 271,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vuWZpFYBl5WUO8n1RAVSB_sRXgjI5GO7n5VvMjc88z09odjKmTRwppGznynn8eIVqEAjwGAu45yiOPi_Gh8UivzUnk104ga57AASSQz9xwyuaC4uV7bJyYhQzfyfWhUs69_X0vBgjxSwW8r67rpTXfoi22SYPukhU6zXQ9XBR-vmFJydTdN_sS8IpNNsyaCsen2jDtqY8jsVI7utJrxYs_7r6mpOWciqfF4xAT5Hw=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Gisele",
+      "(M,G) R$ 179,90",
+      "Sem zíper / lastex atrás / botões não funcionais",
+      "Tecido Tricoline"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      271
+    ],
+    "imagem": "assets/imagens/produtos/vestido-gisele.jpg",
+    "original": "assets/imagens/produtos/vestido-gisele.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Aurora",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "229,90",
+    "indice": 274,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ugFEa6rnabK235I0AWQ4ZUU-gye6UBpVWs77ocHASvHyyCfj2gKq3YxC8Q6ib9Wo0ZjuLNHq7cQY-ivzqLpBiv8_svC634xRh2c-06J4gAKf2hCeEO4IQHwsrBffJEAM943LKqhreaOTkFKNu8BgpaGCnc2ysMb3pk4H_XLC_f4sn1_0c5SnPlDlHtQzoDn40wglD5HQVscYJMwhOKg20XS62KQ4Ht3ZkDCWXoVn4=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Aurora",
+      "(P,M,GG) R$ 229,90",
+      "Com zíper / Manga curta",
+      "Tecido lese de linho bordado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      274
+    ],
+    "imagem": "assets/imagens/produtos/vestido-aurora.jpg",
+    "original": "assets/imagens/produtos/vestido-aurora.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Sônia",
+    "codigo": "01351",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 275,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ui4xhfbO0vOOfcL0Gsrhe36B-nkvmJLHKhO9XI9pA3HpZEnCk9WX92S2Wg6-FgggCgHUKZEDi5Jd9rtauzrFXa2CFRde4rzMli57Ww_KnY4AuJRxXEIu9iLjNOthu_JaJi0uYVffmSb3Y5h8R4maJKx4A-2bD6vmMO78cr7uO7joxSJnsDffS86w5ZnOEEM-UnT7KXdMGuuPwyuic1Aov4PtVCjZUNWcQSlBN68yg=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Sônia",
+      "Cód: 01351 (P,M,G) R$ 199,90",
+      "Com zíper / Detalhes em guipir / Botões Funcionais",
+      "Tecido Crepe Pele de Pêssego"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      275
+    ],
+    "imagem": "assets/imagens/produtos/vestido-sonia.jpg",
+    "original": "assets/imagens/produtos/vestido-sonia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Letícia",
+    "codigo": "01207",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "159,90",
+    "indice": 276,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uUHZLcZ1c1lSWCXJDdeDFJC396R6uXtb8DR9MuS_E3juaGE9JrLKZkbvWfKXq75iVFNQWbhUZOX-y_IqiKmxF8jY6a0QjrWzaqhplZSGThsjstpuS3IdNacEeanx_yBB079NS5RkpV-O0oGdaK0nHzo7hppO0wfGb6wIHXFQVyOxyfRXOZSdeQbDwNe2IoP2XMDjwhiLX0ynJxvZ5f2QXKTXKtGDxd29kiFUIMnMs=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Letícia",
+      "Cod: 01207 (P,M) R$ 159,90",
+      "Com Zíper na frente",
+      "Tecido Malha Premium"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      276
+    ],
+    "imagem": "assets/imagens/produtos/vestido-leticia.jpg",
+    "original": "assets/imagens/produtos/vestido-leticia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Emily",
+    "codigo": "01289",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 277,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tYqflsJ9M3ugskhC3-Z3lKnb5XIwsfULJuIEG1v02TRXqhMgN9XTcEwdQkeSnU9IeezklGDjOACxrlI4zzqzJZRfHvXHOsD7ImkCGOYrhootfYgahrCP55OY0yCl4Z3sae6d0LtjRI9CEyUJY2E29XyuyXy8FOCG7AWtPrtUmsgApYlqaojbKIYK4wOnemFFRh_Y7Y6K0ehLI8dp5oSO5jHUvbxCtbbg9xhoQHByI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Emily",
+      "Cód: 01289 (M,G,GG) R$ 199,90",
+      "Sem zíper / Detalhe em Bordado",
+      "Tecido Lese de Malha"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      277
+    ],
+    "imagem": "assets/imagens/produtos/vestido-emily.jpg",
+    "original": "assets/imagens/produtos/vestido-emily.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Vivien",
+    "codigo": null,
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "149,90",
+    "indice": 279,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vvTjbypMmrqvewkKdeTTopiy01wt2toMGcm7d4BN-dB0askREloAxYMiSNVW2-D09in1uKQpRSJTZd8L88NEHw8z_kFaO2_YTsZ7ELkbk3aWnp5cB1R1NLQ-RlCr1GP5CN3iPUPZrb_bAlAbbnPoej8pakUrjIJiw-dxzygPyE-Rz_sJkHMrqjweJuIRTG1mVewkatb1dBe0aoemp-Gw_KFvn9OZYSp149Hpmz=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Vivien",
+      "(G,EXG) R$ 149,90",
+      "Decote V / com ziper",
+      "Tecido Malha Paris"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      279
+    ],
+    "imagem": "assets/imagens/produtos/vestido-vivien.jpg",
+    "original": "assets/imagens/produtos/vestido-vivien.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Perla",
+    "codigo": "01082",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 281,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ssP8ovQoeVL70kAQklM9XFjLD-T9Gp764hLtnpG9wz76DaJ18mr-S0Mq8kWno4cjRaCeeG-h1PF6XJXhHtl0x7bCdLGxETPI2j4-OhURwL6BYF2OqZs-NsL45ZbCClPZTCeBS6aEGcNOsYyCbUCjVmWqaxD1DkVNHhhxzSuu8ua2Eyjl4mz72Cw60KAs9SSeI02WEV_gh7VLlexNZLBz5lZM_XLyf_8qLpobQe=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Perla",
+      "Cod: 01082 (P) R$ 109,90",
+      "Com zíper e Bolsos",
+      "Tecido Viscolinho"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      281
+    ],
+    "imagem": "assets/imagens/produtos/saia-perla.png",
+    "original": "assets/imagens/produtos/catalogo-0281-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Conjunto Lidia",
+    "codigo": null,
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 282,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tTaU4WjwZqR6a_owgLAJ1ogRfRa37fYKw695JbaNhZXubt9uk8bLo5hXg4q-ko5tz59UPvLvvcZfJxQRUICbWf0BwsMp19OcyHMaSPy07qEdA-B3VhtiLvFehJE3zGu-XUVU_7WcLgl1kSPcc6pyI6uiyhHPMzge1QSVQhTUJnomLOL1kQhBOuJKYYuNwXLvbYpModo8JOqPiUZIm2WTEDkcnQ6QdqbBxUVYqgzdI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Lidia",
+      "(P,M) R$ 219,90",
+      "Botões não funcionais / Saia com zíper",
+      "Tecido crepe"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      282
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-lidia.jpg",
+    "original": "assets/imagens/produtos/conjunto-lidia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Sofia",
+    "codigo": "01415",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 284,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sLm2xB5kNZ5_sNCJBCuxe9qgBgKqPyQv94bIsnvlwnLtLqz6XXTRZkzEp8S4unj3N1nJhuCm4I3cLQEOc0oXNFMYM734eSYLffuLeAu5frUthymEq3u0zcEhPL1luLLtcYk-hOQthgk1xwCQjGNz4h4p6Xo3FBbugfqWxS9PWPbBQaPh0pRu6ROqhcDDco4GbeBu2efE-JLxBK3auC56i2Tscagnelbz0TAznV=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Sofia",
+      "Cód: 01415 (P,G,GG) R$ 199,90",
+      "Com zíper / Acompanha Broche de flor",
+      "Tecido Crepe Alfaiataria"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      284
+    ],
+    "imagem": "assets/imagens/produtos/vestido-sofia.jpg",
+    "original": "assets/imagens/produtos/vestido-sofia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Mariah",
+    "codigo": "01392",
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "169,90",
+    "indice": 286,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s-NIgkBWabjmyflOy0CYJzfD2xo-ga9_7LWk5-4srHHmmABOkJa_KbaTUh76kQ1bwjD85hl-ux23oMPe2ICcwGLcemixYchVosEtzku7XkTrmoLP85XcG05yMuP8VloN_vjjg6L8Cj8wbDkwagWwA2onCRbJ1J7wHnZ3IaRG40EcSPQY7yA4-SHHhdzR5Et48QWfWxFNNNvpOot-3vkKxm1l8sbHViGTRsDK7aUh0=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Mariah",
+      "Cód: 01392 (P)R$ 169,90",
+      "Com Fivela / sem ziper",
+      "Tecido malha moletinho /malha Premium"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      286
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-mariah.jpg",
+    "original": "assets/imagens/produtos/conjunto-mariah.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Isabela",
+    "codigo": "01401",
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "PP",
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 288,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vsCScor999Vr547KGs8B8iggJ_uo764mHZm2ro7g8_kSiDPF22Vfrb8lEAl8lKGBzVCxmcne7qymssYRjjpDnnw2mW6RGqF2JyjnsPRPQjC85stJD-v5B5-_BmXGGERksg4DQJF22jIpF_5WYbrcowdPl4hdYQRhilm_NfclSZgbmVw5cMm0WFNRqDlJEccY3q_u_7xIbApquohbyJT_Hkb2iJ4F8tyhbD30aw=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Isabela",
+      "Cód: 01401 (PP,P,M,G) R$ 189,90",
+      "Com zíper",
+      "Tecido Crepe"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      288
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-isabela.jpg",
+    "original": "assets/imagens/produtos/conjunto-isabela.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Isadora",
+    "codigo": "01336",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 289,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72silTFrNQO5zwgTQZQSqhMSRUwsV9SuQjk9Qgs82-Wb7ARyH9XSNLa69j0vA5coU8ozsSDKk4fMz3S62QUw-p0hpKKyBjG7MGYlsNuUT5fLqe6KNwsI18LC4hqUxKuL7oOpPeVaoVdD8Vl3IcswPe3cYaRjjNMAw74wN0SRHfiaqXM55yO2beRQpj7Z27PBfLm5aQqfEMTpTn0Ok1iYHXzpiZ5tYIagjbIflGU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Isadora",
+      "Cód: 01336 (P) R$ 189,90",
+      "Botões funcionais",
+      "Tecido Jeans"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      289
+    ],
+    "imagem": "assets/imagens/produtos/vestido-isadora.jpg",
+    "original": "assets/imagens/produtos/vestido-isadora.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Vilma",
+    "codigo": "00696",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 293,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tk88I1-98-FFWCXxWNh5JaU11TA3skqcbS5AzVdjjsYwam7q4rhnbN_K_MDka9cyB_AmUXFac4MaUcIBwWOOXfGDrMwJ5TGK2TJ9jKOImjdqV2BEBnONr9V8QgbtnmZo97HILwdfj1Hxbxt4-sb5yNzLRR8ZlgF4rinpJ-Su7UtboZFrz2leFlY0gpy_rB5bk1JaubPm0gbZ7Ow2Ivuf84jEPFk9oEkTCzGQ32bCs=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Vilma",
+      "Cód: 00696 (P,M,G,GG,EXG) R$ 89,90",
+      "Fivela fixa / Com zíper",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      293,
+      372
+    ],
+    "imagem": "assets/imagens/produtos/saia-vilma.png",
+    "original": "assets/imagens/produtos/catalogo-0293-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Vestido Flora",
+    "codigo": "01424",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 295,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tCJiJRGynqleuDEHLq-YCLe888cUE7NoNyP3qMMiZdFc1UdKIePVArNjHYqsyNV2WSR_ypxC_MOl8blu0pnn6mWWwaMWAQ44Z7RX76lHOix3qSaaW1xFHFzN5pgYsXCci54DjqzbYWxqIkycyxrmbNOoDtnRQo5odLBOW-Xl0JyLaFT2ihErJzzcL8E6zZJ_1yz8acRzgJE1lxkl9MI8yg5jBNuDOa4Gp2ZO_zb-g=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Flora",
+      "Cód: 01424 (P) R$ 109,90",
+      "Sem zíper",
+      "Tecido malha canelada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      295
+    ],
+    "imagem": "assets/imagens/produtos/vestido-flora.jpg",
+    "original": "assets/imagens/produtos/vestido-flora.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Guta",
+    "codigo": "01425",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 296,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tyKbG4zGTpa0sdjnmxa6njqf4FOdUe3anacH03mXUl7mmUQZ5cdPb1gCAR4U8qt8x6Xi-nz1Nxm-wgNul9J29-xlKO5bb5Tk8fTmnr8cYkYs7Ea7h2ZMafZ9UdahQu2EN1ljR1dOsn3TZJ_MSNdMmGYZ3KzDlWWGPY7ls0NTd1HKg8WCSaCoeBPisI55x6prT7hfLJBZX7nQ1I2zLHjZ62vB1pTsvUL5AAuQ6R=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Guta",
+      "Cód: 01425 (P,M,G ) R$ 219,90",
+      "Com zíper",
+      "Tecido Lese de Algodão"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      296
+    ],
+    "imagem": "assets/imagens/produtos/vestido-guta.jpg",
+    "original": "assets/imagens/produtos/vestido-guta.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Eliana",
+    "codigo": "01364",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 297,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s75ZWjj-OKwN-73qxOIoO_A2smU_JbkbPzyviyJzohrRakXyO5S-8UI55zsUQ_sgW083VOi98i_4YqJUyU5RmfnqScASppufnYRahqdENtJqoktT2Rnp0pQSoNYmxYgt3vWm8ftyql0bJegchB_8RYtB_LEGO9OBnLlM7ZJzlKolAHb-YpYa5j08uErcppqbSAL85px44D1A0oQ9U62cLXPgW5vp7cJTeZVEGpT7o=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Eliana",
+      "Cód: 01364 (P) R$ 219,90",
+      "Plissado / Com Fivela Fixa / Com zíper",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      297
+    ],
+    "imagem": "assets/imagens/produtos/vestido-eliana.jpg",
+    "original": "assets/imagens/produtos/vestido-eliana.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Isaura",
+    "codigo": "01257",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 303,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72upEdm_mS_gsfOoL64LHqMf5NLc14WD2wtGkLAnhmR4zYmNmcaQUEaQ7e0ReNjfko_sMDxdEth9YKfR29SN_YmgxO17qNsoEakEROE1aUTv8KHxXz-5eQsW780sIjSQPl61sw5bo3TI93mojKTppSKcuVULX6VLs3eLbPBdaYyTO8gJ0ihy1DaLG8CDruqqRmzEsF3shfRpy9VV1rLkKZx0qxNDeAbcMjXYQmjJ=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Isaura",
+      "Cod: 01257 (P,M,G,GG,EXG) R$ 179,90",
+      "Com zíper / Botões não funcionais",
+      "Tecido Malha Alfaiataria"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      303
+    ],
+    "imagem": "assets/imagens/produtos/vestido-isaura.jpg",
+    "original": "assets/imagens/produtos/vestido-isaura.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Alanis",
+    "codigo": "01233",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "74,90",
+    "indice": 304,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u9dAf1gsL1FB11rIxeJKzwFIrD3Qa96hDzZCpFAMQJ6gPYu2GvdMuMOUw1rz_0t0qttdz1ST1e5k6jXb9K4nCijRPeH5abR7lsmwvhb8oR31YVpLlvIol1hGuAnJOppNbiQcnkm7E1BJ1ThXP8dSFUGW64qYbcwsIx5A2bdue9LVi5GvVVSDV3nA9XND3ybtOa1AJcDpJ4i_GCW8DNYj5u2QZvtRYx2VrUdbDmu-I=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Alanis",
+      "Cod: 01233 (P,M) R$ 74,90",
+      "Detalhe em Amarração",
+      "Tecido Cetim Acetinado",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      304
+    ],
+    "imagem": "assets/imagens/produtos/blusa-alanis.png",
+    "original": "assets/imagens/produtos/catalogo-0304-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Iolanda Plus Size",
+    "codigo": "01047",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "48",
+      "50",
+      "52",
+      "54"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 307,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tRODwNrF2OWH3TmWQtBHvHcdCzRh3Xljt-Xb48l-Zmi-zAkivEwjxD5ckAiV83EVtS8S9IPWU5gwHxfsrkfI7U8naRUVvYWqMQ13aohSg-7u-o8m715G8J5KPLbgi-VkB_FWSkEEToJBqDYSSb_5fnOBdwi8pb1H11iVkTQR8_wqGOglju9D68j8AG-h7ISQUFWNHBaO-8e4TajoHKi5z3qth3r4njH796uptT=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Iolanda Plus Size",
+      "Cód: 01047 (48I50I52I54) R$ 79,90",
+      "Com laço não removível",
+      "Tecido crepe pele de pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      307,
+      308
+    ],
+    "imagem": "assets/imagens/produtos/blusa-iolanda-plus-size.png",
+    "original": "assets/imagens/produtos/catalogo-0307-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Rosana",
+    "codigo": "01028",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "48",
+      "50",
+      "52",
+      "54"
+    ],
+    "cores": null,
+    "precoFornecedor": "48,50",
+    "indice": 309,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s5QK_OcE4IFKGkCYbYBxmzAunmxXubU6_Ox2YMOaZcE6A264eRjvlLmpH_2vyihDssSvc8PF92N8BQnwTV5LfqcKoqal0VbJpvtgLpERTFL8wzaM0sb0M16ra8UdAJGXOe6wsalJZycr49bbI8TYKU3Q9C1kOTCHl6Lx9JOqLf3UMWRAEsLNRMdM25Kz2y3MCkB2oPezzANbHsZT8nxxRyMtsL7oRkToW3Jjzz=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Rosana",
+      "Cód: 01028 (48,50,52,54) R$ 89,90",
+      "Tecido Crepe Pele de Pêssego"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      309
+    ],
+    "imagem": "assets/imagens/produtos/blusa-rosana.png",
+    "original": "assets/imagens/produtos/catalogo-0309-original.png",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Simône",
+    "codigo": "01350",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 313,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vfEfXh9JrAK_c1PA66mWNO-8S0ResOLdBSwsh1Ldu_7HzTKVFguEWEEejUtmwDmImqWwbJsPh2IRRlTewkQ0BNc8-jBzbv2yt-wmynC68PofrSD5E1xEwzC5MlXv8W-dVFgHIvrTE2Z9nHqXXDRGgf8d8hH-OVhLs4esNLJknnvq6wgD06gRXk9Yr8QtSzZf1R6SOyKhgMI5ucNlk2L8cmodOYSv5XbtY4Oh_Bu98=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Simône",
+      "Cód: 01350 (P,M,G,GG,EXG) R$ 189,90",
+      "Com zíper",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      313
+    ],
+    "imagem": "assets/imagens/produtos/vestido-simone.jpg",
+    "original": "assets/imagens/produtos/vestido-simone.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Raquel",
+    "codigo": "01342",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 319,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72siJiGE4xbLtys8H2HnIE70QgVNMo4GSriiC0M5OQ3yCrdBquqtFsfknhcTbMdcj0hciji-tnnp1P8TYKMDo7lhRHJE_UhTxP9hpRSA9ISQZPkBM-PGZ_J-tswzfSobXVDt6Z9qFWGWrnUffL7cpNdfmtbJkR2hbFEjB8uFq5GkeE-1YlRnRVRjLS9suraQOScNK7Q7XIIfZ2tNRPIzdRa031wqO_ZpdEw8WSgNaaY=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Raquel",
+      "Cód: 01342 (M,G,GG,EXG) R$ 219,90",
+      "Com zíper / Acompanha broche de laço",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      319
+    ],
+    "imagem": "assets/imagens/produtos/vestido-raquel.jpg",
+    "original": "assets/imagens/produtos/vestido-raquel.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Jane",
+    "codigo": "01376",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 326,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vBYh7xw7dEl0Tx-BDyVPqo0CuMFperhCzysB2n4AtsY6e-hIKuwsSP93p-ZKFhxYMLepPNyC6gBkogg7pdUwPIWOGI6mjDfZgEgLqzR2mN7QTmrXN9qI32bqm8kyMd3ra87XsUYdq7_J5MqO7_qxp7dSkoEz-TCmmyHNwbGOJhN_-hojNU96HxMtyFoMp6bPE2nVase9uHYG9MDkObLEoGOPoAu8zTvdVxm3oacrw=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Jane",
+      "Cód: 01376 (M,G,GG) R$ 89,90",
+      "Detalhe em Guipir / Com Amarração na Gola",
+      "Tecido",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      326,
+      333
+    ],
+    "imagem": "assets/imagens/produtos/blusa-jane.png",
+    "original": "assets/imagens/produtos/catalogo-0326-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Vera",
+    "codigo": "01343",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 329,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vSixqWsktpj5tlp4Yjknjt60ZdpuUcNvM_avT672KLucLYUNYmzxvMzX8YXR0xDk5q-91mZlVgsSV6V9DR9aZ95oTn30vA1w8LnoDC1VTguvLcpLCQkqfuqiAWhrJxpzY9QPzIflmQjUl4ipfrzcg8KI_mDteswDeZUBbe2AHeqVcp3Lw1-RfjOdp_u8PyUPAxYceyRYiEqfIr8lx1pw8DVvferQuD6N1DEVmrZ0w=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Vera",
+      "Cód: 01343 (P,M,G) R$ 199,90",
+      "Com zíper",
+      "Tecido Chiffon Trabalhado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      329
+    ],
+    "imagem": "assets/imagens/produtos/vestido-vera.jpg",
+    "original": "assets/imagens/produtos/vestido-vera.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Suzana",
+    "codigo": "01361",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "169,90",
+    "indice": 331,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tciXFDE48HaRFQEvhdkBTFvZUptkUJwUxcnVjZed-lsbgidTuSkZKOlpwxKqV31EAyLNOdHwHGxGNd9oVlCElWjlhIqyvDD2Q0kqCLbyrg6GFH0wpHlvSq8o7hYgbr8H5jtxKUEL3HDyFfi6qyuueG7ii_lHKzxlXnilYp9PoMkYWkbh10iq1GzHHBVEmLZ142CNaMQz6nm_vbW_2xfGuBF283ZzvVq2Wlx5OqTng=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Suzana",
+      "Cód: 01361 (M,G,GG,EXG) R$169,90",
+      "Elástico na cintura / Sem zíper / Com faixa",
+      "Tecido Crepe Maquinetado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      331
+    ],
+    "imagem": "assets/imagens/produtos/vestido-suzana.jpg",
+    "original": "assets/imagens/produtos/vestido-suzana.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Eliz",
+    "codigo": "01378",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 332,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uvWAh4NUq2SFU3Z0TiNfq4gPqXDJEB4WOlIVccOf8zlGBTeZ15zlRSclkp1AvG_qSeR1sSW5o13bXDGqj7RsaT4sQKKkw9KBgpfwKLMScojksRi20aNNAPas7Te_jNnpY6PWFUVrih4ezTxoVBJQOFb0m7-2TAap4pq66zVDPdISiLEx01_lyizeWAM1uEJNwnQw6CMTRZYZEK3UOdk_PIGIzWvtmUnaBs6B6y_O0=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Eliz",
+      "Cód: 01378 (P,GG,EXG) R$ 89,90",
+      "Botões não Funcionais / Com zíper",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      332
+    ],
+    "imagem": "assets/imagens/produtos/saia-eliz.png",
+    "original": "assets/imagens/produtos/catalogo-0332-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Elisa",
+    "codigo": "01277",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 334,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u_D5oOeuTvdaBh98N9WhSe_4YxBt7EvSAC43sms172zxY1DDFICd3pgc0ky1LSlWRpkzooo-1y56EZldOwP5U2Dt7MXU8rO01Gl7Iu39jcMrkKC6VL0S_0ggiZGKeBn7zP42851go2IWWiut0QHO7LyJ6E1L70yZEP5JbBDSAFGo42tTZwT80mQlG1NNfMsubAWs8lDoaQu8qwNstDqCPLu6v0ghv0YcdF5uzSv7s=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Elisa",
+      "Cód: 01277 (P,G) R$ 79,90",
+      "Com Detalhe e Amarração na Gola",
+      "Tecido Crepe"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      334
+    ],
+    "imagem": "assets/imagens/produtos/blusa-elisa.jpg",
+    "original": "assets/imagens/produtos/blusa-elisa.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Mayumi",
+    "codigo": "01365",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 336,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v4S9rY1VHHyNVI5K6P2EfhwKBQLzN9BIDkRbetkLEV8kAhHLGg-Q15e5mbYWfUcxVi28jWQD6CKZDRIR0mA9dzI7mWdz01ze-w64KlnFLrSYsS10s2JIZMBjO4gJ7QubmqyGwvq5jKK0wj2UJDcawdXZI42h0yFOqlXyoDj1Ii2iIKrrEeQJe0a8VP7M_FXuJqERxVDHDOdGd1AT5CbKopOYIJUlV0OKTslabr=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Mayumi",
+      "Cód: 01365 (P,G) R$ 199,90",
+      "Com zíper",
+      "Tecido Lese de Algodão"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      336
+    ],
+    "imagem": "assets/imagens/produtos/vestido-mayumi.jpg",
+    "original": "assets/imagens/produtos/vestido-mayumi.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Thaís",
+    "codigo": "01360",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "189,90",
+    "indice": 338,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sXJR8OX-_lDH4tPaO4cd7eJmwzmVRl8KjU0uVjkr4SsCCayjdqzIEHaBZI4RPHfa2x1jtbIB4jv8fv8EWnqprOKS58LTJyZhJz7gqYpQme2EpE_Oitl0SK5P_D4-aJvovkERb6XiHqCFZtbeWrupXXhLlI6Kdiog_j61QCzBwDkIEnuur1u5caH9iGQKajfpkNl4k4m_DCbc8djdKVcAuVh5bSeNRP157D-Ubu=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Thaís",
+      "Cód: 01360 (P) R$ 189,90",
+      "Botões Funcionais / Sem zíper",
+      "Tecido Jeans"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      338
+    ],
+    "imagem": "assets/imagens/produtos/vestido-thais.jpg",
+    "original": "assets/imagens/produtos/vestido-thais.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Edite",
+    "codigo": "00479",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 339,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sMYQYwS0ZroaRr4qYtDK-Gu6WfwyFAf0NH_yQfS96YI5Y8bE6i6xTVhpcNc3a9xdyjBLzNVr_9QXMSrS7P16MuSkOo1mla1pj0lF3UcO6sahkxChhh1oACfZkCst_jHfa2BLTx7-cOU2Ns6xO1pKs-SUUok5y8svakfFaWjAiDNB393JCBYMPkv_O1D43hy3vdhEv33HHMmgZnUVuZH_wDyCLOqBTogHhFalm-9pw=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Edite",
+      "Cód:00479 (M,G,GG) R$119,90",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      339
+    ],
+    "imagem": "assets/imagens/produtos/vestido-edite.jpg",
+    "original": "assets/imagens/produtos/vestido-edite.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Cibele",
+    "codigo": "01316",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 340,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t8qPMJmKvvzeFwiNFxEgnlIGJdaogXWUu4ux7l4gRNaaK8zUz2Fjgf5J-qQtbSl26hO2hOP2HFLY8esroOTZRxfDKNTc-COddJro9_4thp6J-iJoeBZ3qnR7SajYmlT-eo7j1PKaGr0b8sypYJj8BhJvmt5SUT8gbGDJjs348O2RDj8qqmIKOZozk-3ZUXh_j6iuZ1X7zl7FSOc5oJUOy9fppiebkw7WFB0it3=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Cibele",
+      "Cód: 01316 (P,M,G) R$ 79,90",
+      "Detalhe em Guipir",
+      "Tecido Crepe",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      340
+    ],
+    "imagem": "assets/imagens/produtos/blusa-cibele.png",
+    "original": "assets/imagens/produtos/catalogo-0340-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Valentina",
+    "codigo": "01348",
+    "categoria": "Saias",
+    "tamanhos": [
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 340,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t8qPMJmKvvzeFwiNFxEgnlIGJdaogXWUu4ux7l4gRNaaK8zUz2Fjgf5J-qQtbSl26hO2hOP2HFLY8esroOTZRxfDKNTc-COddJro9_4thp6J-iJoeBZ3qnR7SajYmlT-eo7j1PKaGr0b8sypYJj8BhJvmt5SUT8gbGDJjs348O2RDj8qqmIKOZozk-3ZUXh_j6iuZ1X7zl7FSOc5oJUOy9fppiebkw7WFB0it3=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Valentina",
+      "Cód: 01348 (GG, EXG) R$ 79,90",
+      "Com zíper",
+      "Tecido Alfaiataria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      340
+    ],
+    "imagem": "assets/imagens/produtos/saia-valentina.png",
+    "original": "assets/imagens/produtos/catalogo-0340-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Cristiane",
+    "codigo": "01192",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 343,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uZNq03-miTr_xrwXxBRQbCGH-Hglke_dfguXr084DNeraWaav9MTENe8OdUt4thaSrcKB2wk3AAIq1mKriMTW9_DhU8vOCE3i2fYo9RPt0mw_JsEZ7BLLsgwtLj7oAfdhfhtyVinko-uD5AUN63rceoNv1jmf2YL1oRmCh4AVqDtJRTocMyBufjQBz1QoT1Y9rcZ7rCyGNKsVfIZIXLwU1ADKGK03BXF17E7FNKXQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Cristiane",
+      "Cód: 01192 (P) R$ 99,90",
+      "Amarração em laço",
+      "Tecido Crepe Pele de Pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      343
+    ],
+    "imagem": "assets/imagens/produtos/blusa-cristiane.png",
+    "original": "assets/imagens/produtos/catalogo-0343-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Celeste",
+    "codigo": "01339",
+    "categoria": "Saias",
+    "tamanhos": [
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 343,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uZNq03-miTr_xrwXxBRQbCGH-Hglke_dfguXr084DNeraWaav9MTENe8OdUt4thaSrcKB2wk3AAIq1mKriMTW9_DhU8vOCE3i2fYo9RPt0mw_JsEZ7BLLsgwtLj7oAfdhfhtyVinko-uD5AUN63rceoNv1jmf2YL1oRmCh4AVqDtJRTocMyBufjQBz1QoT1Y9rcZ7rCyGNKsVfIZIXLwU1ADKGK03BXF17E7FNKXQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Celeste",
+      "Cód: 01339 (G) R$ 89,90",
+      "Com zíper",
+      "Tecido Viscolinho"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      343
+    ],
+    "imagem": "assets/imagens/produtos/saia-celeste.png",
+    "original": "assets/imagens/produtos/catalogo-0343-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Vestido Joyce",
+    "codigo": "01345",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 345,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sMa4-2Pd8HHOYsqudo6iIwoH3DykWYJeYEJ33c7Z6jaXWntkkpLd2AHVxMoAcbeQECI4R5aue2FSafJ4hS5AWEINe7Mob6hZhCDyqGGOinETdsmWQvf43ojYMqoe6IJafTa1ldR1HeHZ0yQ-6D2wb2QyJy81F13y6gKCpzS-Z2ZR_UXSGAJ32cNy6YfThYDFaGhOk1gRsutK5nowae2x5V1BvynyHJL0wHYnOabEU=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Joyce",
+      "Cód: 01345 (M G GG ) R$ 219,90"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      345
+    ],
+    "imagem": "assets/imagens/produtos/vestido-joyce.jpg",
+    "original": "assets/imagens/produtos/vestido-joyce.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Breda",
+    "codigo": "01136",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "109,90",
+    "indice": 347,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sGEYVKKe8OlWTZyihbyPrFetJorDr2Vm2pq5L5ioZmDN3UAswn44VYY1KNAQYHJsNd9oIcsbN2Q3L6Gx9RPbraPvFfU7FsStv3iVyxuAbtKu3l6Lhkwocw1pdHpI87td8Pkd2ns7XAfpRPo8QBnjwiBddQ48-8iCZLkEJeThVHrc8MlaNadWkt_71tVD5OtEbU3S41fC10rB4Mqe7OlSoq3Z8piBUO838nCqRkYHs=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Breda",
+      "Cód: 01136 (P,G,EXG) R$ 109,90",
+      "Com zíper e Strass",
+      "Tecido Alfaiataria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      347
+    ],
+    "imagem": "assets/imagens/produtos/saia-breda.png",
+    "original": "assets/imagens/produtos/catalogo-0347-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Saia Ruth",
+    "codigo": "01230",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 348,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uERDGGDesGGiKs6CPoRj0-NKbfp-J4Jjp-GCVnZQl_55gNEc2ABoaATd3bZZ4lGUum1BFb5mTb_P66_agGtYB6aZDy-RLWOv1Y_hhVIioCMAQe5BtJhAKKP7mWVudSKFMhezz-g0b0j8ZAzCMm3YJsXDdRyJjNx0H076-3yv1otDEGeffZ2ksHkxMZ0wZfv_CwoywKoQNDxdKqzHGCm-1alPAcRb7gda6r49wtnzQ=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Ruth",
+      "Cód: 01230 (P,GG,EXG) R$ 79,90",
+      "Com zíper",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      348
+    ],
+    "imagem": "assets/imagens/produtos/saia-ruth.png",
+    "original": "assets/imagens/produtos/catalogo-0348-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Paola",
+    "codigo": "00873",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 353,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tnVNG7Oj4DCg1mJnQP7QFJFvXVB5iE6ey6UKaJpltCPQkZwUqbMBhTEMG6UygodzJjOHAWBAMp1xWlm7XmrPI5pyOWuGjIUlNY9pcsJdr39KYT7vNBMar7e5idYQ0hC1J4ZmwoR4WZ2AbGg2xkEGLPJT5ddoXS0Q23igT1TOaaUGAWaQDgJYhmDjDOYBv9EaoRwYQKx-s9QNspYds5Z07wVovoLM4yf2byihMM=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Paola",
+      "Cód: 00873 (P) R$ 79,90",
+      "Tecido Sedinha Estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      353,
+      358,
+      386
+    ],
+    "imagem": "assets/imagens/produtos/blusa-paola.png",
+    "original": "assets/imagens/produtos/catalogo-0353-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Ingrid",
+    "codigo": "01213",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 357,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72usE6B3K_dEP9SbvCK_jwnlEDdIrL--acxfP2YwpZpKmEwu7m-acUhGOahPhybrw0NGVuxpao333NJb7vZIGk_NF20sqhtTtHuCKulFaUjLRrlGcgwS9nHC4R03Yzz9y2DJ2a34ALjHH0W15otH4j7_sv7PikayXxReOv_i3ZlBVBcVtxyEyXumXjlhYVh-_BTTEolwGR1yRwPDQuEkd5imqauyOqhrBpbDWNPxWHE=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Ingrid",
+      "Cod: 01213 (P,GG) R$ 79,90",
+      "Tecido Crepe pele de Pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      357
+    ],
+    "imagem": "assets/imagens/produtos/blusa-ingrid.png",
+    "original": "assets/imagens/produtos/catalogo-0357-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Gildete",
+    "codigo": "00450",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 358,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u1wZ__7397kFBBzaOqLGjWi61A29N-A_-PzQBk51hs5fU1xFFOV6yRVrGxFDC-KNaQ1Gf0LFsSdWMHfZpKDWTHRKv6_AU8MGthsdvTQwSwDzWTYk3wiIoyEPtMzYTv-iICGyCtUQrvADxUp__k394HuQQfPG7kUr7xZ_t97P4VrxUC8bQvet1L9TlSb0Sel-lTUxtlyZFuhclmBZo6LtSryTc-4O2gmOFgLaRzXWU=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Gildete",
+      "Cód: 00450 (P,M,G,GG,EXG) R$ 89,90",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      358
+    ],
+    "imagem": "assets/imagens/produtos/saia-gildete.png",
+    "original": "assets/imagens/produtos/catalogo-0358-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Priscila",
+    "codigo": "01279",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 359,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72swDioKWQR8KWwVEzPZxC5hZp5aU885whDZ-De_i0afLiU4wzRLwtHOJ_-uuHmeQN3BujGSfcwPZTk0sBqj7Pish3nFDg9jZQu25LNJi95a5m1Fx6DJHmLZ2Tizb-khLfifJu1VIxkqI9kPHRzV95F5gNtMu1FTLOk4XG5c7YUjU7FJ18157yfMMhLm9Bq8zoFeMfXqII0fcoaMNbhjj-GrzjliW8N-XCOR1Il3mZg=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Priscila",
+      "Cód: 01279 (G,EXG) R$ 79,90",
+      "Tecido Crepe com Elastano",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      359,
+      360
+    ],
+    "imagem": "assets/imagens/produtos/blusa-priscila.png",
+    "original": "assets/imagens/produtos/catalogo-0359-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Ayla",
+    "codigo": "00797",
+    "categoria": "Saias",
+    "tamanhos": [
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 360,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sBh__zwoBWFgXnFhYTDyElO-03Qp4lT6Pi4goybcgp0GQ8q2BDKQdmKcrp4ULXONm827jIOdZIi-5qPJLmxRdQ9bd5acrO1wXCQCdydptciZhCJzNaMJm58OsSs2MNCJGSR2vkd5NNQ1M4Oh3yQ7Mx_dH_W2aTErJvWsFXbbvLWCFkEi9gXtcPX9xOcW54wXKhV4WGaiBpZZvyV2of9xh0eVkBV1G-CLhdRKfR=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Ayla",
+      "Cód: 00797 (G GG) R$ 89,90",
+      "Tecido Alfaiataria com Elastano"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      360
+    ],
+    "imagem": "assets/imagens/produtos/saia-ayla.png",
+    "original": "assets/imagens/produtos/catalogo-0360-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Edna",
+    "codigo": "01261",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 362,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t_3U9G-dOwhKPeOdei18Rrp4oTmqbHSFXVOHm28skfHU2N0UhhePjWOglEGPQKRgPDoYr7yio06cLmAR9DwVXZt25P9wpO2VkZS3R4Abx7RH1U0d05hu4zi7aHvDVK03MQHnW_Iyo_SBhq8unzxc32BeG02FFkdLk5SxblSwBCRyZ7jQKr1s_m4dK9s3WBAwly_2Z-XgmeQOaLA_Csb0dhEK1Ofin0x2SAoz9D=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Edna",
+      "Cód: 01261 (M,G) R$ 79,90",
+      "Gola com detalhe em Laço fixo",
+      "Tecido Crepe Pele de Pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      362
+    ],
+    "imagem": "assets/imagens/produtos/blusa-edna.png",
+    "original": "assets/imagens/produtos/catalogo-0362-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Geane",
+    "codigo": "01092",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 364,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sywhltJqqoqotdSU68rABhDCGOQ5PiHPZjKqQS20hDvvfvlTcxx4x9Q4MijBHrukf18joe8kyuwToiQgFjJzDYD-YjB1nOCgi9yaomY2jlKBVm8Pygf4SEIiER7R169IQDqyi5yDBwHVY4BT4RGEY7Tx_gufGtROW8N5pcgsLWONDlgWrAz6fTIF4RAytI_WrPfoDs7731bNzR7HUge5qBD0q82d4x_iRM8FpeYCo=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Geane",
+      "Cód: 01092 (P) R$ 119,90",
+      "Sem zíper",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      364
+    ],
+    "imagem": "assets/imagens/produtos/vestido-geane.jpg",
+    "original": "assets/imagens/produtos/vestido-geane.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Pamela",
+    "codigo": "01297",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 366,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72suoPS2QEObVnQPhZLWlmSd-brhcgqyFE891l5UQl2Ed3bDBKWH0yjB2KAKwYunFN317NH5gX-q1j3f6Gek9Lg6HhEuJV0dRtR8T3bZCdmKMWw4Oh0hvHSl92200DzHirvtO3UhD87rln2IP7MSuYnf5Yn4IlxDSqdq4TvgiAQf3lL1Eu4WiuYMq7-4GW217DJ-kNw6StrknVJem19FG8KPOtwvyqN_8lARWQsfPVE=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Pamela",
+      "Cód: 01297 ( P, GG ) R$ 79,90",
+      "C/ detalhes em renda",
+      "Tecido crepe pele de pêssego",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      366
+    ],
+    "imagem": "assets/imagens/produtos/blusa-pamela.png",
+    "original": "assets/imagens/produtos/catalogo-0366-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Sol",
+    "codigo": "01281",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 367,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s4iMADDT0y1nv01IwXR8WG54wonoi-QDShWrei32-ceY5MokI4ANp0VcCQDQUN5HDr4rxIoDdfXw5Z-YnLuqeFbZdDyhbIUHy-3KVZ8qTpHucGKB6y4k3IdQxY3vd8ZrTvrbvPDdJN1SzclzdFJ7Bi1Ep-FgCYYa0bke_ueRY2rrlve2eFH5DLefpmQTIW15yn3w1qV1yCBcmfqgwN17X2eO3-9gnwA0csoaa9WQ8=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Sol",
+      "Cód: 01281 (P) R$ 199,90",
+      "Com zíper / Botões não funcionais / Com aplicação",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      367
+    ],
+    "imagem": "assets/imagens/produtos/vestido-sol.jpg",
+    "original": "assets/imagens/produtos/vestido-sol.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Thereza",
+    "codigo": "01271",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 368,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tWoZvZlelamkn4X08QhcEfJiusmBLQ7PU9lehrzchPLf1ftaE1GT24x4jozQig7xBlqdjaNyYwY-adzzCZv5xXhw4K-xsE0cXpb7VYc-eYTUt_jgH4KqOFFAkf2m6mWGmqvHNXTDdd4IO7CQl7YUa-12JLNAM_Td_5fV4Z_ckmaGitlqmnai_ALA6UFO5zRumKf24-OR3e7V_u-YVoIEVw92GdyeGS28xZDdYd=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Thereza",
+      "Cód: 01271 (M ) R$ 199,90",
+      "Com Zíper / Com Faixa Pespontada",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      368
+    ],
+    "imagem": "assets/imagens/produtos/vestido-thereza.jpg",
+    "original": "assets/imagens/produtos/vestido-thereza.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Conjunto Larissa",
+    "codigo": "01295",
+    "categoria": "Conjuntos",
+    "tamanhos": [
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 369,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vVIRWVvJtZPRnG_LimVGfYYi4amhROUV3Enc6nw0DcgrtYdnrF-YRviZQMjIAQz2F8We7XlO6LBFC04-UKBoAQZAxsO-ZhYGys81AnG65XSa6-gMYp4OTTxit7Ypdw2h4rAtXo9409vtxRcY3Qglt8H09Ooa5HTNtYo_3zpNnBn4Sxqy3ucpc7ZAAaBln-S9wn30IAEJ0c011Zf4hQaeXq7PEun9xKKlWfE2My=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Conjunto Larissa",
+      "Cód: 01295 (GG,EXG) R$ 219,90",
+      "Cropped com Lastex nas costas",
+      "Saia com zíper",
+      "Tecido Alfaitaria Marrant"
+    ],
+    "tipo": "Conjunto",
+    "pecas": 1,
+    "ocorrencias": [
+      369
+    ],
+    "imagem": "assets/imagens/produtos/conjunto-larissa.jpg",
+    "original": "assets/imagens/produtos/conjunto-larissa.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Elis",
+    "codigo": "00954",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 373,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vsMvGbBZbKjXwP887Mc9rxweJYzvuNMt1h4vJh9Q1BNIpHpYNxlhKKBvFpmk2hpo5XGZRUbEoOB64gRWDdMXQu-usEPZiOF4s194aZiGeg1NCETSUO4--b4Chn0eZja6EWQAxdRVLpYZXHus8ivYEsywCE-mkNTf546tbeDeJLFcBA2doiJAV1Bn9bT0S00MmhbLa-GXS83C0-x5RiI_nxTIlkq_huKolHdeCsrjI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Elis",
+      "Cód: 00954 (PP,P) R$ 89,90",
+      "Tecido Malha Canelada"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      373
+    ],
+    "imagem": "assets/imagens/produtos/vestido-elis.jpg",
+    "original": "assets/imagens/produtos/vestido-elis.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Kyara",
+    "codigo": "01100",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "199,90",
+    "indice": 375,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tEh-a1QvcsGaX2utTRuwymKOZC-fih5cuCwkGwjJsaIp2wc5yqZH82XUt-6-iayMXP_1AgMg8aQhMCpiqdr6zUrL4OxXo6wM7gilK1ORDlrUAbezV4wUAS8BsUBI9iJfLQWNQT2Juk7lfEmZNvo70YrQJNwTMtt2g2EYTokJ5amFUcDzULaMIRNox9e0I876U8rWnzuP4NngojdrwnLmODbVlQAfB32C5tHg6o=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Kyara",
+      "Cód: 01100 (P) R$ 199,90",
+      "Tecido Viscolinho Estampado"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      375
+    ],
+    "imagem": "assets/imagens/produtos/vestido-kyara.jpg",
+    "original": "assets/imagens/produtos/vestido-kyara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Leona",
+    "codigo": "01292",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "74,90",
+    "indice": 376,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vVP4Ld1ra_YziO2dIHpDAwAIUK8LprLoWo_2X0Mno8WTS-ZNPvI9fNzcLs38QVo1_0K4Eu21GruzxfmDQI8URMsK7ll-Sb1iZOK22W2RDRjyr-AFJbTOy34aInuPuOCa56b5m0Lhs2imFOvXg4TCgtC6AWU-Xthxays1jc4ykK7PB77Qi-aSUqWqrfHo3aThmoa1AT_SwZ_MprdbGKZ8kUhD-wzArLZ9IG2d2jG-A=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Leona",
+      "Cód: 01292 (M,GG,EXG) R$ 74,90",
+      "Tecido Crepe Pele de Pêssego"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      376
+    ],
+    "imagem": "assets/imagens/produtos/blusa-leona.png",
+    "original": "assets/imagens/produtos/catalogo-0376-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Elizabeth",
+    "codigo": "01231",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "219,90",
+    "indice": 377,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72suSe2eyThXXR37fJYI4ggXDSlTmlBre8YuTEBd-4Ru76lfdEuA5g3RFI6Uwq_89zcsiRBxsiWTWS3G5OLr1jZx4MQhhysSxqt8ezrgAaOxvKlCgflEUGIdt4tqRlool11hlSAn2QAqRXGuIk0U-9NKMyTxTtHTBJHtmCL0b72f4ABadVYLkGQ9-TFR-o450BmR8Whc3H2IBmxC4TeqQxaI1T0jx-yie2EwoaCs=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Elizabeth",
+      "Cod: 01231 (P,M,G,GG) R$ 219,90",
+      "Com zíper",
+      "Tecido Crepe"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      377
+    ],
+    "imagem": "assets/imagens/produtos/vestido-elizabeth.jpg",
+    "original": "assets/imagens/produtos/vestido-elizabeth.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Carolina",
+    "codigo": "01232",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 378,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vtQR01-plpUl5aN-0OnOw2XADTToaGqlcGSoLnoYwNmgLIbSsUsUtbCr9B-Wv8yR5Z8q9Xs6xfXGj_ZybpUfexKDMMjBtoytZUwRt4azwy2HBCY5Qma02iUXJXnsGATQY-bossqfw4F498NzRV3h_QjjJUD_9htEiOy94Edt1SvTsuiq4MMiGZLkou9xAGOrVo2hrzR9JyJEmZTpD-KCSAGEMbyvUdMiIt7lw0VqU=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Carolina",
+      "Cod: 01232 (P,M,G) R$ 79,90",
+      "Tecido Cetim Acetinado",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      378
+    ],
+    "imagem": "assets/imagens/produtos/blusa-carolina.png",
+    "original": "assets/imagens/produtos/catalogo-0378-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Thalita",
+    "codigo": "00729",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "49,90",
+    "indice": 379,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uMQeko6O2BAVT3Q1_wYPLR9jRvmZpYMqTVpVcbPOgg_Kji2t06Inu9MxCO4u4STttickQjqhLPZTuqe-eBTuXLDkc_9z8R5XdFQ8_ugQbgQMPwD8UH9R2VFvSurfPHx9k70AgIQNbevgOZ-g8tENTM88h4LQ2bfdB2pk0HpDwTEVBpCtIZRlbHocaL7N18r8hTUCwowmdTxU7BKv7798XPRboPjRAyh_Zw4clAiis=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Thalita",
+      "Cód: 00729 (P,M,GG,EXG) R$ 49,90",
+      "Tecido Crepe Acetinado",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      379
+    ],
+    "imagem": "assets/imagens/produtos/blusa-thalita.png",
+    "original": "assets/imagens/produtos/catalogo-0379-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Camisa Ludmila",
+    "codigo": "01146",
+    "categoria": "Camisas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 382,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sLvn0pUkkBmkcUBbUdbVCXAego1hvxAIYYZG-PSGU_ZPxoKY30PrWtZyNsL2SKEujBq7yYEbX6fMkbMZq6mpZhVsfSTk3gPyWtTXGLKDglbL_yJrBADFYcsrZ9sOjmFj9DjG52HHgRKPQ3NbTjpt_MbeeYP4tZPczO6AI0YjEqEJHcv0uZhziT95KYmRGB8RIPOQ3Ip1jmG1o0jOpoggFzDUL_ZNv9DCuaUrd5dLY=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Camisa Ludmila",
+      "Cód: 01146 (P) R$ 99,90",
+      "C/ botões funcionais",
+      "Tecido chiffon trabalhado",
+      "*"
+    ],
+    "tipo": "Camisa",
+    "pecas": 2,
+    "ocorrencias": [
+      382
+    ],
+    "imagem": "assets/imagens/produtos/camisa-ludmila.png",
+    "original": "assets/imagens/produtos/catalogo-0382-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Patrícia",
+    "codigo": "00872",
+    "categoria": "Saias",
+    "tamanhos": [
+      "M",
+      "G",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 386,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vlbHDG25Hc_vuKsS_DgxWpfHlPQOIXNZ9mZLWnpyiRfAMcMbDeexqzHpO-0PQzWc1jCtRGlB-T4tGphooZc-7cnyInPDzJMB6lNY8X3IVFgAotZVkW2792UutgZIf0qXjloiRpC8eARkjUglVaE2WDHTFmOMTHJ4ONfXRHuLKnip3qh5F0NsnzX3g62UUaBqBj4-UEEd-nPL2PenBAfJ8cVLiRAH8T03GD=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Patrícia",
+      "Cód: 00872 (M,G,EXG) R$ 89,90",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      386
+    ],
+    "imagem": "assets/imagens/produtos/saia-patricia.png",
+    "original": "assets/imagens/produtos/catalogo-0386-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Rafaela",
+    "codigo": "00994",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 388,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72u1hsVDJzh3PqbHJ12HHwl2Z7k8oZ39C2kTvUL655ZLejE9WLlSOSTT0QyrmO9QxG2Q9gHTYqMtARUC1SVkh863eQ_PU4ejs-Y8AFPdqYbpccXWyZPNY9c2Om5yivGP7OIqIgPe6dG3Sbhe7mSNcLU5HJMTvVy5mrmEuNjMKn--tZB3rfo-PvEV3VaAG09WtGDKfJUTfh8sUZukQBfbb_vmNvCLwqNVeMPW4TtEV_s=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Rafaela",
+      "Cód: 00994 (P) R$ 79,90",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      388
+    ],
+    "imagem": "assets/imagens/produtos/blusa-rafaela.png",
+    "original": "assets/imagens/produtos/catalogo-0388-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Daniele",
+    "codigo": "00913",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 389,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vZ5FUrlAR13RgoQGVDP510ZaNJN_PGi6Evg8-J6snMO0h67xfIGDvkgG6xjbrwHj6KOM-oIafjEY7czy8qmjYD4YaBKahZRPNGVKyFAG5R-VfqjigHrux4rzf_kxGxm_A0niD_lX9i5nH43yDifoXB7hPnfjsyax1YGXWS_MJ9VKnYu4fgAT7og3EVLqSvSrSfjEmwMujwEJxBUhvbLKfDDSx1J-QglCNt-e6jCaY=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Daniele",
+      "Cód: 00913 (P) R$ 79,90",
+      "Tecido Sedinha Estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      389
+    ],
+    "imagem": "assets/imagens/produtos/blusa-daniele.png",
+    "original": "assets/imagens/produtos/catalogo-0389-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Jasmim",
+    "codigo": "00909",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "69,90",
+    "indice": 391,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uZjA74iOG55ZjNvx_X5jv2XV_CkxqjIazYjNuKDtckxS59j7wucRpF8T3SML_ZMTe1o-eAfYaPpGrzZUsO0HLHM3Raqb4exbeqv0XwpyJBLJBjInNpHi9KDqAHyr6lkg_o3Yo5TYtjCI2_-3RZmKwnxv3ROIy8nhjTkC8jCpA4QSkHDr3wtpB-0QhqnV6qre1F3bWsSr4ArnP-JaFcm2Jb_WrxQytTHN9BOL6h=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Jasmim",
+      "Cód: 00909 (P) R$ 69,90",
+      "Tecido Sedinha Estampada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      391
+    ],
+    "imagem": "assets/imagens/produtos/blusa-jasmim.png",
+    "original": "assets/imagens/produtos/catalogo-0391-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Saia Jamily",
+    "codigo": "00926",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 391,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uZjA74iOG55ZjNvx_X5jv2XV_CkxqjIazYjNuKDtckxS59j7wucRpF8T3SML_ZMTe1o-eAfYaPpGrzZUsO0HLHM3Raqb4exbeqv0XwpyJBLJBjInNpHi9KDqAHyr6lkg_o3Yo5TYtjCI2_-3RZmKwnxv3ROIy8nhjTkC8jCpA4QSkHDr3wtpB-0QhqnV6qre1F3bWsSr4ArnP-JaFcm2Jb_WrxQytTHN9BOL6h=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Saia Jamily",
+      "Cód: 00926 (P,EXG) R$ 89,90",
+      "Tecido Crepe"
+    ],
+    "tipo": "Saia",
+    "pecas": 2,
+    "ocorrencias": [
+      391
+    ],
+    "imagem": "assets/imagens/produtos/saia-jamily.png",
+    "original": "assets/imagens/produtos/catalogo-0391-original.jpg",
+    "recorte": [
+      0.06,
+      0.3,
+      0.88,
+      0.68
+    ]
+  },
+  {
+    "nome": "Blusa Camily",
+    "codigo": "00866",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M"
+    ],
+    "cores": null,
+    "precoFornecedor": "49,90",
+    "indice": 392,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vRQxxfkWk2q5rfMTxsZupa_HEdMCSj1CBB3UL1e-yDejWrCQe7xVaBoAKBrSjlQ96U0aqgHUgfoleSt55ynB6fO-t6N9SfZ2p7ESnDdT5XG-ppwsnvmNzzOI-ueZUFQfN7JMRiIPnpy9tRfAoUMVHui_ossZHNInKXDrRuwU6gugMWBPOpaER-CNfiF1oPFoRrElQvGrJguwx1ur-JJdivYdXm64Ok4BcJDTVpoyU=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Camily",
+      "Cód: 00866 (P,M) R$ 49,90",
+      "Tecido Viscose Maquinetada",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      392
+    ],
+    "imagem": "assets/imagens/produtos/blusa-camily.png",
+    "original": "assets/imagens/produtos/catalogo-0392-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Vestido Silmara",
+    "codigo": "00187",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "119,90",
+    "indice": 393,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ufkRMKmwaC7DYBLDdrAUkHrLIQovhXiW6-9q-ny6PpejTwGXAWOuWXPlmhY1irQuerhnefuATrXTzQ23QFOIuBPHtgHWvL3FBdhWmA8c5nY0VGd1IYWqr6FQm1VFh75XfWzytCBC0WDfAWmc1xvqO1kRB2U9UUUEuUmW7sOnd1OLtJMI6f_7BdkNose4JRbVtXQZP4asv-ah9IUu2ZqaYKncFKOkcFcgppjPsh_7M=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Silmara",
+      "Cód: 00187 (EXG) R$119,90",
+      "Sem z[iper",
+      "Tecido Malha Montaria"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      393
+    ],
+    "imagem": "assets/imagens/produtos/vestido-silmara.jpg",
+    "original": "assets/imagens/produtos/vestido-silmara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Vestido Fernanda",
+    "codigo": "00964",
+    "categoria": "Vestidos",
+    "tamanhos": [
+      "P",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "179,90",
+    "indice": 395,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uRa_h0-jkX7dCE-KdZouo5y4AGj-kxdlqNZTHce3U1yAgUf37oT0ARDyn_W5oJGBmBHc4gNPgfTnmTOTpJRfHfbSqd_6-Ory1cw56JV8kVr-DgmgHGbj54xirRR2JAj4lDLlC8KDJpeJEMbLKAtjfobPkGSLWTnPTdycCHPeMdnz6h5Lm-VrzMP0Qpe3L3-_eYcrdMottLbBYFCrudqKIIKXj-GWsy7UoJyo1T=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Vestido Fernanda",
+      "Cód: 00964 (P,G) R$ 179,90",
+      "Tecido Viscose"
+    ],
+    "tipo": "Vestido",
+    "pecas": 1,
+    "ocorrencias": [
+      395
+    ],
+    "imagem": "assets/imagens/produtos/vestido-fernanda.jpg",
+    "original": "assets/imagens/produtos/vestido-fernanda.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Marê",
+    "codigo": "00707",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "M",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "69,90",
+    "indice": 396,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72s4XzjtykjCKV6_irxeS4DLatnFQlHGWq8jq1RDGiC-yu0qqvHGJVsrDEU7VeUIPZSWqx7z2IVra0eNoBIC0KcWWn9QpwhKpPV4kNClnBWKeyxWR9X6_2y0PJlc4ITlgP9jn73bl4BGohAEwnfPmScy0sylmkK5XPghs4wpNG1EAkenNR_cB-PYPS-FsEnGdt2vDFs1PQQXL7QjSKpwCPwpAGg0IXHb3dOTc3Cjc1M=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Marê",
+      "Cód: 00707 (M,GG) R$ 69,90",
+      "Tecido Crepe acetinado",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      396
+    ],
+    "imagem": "assets/imagens/produtos/blusa-mare.png",
+    "original": "assets/imagens/produtos/catalogo-0396-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Betina",
+    "codigo": "00675",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "69,90",
+    "indice": 398,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tqP5Qp7El6cV8VnTE4JujyjcYlphrOiGPY5uc-EP4Gu0Y_eLwp-7vkuAoc8P4NDvT3KGyuaijluxAbczA1hQawc9xm9_d4kuK2Hvjy6xf_Vr9hIySpXaFiXW_t9CYcjvzUuPnYRbhdRwJesQrfqUZko8ANsMDYeGUMs4czRAs6NCeud1Ytm9KuPrFOPKmMnxLFcHab56PKTIAWyRV1PmegsOQY47DmTKIxCMZHAsI=w1280",
+    "compartilhada": true,
+    "textos": [
+      "Blusa Betina",
+      "Cód: 00675 (P,M,GG) R$ 69,90",
+      "Tecido Crepe Acetinado",
+      "*"
+    ],
+    "tipo": "Blusa",
+    "pecas": 2,
+    "ocorrencias": [
+      398
+    ],
+    "imagem": "assets/imagens/produtos/blusa-betina.png",
+    "original": "assets/imagens/produtos/catalogo-0398-original.jpg",
+    "recorte": [
+      0.04,
+      0,
+      0.92,
+      0.64
+    ]
+  },
+  {
+    "nome": "Blusa Marléia",
+    "codigo": "01399",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 399,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vNyROU7Badv-3kDKqeoujQk3z9ez9Z_EzSMCxGcsd5VTyOkFtQEau0hSAf8zAdvi1hEmZVbUy9KOyAdLv8-0DA9ywgxLMZbh1cwdUVDby5nJY_q-tgAS8ssAhPPpI1AFJdJGfAWLGEz7cXEU40opcZ7qQsFVpRwXgYzY8_pXthqDkSQqV9wfVe-Jyff64e-vnJphxcVslw2SMPoa6pNK5fS-k6btd_Tys2JDO2aB4=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Marléia",
+      "Cód: 01399 (P,M,G,GG,EXG) R$ 79,90",
+      "Detalhe na Manga Tecido Crepe"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      399
+    ],
+    "imagem": "assets/imagens/produtos/blusa-marleia.jpg",
+    "original": "assets/imagens/produtos/blusa-marleia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Sol",
+    "codigo": "01157",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P",
+      "M",
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 400,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vY4Gfs_WFRy9ReoQmDlZzPAqA97-q-0FIm5ioQjiFKdfnPZzTNTGrXF9TFmq06qII0u2lI3WdjrLLNFWCXeN57mix4rDqFP_3-K3tU2yu1IcmoKYM3uJ7AMdmu0Y8XBHNTYan0ygkFP14EtOwA8pbHsf7dYXwyR7OvarNMoREIGOAHFV0A9lFCDV1JMKMM4yrcBdam-8qGkehiRwPZypASk_OUkBjYD99Xwalg=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Sol",
+      "Cód: 01157 (P M G ) R$79,90",
+      "Tecido crepe"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      400
+    ],
+    "imagem": "assets/imagens/produtos/blusa-sol.jpg",
+    "original": "assets/imagens/produtos/blusa-sol.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Isa",
+    "codigo": "01118",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 402,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sPnWJvBJHd9V5PE93rucOh3TdyZaLsWGF2tt_BRa5TBJgDwkY_gj5vgeM7AJl1LRM1gTFUqqVRnCAiaqs1qPGBLiKf7mZsUz0Q64xGkOdJKVOagLfn5l8Vn_lvMJw4Ze9giTN6a5wxy7URnd5q9df_4JlQPo0DpCGHRZ3bJGTaZ9T6DCvuqmVgB2h6XbtBbHdOpTGhahOV0AV6n5KCTZ7YynFBl1peYFQqUH2k=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Isa",
+      "Cod: 01118 (P) R$ 99,90",
+      "Detalhes em guipir",
+      "Tecido Crepe Pele de Pêssego"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      402
+    ],
+    "imagem": "assets/imagens/produtos/blusa-isa.jpg",
+    "original": "assets/imagens/produtos/blusa-isa.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Otília",
+    "codigo": "00046",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 403,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72v3qX7KJrDlCLQ59MtVpmktGKFU8Oz_TSMtkpIixu6WT-vrX80YgLcUH9seKgJTpUxssb0Fg-UJFwjoBxVvQZTtZefalymVBkKqgW6YyChJPUDmWFRuPjeV1D6BQSl2EyaAIiLkz1JaJWjK0mgngyvF4F1jAdk274scDprPA15uT-8vBlXuYuPn-5TrsyLui2LwBGn5A-4V4vHboyzRb2mY7D-n5lNNfpn767MNWzY=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Otília",
+      "Cód: 00046 (GG,EXG) R$ 79,90"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      403
+    ],
+    "imagem": "assets/imagens/produtos/blusa-otilia.jpg",
+    "original": "assets/imagens/produtos/blusa-otilia.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Ludmila",
+    "codigo": "00959",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 405,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ths9S6XwTdD2ChctiL0-hMQMG6zqNbeROOrZLnacEGkZvnbFZnL29X0o9BYHoPaQjBWFlvlRy12XNTunMEVKbcWQiiIT9LhOZFAuPl8CgEzkpNeZ4ogIAfyaZS9pmUQzlLqQ4oF9k6RqE2w3Hgpo-_XbXsxIC1YFUpyBzrTMzS4Lrs07hmfhHbsiwXiJKpSX35_NamyBhU1efSyt73F6XUBZNArZCUpczT7ov7zzI=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Ludmila",
+      "Cód: 00959 (P) R$ 79,90",
+      "Tecido Crepe acetinado"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      405
+    ],
+    "imagem": "assets/imagens/produtos/blusa-ludmila.jpg",
+    "original": "assets/imagens/produtos/blusa-ludmila.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Nayane",
+    "codigo": "00388",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "59,90",
+    "indice": 406,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72uPVt-MSTmGjxIukYwWTbsUjKOYZIctVkl6cpfEcGifgahtMWGYmHsPa5yu7ee4YDWU7Bn_CKMvIyICxEZvvN7ucijSXgU2fjrTdzgOn3XH8sI9c8INfrh8OlC2THkW_d4BQzUVLq3AmdG-EDPxOg9A4TUsbm8hzfeDUzKqHd8FyGGCAcfTbThb93ffATkcgcsPMCUMO6aHoghacQDKy5wngogaxnKvQqhGAi19HYk=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Nayane",
+      "Cód: 00388 (P) R$ 59,90"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      406
+    ],
+    "imagem": "assets/imagens/produtos/blusa-nayane.jpg",
+    "original": "assets/imagens/produtos/blusa-nayane.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Lucy",
+    "codigo": "00028",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "PP"
+    ],
+    "cores": null,
+    "precoFornecedor": "69,90",
+    "indice": 407,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72ti3IRms5BkCodYXPOEiidsxZPTHTuUtDsvPtBbu06LwAzLQv-HmxaNmulF-JT956cQvqkGreCWibY6p2E3NJlUBw_9_J9zyR8vlKehWafSxaP6k4vgydsTlzmyQTUMxbM_au2CJYa7PB1c3LgnxNsk8c4JOP1u4DKJcS_2nGtWqVSVd-SiizTgFdtDMRZRYxU9FmzHdQL6vy_GKGw1Ir3POU8Zt6xf2liJfLtr=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Lucy",
+      "Cód: 00028 (PP) R$ 69,90"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      407
+    ],
+    "imagem": "assets/imagens/produtos/blusa-lucy.jpg",
+    "original": "assets/imagens/produtos/blusa-lucy.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Blusa Paula",
+    "codigo": "01369",
+    "categoria": "Blusas",
+    "tamanhos": [
+      "G"
+    ],
+    "cores": null,
+    "precoFornecedor": "89,90",
+    "indice": 408,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vMrYAQxCdjvyrKHbuHNgp6sr9nor2dYWjQWvyypIoo9Wdb6hZ7XdqGsxh04Zw270Xq7D4xnHskOrip9kEYDWpu0BYTSRZ6xzfAtsNoBWZRwdP7vquNG13_PLcHV095kVzdpOXFzpP4s7N-sFDnB-wdtneal_Pd316-x6OiQUbEfCJxhw66XXiQPpvfbaqVpa61RLtP5p1cqN0C_Ihtjd_2f2rOLLanVg-wMUYv=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Blusa Paula",
+      "Cód: 01369 (G) R$ 89,90"
+    ],
+    "tipo": "Blusa",
+    "pecas": 1,
+    "ocorrencias": [
+      408
+    ],
+    "imagem": "assets/imagens/produtos/blusa-paula.jpg",
+    "original": "assets/imagens/produtos/blusa-paula.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "T-Shirt Sara",
+    "codigo": "00612",
+    "categoria": "Outros",
+    "tamanhos": [
+      "PP",
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "49,90",
+    "indice": 410,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vFD79nnouytmgeHa0yAl75CTvWZo4kYYvwcQhqZPG3DhWspA80hwp0fv_aSVbqTufAxtZuh-a40FVli_d2ioFliQK46LBQoK42TMr2fFHqutUvEGlmcNAta5wNGYZugMGrxpt3D6Io9ejM8hDQy5oimbhuJso9p_wGom0USx7JMCSS3ivNHMsd8kubW1-QehnXls0_PLNO6Gzr8Wop84ttG6V9-sdlWpj3lGwY=w1280",
+    "compartilhada": false,
+    "textos": [
+      "T-Shirt Sara",
+      "Cód: 00612 (PP,P,) R$ 49,90",
+      "Tecido Moletinho"
+    ],
+    "tipo": "T-Shirt",
+    "pecas": 1,
+    "ocorrencias": [
+      410
+    ],
+    "imagem": "assets/imagens/produtos/t-shirt-sara.jpg",
+    "original": "assets/imagens/produtos/t-shirt-sara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Marieta",
+    "codigo": "01112",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P"
+    ],
+    "cores": null,
+    "precoFornecedor": "129,90",
+    "indice": 420,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72vyY9rN5gEWpdMTpWP4QjKNMbTny6wcRn2jo7YRN52ZCKIwM9VRAxSYKMJXsfbsB5_mQ2gEzECR0Cmr0EX8S8jdFjbM-LyqHoOpqXLByU1Dl8KBTQH3YdEVbj6M_eDS0uPu5c3nU8lp54cx4gF2ULyx9lJ7VGQYHWt0WiGbLVziUYQQF3XFqXmyjdCg2swRz_Xmu8avl0dQ-tzadZsb_WpsLupj8GXsTUABwGgH=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Marieta",
+      "Cód: 01112 (P) R$ 129,90",
+      "Botão funcional /Bolsos e Zíper",
+      "Tecido Alfaiataria"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      420
+    ],
+    "imagem": "assets/imagens/produtos/saia-marieta.jpg",
+    "original": "assets/imagens/produtos/saia-marieta.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Meire",
+    "codigo": "00137",
+    "categoria": "Saias",
+    "tamanhos": [
+      "P",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "72,90",
+    "indice": 421,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72sZSJm78R0KSJyoStqCdOiNsOauLaz3cKhk38z2itUzb65DRJbFI913ryEyu3EX8FQ0LnnVZ7D0zvjwNUrEcBjwovWA-x_ar_AETnuCCA2R7slpOUpEQCrcb0ByRg_KejybbZ5Euf8WLm76GshqCTbbdorVWYMNnXtUpge3soQ4ldpur8OjQobQG5GBFtBB2AOKn5jD1KjClj4R-FdRJQyRApe6RGwoUXuNkoGmr0w=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Meire",
+      "Cód:00137 (P,G,GG,EXG) R$ 72,90"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      421
+    ],
+    "imagem": "assets/imagens/produtos/saia-meire.jpg",
+    "original": "assets/imagens/produtos/saia-meire.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Jussara",
+    "codigo": null,
+    "categoria": "Saias",
+    "tamanhos": [
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "139,90",
+    "indice": 425,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72t3a0E0h1mxkOd458b-Yo8GrUX4IFZIr-_Es1fCl6W1oFmfVeDmtHRCOw2WWaF8eavdH1DU7m5Klf9IpDUHVTLjMY9CrFOKQg6-HlG25BD8xj8c-9Qduy0w8M4WGNJUB4eRHvFITGwyfOq5W_dilL-30BTvqEfQh417P2wf2uKmdEQs3pcp3PFzrs0jAX8fI7mxxBvWRFWQC4_1t_X68rCbKh94PweCyA5VUdy8jxs=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Jussara",
+      "(GG,EXG) R$ 139,90",
+      "com zíper",
+      "Tecido tweed"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      425
+    ],
+    "imagem": "assets/imagens/produtos/saia-jussara.jpg",
+    "original": "assets/imagens/produtos/saia-jussara.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Reder",
+    "codigo": "01310",
+    "categoria": "Saias",
+    "tamanhos": [
+      "M",
+      "G",
+      "GG",
+      "EXG"
+    ],
+    "cores": null,
+    "precoFornecedor": "79,90",
+    "indice": 426,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72tF4CcSP1S-nGJ1yfgBGNVmi0ukE5QyztYvFWXj1GMVQBoHxOMGHm-WOPJHO9E57Q9fGmm_OpBMl8UV6J1D1KLWVs1bg4aO28mxyKo5HQfBLJwcVqZmXMXq7Qpo2HXcUeAKV6qCaVfMxY62LJzMoc-N74qrN_4UklKDq4T-FTJ-5abfi6C6M9fJorxy4s5r0m6_1KqVAjxtqriJS7yN8yHLkHRZGI1chYrSzdxfpho=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Reder",
+      "Cód: 01310 (M,G,GG,EXG) R$79,90",
+      "C/ zíper C/ zíper nas laterais",
+      "Tecido malha"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      426
+    ],
+    "imagem": "assets/imagens/produtos/saia-reder.jpg",
+    "original": "assets/imagens/produtos/saia-reder.jpg",
+    "recorte": null
+  },
+  {
+    "nome": "Saia Carla",
+    "codigo": "00154",
+    "categoria": "Saias",
+    "tamanhos": [
+      "GG"
+    ],
+    "cores": null,
+    "precoFornecedor": "99,90",
+    "indice": 428,
+    "imagemFonte": "https://sites.google.com/sitesv-images-rt/AMxu72umw4cwD4oQNxyWS4q_Tv5LSz1WhS18nNIEQbph88-Qc9xg8UqQQIgSx1kytIqokLuevEeAPFzt7VXS6GnjjrLkyuseQloWKuwnnIRJg5UsfutU73BVyzrXywk4g7fHvpXFVnxSSfzY_C3Kf1AsBxVNhqUpdNQnPYhU4ROkw-BzX4dpIx8LOuysojWuEQ0PVcrzTLvdy_hR9vhG_HduiewGEznE6Wkq6IA-nFficjg=w1280",
+    "compartilhada": false,
+    "textos": [
+      "Saia Carla",
+      "Cód: 00154 (GG) R$99,90"
+    ],
+    "tipo": "Saia",
+    "pecas": 1,
+    "ocorrencias": [
+      428
+    ],
+    "imagem": "assets/imagens/produtos/saia-carla.jpg",
+    "original": "assets/imagens/produtos/saia-carla.jpg",
+    "recorte": null
+  }
+]

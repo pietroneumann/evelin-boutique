@@ -87,7 +87,10 @@
                 <p class="secao-destaque">Encontre seu estilo</p>
                 <h2 id="titulo-categorias">Explore as coleções</h2>
                 <div class="categorias"></div>
-                <button type="button" id="ver-catalogo">Ver todo o catálogo</button>
+                <button type="button" id="ver-catalogo" class="cta-catalogo" aria-controls="painel-catalogo">
+                    <span>Explorar catálogo completo <span aria-hidden="true">→</span></span>
+                    <span class="cta-quantidade"></span>
+                </button>
             </div>
         </section>
 
@@ -96,7 +99,10 @@
                 <p class="secao-destaque">Sua próxima peça favorita</p>
                 <h2 id="titulo-catalogo">Catálogo Evelin Boutique</h2>
                 <p class="secao-descricao">Explore nossas peças e consulte preços, tamanhos e disponibilidade pelo WhatsApp.</p>
-                <button type="button" id="abrir-catalogo" aria-expanded="false" aria-controls="painel-catalogo">Explorar catálogo completo</button>
+                <button type="button" id="abrir-catalogo" class="cta-catalogo" aria-expanded="false" aria-controls="painel-catalogo">
+                    <span>Explorar catálogo completo <span aria-hidden="true">→</span></span>
+                    <span class="cta-quantidade"></span>
+                </button>
                 <div id="painel-catalogo" hidden>
                     <div class="catalogo-controles">
                         <div class="controle-busca">
@@ -118,6 +124,10 @@
                         <button type="button" id="limpar-filtros">Limpar filtros</button>
                     </div>
                     <div class="produtos" id="produtos-catalogo"></div>
+                    <div class="catalogo-paginacao">
+                        <p id="quantidade-exibida" role="status" aria-live="polite" aria-atomic="true"></p>
+                        <button type="button" id="ver-mais-produtos" aria-controls="produtos-catalogo" hidden>Ver mais produtos</button>
+                    </div>
                 </div>
             </div>
         </section>

@@ -9,7 +9,10 @@ import {fileURLToPath} from 'node:url';
 
 const pastaVerificacao = path.dirname(fileURLToPath(import.meta.url));
 const raiz = path.dirname(pastaVerificacao);
-const evidencia = JSON.parse(fs.readFileSync(path.join(pastaVerificacao, 'importacao.json'), 'utf8'));
+const pastaEvidencias = fs.existsSync(path.join(pastaVerificacao, 'expansao-completa')) ? path.join(pastaVerificacao, 'expansao-completa') : pastaVerificacao;
+const arquivoImportacao = fs.existsSync(path.join(pastaEvidencias, 'importacao.json')) ? path.join(pastaEvidencias, 'importacao.json') : path.join(pastaVerificacao, 'importacao.json');
+const evidencia = JSON.parse(fs.readFileSync(arquivoImportacao, 'utf8'));
+const totalEsperado = evidencia.totalFinal ?? 59;
 const fonte = fs.readFileSync(path.join(raiz, 'script.js'), 'utf8');
 const html = fs.readFileSync(path.join(raiz, 'index.html'), 'utf8');
 const pilhaHTML = [];
@@ -23,7 +26,7 @@ for (const tag of html.matchAll(/<(\/?)([a-z][a-z0-9]*)\b[^>]*>/gi)) {
 assert.deepEqual(pilhaHTML, []);
 const produtos = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.split('function criarCard')[0] + '; produtos')));
 const normalizar = texto => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
-assert.equal(produtos.length, 59);
+assert.equal(produtos.length, totalEsperado);
 assert.equal(new Set(produtos.map(p => normalizar(p.nome))).size, produtos.length);
 assert.equal(new Set(produtos.map(p => p.imagem)).size, produtos.length);
 assert.equal(produtos.filter(p => p.novidade).length, 9);
@@ -94,11 +97,12 @@ async function esperarPagina() {
     throw new Error('Página não iniciou');
 }
 async function captura(nome, seletor) {
-    await avaliar(`document.querySelector(${JSON.stringify(seletor)}).scrollIntoView({behavior:'instant', block:'start'})`);
+    const posicao = seletor === '#ver-catalogo' || seletor === '.catalogo-paginacao' ? 'center' : 'start';
+    await avaliar(`document.querySelector(${JSON.stringify(seletor)}).scrollIntoView({behavior:'instant', block:${JSON.stringify(posicao)}})`);
     await esperar(120);
     await avaliar(`Promise.all([...document.querySelectorAll('img')].filter(i => i.getBoundingClientRect().top < innerHeight && i.getBoundingClientRect().bottom > 0).map(i => i.decode()))`);
     const foto = await cdp('Page.captureScreenshot', {format: 'png'});
-    fs.writeFileSync(path.join(pastaVerificacao, nome + '.png'), Buffer.from(foto.data, 'base64'));
+    fs.writeFileSync(path.join(pastaEvidencias, nome + '.png'), Buffer.from(foto.data, 'base64'));
 }
 try {
     let portas;
@@ -127,6 +131,11 @@ try {
     assert.equal(await avaliar('document.querySelectorAll("#produtos-novidades .produto").length'), 9);
     assert.equal(await avaliar('document.querySelector("#painel-catalogo").hidden'), true);
     assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), 0);
+    relatorio.performance = await avaliar(`({cardsIniciais:document.querySelectorAll('.produto').length,
+        cardsCatalogoInicial:document.querySelectorAll('#produtos-catalogo .produto').length,
+        imagensSolicitadasInicialmente:performance.getEntriesByType('resource').filter(r=>r.name.includes('/assets/imagens/produtos/')).length})`);
+    assert.equal(relatorio.performance.cardsIniciais,9);
+    assert.ok(relatorio.performance.imagensSolicitadasInicialmente < 30);
     relatorio.testes.push('Entrada: apenas 9 novidades; catálogo fechado e sem cards renderizados.');
     await avaliar('document.querySelector("#abrir-catalogo").click()');
     const acessibilidade = await avaliar(`(() => {
@@ -139,11 +148,22 @@ try {
     })()`);
     assert.ok(Object.values(acessibilidade).every(Boolean));
     relatorio.acessibilidade = acessibilidade;
+    assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), Math.min(24,produtos.length));
+    assert.ok(await avaliar('document.querySelector("#ver-catalogo .cta-quantidade").textContent === produtos.length + " peças disponíveis"'));
+    await avaliar('globalThis.primeiroCard = document.querySelector("#produtos-catalogo .produto"); document.querySelector("#ver-mais-produtos").click()');
+    assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), Math.min(48,produtos.length));
+    assert.ok(await avaliar('globalThis.primeiroCard === document.querySelector("#produtos-catalogo .produto")'));
+    await avaliar('while(!document.querySelector("#ver-mais-produtos").hidden) document.querySelector("#ver-mais-produtos").click()');
     assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), produtos.length);
-    assert.equal(await avaliar('document.querySelector("#quantidade-produtos").textContent'), '59 produtos encontrados');
-    const mensagens = await avaliar(`produtos.map(p => {const card=criarCard(p);const url=new URL(card.querySelector('.botao-whatsapp').href); return {nome:p.nome, tamanhos:p.tamanhos, texto:url.searchParams.get('text'), numero:url.pathname, preco:card.querySelector('.preco').textContent, grade:card.querySelector('.tamanhos-produto').textContent}})`);
+    assert.equal(await avaliar('document.querySelector("#quantidade-exibida").textContent'), produtos.length + ' produtos exibidos');
+    relatorio.testes.push('Paginação 24/48/todos; append preserva cards; botão some ao esgotar; contador total correto; CTA dinâmico.');
+    assert.equal(await avaliar('document.querySelector("#quantidade-produtos").textContent'), `${produtos.length} produtos encontrados`);
+    const mensagens = await avaliar(`produtos.map(p => {const card=criarCard(p);const url=new URL(card.querySelector('.botao-whatsapp').href); return {nome:p.nome, tamanhos:p.tamanhos, texto:url.searchParams.get('text'), numero:url.pathname, preco:card.querySelector('.preco').textContent, grade:card.querySelector('.tamanhos-produto').textContent, lazy:card.querySelector('img').loading, alt:card.querySelector('img').alt}})`);
     for (const item of mensagens) {
         assert.equal(item.numero, '/5511971949711');
+        assert.equal(item.lazy, 'lazy');
+        assert.equal(item.alt, item.nome);
+        assert.ok(item.texto.includes('disponibilidade'));
         assert.ok(item.texto.includes(item.nome));
         assert.ok(item.texto.includes('consultar o preço'));
         assert.ok(!item.texto.includes('R$'));
@@ -152,7 +172,7 @@ try {
     }
     const imagens = await avaliar(`Promise.all(produtos.map(async p => {const img=new Image();img.src=p.imagem;await img.decode();return {nome:p.nome,w:img.naturalWidth,h:img.naturalHeight}}))`);
     assert.ok(imagens.every(i => i.w > 0 && i.h > 0));
-    relatorio.testes.push('59 mensagens WhatsApp e grades dos cards corretas; número preservado; sem preço do fornecedor.', '59 imagens decodificadas no Chrome; caminhos válidos.');
+    relatorio.testes.push(`${produtos.length} mensagens WhatsApp e grades dos cards corretas; número preservado; sem preço do fornecedor.`, `${produtos.length} imagens decodificadas no Chrome; caminhos válidos.`);
     for (const produto of produtos) {
         const busca = normalizar(produto.nome);
         await avaliar(`campoBusca.value=${JSON.stringify(busca)};campoBusca.dispatchEvent(new Event('input'))`);
@@ -162,13 +182,19 @@ try {
     assert.equal(await avaliar('selecionarProdutos(undefined,"ussara").length'), 0);
     assert.ok((await avaliar('selecionarProdutos(undefined,"jess").map(p=>p.nome)')).includes('Blusa Jêssica'));
     assert.ok((await avaliar('selecionarProdutos(undefined,"andreia").map(p=>p.nome)')).includes('Saia Andréia'));
-    assert.equal(await avaliar('selecionarProdutos(undefined,"camisas").length'), 5);
-    relatorio.testes.push('Busca dos 59 nomes; acentos/capitalização; prefixo; trecho intermediário rejeitado; categoria pesquisável.');
+    assert.equal(await avaliar('selecionarProdutos(undefined,"camisas").length'), produtos.filter(p=>p.categoria==='Camisas').length);
+    relatorio.testes.push(`Busca dos ${produtos.length} nomes; acentos/capitalização; prefixo; trecho intermediário rejeitado; categoria pesquisável.`);
     for (const categoria of [...new Set(produtos.map(p => p.categoria))]) {
         const total = produtos.filter(p => p.categoria === categoria).length;
         relatorio.categorias[categoria] = total;
         await avaliar(`mostrarTodos();document.querySelector('#filtros-categorias [data-categoria="${categoria}"]').click()`);
-        assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), total);
+        assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), Math.min(24,total));
+        if(total>24){
+            await avaliar('document.querySelector("#ver-mais-produtos").click()');
+            assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), Math.min(48,total));
+            await avaliar('campoOrdem.value="az";campoOrdem.dispatchEvent(new Event("change"))');
+            assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'), 24);
+        }
         assert.equal(await avaliar('document.querySelector("#quantidade-produtos").textContent'), `${total} ${total === 1 ? 'produto encontrado' : 'produtos encontrados'}`);
         assert.ok((await avaliar('[...document.querySelectorAll("#produtos-catalogo .categoria-produto")].map(e=>e.textContent)')).every(c => c === categoria));
     }
@@ -178,13 +204,17 @@ try {
         const nomes = await avaliar('[...document.querySelectorAll("#produtos-catalogo h3")].map(e=>e.textContent)');
         const esperado = produtos.map(p => p.nome).sort((a,b)=>a.localeCompare(b,'pt-BR'));
         if (ordem === 'za') esperado.reverse();
-        assert.deepEqual(nomes, esperado);
+        assert.deepEqual(nomes, esperado.slice(0,24));
+        await avaliar('document.querySelector("#ver-mais-produtos").click()');
+        assert.deepEqual(await avaliar('[...document.querySelectorAll("#produtos-catalogo h3")].map(e=>e.textContent)'), esperado.slice(0,48));
     }
     await avaliar('campoBusca.value="produto inexistente";campoBusca.dispatchEvent(new Event("input"))');
     assert.equal(await avaliar('document.querySelector("#quantidade-produtos").textContent'), '0 produtos encontrados');
     assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .mensagem-vazia").length'), 1);
+    assert.ok(await avaliar('document.querySelector("#ver-mais-produtos").hidden'));
+    assert.equal(await avaliar('document.querySelector("#quantidade-exibida").textContent'), '0 produtos exibidos');
     await avaliar('document.querySelector("#limpar-filtros").click()');
-    relatorio.testes.push('Todos os 7 filtros; contador singular/plural/zero; A–Z/Z–A; limpar filtros; estado vazio.');
+    relatorio.testes.push('Todos os filtros; reset da paginação em busca/categoria/ordenação; contador singular/plural/zero; A–Z/Z–A; limpar filtros; estado vazio.');
     for (const [largura, altura] of [[1440,1000],[768,1024],[390,844]]) {
         await cdp('Emulation.setDeviceMetricsOverride', {width:largura,height:altura,deviceScaleFactor:1,mobile:largura===390});
         await avaliar('mostrarTodos()');
@@ -203,6 +233,10 @@ try {
         for (const seletor of ['#inicio','#produtos-novidades','#categorias','#catalogo','#sobre','#contato','footer']) {
             await captura(`${largura}-${seletor.replace(/#/g,'')}`, seletor);
         }
+        await captura(`${largura}-cta-catalogo`, '#ver-catalogo');
+        await avaliar('mostrarTodos();document.querySelector("#ver-mais-produtos").click()');
+        assert.equal(await avaliar('document.querySelectorAll("#produtos-catalogo .produto").length'),Math.min(48,produtos.length));
+        await captura(`${largura}-paginacao`, '.catalogo-paginacao');
         if (largura === 1440) {
             const limites = await avaliar(`(async () => {
                 await Promise.all([...document.querySelectorAll('#produtos-novidades img')].map(i=>{i.loading='eager';return i.decode()}));
@@ -210,7 +244,7 @@ try {
                 return {x:0,y:r.top+scrollY,width:innerWidth,height:r.height,scale:1};
             })()`);
             const grade = await cdp('Page.captureScreenshot', {format:'png',captureBeyondViewport:true,clip:limites});
-            fs.writeFileSync(path.join(pastaVerificacao,'1440-novidades-grade-completa.png'),Buffer.from(grade.data,'base64'));
+            fs.writeFileSync(path.join(pastaEvidencias,'1440-novidades-grade-completa.png'),Buffer.from(grade.data,'base64'));
         }
         await avaliar('document.querySelector("#filtros-categorias [data-categoria=Camisas]").click()');
         await captura(`${largura}-camisas`, '#catalogo');
@@ -226,7 +260,7 @@ try {
     }
     assert.deepEqual(erros, []);
     relatorio.testes.push('Desktop/tablet/mobile: sem overflow, grid 3/2/1, foco/labels/links inspecionados, voltar ao topo, sem erros no console.');
-    fs.writeFileSync(path.join(pastaVerificacao, 'resultados.json'), JSON.stringify(relatorio,null,2));
+    fs.writeFileSync(path.join(pastaEvidencias, 'resultados.json'), JSON.stringify(relatorio,null,2));
     console.log(JSON.stringify(relatorio,null,2));
 } finally {
     if (socket?.readyState === WebSocket.OPEN) {try {await cdp('Browser.close', {}, undefined);} catch {} socket.close();}
