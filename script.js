@@ -54,6 +54,56 @@ let produtos = [
         imagem: 'assets/imagens/produtos/vestido-karol.jpg',
     },
 
+    {
+        nome: 'Vestido Ana',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-ana.jpg',
+    },
+
+    {
+        nome: 'Vestido Camily',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-camily.jpg',
+    },
+
+    {
+        nome: 'Vestido Stella',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['PP', 'P', 'M', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-stella.jpg',
+    },
+
+    {
+        nome: 'Vestido Priscila',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-priscila.jpg',
+    },
+
+    {
+        nome: 'Vestido Sindy',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-sindy.jpg',
+    },
+
 
     /* =========================
        BLUSAS
@@ -99,6 +149,56 @@ let produtos = [
         imagem: 'assets/imagens/produtos/blusa-katy.png',
     },
 
+    {
+        nome: 'Blusa Adele',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/blusa-adele.png',
+    },
+
+    {
+        nome: 'Blusa Sofia',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/blusa-sofia.png',
+    },
+
+    {
+        nome: 'Blusa Charlote',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/blusa-charlote.png',
+    },
+
+    {
+        nome: 'Blusa Emanuelly',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/blusa-emanuelly.png',
+    },
+
+    {
+        nome: 'Blusa Helena',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['48', '50', '52', '54'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/blusa-helena.png',
+    },
+
 
     /* =========================
        SAIAS
@@ -142,6 +242,56 @@ let produtos = [
         cores: null,
         novidade: true,
         imagem: 'assets/imagens/produtos/saia-ema.png',
+    },
+
+    {
+        nome: 'Saia Bela',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/saia-bela.png',
+    },
+
+    {
+        nome: 'Saia Melissa',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['PP', 'P'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/saia-melissa.png',
+    },
+
+    {
+        nome: 'Saia Samara',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/saia-samara.png',
+    },
+
+    {
+        nome: 'Saia Graciela',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['M', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/saia-graciela.png',
+    },
+
+    {
+        nome: 'Saia Rosane Plus Size',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['48', '50', '52', '54'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/saia-rosane-plus-size.png',
     },
 ]
 
