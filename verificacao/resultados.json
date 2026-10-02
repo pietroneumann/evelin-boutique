@@ -1,0 +1,55 @@
+{
+  "navegador": "Chrome/154.0.8037.95",
+  "total": 59,
+  "categorias": {
+    "Vestidos": 15,
+    "Blusas": 14,
+    "Saias": 14,
+    "Conjuntos": 5,
+    "Camisas": 5,
+    "Blazers": 1,
+    "Outros": 5
+  },
+  "novidades": 9,
+  "novos": 31,
+  "imagensAntigasPreservadas": true,
+  "testes": [
+    "Entrada: apenas 9 novidades; catálogo fechado e sem cards renderizados.",
+    "59 mensagens WhatsApp e grades dos cards corretas; número preservado; sem preço do fornecedor.",
+    "59 imagens decodificadas no Chrome; caminhos válidos.",
+    "Busca dos 59 nomes; acentos/capitalização; prefixo; trecho intermediário rejeitado; categoria pesquisável.",
+    "Todos os 7 filtros; contador singular/plural/zero; A–Z/Z–A; limpar filtros; estado vazio.",
+    "Desktop/tablet/mobile: sem overflow, grid 3/2/1, foco/labels/links inspecionados, voltar ao topo, sem erros no console."
+  ],
+  "telas": [
+    {
+      "largura": 1440,
+      "altura": 1000,
+      "colunas": 3,
+      "rolagemHorizontal": false,
+      "cardsAlinhados": true
+    },
+    {
+      "largura": 768,
+      "altura": 1024,
+      "colunas": 2,
+      "rolagemHorizontal": false,
+      "cardsAlinhados": true
+    },
+    {
+      "largura": 390,
+      "altura": 844,
+      "colunas": 1,
+      "rolagemHorizontal": false,
+      "cardsAlinhados": true
+    }
+  ],
+  "erros": [],
+  "acessibilidade": {
+    "idsUnicos": true,
+    "imagensComAlt": true,
+    "controlesComLabel": true,
+    "botoesSemOnclick": true,
+    "linksSeguros": true
+  }
+}

@@ -23,10 +23,11 @@
                 </div>
             </div>
 
-            <nav>
+            <nav aria-label="Navegação principal">
                 <a href="#inicio">Início</a>
                 <a href="#novidades">Novidades</a>
                 <a href="#categorias">Categorias</a>
+                <a href="#catalogo">Catálogo</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#contato">Contato</a>
             </nav>
@@ -74,69 +75,51 @@
         </section>
 
 
-            <section id="novidades">
+        <section id="novidades" aria-labelledby="titulo-novidades">
+            <p class="secao-destaque">Escolhidas para você</p>
+            <h2 id="titulo-novidades">Novidades</h2>
+            <p class="secao-descricao">Conheça as 9 novidades da Evelin Boutique.</p>
+            <div class="produtos" id="produtos-novidades"></div>
+        </section>
 
-                <h2>Novidades</h2>
-
-                <input
-                    type="text"
-                    id="busca"
-                    placeholder="Buscar produto..."
-                >
-
-                <p id="quantidade-produtos"></p>
-
-                <div class="produtos"></div>
-
-            </section>
-
-
-        <section id="categorias">
-
+        <section id="categorias" aria-labelledby="titulo-categorias">
             <div class="categorias-conteudo">
-
-                <h2>Categorias</h2>
-
-                <div class="categorias">
-
-                    <div
-                        class="categoria categoria-vestidos"
-                        onclick="clicar('Vestidos', this)"
-                    >
-                        <div class="categoria-overlay">
-                            <h3>Vestidos</h3>
-                            <p>Ver coleção</p>
-                        </div>
-                    </div>
-
-                    <div
-                        class="categoria categoria-blusas"
-                        onclick="clicar('Blusas', this)"
-                    >
-                        <div class="categoria-overlay">
-                            <h3>Blusas</h3>
-                            <p>Ver coleção</p>
-                        </div>
-                    </div>
-
-                    <div
-                        class="categoria categoria-saias"
-                        onclick="clicar('Saias', this)"
-                    >
-                        <div class="categoria-overlay">
-                            <h3>Saias</h3>
-                            <p>Ver coleção</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <button onclick="mostrarTodos()">
-                    Ver todo o catálogo
-                </button>
-
+                <p class="secao-destaque">Encontre seu estilo</p>
+                <h2 id="titulo-categorias">Explore as coleções</h2>
+                <div class="categorias"></div>
+                <button type="button" id="ver-catalogo">Ver todo o catálogo</button>
             </div>
+        </section>
 
+        <section id="catalogo" aria-labelledby="titulo-catalogo">
+            <div class="catalogo-conteudo">
+                <p class="secao-destaque">Sua próxima peça favorita</p>
+                <h2 id="titulo-catalogo">Catálogo Evelin Boutique</h2>
+                <p class="secao-descricao">Explore nossas peças e consulte preços, tamanhos e disponibilidade pelo WhatsApp.</p>
+                <button type="button" id="abrir-catalogo" aria-expanded="false" aria-controls="painel-catalogo">Explorar catálogo completo</button>
+                <div id="painel-catalogo" hidden>
+                    <div class="catalogo-controles">
+                        <div class="controle-busca">
+                            <label for="busca">Buscar por nome ou categoria</label>
+                            <input type="search" id="busca" placeholder="Ex.: Jéssica, camisas…" autocomplete="off">
+                        </div>
+                        <div class="controle-ordem">
+                            <label for="ordenacao">Ordenar por</label>
+                            <select id="ordenacao">
+                                <option value="original">Seleção da boutique</option>
+                                <option value="az">Nome A–Z</option>
+                                <option value="za">Nome Z–A</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="filtros-categorias" class="filtros-categorias" role="group" aria-label="Filtrar produtos por categoria"></div>
+                    <div class="catalogo-resultados">
+                        <p id="quantidade-produtos" role="status" aria-live="polite" aria-atomic="true"></p>
+                        <button type="button" id="limpar-filtros">Limpar filtros</button>
+                    </div>
+                    <div class="produtos" id="produtos-catalogo"></div>
+                </div>
+            </div>
         </section>
 
         <section id="sobre">
@@ -279,6 +262,7 @@
                     <a href="#inicio">Início</a>
                     <a href="#novidades">Novidades</a>
                     <a href="#categorias">Categorias</a>
+                    <a href="#catalogo">Catálogo</a>
                     <a href="#sobre">Sobre</a>
                     <a href="#contato">Contato</a>
 
@@ -310,7 +294,7 @@
 
         </footer>
 
-        <a href="#inicio" class="voltar-topo">
+        <a href="#inicio" class="voltar-topo" aria-label="Voltar ao topo">
             ↑
         </a>
 

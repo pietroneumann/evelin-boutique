@@ -598,38 +598,6 @@ nav a:hover {
 }
 
 
-.categoria-overlay h3 {
-    margin: 0 0 5px;
-
-    font-size: 24px;
-}
-
-
-.categoria-overlay p {
-    margin: 0;
-
-    font-size: 14px;
-}
-
-
-.categoria-vestidos {
-    background-image:
-        url('assets/imagens/produtos/vestido-mariana.jpg');
-}
-
-
-.categoria-blusas {
-    background-image:
-        url('assets/imagens/produtos/blusa-jessica.png');
-}
-
-
-.categoria-saias {
-    background-image:
-        url('assets/imagens/produtos/saia-andreia.png');
-}
-
-
 .categoria.ativa {
     outline:
         3px solid
@@ -1273,4 +1241,136 @@ footer {
     .footer-links {
         align-items: center;
     }
+}
+
+/* Catálogo e coleções: mesma identidade, controles gerados pelos produtos. */
+[hidden] { display: none !important; }
+section { scroll-margin-top: 120px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+    outline: 3px solid #6F5147;
+    outline-offset: 4px;
+}
+.secao-destaque {
+    color: #6F5147;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.secao-descricao {
+    color: #5F5552;
+    line-height: 1.6;
+    max-width: 620px;
+    margin: 0 auto 32px;
+}
+#novidades h2, #categorias h2 { margin-bottom: 16px; }
+.produto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.produto h3 { line-height: 1.3; }
+.produto .botao-whatsapp { margin-top: auto; }
+.categoria-produto { color: #6F5147; }
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+#categorias .categoria {
+    width: 100%;
+    height: 185px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    background-color: #F3E7DF;
+}
+.categoria-titulo { font-size: 22px; font-weight: bold; margin-bottom: 6px; }
+#catalogo {
+    margin-top: 40px;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #F3E7DF;
+}
+.catalogo-conteudo { max-width: 1100px; margin: 0 auto; }
+#catalogo h2 { font-size: 32px; margin: 12px 0 16px; }
+#painel-catalogo { margin-top: 32px; }
+.catalogo-controles {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    max-width: 948px;
+    margin: 0 auto;
+}
+.controle-busca { flex: 1; min-width: 0; }
+.controle-ordem { width: 240px; }
+.catalogo-controles label { display: block; font-size: 14px; font-weight: bold; margin-bottom: 8px; }
+#busca, #ordenacao {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 13px 16px;
+    border: 1px solid #DCC8B6;
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: #292525;
+    font: inherit;
+    box-sizing: border-box;
+}
+.filtros-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 24px auto 0;
+    max-width: 948px;
+}
+.filtros-categorias button { margin: 0; background: #FFFFFF; font: inherit; padding: 10px 16px; }
+.filtros-categorias button.ativa { background: #6F5147; color: #FFFFFF; border-color: #6F5147; }
+.catalogo-resultados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 948px;
+    margin: 20px auto;
+    gap: 16px;
+}
+#quantidade-produtos { margin: 0; color: #6F5147; text-align: left; }
+#limpar-filtros { margin: 0; font: inherit; padding: 8px 12px; }
+#sobre { margin-top: 70px; }
+
+@media (max-width: 1000px) {
+    .categorias { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 601px) and (max-width: 1000px) {
+    header { padding: 16px 24px; gap: 12px; justify-content: center; }
+    nav { gap: 4px; }
+    nav a { padding: 8px 12px; }
+    section { scroll-margin-top: 160px; }
+}
+@media (max-width: 600px) {
+    header { gap: 12px; padding: 12px 15px; }
+    .marca img { width: 44px; height: 44px; }
+    .marca h1 { font-size: 21px; }
+    nav { flex-direction: row; gap: 4px; width: 100%; }
+    nav a { width: auto; padding: 8px 10px; font-size: 14px; }
+    section { scroll-margin-top: 185px; }
+    .categorias { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    #categorias .categoria { height: 160px; max-width: none; }
+    .categoria-overlay { padding: 14px; }
+    .categoria-titulo { font-size: 18px; }
+    .categoria-overlay > span:last-child { font-size: 12px; }
+    #catalogo { margin-top: 20px; padding: 40px 20px; }
+    #catalogo h2 { font-size: 26px; }
+    .catalogo-controles { flex-direction: column; gap: 16px; }
+    .controle-ordem { width: 100%; }
+    .catalogo-resultados { align-items: flex-start; font-size: 14px; }
+    .filtros-categorias { gap: 8px; justify-content: flex-start; }
+    .filtros-categorias button { font-size: 14px; padding: 9px 12px; }
+    .produto { width: 100%; max-width: 340px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; }
 }

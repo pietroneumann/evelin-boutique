@@ -1,0 +1,927 @@
+{
+  "catalogo": "https://sites.google.com/view/mariaamorecatalogo/cat%C3%A1logo",
+  "data": "2026-10-02",
+  "estadoInicial": {
+    "produtos": [
+      {
+        "nome": "Vestido Clarissa",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-clarissa.jpeg"
+      },
+      {
+        "nome": "Vestido Mariel",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-mariel.jpg"
+      },
+      {
+        "nome": "Vestido Gleide",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/vestido-gleide.jpg"
+      },
+      {
+        "nome": "Vestido Mariana",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/vestido-mariana.jpg"
+      },
+      {
+        "nome": "Vestido Karol",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/vestido-karol.jpg"
+      },
+      {
+        "nome": "Vestido Ana",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-ana.jpg"
+      },
+      {
+        "nome": "Vestido Camily",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-camily.jpg"
+      },
+      {
+        "nome": "Vestido Stella",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "PP",
+          "P",
+          "M",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-stella.jpg"
+      },
+      {
+        "nome": "Vestido Priscila",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-priscila.jpg"
+      },
+      {
+        "nome": "Vestido Sindy",
+        "categoria": "Vestidos",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/vestido-sindy.jpg"
+      },
+      {
+        "nome": "Blusa Jussara",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/blusa-jussara.png"
+      },
+      {
+        "nome": "Blusa Soraya",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/blusa-soraya.png"
+      },
+      {
+        "nome": "Blusa Jêssica",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/blusa-jessica.png"
+      },
+      {
+        "nome": "Blusa Katy",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "G",
+          "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/blusa-katy.png"
+      },
+      {
+        "nome": "Blusa Adele",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/blusa-adele.png"
+      },
+      {
+        "nome": "Blusa Sofia",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/blusa-sofia.png"
+      },
+      {
+        "nome": "Blusa Charlote",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/blusa-charlote.png"
+      },
+      {
+        "nome": "Blusa Emanuelly",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/blusa-emanuelly.png"
+      },
+      {
+        "nome": "Blusa Helena",
+        "categoria": "Blusas",
+        "preco": null,
+        "tamanhos": [
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/blusa-helena.png"
+      },
+      {
+        "nome": "Saia Paula",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/saia-paula.png"
+      },
+      {
+        "nome": "Saia Telma",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/saia-telma.png"
+      },
+      {
+        "nome": "Saia Andréia",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/saia-andreia.png"
+      },
+      {
+        "nome": "Saia Ema",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "PP",
+          "P",
+          "M",
+          "G"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/saia-ema.png"
+      },
+      {
+        "nome": "Saia Bela",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/saia-bela.png"
+      },
+      {
+        "nome": "Saia Melissa",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "PP",
+          "P"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/saia-melissa.png"
+      },
+      {
+        "nome": "Saia Samara",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/saia-samara.png"
+      },
+      {
+        "nome": "Saia Graciela",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "M",
+          "EXG"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/saia-graciela.png"
+      },
+      {
+        "nome": "Saia Rosane Plus Size",
+        "categoria": "Saias",
+        "preco": null,
+        "tamanhos": [
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        "cores": null,
+        "novidade": false,
+        "imagem": "assets/imagens/produtos/saia-rosane-plus-size.png"
+      }
+    ],
+    "hashes": {
+      "blusa-adele-saia-bela-original.jpg": "a2ffc8a06c89f84e84ecc5d81f4b15b481acb009ccb32170b68dd0959ea8ef7b",
+      "blusa-adele.png": "9cff3b472865c56bdd38d9df8f97a66a5e58ff5cd368a069a92f8f91f9684a5d",
+      "blusa-charlote-saia-samara-original.jpg": "cb82390542145a0075dc556ceb1f5cfa107391341c9f864e1c31eb41fead0fbb",
+      "blusa-charlote.png": "cd4ef8774617fe4597e0a2171dcd2529be7d90be3de3da3781ff7e55f81146ba",
+      "blusa-emanuelly-saia-graciela-original.jpg": "6d70bf197ddfc098b2560bdb05657dbc9044db6f9b7c4ee984d1ebd369d01fab",
+      "blusa-emanuelly.png": "075740e68f051ddd997681973c2a90832d913c9d62e343a3ecbba45cc26a5629",
+      "blusa-helena-saia-rosane-plus-size-original.png": "6c96b6395de028e2a5dea9512e9be8fe93516444042df07ed316b86a71694c51",
+      "blusa-helena.png": "f4173d26323e62db50ede7424f2a382865a409a73cef1ce62a5a55b46635e918",
+      "blusa-jessica.png": "01f226387865ec78ea08f97a14f86cde4ea77e0df8c04a34adc74ac731879756",
+      "blusa-jussara.png": "25dd7b32328c517ef23cc0b37f187c88fec03de42fa9d2cb53b2662142636372",
+      "blusa-katy-saia-ema-original.jpg": "794dff3d650ebbb05225c8ed028d51a2b9289cbaad71a28ae6768aaefe1dfd60",
+      "blusa-katy.png": "79688e4cdc2d39280e22ef4a0ae8f80c9638e661745128fae2120d3e33bf3c35",
+      "blusa-sofia-saia-melissa-original.jpg": "29416c8968068deec1ce956494ba94d74cce4d0cf55853507e7a2aea6a9fc766",
+      "blusa-sofia.png": "b4f41728144cede649f82acd90625e6a0a9884518bcb16b083b47f3fdd84ddff",
+      "blusa-soraya.png": "dfb469a8d48e65629602a6263ca2f821cbc201bbc7dc41c4993acce8b16044cd",
+      "saia-andreia.png": "952f83c4c0a280f71c1724890edde1c0d12db1c16a1c470b0a8a4d54bf17e687",
+      "saia-bela.png": "a184868ca0e9a990f879f6c1d828d701c5f70b01b6d474ba71f2dde5e8e0ecb4",
+      "saia-ema.png": "4f8c382687a9ae2fffcc2050546754546388c931f3d23fc51289f98a553c734e",
+      "saia-graciela.png": "96479b310d713d671dc4111794674911f2da481a975cef2cc5bf8c8751232075",
+      "saia-melissa.png": "6cab50ed2a8d7d25def078e1dc36d0c32d97ccb21213599b1304864d2c761557",
+      "saia-paula.png": "a2846ba2470399c6827959512856293cf894381e2c96a867c4bec9101bf6f5cd",
+      "saia-rosane-plus-size.png": "b0003bd0f68f9afa7cf5babbb2ea5ff848ce7bff5b47222048beb5e57bd60edc",
+      "saia-samara.png": "d7b6500de2c9989b9769df562d1a737543b65bf1a86ed6bbe7fe27b38dd5b40e",
+      "saia-telma.png": "e9941ad27ef2c145afd26c7ff1a275ec5285b8b7247998c963094c16e6fc9878",
+      "vestido-ana.jpg": "5269df231a684202cd71711ee8674f75bccd319d54ad9b25bde24d04891c6471",
+      "vestido-camily.jpg": "734cebbd23cf5da11723bb6db2238cccd33bcdfd760b5c9e43190aa8dbb6adcc",
+      "vestido-clarissa.jpeg": "c5a4b6f6077e5f13abafcbf566a27aae6007c90a6ea3af736819fbb2f13f7764",
+      "vestido-gleide.jpg": "8df90d39b3929fe19630cbc4def9d94cecd9f17217ee29c49284a4f38a4ca7f4",
+      "vestido-karol.jpg": "d22257d01d5ba150dc631273f65703caafff6f095fb864310c8aa0cff474f470",
+      "vestido-mariana.jpg": "4e35bc5ffe516a62c093b2e645d90fb125de2527a7df1c758e3b7d375bf5f437",
+      "vestido-mariel.jpg": "17b887e9bf783bedcdc65815e8ff845e78cdd0993e2b4fbd4050460e7d341c8b",
+      "vestido-priscila.jpg": "4170d94467f5397fe48f66ae6d71939590f45599098e2df3266e3ca9cbd11229",
+      "vestido-sindy.jpg": "51161b15384c7da97f9498df4cbc79a5a713414e1ddd3565d8cd1529e9541c03",
+      "vestido-stella.jpg": "b4b4053ec32117b3ea86a9a225c988a6151ff4661ed9ecc5cae80102831ac81d"
+    }
+  },
+  "importados": [
+    {
+      "i": 5,
+      "nome": "Vestido Clara",
+      "code": null,
+      "tamanhos": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Vestidos",
+      "slug": "vestido-clara",
+      "shared": false,
+      "fornecedor": "189,90",
+      "imagem": "assets/imagens/produtos/vestido-clara.jpg"
+    },
+    {
+      "i": 6,
+      "nome": "Vestido Grace",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "categoria": "Vestidos",
+      "slug": "vestido-grace",
+      "shared": false,
+      "fornecedor": "179,90",
+      "imagem": "assets/imagens/produtos/vestido-grace.jpg"
+    },
+    {
+      "i": 8,
+      "nome": "Vestido Lais",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M"
+      ],
+      "categoria": "Vestidos",
+      "slug": "vestido-lais",
+      "shared": false,
+      "fornecedor": "219,90",
+      "imagem": "assets/imagens/produtos/vestido-lais.jpg"
+    },
+    {
+      "i": 9,
+      "nome": "Vestido Julieta",
+      "code": null,
+      "tamanhos": [
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Vestidos",
+      "slug": "vestido-julieta",
+      "shared": false,
+      "fornecedor": "229,90",
+      "imagem": "assets/imagens/produtos/vestido-julieta.jpg"
+    },
+    {
+      "i": 14,
+      "nome": "Vestido Dinah",
+      "code": null,
+      "tamanhos": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "categoria": "Vestidos",
+      "slug": "vestido-dinah",
+      "shared": false,
+      "fornecedor": "219,90",
+      "imagem": "assets/imagens/produtos/vestido-dinah.jpg"
+    },
+    {
+      "i": 75,
+      "nome": "Blusa Debora",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Blusas",
+      "slug": "blusa-debora",
+      "shared": false,
+      "fornecedor": "79,90",
+      "imagem": "assets/imagens/produtos/blusa-debora.png"
+    },
+    {
+      "i": 118,
+      "nome": "Blusa Agatha",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "EXG"
+      ],
+      "categoria": "Blusas",
+      "slug": "blusa-agatha",
+      "shared": false,
+      "fornecedor": "119,90",
+      "imagem": "assets/imagens/produtos/blusa-agatha.png"
+    },
+    {
+      "i": 221,
+      "nome": "Blusa Andreza",
+      "code": "01101",
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Blusas",
+      "slug": "blusa-andreza",
+      "shared": false,
+      "fornecedor": "89,90",
+      "imagem": "assets/imagens/produtos/blusa-andreza.png"
+    },
+    {
+      "i": 242,
+      "nome": "Blusa Vera",
+      "code": "00598",
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Blusas",
+      "slug": "blusa-vera",
+      "shared": false,
+      "fornecedor": "39,90",
+      "imagem": "assets/imagens/produtos/blusa-vera.png"
+    },
+    {
+      "i": 281,
+      "nome": "Blusa Valentina",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "categoria": "Blusas",
+      "slug": "blusa-valentina",
+      "shared": false,
+      "fornecedor": "99,90",
+      "imagem": "assets/imagens/produtos/blusa-valentina.png"
+    },
+    {
+      "i": 139,
+      "nome": "Saia Karen",
+      "code": null,
+      "tamanhos": [
+        "G",
+        "EXG"
+      ],
+      "categoria": "Saias",
+      "slug": "saia-karen",
+      "shared": false,
+      "fornecedor": "99,90",
+      "imagem": "assets/imagens/produtos/saia-karen.png"
+    },
+    {
+      "i": 244,
+      "nome": "Saia Luciana",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "EXG"
+      ],
+      "categoria": "Saias",
+      "slug": "saia-luciana",
+      "shared": false,
+      "fornecedor": "119,90",
+      "imagem": "assets/imagens/produtos/saia-luciana.png"
+    },
+    {
+      "i": 414,
+      "nome": "Saia Yamares",
+      "code": "01155",
+      "tamanhos": [
+        "GG"
+      ],
+      "categoria": "Saias",
+      "slug": "saia-yamares",
+      "shared": false,
+      "fornecedor": "119,90",
+      "imagem": "assets/imagens/produtos/saia-yamares.jpg"
+    },
+    {
+      "i": 416,
+      "nome": "Saia Zelda",
+      "code": "00483",
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Saias",
+      "slug": "saia-zelda",
+      "shared": false,
+      "fornecedor": "99,90",
+      "imagem": "assets/imagens/produtos/saia-zelda.jpg"
+    },
+    {
+      "i": 420,
+      "nome": "Saia Amanda",
+      "code": "01052",
+      "tamanhos": [
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Saias",
+      "slug": "saia-amanda",
+      "shared": false,
+      "fornecedor": "94,90",
+      "imagem": "assets/imagens/produtos/saia-amanda.jpg"
+    },
+    {
+      "i": 46,
+      "nome": "Conjunto Talita",
+      "code": null,
+      "tamanhos": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "categoria": "Conjuntos",
+      "slug": "conjunto-talita",
+      "shared": false,
+      "fornecedor": "209,90",
+      "imagem": "assets/imagens/produtos/conjunto-talita.jpg"
+    },
+    {
+      "i": 48,
+      "nome": "Conjunto Yara",
+      "code": "01409",
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Conjuntos",
+      "slug": "conjunto-yara",
+      "shared": false,
+      "fornecedor": "149,90",
+      "imagem": "assets/imagens/produtos/conjunto-yara.jpg"
+    },
+    {
+      "i": 52,
+      "nome": "Conjunto Eny",
+      "code": null,
+      "tamanhos": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "categoria": "Conjuntos",
+      "slug": "conjunto-eny",
+      "shared": false,
+      "fornecedor": "199,90",
+      "imagem": "assets/imagens/produtos/conjunto-eny.jpg"
+    },
+    {
+      "i": 68,
+      "nome": "Conjunto Marina",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Conjuntos",
+      "slug": "conjunto-marina",
+      "shared": false,
+      "fornecedor": "149,90",
+      "imagem": "assets/imagens/produtos/conjunto-marina.jpg"
+    },
+    {
+      "i": 73,
+      "nome": "Conjunto Cecilia",
+      "code": null,
+      "tamanhos": [
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Conjuntos",
+      "slug": "conjunto-cecilia",
+      "shared": false,
+      "fornecedor": "199,90",
+      "imagem": "assets/imagens/produtos/conjunto-cecilia.jpg"
+    },
+    {
+      "i": 100,
+      "nome": "Camisa Maisa",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Camisas",
+      "slug": "camisa-maisa",
+      "shared": true,
+      "fornecedor": "99,90",
+      "imagem": "assets/imagens/produtos/camisa-maisa.png"
+    },
+    {
+      "i": 107,
+      "nome": "Camisa Eugenia",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "EXG"
+      ],
+      "categoria": "Camisas",
+      "slug": "camisa-eugenia",
+      "shared": true,
+      "fornecedor": "139,90",
+      "imagem": "assets/imagens/produtos/camisa-eugenia.png"
+    },
+    {
+      "i": 121,
+      "nome": "Camisa Beatriz",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Camisas",
+      "slug": "camisa-beatriz",
+      "shared": true,
+      "fornecedor": "119,90",
+      "imagem": "assets/imagens/produtos/camisa-beatriz.png"
+    },
+    {
+      "i": 227,
+      "nome": "Camisa Jaqueline",
+      "code": "01400",
+      "tamanhos": [
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Camisas",
+      "slug": "camisa-jaqueline",
+      "shared": true,
+      "fornecedor": "99,90",
+      "imagem": "assets/imagens/produtos/camisa-jaqueline.png"
+    },
+    {
+      "i": 205,
+      "nome": "Camisa Relga",
+      "code": null,
+      "tamanhos": [
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Camisas",
+      "slug": "camisa-relga",
+      "shared": true,
+      "fornecedor": "119,90",
+      "imagem": "assets/imagens/produtos/camisa-relga.png"
+    },
+    {
+      "i": 148,
+      "nome": "Blazer Helena",
+      "code": null,
+      "tamanhos": [
+        "50"
+      ],
+      "categoria": "Blazers",
+      "slug": "blazer-helena",
+      "shared": false,
+      "fornecedor": "159,90",
+      "imagem": "assets/imagens/produtos/blazer-helena.png"
+    },
+    {
+      "i": 81,
+      "nome": "Chemise Beth",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G"
+      ],
+      "categoria": "Outros",
+      "slug": "chemise-beth",
+      "shared": false,
+      "fornecedor": "229,90",
+      "imagem": "assets/imagens/produtos/chemise-beth.jpg"
+    },
+    {
+      "i": 98,
+      "nome": "Salopete com blusa Luiza",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "categoria": "Outros",
+      "slug": "salopete-com-blusa-luiza",
+      "shared": false,
+      "fornecedor": "229,90",
+      "imagem": "assets/imagens/produtos/salopete-com-blusa-luiza.jpg"
+    },
+    {
+      "i": 147,
+      "nome": "Sobretudo Tamires",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G"
+      ],
+      "categoria": "Outros",
+      "slug": "sobretudo-tamires",
+      "shared": false,
+      "fornecedor": "349,90",
+      "imagem": "assets/imagens/produtos/sobretudo-tamires.jpg"
+    },
+    {
+      "i": 158,
+      "nome": "Sobretudo Michelle",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EXG"
+      ],
+      "categoria": "Outros",
+      "slug": "sobretudo-michelle",
+      "shared": false,
+      "fornecedor": "329,90",
+      "imagem": "assets/imagens/produtos/sobretudo-michelle.jpg"
+    },
+    {
+      "i": 124,
+      "nome": "Casaquinho Iolanda",
+      "code": null,
+      "tamanhos": [
+        "P",
+        "EXG"
+      ],
+      "categoria": "Outros",
+      "slug": "casaquinho-iolanda",
+      "shared": false,
+      "fornecedor": "169,90",
+      "imagem": "assets/imagens/produtos/casaquinho-iolanda.png"
+    }
+  ]
+}
