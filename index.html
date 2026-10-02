@@ -1,157 +1,320 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
 
-    <link rel="icon" type="image/png" href="assets/imagens/favicon.png">
+        <link rel="icon" type="image/png" href="assets/imagens/favicon.png">
 
-    <title>Evelin Boutique Delivery</title>
-</head>
+        <title>Evelin Boutique Delivery</title>
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <h1>Evelin Boutique</h1>
+        <header>
+            <div class="marca">
+                <img src="assets/imagens/favicon.png" alt="Logo Evelin Boutique">
 
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#novidades">Novidades</a>
-            <a href="#categorias">Categorias</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
+                <div>
+                    <h1>Evelin Boutique</h1>
+                    <p>Moda feminina & delivery</p>
+                </div>
+            </div>
 
-    <main>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#novidades">Novidades</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </header>
+
+        <main>
 
         <section id="inicio">
 
-            <h2>Evelin Boutique Delivery</h2>
+            <div class="hero-conteudo">
 
-            <p>
-                Moda feminina para todos os momentos
-            </p>
+                <p class="hero-destaque">
+                    Evelin Boutique Delivery
+                </p>
 
-            <a href="#novidades">
-                Confira nossas peças
-            </a>
+                <h2>
+                    Elegância e praticidade
+                    para o seu dia a dia
+                </h2>
 
-        </section>
+                <p class="hero-texto">
+                    Peças femininas selecionadas com carinho,
+                    atendimento personalizado e pedido fácil pelo WhatsApp.
+                </p>
 
+                <div class="hero-botoes">
 
-        <section id="novidades">
+                    <a href="#novidades" class="botao-principal">
+                        Ver novidades
+                    </a>
 
-            <h2>Novidades</h2>
+                    <a
+                        href="https://wa.me/5511971949711"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="botao-secundario"
+                    >
+                        Falar no WhatsApp
+                    </a>
 
-            <input
-                type="text"
-                id="busca"
-                placeholder="Buscar produto..."
-            >
-
-            <p id="quantidade-produtos"></p>
-
-            <div class="produtos"></div>
-
-        </section>
-
-
-        <section id="categorias">
-
-            <h2>Categorias</h2>
-
-            <div class="categorias">
-
-                <div
-                    class="categoria"
-                    onclick="clicar('Vestidos', this)"
-                >
-                    <h3>Vestidos</h3>
-                </div>
-
-                <div
-                    class="categoria"
-                    onclick="clicar('Blusas', this)"
-                >
-                    <h3>Blusas</h3>
-                </div>
-
-                <div
-                    class="categoria"
-                    onclick="clicar('Saias', this)"
-                >
-                    <h3>Saias</h3>
                 </div>
 
             </div>
 
-            <button onclick="mostrarTodos()">
-                Ver todo o catálogo
-            </button>
-
         </section>
 
 
+            <section id="novidades">
+
+                <h2>Novidades</h2>
+
+                <input
+                    type="text"
+                    id="busca"
+                    placeholder="Buscar produto..."
+                >
+
+                <p id="quantidade-produtos"></p>
+
+                <div class="produtos"></div>
+
+            </section>
+
+
+        <section id="categorias">
+
+            <div class="categorias-conteudo">
+
+                <h2>Categorias</h2>
+
+                <div class="categorias">
+
+                    <div
+                        class="categoria categoria-vestidos"
+                        onclick="clicar('Vestidos', this)"
+                    >
+                        <div class="categoria-overlay">
+                            <h3>Vestidos</h3>
+                            <p>Ver coleção</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="categoria categoria-blusas"
+                        onclick="clicar('Blusas', this)"
+                    >
+                        <div class="categoria-overlay">
+                            <h3>Blusas</h3>
+                            <p>Ver coleção</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="categoria categoria-saias"
+                        onclick="clicar('Saias', this)"
+                    >
+                        <div class="categoria-overlay">
+                            <h3>Saias</h3>
+                            <p>Ver coleção</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button onclick="mostrarTodos()">
+                    Ver todo o catálogo
+                </button>
+
+            </div>
+
+        </section>
+
         <section id="sobre">
 
-            <h2>Sobre</h2>
+            <div class="sobre-conteudo">
 
-            <p>
-                A Evelin Boutique Delivery trabalha com moda feminina,
-                oferecendo peças selecionadas com atendimento personalizado
-                e entrega.
-            </p>
+                <p class="sobre-destaque">
+                    Sobre a Evelin Boutique
+                </p>
+
+                <h2>
+                    Moda feminina com atendimento próximo e personalizado
+                </h2>
+
+                <p class="sobre-texto">
+                    A Evelin Boutique Delivery oferece peças femininas
+                    selecionadas para diferentes estilos e ocasiões,
+                    com atendimento personalizado e praticidade na hora de comprar.
+                </p>
+
+            </div>
+
+            <div class="diferenciais">
+
+                <div class="diferencial">
+                    <h3>Peças selecionadas</h3>
+
+                    <p>
+                        Produtos escolhidos com cuidado para oferecer
+                        estilo, elegância e versatilidade.
+                    </p>
+                </div>
+
+                <div class="diferencial">
+                    <h3>Atendimento personalizado</h3>
+
+                    <p>
+                        Tire dúvidas, consulte tamanhos e receba atendimento
+                        diretamente pelo WhatsApp.
+                    </p>
+                </div>
+
+                <div class="diferencial">
+                    <h3>Compra prática</h3>
+
+                    <p>
+                        Escolha sua peça pelo catálogo e entre em contato
+                        com poucos cliques.
+                    </p>
+                </div>
+
+            </div>
 
         </section>
 
 
         <section id="contato">
 
-            <h2>Contato</h2>
+        <div class="contato-conteudo">
 
-            <p>
-                Faça seu pedido ou tire suas dúvidas através
-                dos nossos canais de atendimento.
+            <p class="contato-destaque">
+                Fale com a gente
             </p>
 
-            <p>
-                <a
-                    href="https://wa.me/5511971949711"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    WhatsApp
-                </a>
+            <h2>
+                Tire suas dúvidas e faça seu pedido
+            </h2>
+
+            <p class="contato-texto">
+                Consulte tamanhos, valores e disponibilidade
+                diretamente pelos nossos canais de atendimento.
             </p>
 
-            <p>
-                <a
-                    href="https://www.instagram.com/evelinboutiquedelivery/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Instagram
-                </a>
-            </p>
+        </div>
 
-        </section>
+        <div class="contato-opcoes">
 
-    </main>
+            <a
+                href="https://wa.me/5511971949711"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contato-card"
+            >
+                <h3>WhatsApp</h3>
+
+                <p>
+                    Atendimento rápido para pedidos,
+                    dúvidas e consulta de tamanhos.
+                </p>
+
+                <span>
+                    Falar agora
+                </span>
+            </a>
 
 
-    <footer>
+            <a
+                href="https://www.instagram.com/evelinboutiquedelivery/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contato-card"
+            >
+                <h3>Instagram</h3>
 
-        <p>
-            &copy; 2026 Evelin Boutique Delivery -
-            Todos os direitos reservados.
-        </p>
+                <p>
+                    Acompanhe novidades,
+                    peças e atualizações da loja.
+                </p>
 
-    </footer>
+                <span>
+                    Ver Instagram
+                </span>
+            </a>
 
-    <script src="script.js"></script>
+        </div>
 
-</body>
-</html>
+    </section>
+
+        </main>
+
+
+        <footer>
+
+            <div class="footer-conteudo">
+
+                <div class="footer-marca">
+                    <h3>Evelin Boutique</h3>
+
+                    <p>
+                        Moda feminina com atendimento personalizado
+                        e praticidade na hora de comprar.
+                    </p>
+                </div>
+
+
+                <div class="footer-links">
+
+                    <h4>Navegação</h4>
+
+                    <a href="#inicio">Início</a>
+                    <a href="#novidades">Novidades</a>
+                    <a href="#categorias">Categorias</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+
+                </div>
+
+
+                <div class="footer-atendimento">
+
+                    <h4>Atendimento</h4>
+
+                    <p>
+                        Pedidos e dúvidas pelo WhatsApp
+                        e Instagram.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-final">
+
+                <p>
+                    &copy; 2026 Evelin Boutique Delivery.
+                    Todos os direitos reservados.
+                </p>
+
+            </div>
+
+        </footer>
+
+        <a href="#inicio" class="voltar-topo">
+            ↑
+        </a>
+
+        <script src="script.js"></script>
+
+    </body>
+    </html>

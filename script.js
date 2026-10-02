@@ -1,40 +1,209 @@
 let produtos = [
+
+    /* =========================
+       VESTIDOS
+    ========================= */
+
     {
         nome: 'Vestido Clarissa',
-        preco: null,
         categoria: 'Vestidos',
-        imagem: 'assets/imagens/vestido-clarissa.jpeg',
+        preco: null,
+        tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-clarissa.jpeg',
     },
+
+    {
+        nome: 'Vestido Mariel',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/vestido-mariel.jpg',
+    },
+
+    {
+        nome: 'Vestido Gleide',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/vestido-gleide.jpg',
+    },
+
+    {
+        nome: 'Vestido Mariana',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['PP', 'P', 'M', 'G', 'GG'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/vestido-mariana.jpg',
+    },
+
+    {
+        nome: 'Vestido Karol',
+        categoria: 'Vestidos',
+        preco: null,
+        tamanhos: ['P', 'M', 'G'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/vestido-karol.jpg',
+    },
+
+
+    /* =========================
+       BLUSAS
+    ========================= */
 
     {
         nome: 'Blusa Jussara',
-        preco: null,
         categoria: 'Blusas',
-        imagem: 'assets/imagens/blusa-jussara.png',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/blusa-jussara.png',
     },
 
     {
-        nome: 'Saia Paula',
+        nome: 'Blusa Soraya',
+        categoria: 'Blusas',
         preco: null,
+        tamanhos: ['48', '50', '52', '54'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/blusa-soraya.png',
+    },
+
+    {
+        nome: 'Blusa Jêssica',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['P', 'M'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/blusa-jessica.png',
+    },
+
+    {
+        nome: 'Blusa Katy',
+        categoria: 'Blusas',
+        preco: null,
+        tamanhos: ['G', 'GG'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/blusa-katy.png',
+    },
+
+
+    /* =========================
+       SAIAS
+    ========================= */
+
+    {
+        nome: 'Saia Paula',
         categoria: 'Saias',
-        imagem: 'assets/imagens/saia-paula.png',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: false,
+        imagem: 'assets/imagens/produtos/saia-paula.png',
+    },
+
+    {
+        nome: 'Saia Telma',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['48', '50', '52', '54'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/saia-telma.png',
+    },
+
+    {
+        nome: 'Saia Andréia',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/saia-andreia.png',
+    },
+
+    {
+        nome: 'Saia Ema',
+        categoria: 'Saias',
+        preco: null,
+        tamanhos: ['PP', 'P', 'M', 'G'],
+        cores: null,
+        novidade: true,
+        imagem: 'assets/imagens/produtos/saia-ema.png',
     },
 ]
 
+
+/* =========================
+   CRIAR CARD
+========================= */
 
 function criarCard(produto){
 
     let card = document.createElement('div')
     card.className = 'produto'
 
+    if(produto.novidade === true){
+
+        let etiquetaNovo =
+            document.createElement('span')
+
+        etiquetaNovo.className =
+            'etiqueta-novo'
+
+        etiquetaNovo.textContent =
+            'Novo'
+
+        card.appendChild(
+            etiquetaNovo
+        )
+    }   
+
+
+    let areaImagem = document.createElement('div')
+    areaImagem.className = 'area-imagem-produto'
+
+    let imagem = document.createElement('img')
+    imagem.src = produto.imagem
+    imagem.alt = produto.nome
+
+    areaImagem.appendChild(imagem)
+
 
     let nome = document.createElement('h3')
     nome.textContent = produto.nome
 
 
-    let imagem = document.createElement('img')
-    imagem.src = produto.imagem
-    imagem.alt = produto.nome
+    let categoriaP = document.createElement('p')
+    categoriaP.className = 'categoria-produto'
+    categoriaP.textContent = produto.categoria
+
+
+    let tamanhos = document.createElement('p')
+    tamanhos.className = 'tamanhos-produto'
+
+    if(produto.tamanhos === null){
+
+        tamanhos.textContent =
+            'Tamanhos: consultar'
+
+    } else {
+
+        tamanhos.textContent =
+            `Tamanhos: ${produto.tamanhos.join(', ')}`
+    }
 
 
     let preco = document.createElement('p')
@@ -42,18 +211,14 @@ function criarCard(produto){
 
     if(produto.preco === null){
 
-        preco.textContent = 'Consultar preço'
+        preco.textContent =
+            'Consultar preço'
 
     } else {
 
         preco.textContent =
             `R$ ${formatarPreco(produto.preco)}`
     }
-
-
-    let categoriaP = document.createElement('p')
-    categoriaP.className = 'categoria-produto'
-    categoriaP.textContent = produto.categoria
 
 
     let whatsapp = document.createElement('a')
@@ -63,10 +228,13 @@ function criarCard(produto){
 
     whatsapp.className = 'botao-whatsapp'
 
-    whatsapp.textContent = 'Pedir pelo WhatsApp'
+    whatsapp.textContent =
+        'Pedir pelo WhatsApp'
 
 
-    let mensagem = criarMensagem(produto)
+    let mensagem =
+        criarMensagem(produto)
+
 
     let mensagemCodificada =
         encodeURIComponent(mensagem)
@@ -76,11 +244,13 @@ function criarCard(produto){
         `https://wa.me/5511971949711?text=${mensagemCodificada}`
 
 
-    card.appendChild(imagem)
+    card.appendChild(areaImagem)
 
     card.appendChild(nome)
 
     card.appendChild(categoriaP)
+
+    card.appendChild(tamanhos)
 
     card.appendChild(preco)
 
@@ -91,6 +261,10 @@ function criarCard(produto){
 }
 
 
+/* =========================
+   FORMATAR PREÇO
+========================= */
+
 function formatarPreco(preco){
 
     return preco
@@ -99,20 +273,37 @@ function formatarPreco(preco){
 }
 
 
+/* =========================
+   MENSAGEM WHATSAPP
+========================= */
+
 function criarMensagem(produto){
 
-    let mensagem
+    let mensagem =
+        `Olá! Tenho interesse no ${produto.nome}.`
+
+
+    if(produto.tamanhos === null){
+
+        mensagem +=
+            ` Gostaria de consultar os tamanhos disponíveis.`
+
+    } else {
+
+        mensagem +=
+            ` Vi que os tamanhos disponíveis são ${produto.tamanhos.join(', ')}.`
+    }
 
 
     if(produto.preco === null){
 
-        mensagem =
-            `Olá! Tenho interesse no ${produto.nome} e gostaria de consultar o preço`
+        mensagem +=
+            ` Também gostaria de consultar o preço e a disponibilidade.`
 
     } else {
 
-        mensagem =
-            `Olá! Tenho interesse no ${produto.nome}, no valor de R$ ${formatarPreco(produto.preco)}`
+        mensagem +=
+            ` O valor informado é R$ ${formatarPreco(produto.preco)}. Gostaria de consultar a disponibilidade.`
     }
 
 
@@ -120,10 +311,33 @@ function criarMensagem(produto){
 }
 
 
-function mostrarProdutos(categoria, textoBusca){
+/* =========================
+   NORMALIZAR TEXTO
+========================= */
+
+function normalizarTexto(texto){
+
+    return texto
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+}
+
+
+/* =========================
+   MOSTRAR PRODUTOS
+========================= */
+
+function mostrarProdutos(
+    categoria,
+    textoBusca,
+    somenteNovidades = false
+){
 
     let areaProdutos =
-        document.querySelector('div.produtos')
+        document.querySelector(
+            'div.produtos'
+        )
 
 
     areaProdutos.innerHTML = ''
@@ -135,6 +349,22 @@ function mostrarProdutos(categoria, textoBusca){
     for(let pos in produtos){
 
 
+        /* -------------------------
+           FILTRO DE NOVIDADES
+        ------------------------- */
+
+        if(
+            somenteNovidades === true &&
+            produtos[pos].novidade !== true
+        ){
+            continue
+        }
+
+
+        /* -------------------------
+           FILTRO DE CATEGORIA
+        ------------------------- */
+
         if(
             categoria !== undefined &&
             produtos[pos].categoria !== categoria
@@ -143,14 +373,19 @@ function mostrarProdutos(categoria, textoBusca){
         }
 
 
+        /* -------------------------
+           FILTRO DE BUSCA
+        ------------------------- */
+
         if(
             textoBusca !== undefined &&
             textoBusca !== ''
         ){
 
             let palavrasNome =
-                produtos[pos].nome
-                    .toLowerCase()
+                normalizarTexto(
+                    produtos[pos].nome
+                )
                     .split(' ')
 
 
@@ -160,47 +395,43 @@ function mostrarProdutos(categoria, textoBusca){
             for(let palavra of palavrasNome){
 
                 if(
-                    palavra.startsWith(textoBusca)
+                    palavra.startsWith(
+                        textoBusca
+                    )
                 ){
+
                     encontrou = true
+
                     break
                 }
             }
 
 
             if(encontrou === false){
+
                 continue
             }
         }
 
 
         let card =
-            criarCard(produtos[pos])
+            criarCard(
+                produtos[pos]
+            )
 
 
-        areaProdutos.appendChild(card)
+        areaProdutos.appendChild(
+            card
+        )
 
 
         quantidadeMostrada++
     }
 
 
-    let quantidadeProdutos =
-        document.querySelector(
-            '#quantidade-produtos'
-        )
-
-
-    if(quantidadeMostrada === 1){
-
-        quantidadeProdutos.textContent =
-            '1 produto encontrado'
-
-    } else {
-
-        quantidadeProdutos.textContent =
-            `${quantidadeMostrada} produtos encontrados`
-    }
+    atualizarQuantidade(
+        quantidadeMostrada
+    )
 
 
     if(quantidadeMostrada === 0){
@@ -217,18 +448,64 @@ function mostrarProdutos(categoria, textoBusca){
             'Nenhum produto encontrado.'
 
 
-        areaProdutos.appendChild(mensagem)
+        areaProdutos.appendChild(
+            mensagem
+        )
     }
 }
 
 
-let categoriaAtual = undefined
+/* =========================
+   CONTADOR
+========================= */
 
-let textoBuscaAtual = ''
+function atualizarQuantidade(
+    quantidade
+){
 
+    let quantidadeProdutos =
+        document.querySelector(
+            '#quantidade-produtos'
+        )
+
+
+    if(quantidade === 1){
+
+        quantidadeProdutos.textContent =
+            '1 produto encontrado'
+
+    } else {
+
+        quantidadeProdutos.textContent =
+            `${quantidade} produtos encontrados`
+    }
+}
+
+
+/* =========================
+   ESTADO ATUAL
+========================= */
+
+let categoriaAtual =
+    undefined
+
+
+let textoBuscaAtual =
+    ''
+
+
+let mostrandoNovidades =
+    true
+
+
+/* =========================
+   BUSCA
+========================= */
 
 let campoBusca =
-    document.querySelector('#busca')
+    document.querySelector(
+        '#busca'
+    )
 
 
 campoBusca.addEventListener(
@@ -236,30 +513,52 @@ campoBusca.addEventListener(
     function(){
 
         textoBuscaAtual =
-            campoBusca.value
-                .toLowerCase()
+            normalizarTexto(
+                campoBusca.value
+            )
                 .trim()
 
 
         mostrarProdutos(
             categoriaAtual,
-            textoBuscaAtual
+            textoBuscaAtual,
+            mostrandoNovidades
         )
     }
 )
 
 
-mostrarProdutos()
+/* =========================
+   PRIMEIRA EXIBIÇÃO
+========================= */
 
+mostrarProdutos(
+    undefined,
+    '',
+    true
+)
+
+
+/* =========================
+   MOSTRAR TODO O CATÁLOGO
+========================= */
 
 function mostrarTodos(){
 
-    categoriaAtual = undefined
+    categoriaAtual =
+        undefined
 
-    textoBuscaAtual = ''
+
+    textoBuscaAtual =
+        ''
 
 
-    campoBusca.value = ''
+    mostrandoNovidades =
+        false
+
+
+    campoBusca.value =
+        ''
 
 
     let categorias =
@@ -270,27 +569,44 @@ function mostrarTodos(){
 
     for(let item of categorias){
 
-        item.classList.remove('ativa')
+        item.classList.remove(
+            'ativa'
+        )
     }
 
 
     mostrarProdutos(
         categoriaAtual,
-        textoBuscaAtual
+        textoBuscaAtual,
+        mostrandoNovidades
     )
 
 
     document
-        .querySelector('#novidades')
+        .querySelector(
+            '#novidades'
+        )
         .scrollIntoView({
             behavior: 'smooth'
         })
 }
 
 
-function clicar(categoria, elemento){
+/* =========================
+   FILTRAR CATEGORIA
+========================= */
 
-    categoriaAtual = categoria
+function clicar(
+    categoria,
+    elemento
+){
+
+    categoriaAtual =
+        categoria
+
+
+    mostrandoNovidades =
+        false
 
 
     let categorias =
@@ -301,21 +617,28 @@ function clicar(categoria, elemento){
 
     for(let item of categorias){
 
-        item.classList.remove('ativa')
+        item.classList.remove(
+            'ativa'
+        )
     }
 
 
-    elemento.classList.add('ativa')
+    elemento.classList.add(
+        'ativa'
+    )
 
 
     mostrarProdutos(
         categoriaAtual,
-        textoBuscaAtual
+        textoBuscaAtual,
+        mostrandoNovidades
     )
 
 
     document
-        .querySelector('#novidades')
+        .querySelector(
+            '#novidades'
+        )
         .scrollIntoView({
             behavior: 'smooth'
         })
