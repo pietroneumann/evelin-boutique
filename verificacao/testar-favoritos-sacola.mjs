@@ -31,7 +31,7 @@ async function testarEscolhas({avaliar, cdp, esperar, captura, relatorio}) {
     await avaliar('cardEscolhas("Vestido Mariana").querySelector(".favoritar-produto").click(); cardEscolhas("Vestido Gleide").querySelector(".favoritar-produto").click()');
     assert.equal(await avaliar('favoritos.size'),2);
     assert.equal(await avaliar('sacola.length'),0);
-    assert.equal(await avaliar('document.querySelector("#abrir-favoritos").textContent'),'Favoritos (2)');
+    assert.equal(await avaliar('document.querySelector("#contador-favoritos").textContent'),'2');
     await avaliar('mostrarTodos()');
     assert.ok(await avaliar(`[...document.querySelectorAll('[data-acao="favorito"]')].filter(b=>b.dataset.produto===identificarProduto(produtos.find(p=>p.nome==='Vestido Mariana'))).every(b=>b.getAttribute('aria-pressed')==='true')`));
     await clicar('#abrir-favoritos');
@@ -40,7 +40,7 @@ async function testarEscolhas({avaliar, cdp, esperar, captura, relatorio}) {
     assert.equal(await avaliar('sacola.length'),0);
     await avaliar(`marianaFavorita.querySelector('select').value='M';marianaFavorita.querySelector('.adicionar-sacola').click();marianaFavorita.querySelector('.adicionar-sacola').click();marianaFavorita.querySelector('select').value='G';marianaFavorita.querySelector('.adicionar-sacola').click();const gleide=[...document.querySelectorAll('#conteudo-escolhas .produto')].find(c=>c.querySelector('h3').textContent==='Vestido Gleide');gleide.querySelector('select').value='P';gleide.querySelector('.adicionar-sacola').click()`);
     assert.deepEqual(await avaliar('sacola.map(i=>i.quantidade)'),[2,1,1]);
-    assert.equal(await avaliar('document.querySelector("#abrir-sacola").textContent'),'Sacola (4)');
+    assert.equal(await avaliar('document.querySelector("#contador-sacola").textContent'),'4');
     await clicar('#fechar-escolhas'); await clicar('#abrir-sacola');
     assert.ok(await avaliar('!document.querySelector("#conteudo-escolhas .preco")'));
     let texto=await avaliar('new URL(document.querySelector("#whatsapp-sacola").href).searchParams.get("text")');

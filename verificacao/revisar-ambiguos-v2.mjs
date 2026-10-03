@@ -6,7 +6,7 @@ const pasta=path.dirname(fileURLToPath(import.meta.url));
 const raiz=path.dirname(pasta);
 const destino=path.join(pasta,'v2-final');
 const fonte=JSON.parse(fs.readFileSync(path.join(pasta,'expansao-completa/analise.json'),'utf8'));
-const produtos=vm.runInNewContext(fs.readFileSync(path.join(raiz,'script.js'),'utf8').split('function criarCard')[0]+';produtos');
+const produtos=vm.runInNewContext(fs.readFileSync(path.join(raiz,'script.js'),'utf8').match(/^[\s\S]*?^\]/m)[0]+';produtos');
 const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim().replace(/\s+/g,' ');
 const nomesPorCodigo=new Map();
 for(const grupo of ['existentes','seguros','ambiguos'])for(const caso of fonte[grupo]){

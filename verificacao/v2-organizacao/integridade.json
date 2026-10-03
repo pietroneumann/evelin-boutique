@@ -1,0 +1,13 @@
+{
+  "referencia": "0168e2c5cdd25c77ba697e3a6aaa24ac67e9517c",
+  "produtos": 260,
+  "categorias": 7,
+  "novidades": 9,
+  "codigosConhecidos": 124,
+  "codigosNull": 136,
+  "arrayIntegralPreservado": true,
+  "imagensPreservadas": true,
+  "precosNull": true,
+  "funcoesPreservadas": 34,
+  "funcaoAdaptada": "atualizarContadoresEscolhas"
+}

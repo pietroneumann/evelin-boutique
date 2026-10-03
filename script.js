@@ -1,3 +1,5 @@
+/* 01. Dados dos produtos — informações confirmadas */
+
 let produtos = [
 
     /* =========================
@@ -2882,12 +2884,110 @@ let produtos = [
     },
 ]
 
+/* 02. Configuração, índices e referências do DOM */
 
-/* =========================
-   CRIAR CARD
-========================= */
+const produtosPorLote = 24
+const limiteRecentes = 8
+const categoriasDisponiveis = [...new Set(produtos.map(produto => produto.categoria))]
+const tamanhosDisponiveis = [...new Set(produtos.flatMap(produto => produto.tamanhos || []))].sort(ordenarTamanhos)
+const contagemCodigos = new Map()
+produtos.forEach(produto => {
+    if(produto.codigoFornecedor) contagemCodigos.set(produto.codigoFornecedor, (contagemCodigos.get(produto.codigoFornecedor) || 0) + 1)
+})
+const produtosPorId = new Map(produtos.map(produto => [identificarProduto(produto), produto]))
+const campoBusca = document.querySelector('#busca')
+const campoOrdem = document.querySelector('#ordenacao')
+const campoTamanho = document.querySelector('#filtro-tamanho')
+const painelCatalogo = document.querySelector('#painel-catalogo')
+const botaoAbrirCatalogo = document.querySelector('#abrir-catalogo')
+const dialogoEscolhas = document.querySelector('#dialogo-escolhas')
+const dialogoDetalhe = document.querySelector('#dialogo-produto')
 
-function criarCard(produto){
+/* 03. Estado da aplicação */
+
+let categoriaAtual
+let textoBuscaAtual = ''
+let tamanhoAtual = ''
+let ordemAtual = 'original'
+let limiteVisivel = produtosPorLote
+let sequenciaControles = 0
+let armazenamentoDisponivel = true
+let favoritos = validarFavoritos(lerPreferencia('evelinFavoritos'))
+let sacola = validarSacola(lerPreferencia('evelinSacola'))
+let recentes = validarRecentes(lerPreferencia('evelinRecentes'))
+let painelEscolhas = ''
+let focoAnterior
+let focoDetalhe
+
+/* 04. Utilidades, identidade e armazenamento local */
+
+function identificarProduto(produto) {
+    if(produto.codigoFornecedor && contagemCodigos.get(produto.codigoFornecedor) === 1) return 'codigo:' + produto.codigoFornecedor
+    return 'produto:' + JSON.stringify([produto.categoria, produto.nome, produto.imagem])
+}
+
+function normalizarTexto(texto) {
+    return texto
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim()
+}
+
+function ordenarTamanhos(a, b) {
+    // Esta lista define só a precedência; as opções vêm exclusivamente dos produtos.
+    const grade = ['PP', 'P', 'M', 'G', 'GG', 'EXG']
+    const grupo = tamanho => grade.includes(tamanho) ? 0 : /^\d+$/.test(tamanho) ? 1 : 2
+    const diferenca = grupo(a) - grupo(b)
+    if(diferenca) return diferenca
+    if(grupo(a) === 0) return grade.indexOf(a) - grade.indexOf(b)
+    if(grupo(a) === 1) return Number(a) - Number(b) || a.localeCompare(b, 'pt-BR')
+    return a.localeCompare(b, 'pt-BR', {numeric: true})
+}
+
+function formatarPreco(preco) {
+
+    return preco
+        .toFixed(2)
+        .replace('.', ',')
+}
+
+function tamanhoValido(produto, tamanho) {
+    return produto.tamanhos === null ? tamanho === null : typeof tamanho === 'string' && produto.tamanhos.includes(tamanho)
+}
+
+function lerPreferencia(chave) {
+    try {
+        const dados = JSON.parse(localStorage.getItem(chave) || '[]')
+        return Array.isArray(dados) ? dados : []
+    } catch {
+        // JSON inválido ou armazenamento bloqueado não impede o catálogo de funcionar.
+        return []
+    }
+}
+
+function salvarPreferencia(chave, dados) {
+    try {
+        localStorage.setItem(chave, JSON.stringify(dados))
+        armazenamentoDisponivel = true
+    } catch {
+        armazenamentoDisponivel = false
+        avisarPreferencia('Não foi possível salvar no navegador. Suas escolhas serão mantidas nesta sessão.')
+    }
+}
+
+function avisarPreferencia(texto) {
+    const status = document.querySelector('#status-preferencias')
+    const statusPainel = document.querySelector(dialogoDetalhe.open ? '#status-detalhe' : '#status-painel-escolhas')
+    status.textContent = texto
+    statusPainel.textContent = texto
+    clearTimeout(avisarPreferencia.temporizador)
+    avisarPreferencia.temporizador = setTimeout(() => { status.textContent = ''; statusPainel.textContent = '' }, 6000)
+}
+
+/* 05. Cards e renderização de produtos */
+
+function criarCard(produto) {
 
     let card = document.createElement('article')
     card.className = 'produto'
@@ -2909,7 +3009,6 @@ function criarCard(produto){
         )
     }   
 
-
     let areaImagem = document.createElement('div')
     areaImagem.className = 'area-imagem-produto'
 
@@ -2921,15 +3020,12 @@ function criarCard(produto){
 
     areaImagem.appendChild(imagem)
 
-
     let nome = document.createElement('h3')
     nome.textContent = produto.nome
-
 
     let categoriaP = document.createElement('p')
     categoriaP.className = 'categoria-produto'
     categoriaP.textContent = produto.categoria
-
 
     let tamanhos = document.createElement('p')
     tamanhos.className = 'tamanhos-produto'
@@ -2945,7 +3041,6 @@ function criarCard(produto){
             `Tamanhos: ${produto.tamanhos.join(', ')}`
     }
 
-
     let preco = document.createElement('p')
     preco.className = 'preco'
 
@@ -2960,7 +3055,6 @@ function criarCard(produto){
             `R$ ${formatarPreco(produto.preco)}`
     }
 
-
     let whatsapp = document.createElement('a')
 
     whatsapp.target = '_blank'
@@ -2971,18 +3065,14 @@ function criarCard(produto){
     whatsapp.textContent =
         'Pedir pelo WhatsApp'
 
-
     let mensagem =
         criarMensagem(produto)
-
 
     let mensagemCodificada =
         encodeURIComponent(mensagem)
 
-
     whatsapp.href =
         `https://wa.me/5511971949711?text=${mensagemCodificada}`
-
 
     const abrirDetalhe = document.createElement('button')
     abrirDetalhe.type = 'button'
@@ -3043,88 +3133,10 @@ function criarCard(produto){
     acoes.append(whatsapp, compartilhar)
     card.appendChild(acoes)
 
-
     return card
 }
 
-
-/* =========================
-   FORMATAR PREÇO
-========================= */
-
-function formatarPreco(preco){
-
-    return preco
-        .toFixed(2)
-        .replace('.', ',')
-}
-
-
-/* =========================
-   MENSAGEM WHATSAPP
-========================= */
-
-function criarMensagem(produto){
-
-    let mensagem =
-        `Olá! Tenho interesse no ${produto.nome}.`
-
-
-    if(produto.tamanhos === null){
-
-        mensagem +=
-            ` Gostaria de consultar os tamanhos disponíveis.`
-
-    } else {
-
-        mensagem +=
-            ` Vi que os tamanhos disponíveis são ${produto.tamanhos.join(', ')}.`
-    }
-
-
-    if(produto.preco === null){
-
-        mensagem +=
-            ` Também gostaria de consultar o preço e a disponibilidade.`
-
-    } else {
-
-        mensagem +=
-            ` O valor informado é R$ ${formatarPreco(produto.preco)}. Gostaria de consultar a disponibilidade.`
-    }
-
-
-    return mensagem
-}
-
-
-/* =========================
-   NORMALIZAR TEXTO
-========================= */
-
-function normalizarTexto(texto){
-    return texto
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .toLowerCase()
-        .trim()
-}
-
-/* Cada termo deve iniciar uma palavra do nome ou da categoria. */
-function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false, tamanho = ''){
-    const termos = normalizarTexto(textoBusca).split(/\s+/).filter(Boolean)
-    return produtos.filter(produto => {
-        if(somenteNovidades && produto.novidade !== true) return false
-        if(categoria && produto.categoria !== categoria) return false
-        if(tamanho === 'consultar'){
-            if(produto.tamanhos !== null) return false
-        } else if(tamanho && !produto.tamanhos?.includes(tamanho)) return false
-        const palavras = normalizarTexto(produto.nome + ' ' + produto.categoria).split(/\s+/)
-        return termos.every(termo => palavras.some(palavra => palavra.startsWith(termo)))
-    })
-}
-
-function renderizarProdutos(area, lista){
+function renderizarProdutos(area, lista) {
     area.replaceChildren()
     if(lista.length === 0){
         const mensagem = document.createElement('p')
@@ -3138,36 +3150,27 @@ function renderizarProdutos(area, lista){
     area.appendChild(fragmento)
 }
 
-const categoriasDisponiveis = [...new Set(produtos.map(produto => produto.categoria))]
-const tamanhosDisponiveis = [...new Set(produtos.flatMap(produto => produto.tamanhos || []))].sort(ordenarTamanhos)
-function ordenarTamanhos(a, b){
-    // Esta lista define só a precedência; as opções vêm exclusivamente dos produtos.
-    const grade = ['PP', 'P', 'M', 'G', 'GG', 'EXG']
-    const grupo = tamanho => grade.includes(tamanho) ? 0 : /^\d+$/.test(tamanho) ? 1 : 2
-    const diferenca = grupo(a) - grupo(b)
-    if(diferenca) return diferenca
-    if(grupo(a) === 0) return grade.indexOf(a) - grade.indexOf(b)
-    if(grupo(a) === 1) return Number(a) - Number(b) || a.localeCompare(b, 'pt-BR')
-    return a.localeCompare(b, 'pt-BR', {numeric: true})
-}
-let categoriaAtual
-let textoBuscaAtual = ''
-let tamanhoAtual = ''
-let ordemAtual = 'original'
-const produtosPorLote = 24
-let limiteVisivel = produtosPorLote
-const campoBusca = document.querySelector('#busca')
-const campoOrdem = document.querySelector('#ordenacao')
-const campoTamanho = document.querySelector('#filtro-tamanho')
-const painelCatalogo = document.querySelector('#painel-catalogo')
-const botaoAbrirCatalogo = document.querySelector('#abrir-catalogo')
+/* 06. Catálogo, busca, categorias, filtros e ordenação */
 
-function atualizarQuantidade(quantidade){
+function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false, tamanho = '') {
+    const termos = normalizarTexto(textoBusca).split(/\s+/).filter(Boolean)
+    return produtos.filter(produto => {
+        if(somenteNovidades && produto.novidade !== true) return false
+        if(categoria && produto.categoria !== categoria) return false
+        if(tamanho === 'consultar'){
+            if(produto.tamanhos !== null) return false
+        } else if(tamanho && !produto.tamanhos?.includes(tamanho)) return false
+        const palavras = normalizarTexto(produto.nome + ' ' + produto.categoria).split(/\s+/)
+        return termos.every(termo => palavras.some(palavra => palavra.startsWith(termo)))
+    })
+}
+
+function atualizarQuantidade(quantidade) {
     document.querySelector('#quantidade-produtos').textContent =
         quantidade === 1 ? '1 produto encontrado' : `${quantidade} produtos encontrados`
 }
 
-function mostrarProdutos(reiniciar = true){
+function mostrarProdutos(reiniciar = true) {
     if(reiniciar) limiteVisivel = produtosPorLote
     let lista = selecionarProdutos(categoriaAtual, textoBuscaAtual, false, tamanhoAtual)
     if(ordemAtual !== 'original'){
@@ -3195,7 +3198,7 @@ function mostrarProdutos(reiniciar = true){
     })
 }
 
-function abrirCatalogo(rolar = true){
+function abrirCatalogo(rolar = true) {
     painelCatalogo.hidden = false
     botaoAbrirCatalogo.hidden = true
     botaoAbrirCatalogo.setAttribute('aria-expanded', 'true')
@@ -3205,7 +3208,7 @@ function abrirCatalogo(rolar = true){
     })
 }
 
-function mostrarTodos(){
+function mostrarTodos() {
     categoriaAtual = undefined
     textoBuscaAtual = ''
     tamanhoAtual = ''
@@ -3216,12 +3219,12 @@ function mostrarTodos(){
     abrirCatalogo()
 }
 
-function clicar(categoria){
+function clicar(categoria) {
     categoriaAtual = categoria
     abrirCatalogo()
 }
 
-function criarBotaoFiltro(categoria, titulo){
+function criarBotaoFiltro(categoria, titulo) {
     const botao = document.createElement('button')
     botao.type = 'button'
     botao.dataset.categoria = categoria || ''
@@ -3231,7 +3234,7 @@ function criarBotaoFiltro(categoria, titulo){
     return botao
 }
 
-function criarCategorias(){
+function criarCategorias() {
     const filtros = document.querySelector('#filtros-categorias')
     filtros.appendChild(criarBotaoFiltro(undefined, 'Todas'))
     const area = document.querySelector('.categorias')
@@ -3259,60 +3262,34 @@ function criarCategorias(){
     })
 }
 
-campoBusca.addEventListener('input', () => {
-    textoBuscaAtual = campoBusca.value
-    mostrarProdutos()
-})
-campoOrdem.addEventListener('change', () => {
-    ordemAtual = campoOrdem.value
-    mostrarProdutos()
-})
-campoTamanho.addEventListener('change', () => {
-    tamanhoAtual = campoTamanho.value
-    mostrarProdutos()
-})
-botaoAbrirCatalogo.addEventListener('click', mostrarTodos)
-document.querySelector('#ver-catalogo').addEventListener('click', mostrarTodos)
-document.querySelector('#limpar-filtros').addEventListener('click', mostrarTodos)
-document.querySelector('#ver-mais-produtos').addEventListener('click', () => {
-    limiteVisivel += produtosPorLote
-    mostrarProdutos(false)
-})
-document.querySelectorAll('.cta-quantidade').forEach(texto => {
-    texto.textContent = `${produtos.length} peças disponíveis`
-})
-document.querySelectorAll('a[href="#catalogo"]').forEach(link => {
-    link.addEventListener('click', () => abrirCatalogo(false))
-})
+/* 07. Favoritos e contadores das escolhas */
 
-/* Preferências locais: reconstruir os itens pelo catálogo, nunca confiar em dados armazenados. */
-const contagemCodigos = new Map()
-produtos.forEach(produto => {
-    if(produto.codigoFornecedor) contagemCodigos.set(produto.codigoFornecedor, (contagemCodigos.get(produto.codigoFornecedor) || 0) + 1)
-})
-function identificarProduto(produto){
-    if(produto.codigoFornecedor && contagemCodigos.get(produto.codigoFornecedor) === 1) return 'codigo:' + produto.codigoFornecedor
-    return 'produto:' + JSON.stringify([produto.categoria, produto.nome, produto.imagem])
-}
-const produtosPorId = new Map(produtos.map(produto => [identificarProduto(produto), produto]))
-let sequenciaControles = 0
-let armazenamentoDisponivel = true
-function lerPreferencia(chave){
-    try {
-        const dados = JSON.parse(localStorage.getItem(chave) || '[]')
-        return Array.isArray(dados) ? dados : []
-    } catch {
-        // JSON inválido ou armazenamento bloqueado não impede o catálogo de funcionar.
-        return []
-    }
-}
-function validarFavoritos(dados){
+function validarFavoritos(dados) {
     return new Set(dados.filter(id => typeof id === 'string' && produtosPorId.has(id)))
 }
-function tamanhoValido(produto, tamanho){
-    return produto.tamanhos === null ? tamanho === null : typeof tamanho === 'string' && produto.tamanhos.includes(tamanho)
+
+function atualizarBotaoFavorito(botao, produto) {
+    const marcado = favoritos.has(identificarProduto(produto))
+    botao.textContent = marcado ? '♥' : '♡'
+    botao.setAttribute('aria-pressed', String(marcado))
+    botao.setAttribute('aria-label', (marcado ? 'Remover ' : 'Adicionar ') + produto.nome + (marcado ? ' dos favoritos' : ' aos favoritos'))
 }
-function validarSacola(dados){
+
+function atualizarContadoresEscolhas() {
+    const quantidadeSacola = sacola.reduce((total, item) => total + item.quantidade, 0)
+    document.querySelector('#contador-favoritos').textContent = favoritos.size
+    document.querySelector('#contador-sacola').textContent = quantidadeSacola
+    document.querySelector('#abrir-favoritos').setAttribute('aria-label', 'Abrir favoritos: ' + favoritos.size + (favoritos.size === 1 ? ' peça salva' : ' peças salvas'))
+    document.querySelector('#abrir-sacola').setAttribute('aria-label', 'Abrir sacola de orçamento: ' + quantidadeSacola + (quantidadeSacola === 1 ? ' peça' : ' peças'))
+    document.querySelectorAll('[data-acao="favorito"]').forEach(botao => {
+        const produto = produtosPorId.get(botao.dataset.produto)
+        if(produto) atualizarBotaoFavorito(botao, produto)
+    })
+}
+
+/* 08. Sacola e painel compartilhado das escolhas */
+
+function validarSacola(dados) {
     const validos = []
     dados.forEach(item => {
         if(!item || typeof item !== 'object' || Array.isArray(item)) return
@@ -3326,50 +3303,8 @@ function validarSacola(dados){
     })
     return validos
 }
-let favoritos = validarFavoritos(lerPreferencia('evelinFavoritos'))
-let sacola = validarSacola(lerPreferencia('evelinSacola'))
-const dialogoEscolhas = document.querySelector('#dialogo-escolhas')
-let painelEscolhas = ''
-let focoAnterior
-function avisarPreferencia(texto){
-    const status = document.querySelector('#status-preferencias')
-    const statusPainel = document.querySelector(dialogoDetalhe.open ? '#status-detalhe' : '#status-painel-escolhas')
-    status.textContent = texto
-    statusPainel.textContent = texto
-    clearTimeout(avisarPreferencia.temporizador)
-    avisarPreferencia.temporizador = setTimeout(() => { status.textContent = ''; statusPainel.textContent = '' }, 6000)
-}
-function salvarPreferencia(chave, dados){
-    try {
-        localStorage.setItem(chave, JSON.stringify(dados))
-        armazenamentoDisponivel = true
-    } catch {
-        armazenamentoDisponivel = false
-        avisarPreferencia('Não foi possível salvar no navegador. Suas escolhas serão mantidas nesta sessão.')
-    }
-}
-function atualizarBotaoFavorito(botao, produto){
-    const marcado = favoritos.has(identificarProduto(produto))
-    botao.textContent = marcado ? '♥' : '♡'
-    botao.setAttribute('aria-pressed', String(marcado))
-    botao.setAttribute('aria-label', (marcado ? 'Remover ' : 'Adicionar ') + produto.nome + (marcado ? ' dos favoritos' : ' aos favoritos'))
-}
-function atualizarContadoresEscolhas(){
-    document.querySelector('#abrir-favoritos').textContent = `Favoritos (${favoritos.size})`
-    document.querySelector('#abrir-sacola').textContent = `Sacola (${sacola.reduce((total, item) => total + item.quantidade, 0)})`
-    document.querySelectorAll('[data-acao="favorito"]').forEach(botao => {
-        const produto = produtosPorId.get(botao.dataset.produto)
-        if(produto) atualizarBotaoFavorito(botao, produto)
-    })
-}
-function criarMensagemSacola(itens = sacola){
-    const linhas = itens.map(item => {
-        const produto = produtosPorId.get(item.id)
-        return `${item.quantidade}x ${produto.nome} — ${item.tamanho === null ? 'tamanho a consultar' : 'tamanho ' + item.tamanho}`
-    })
-    return 'Olá! Tenho interesse nestas peças da Evelin Boutique:\n\n' + linhas.join('\n') + '\n\nGostaria de consultar os valores e a disponibilidade dessas peças.'
-}
-function botaoItem(texto, acao, indice, label){
+
+function botaoItem(texto, acao, indice, label) {
     const botao = document.createElement('button')
     botao.type = 'button'
     botao.textContent = texto
@@ -3378,7 +3313,15 @@ function botaoItem(texto, acao, indice, label){
     botao.setAttribute('aria-label', label)
     return botao
 }
-function renderizarEscolhas(){
+
+function estadoVazioEscolhas(texto) {
+    const mensagem = document.createElement('p')
+    mensagem.className = 'mensagem-vazia'
+    mensagem.textContent = texto
+    return mensagem
+}
+
+function renderizarEscolhas() {
     const area = document.querySelector('#conteudo-escolhas')
     const ativo = document.activeElement
     const acaoAnterior = ativo?.dataset.acao
@@ -3428,13 +3371,8 @@ function renderizarEscolhas(){
         ;(equivalente || area.querySelector('button:not(:disabled)') || document.querySelector('#fechar-escolhas')).focus({preventScroll: true})
     }
 }
-function estadoVazioEscolhas(texto){
-    const mensagem = document.createElement('p')
-    mensagem.className = 'mensagem-vazia'
-    mensagem.textContent = texto
-    return mensagem
-}
-function abrirEscolhas(painel){
+
+function abrirEscolhas(painel) {
     painelEscolhas = painel
     focoAnterior = document.activeElement
     dialogoEscolhas.classList.toggle('painel-favoritos', painel === 'favoritos')
@@ -3444,6 +3382,157 @@ function abrirEscolhas(painel){
     if(!dialogoEscolhas.open) dialogoEscolhas.showModal()
     document.querySelector('#fechar-escolhas').focus()
 }
+
+/* 09. Vistos recentemente */
+
+function validarRecentes(dados) {
+    return [...new Set(dados.filter(id => typeof id === 'string' && produtosPorId.has(id)))].slice(0, limiteRecentes)
+}
+
+function registrarRecente(id) {
+    if(!produtosPorId.has(id)) return
+    const lista = [id, ...recentes.filter(anterior => anterior !== id)].slice(0, limiteRecentes)
+    if(JSON.stringify(lista) === JSON.stringify(recentes)) return
+    recentes = lista
+    salvarPreferencia('evelinRecentes', recentes)
+    renderizarRecentes()
+}
+
+function renderizarRecentes() {
+    const area = document.querySelector('#produtos-recentes')
+    const ativo = document.activeElement
+    const card = ativo?.closest('#produtos-recentes .produto')
+    const id = card?.dataset.produto
+    const acao = ativo?.dataset.acao
+    const tamanho = card?.querySelector('.tamanho-sacola').value
+    const seletorAtivo = ativo?.classList.contains('tamanho-sacola')
+    const whatsappAtivo = ativo?.matches('.botao-whatsapp')
+    area.replaceChildren(...recentes.map(id => criarCard(produtosPorId.get(id))))
+    document.querySelector('#recentes').hidden = recentes.length === 0
+    if(card){
+        const novo = [...area.children].find(card => card.dataset.produto === id)
+        if(novo){
+            novo.querySelector('.tamanho-sacola').value = tamanho
+            const controle = seletorAtivo ? novo.querySelector('.tamanho-sacola') : whatsappAtivo ? novo.querySelector('.botao-whatsapp') : [...novo.querySelectorAll('[data-acao]')].find(botao => botao.dataset.acao === acao)
+            controle?.focus({preventScroll:true})
+        }
+    }
+}
+
+/* 10. Detalhe do produto */
+
+function abrirDetalheProduto(id) {
+    const produto = produtosPorId.get(id)
+    if(!produto) return
+    focoDetalhe = document.activeElement
+    document.querySelector('#titulo-detalhe').textContent = produto.nome
+    document.querySelector('#conteudo-detalhe').replaceChildren(criarCard(produto))
+    document.querySelector('#conteudo-detalhe .abrir-detalhe').disabled = true
+    document.querySelector('#status-detalhe').textContent = ''
+    if(!dialogoDetalhe.open) dialogoDetalhe.showModal()
+    document.querySelector('#fechar-detalhe').focus()
+    registrarRecente(id)
+}
+
+/* 11. Compartilhamento e links públicos */
+
+function slugProduto(produto) {
+    return normalizarTexto(produto.nome).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+}
+
+function linkProduto(produto) {
+    const url = new URL(location.href)
+    url.search = ''
+    url.hash = ''
+    url.searchParams.set('produto', slugProduto(produto))
+    return url.href
+}
+
+async function compartilharProduto(id) {
+    const produto = produtosPorId.get(id)
+    if(!produto) return
+    registrarRecente(id)
+    const dados = {title:'Evelin Boutique', text:'Olha esta peça da Evelin Boutique: ' + produto.nome, url:linkProduto(produto)}
+    if(typeof navigator.share === 'function'){
+        try { await navigator.share(dados); return }
+        catch(erro){ if(erro.name === 'AbortError') return }
+    }
+    const mensagem = dados.text + '\n' + dados.url
+    try {
+        if(!navigator.clipboard?.writeText) throw new Error('Cópia indisponível')
+        await navigator.clipboard.writeText(mensagem)
+        avisarPreferencia('Link da peça copiado. Você pode enviá-lo para quem quiser.')
+    } catch {
+        window.prompt('Copie esta mensagem para compartilhar a peça:', mensagem)
+    }
+}
+
+/* 12. Mensagens do WhatsApp */
+
+function criarMensagem(produto) {
+
+    let mensagem =
+        `Olá! Tenho interesse no ${produto.nome}.`
+
+    if(produto.tamanhos === null){
+
+        mensagem +=
+            ` Gostaria de consultar os tamanhos disponíveis.`
+
+    } else {
+
+        mensagem +=
+            ` Vi que os tamanhos disponíveis são ${produto.tamanhos.join(', ')}.`
+    }
+
+    if(produto.preco === null){
+
+        mensagem +=
+            ` Também gostaria de consultar o preço e a disponibilidade.`
+
+    } else {
+
+        mensagem +=
+            ` O valor informado é R$ ${formatarPreco(produto.preco)}. Gostaria de consultar a disponibilidade.`
+    }
+
+    return mensagem
+}
+
+function criarMensagemSacola(itens = sacola) {
+    const linhas = itens.map(item => {
+        const produto = produtosPorId.get(item.id)
+        return `${item.quantidade}x ${produto.nome} — ${item.tamanho === null ? 'tamanho a consultar' : 'tamanho ' + item.tamanho}`
+    })
+    return 'Olá! Tenho interesse nestas peças da Evelin Boutique:\n\n' + linhas.join('\n') + '\n\nGostaria de consultar os valores e a disponibilidade dessas peças.'
+}
+
+/* 13. Eventos — registrados uma única vez */
+
+campoBusca.addEventListener('input', () => {
+    textoBuscaAtual = campoBusca.value
+    mostrarProdutos()
+})
+campoOrdem.addEventListener('change', () => {
+    ordemAtual = campoOrdem.value
+    mostrarProdutos()
+})
+campoTamanho.addEventListener('change', () => {
+    tamanhoAtual = campoTamanho.value
+    mostrarProdutos()
+})
+botaoAbrirCatalogo.addEventListener('click', mostrarTodos)
+document.querySelector('#ver-catalogo').addEventListener('click', mostrarTodos)
+document.querySelector('#limpar-filtros').addEventListener('click', mostrarTodos)
+document.querySelector('#ver-mais-produtos').addEventListener('click', () => {
+    limiteVisivel += produtosPorLote
+    mostrarProdutos(false)
+})
+
+document.querySelectorAll('a[href="#catalogo"]').forEach(link => {
+    link.addEventListener('click', () => abrirCatalogo(false))
+})
+
 document.querySelector('#abrir-favoritos').addEventListener('click', () => abrirEscolhas('favoritos'))
 document.querySelector('#abrir-sacola').addEventListener('click', () => abrirEscolhas('sacola'))
 document.querySelector('#fechar-escolhas').addEventListener('click', () => dialogoEscolhas.close())
@@ -3517,82 +3606,7 @@ window.addEventListener('storage', evento => {
     atualizarContadoresEscolhas()
     if(dialogoEscolhas.open) renderizarEscolhas()
 })
-/* Histórico limitado a IDs; links públicos usam somente o nome da peça. */
-const limiteRecentes = 8
-function validarRecentes(dados){
-    return [...new Set(dados.filter(id => typeof id === 'string' && produtosPorId.has(id)))].slice(0, limiteRecentes)
-}
-let recentes = validarRecentes(lerPreferencia('evelinRecentes'))
-function registrarRecente(id){
-    if(!produtosPorId.has(id)) return
-    const lista = [id, ...recentes.filter(anterior => anterior !== id)].slice(0, limiteRecentes)
-    if(JSON.stringify(lista) === JSON.stringify(recentes)) return
-    recentes = lista
-    salvarPreferencia('evelinRecentes', recentes)
-    renderizarRecentes()
-}
-function renderizarRecentes(){
-    const area = document.querySelector('#produtos-recentes')
-    const ativo = document.activeElement
-    const card = ativo?.closest('#produtos-recentes .produto')
-    const id = card?.dataset.produto
-    const acao = ativo?.dataset.acao
-    const tamanho = card?.querySelector('.tamanho-sacola').value
-    const seletorAtivo = ativo?.classList.contains('tamanho-sacola')
-    const whatsappAtivo = ativo?.matches('.botao-whatsapp')
-    area.replaceChildren(...recentes.map(id => criarCard(produtosPorId.get(id))))
-    document.querySelector('#recentes').hidden = recentes.length === 0
-    if(card){
-        const novo = [...area.children].find(card => card.dataset.produto === id)
-        if(novo){
-            novo.querySelector('.tamanho-sacola').value = tamanho
-            const controle = seletorAtivo ? novo.querySelector('.tamanho-sacola') : whatsappAtivo ? novo.querySelector('.botao-whatsapp') : [...novo.querySelectorAll('[data-acao]')].find(botao => botao.dataset.acao === acao)
-            controle?.focus({preventScroll:true})
-        }
-    }
-}
-function slugProduto(produto){
-    return normalizarTexto(produto.nome).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-}
-function linkProduto(produto){
-    const url = new URL(location.href)
-    url.search = ''
-    url.hash = ''
-    url.searchParams.set('produto', slugProduto(produto))
-    return url.href
-}
-async function compartilharProduto(id){
-    const produto = produtosPorId.get(id)
-    if(!produto) return
-    registrarRecente(id)
-    const dados = {title:'Evelin Boutique', text:'Olha esta peça da Evelin Boutique: ' + produto.nome, url:linkProduto(produto)}
-    if(typeof navigator.share === 'function'){
-        try { await navigator.share(dados); return }
-        catch(erro){ if(erro.name === 'AbortError') return }
-    }
-    const mensagem = dados.text + '\n' + dados.url
-    try {
-        if(!navigator.clipboard?.writeText) throw new Error('Cópia indisponível')
-        await navigator.clipboard.writeText(mensagem)
-        avisarPreferencia('Link da peça copiado. Você pode enviá-lo para quem quiser.')
-    } catch {
-        window.prompt('Copie esta mensagem para compartilhar a peça:', mensagem)
-    }
-}
-const dialogoDetalhe = document.querySelector('#dialogo-produto')
-let focoDetalhe
-function abrirDetalheProduto(id){
-    const produto = produtosPorId.get(id)
-    if(!produto) return
-    focoDetalhe = document.activeElement
-    document.querySelector('#titulo-detalhe').textContent = produto.nome
-    document.querySelector('#conteudo-detalhe').replaceChildren(criarCard(produto))
-    document.querySelector('#conteudo-detalhe .abrir-detalhe').disabled = true
-    document.querySelector('#status-detalhe').textContent = ''
-    if(!dialogoDetalhe.open) dialogoDetalhe.showModal()
-    document.querySelector('#fechar-detalhe').focus()
-    registrarRecente(id)
-}
+
 // Manter a navegação de Tab dentro do detalhe, inclusive no fechamento do ciclo.
 dialogoDetalhe.addEventListener('keydown', evento => {
     if(evento.key !== 'Tab') return
@@ -3616,6 +3630,13 @@ dialogoDetalhe.addEventListener('close', () => {
 document.addEventListener('change', evento => {
     if(evento.target.matches('.produto .tamanho-sacola')) registrarRecente(evento.target.closest('.produto').dataset.produto)
 })
+
+/* 14. Inicialização */
+
+document.querySelectorAll('.cta-quantidade').forEach(texto => {
+    texto.textContent = `${produtos.length} peças disponíveis`
+})
+
 renderizarRecentes()
 atualizarContadoresEscolhas()
 

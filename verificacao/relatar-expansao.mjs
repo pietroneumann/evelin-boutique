@@ -10,7 +10,7 @@ const ler = nome => JSON.parse(fs.readFileSync(path.join(pasta,nome),'utf8'));
 const analise = ler('analise.json');
 const evidencia = ler('importacao.json');
 const testes = ler('resultados.json');
-const produtos = JSON.parse(JSON.stringify(vm.runInNewContext(fs.readFileSync(path.join(raiz,'script.js'),'utf8').split('function criarCard')[0]+';produtos')));
+const produtos = JSON.parse(JSON.stringify(vm.runInNewContext(fs.readFileSync(path.join(raiz,'script.js'),'utf8').match(/^[\s\S]*?^\]/m)[0]+';produtos')));
 const originais = ler('imagens-baixadas.json');
 const categorias = [...new Set(produtos.map(p=>p.categoria))];
 const campo = valor => valor === null || valor === undefined ? 'null' : Array.isArray(valor) ? valor.join(', ') : String(valor).replace(/\|/g,' / ');

@@ -24,7 +24,7 @@ for (const tag of html.matchAll(/<(\/?)([a-z][a-z0-9]*)\b[^>]*>/gi)) {
     else pilhaHTML.push(nome);
 }
 assert.deepEqual(pilhaHTML, []);
-const produtos = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.split('function criarCard')[0] + '; produtos')));
+const produtos = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.match(/^[\s\S]*?^\]/m)[0] + '; produtos')));
 const normalizar = texto => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 assert.equal(produtos.length, totalEsperado);
 assert.equal(new Set(produtos.map(p => normalizar(p.nome))).size, produtos.length);

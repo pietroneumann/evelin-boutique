@@ -11,7 +11,7 @@ const inicial = JSON.parse(fs.readFileSync(path.join(pasta,'estado-inicial.json'
 const analise = JSON.parse(fs.readFileSync(path.join(pasta,'analise.json'),'utf8'));
 const arquivo = path.join(raiz,'script.js');
 let fonte = fs.readFileSync(arquivo,'utf8');
-const anteriores = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.split('function criarCard')[0]+';produtos')));
+const anteriores = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.match(/^[\s\S]*?^\]/m)[0]+';produtos')));
 for(const produto of inicial.produtos) assert.deepEqual(anteriores.find(p=>p.nome===produto.nome),produto);
 const normalizar = s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,' ').trim();
 const selecionados = process.argv.includes('--primeiro') ? plano.slice(0,1) : plano;
@@ -25,7 +25,7 @@ for(const categoria of [...new Set(novos.map(p=>p.categoria))].reverse()) {
         return {nome:p.nome,categoria:p.categoria,preco:null,tamanhos:p.tamanhos,cores:p.cores,novidade:false,imagem:p.imagem};
     });
     const trecho = '\n'+objetos.map(p=>'    {\n'+Object.entries(p).map(([k,v])=>'        '+k+': '+JSON.stringify(v)+',').join('\n')+'\n    },\n').join('\n');
-    const dados = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.split('function criarCard')[0]+';produtos')));
+    const dados = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.match(/^[\s\S]*?^\]/m)[0]+';produtos')));
     const categorias = [...new Set(dados.map(p=>p.categoria))];
     const proxima = categorias[categorias.indexOf(categoria)+1];
     let ponto;
@@ -37,7 +37,7 @@ for(const categoria of [...new Set(novos.map(p=>p.categoria))].reverse()) {
     assert.ok(ponto>0);
     fonte = fonte.slice(0,ponto)+trecho+fonte.slice(ponto);
 }
-const finais = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.split('function criarCard')[0]+';produtos')));
+const finais = JSON.parse(JSON.stringify(vm.runInNewContext(fonte.match(/^[\s\S]*?^\]/m)[0]+';produtos')));
 assert.equal(new Set(finais.map(p=>normalizar(p.nome))).size,finais.length);
 assert.equal(finais.length,anteriores.length+novos.length);
 for(const produto of inicial.produtos) assert.deepEqual(finais.find(p=>p.nome===produto.nome),produto);
