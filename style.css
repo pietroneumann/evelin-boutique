@@ -1454,3 +1454,34 @@ button:disabled { cursor: default; opacity: .55; transform: none; }
     .item-sacola img { width: 60px; height: 90px; }
     .item-sacola h3 { font-size: 16px; }
 }
+
+/* ?ltimas descobertas e detalhe, com as mesmas a??es do cat?logo. */
+.abrir-detalhe { display: block; width: 100%; padding: 0; margin: 0; border: 0; background: transparent; }
+.abrir-detalhe:hover { background: transparent; }
+.abrir-detalhe:disabled { opacity: 1; }
+.acoes-secundarias { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: auto; }
+.produto .acoes-secundarias .botao-whatsapp, .acoes-secundarias button { display: flex; align-items: center; justify-content: center; margin: 0; min-height: 44px; padding: 10px 8px; box-sizing: border-box; font: inherit; font-size: 13px; line-height: 1.4; }
+.produto .acoes-secundarias .botao-whatsapp { background: #FAF7F2; border: 1px solid #DCC8B6; color: #513A32; }
+.adicionar-sacola { background: #6F5147; color: #FFFFFF; font-weight: bold; }
+.adicionar-sacola:hover { background: #513A32; color: #FFFFFF; }
+#recentes { margin: 50px auto 0; padding: 35px 20px; max-width: 948px; text-align: center; }
+.recentes-produtos { display: flex; gap: 24px; overflow-x: auto; padding: 8px 5px 24px; scroll-snap-type: x proximity; }
+.recentes-produtos .produto { flex: 0 0 280px; width: 280px; max-width: 85vw; scroll-snap-align: start; }
+.recentes-produtos .area-imagem-produto { height: 290px; }
+.recentes-produtos:focus-visible { outline: 3px solid #6F5147; outline-offset: 4px; }
+#dialogo-produto { width: 640px; max-width: calc(100vw - 32px); max-height: calc(100dvh - 32px); padding: 24px; box-sizing: border-box; border: 1px solid #DCC8B6; border-radius: 18px; background: #FAF7F2; color: #292525; }
+#dialogo-produto[open] { display: flex; flex-direction: column; overflow: hidden; }
+#dialogo-produto::backdrop { background: #29252580; }
+#fechar-detalhe { flex-shrink: 0; margin: 0; min-height: 44px; }
+#conteudo-detalhe .produto { width: 100%; max-width: none; padding: 16px; box-sizing: border-box; box-shadow: none; }
+#conteudo-detalhe .area-imagem-produto { height: 450px; }
+#status-detalhe { line-height: 1.5; color: #6F5147; }
+#status-detalhe:empty { display: none; }
+@media (max-width: 600px) {
+    #dialogo-produto { padding: 16px; }
+    #conteudo-detalhe .produto { padding: 8px; }
+    #conteudo-detalhe .area-imagem-produto { height: 340px; }
+    .filtros-categorias button, #limpar-filtros, nav a { min-height: 44px; box-sizing: border-box; }
+    .catalogo-controles { gap: 12px; }
+    #recentes { padding: 28px 20px; }
+}

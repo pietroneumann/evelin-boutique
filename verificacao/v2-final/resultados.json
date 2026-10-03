@@ -1,0 +1,120 @@
+{
+  "navegador": "Chrome/154.0.8037.95",
+  "total": 260,
+  "categorias": {
+    "Vestidos": 97,
+    "Blusas": 64,
+    "Saias": 51,
+    "Conjuntos": 32,
+    "Camisas": 6,
+    "Blazers": 1,
+    "Outros": 9
+  },
+  "novidades": 9,
+  "novos": 201,
+  "imagensAntigasPreservadas": true,
+  "testes": [
+    "Entrada: apenas 9 novidades; catálogo fechado e sem cards renderizados.",
+    "Paginação 24/48/todos; append preserva cards; botão some ao esgotar; contador total correto; CTA dinâmico.",
+    "260 mensagens WhatsApp e grades dos cards corretas; número preservado; sem preço do fornecedor.",
+    "260 imagens decodificadas no Chrome; caminhos válidos.",
+    "Busca dos 260 nomes; acentos/capitalização; prefixo; trecho intermediário rejeitado; categoria pesquisável.",
+    "Todos os filtros; reset da paginação em busca/categoria/ordenação; contador singular/plural/zero; A–Z/Z–A; limpar filtros; estado vazio.",
+    "Favoritos com/sem código: adicionar/remover, sincronização, contador, vazio e persistência; sacola independente; cards da paginação atendidos.",
+    "Sacola: seleção obrigatória, agrupamento por produto/tamanho, tamanhos diferentes, quantidade mínima 1, remover, contador e persistência; WhatsApp único com/sem tamanho; storage inválido/bloqueado e evento entre abas.",
+    "Painéis 1440/768/390: sem overflow, foco visível/contido, fechamento sempre visível, Escape e foco restaurado; sete capturas.",
+    "Tamanho: todas as opções reais e Consultar; combinações com categoria/busca/A–Z/Z–A; 24/48, reset, limpar, contador e estado vazio.",
+    "Filtro não altera a home, favoritos, sacola ou localStorage; tamanho null testado em fixture isolada; select rotulado com foco visível em 1440/768/390.",
+    "V2 final: recentes 8/ordem/persistência/validação; share nativo/cópia simulados, cancelamento e fallback manual; deep link válido/inválido; modal Escape/foco/Tab e 3 resoluções.",
+    "Desktop/tablet/mobile: sem overflow, grid 3/2/1, foco/labels/links inspecionados, voltar ao topo, sem erros no console."
+  ],
+  "telas": [
+    {
+      "largura": 1440,
+      "altura": 1000,
+      "colunas": 3,
+      "rolagemHorizontal": false,
+      "cardsAlinhados": true
+    },
+    {
+      "largura": 768,
+      "altura": 1024,
+      "colunas": 2,
+      "rolagemHorizontal": false,
+      "cardsAlinhados": true
+    },
+    {
+      "largura": 390,
+      "altura": 844,
+      "colunas": 1,
+      "rolagemHorizontal": false,
+      "cardsAlinhados": true
+    }
+  ],
+  "erros": [],
+  "performance": {
+    "cardsIniciais": 9,
+    "cardsCatalogoInicial": 0,
+    "imagensSolicitadasInicialmente": 8
+  },
+  "acessibilidade": {
+    "idsUnicos": true,
+    "imagensComAlt": true,
+    "controlesComLabel": true,
+    "botoesSemOnclick": true,
+    "linksSeguros": true
+  },
+  "escolhas": {
+    "favoritos": true,
+    "sacola": true,
+    "persistencia": true,
+    "storageValidado": true,
+    "whatsapp": true,
+    "teclado": true
+  },
+  "filtroTamanho": {
+    "opcoes": [
+      "Todos os tamanhos",
+      "PP",
+      "P",
+      "M",
+      "G",
+      "GG",
+      "EXG",
+      "48",
+      "50",
+      "52",
+      "54",
+      "Consultar tamanho"
+    ],
+    "combinacoes": true,
+    "paginacao": true,
+    "consultarAtual": 0,
+    "favoritosPreservados": true,
+    "storagePreservado": true
+  },
+  "v2Final": {
+    "recentes": {
+      "limite": 8,
+      "ordem": true,
+      "persistencia": true,
+      "semDuplicatas": true,
+      "armazenamentoInvalido": true,
+      "armazenamentoBloqueado": true
+    },
+    "compartilhar": {
+      "apiNativaSimulada": true,
+      "clipboardSimulado": true,
+      "cancelamento": true,
+      "copiaManual": true,
+      "linkDireto": true
+    },
+    "detalhe": {
+      "escape": true,
+      "foco": true,
+      "teclado": true,
+      "responsivo": true
+    },
+    "dadosPreservados": true
+  }
+}

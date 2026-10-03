@@ -2984,7 +2984,14 @@ function criarCard(produto){
         `https://wa.me/5511971949711?text=${mensagemCodificada}`
 
 
-    card.appendChild(areaImagem)
+    const abrirDetalhe = document.createElement('button')
+    abrirDetalhe.type = 'button'
+    abrirDetalhe.className = 'abrir-detalhe'
+    abrirDetalhe.dataset.acao = 'detalhe'
+    abrirDetalhe.dataset.produto = card.dataset.produto
+    abrirDetalhe.setAttribute('aria-label', 'Ver detalhes de ' + produto.nome)
+    abrirDetalhe.appendChild(areaImagem)
+    card.appendChild(abrirDetalhe)
 
     const titulo = document.createElement('div')
     titulo.className = 'titulo-produto'
@@ -3025,7 +3032,16 @@ function criarCard(produto){
     escolha.append(label, seletor, adicionar)
     card.appendChild(escolha)
 
-    card.appendChild(whatsapp)
+    const acoes = document.createElement('div')
+    acoes.className = 'acoes-secundarias'
+    const compartilhar = document.createElement('button')
+    compartilhar.type = 'button'
+    compartilhar.dataset.acao = 'compartilhar'
+    compartilhar.dataset.produto = card.dataset.produto
+    compartilhar.textContent = 'Compartilhar'
+    compartilhar.setAttribute('aria-label', 'Compartilhar ' + produto.nome)
+    acoes.append(whatsapp, compartilhar)
+    card.appendChild(acoes)
 
 
     return card
@@ -3317,7 +3333,7 @@ let painelEscolhas = ''
 let focoAnterior
 function avisarPreferencia(texto){
     const status = document.querySelector('#status-preferencias')
-    const statusPainel = document.querySelector('#status-painel-escolhas')
+    const statusPainel = document.querySelector(dialogoDetalhe.open ? '#status-detalhe' : '#status-painel-escolhas')
     status.textContent = texto
     statusPainel.textContent = texto
     clearTimeout(avisarPreferencia.temporizador)
@@ -3437,10 +3453,22 @@ dialogoEscolhas.addEventListener('close', () => {
 })
 // Uma delegação atende também os cards acrescentados pela paginação e os favoritos.
 document.addEventListener('click', evento => {
+    const link = evento.target.closest('.produto .botao-whatsapp')
+    if(link){
+        const id = link.closest('.produto').dataset.produto
+        // Atualizar a faixa após a ação padrão do link, sem interromper o WhatsApp.
+        setTimeout(() => registrarRecente(id), 0)
+    }
     const botao = evento.target.closest('button[data-acao]')
     if(!botao || botao.disabled) return
     const acao = botao.dataset.acao
-    if(acao === 'favorito'){
+    if(acao === 'detalhe'){
+        abrirDetalheProduto(botao.dataset.produto)
+        return
+    } else if(acao === 'compartilhar'){
+        compartilharProduto(botao.dataset.produto)
+        return
+    } else if(acao === 'favorito'){
         const id = botao.dataset.produto
         if(!produtosPorId.has(id)) return
         if(favoritos.has(id)) favoritos.delete(id)
@@ -3448,6 +3476,7 @@ document.addEventListener('click', evento => {
         salvarPreferencia('evelinFavoritos', [...favoritos])
         atualizarContadoresEscolhas()
         if(dialogoEscolhas.open && painelEscolhas === 'favoritos') renderizarEscolhas()
+        registrarRecente(id)
     } else if(acao === 'adicionar-sacola'){
         const card = botao.closest('.produto')
         const id = card.dataset.produto
@@ -3480,12 +3509,114 @@ document.addEventListener('click', evento => {
     }
 })
 window.addEventListener('storage', evento => {
-    if(evento.key !== null && !['evelinFavoritos', 'evelinSacola'].includes(evento.key)) return
+    if(evento.key !== null && !['evelinFavoritos', 'evelinSacola', 'evelinRecentes'].includes(evento.key)) return
+    recentes = validarRecentes(lerPreferencia('evelinRecentes'))
+    renderizarRecentes()
     favoritos = validarFavoritos(lerPreferencia('evelinFavoritos'))
     sacola = validarSacola(lerPreferencia('evelinSacola'))
     atualizarContadoresEscolhas()
     if(dialogoEscolhas.open) renderizarEscolhas()
 })
+/* Histórico limitado a IDs; links públicos usam somente o nome da peça. */
+const limiteRecentes = 8
+function validarRecentes(dados){
+    return [...new Set(dados.filter(id => typeof id === 'string' && produtosPorId.has(id)))].slice(0, limiteRecentes)
+}
+let recentes = validarRecentes(lerPreferencia('evelinRecentes'))
+function registrarRecente(id){
+    if(!produtosPorId.has(id)) return
+    const lista = [id, ...recentes.filter(anterior => anterior !== id)].slice(0, limiteRecentes)
+    if(JSON.stringify(lista) === JSON.stringify(recentes)) return
+    recentes = lista
+    salvarPreferencia('evelinRecentes', recentes)
+    renderizarRecentes()
+}
+function renderizarRecentes(){
+    const area = document.querySelector('#produtos-recentes')
+    const ativo = document.activeElement
+    const card = ativo?.closest('#produtos-recentes .produto')
+    const id = card?.dataset.produto
+    const acao = ativo?.dataset.acao
+    const tamanho = card?.querySelector('.tamanho-sacola').value
+    const seletorAtivo = ativo?.classList.contains('tamanho-sacola')
+    const whatsappAtivo = ativo?.matches('.botao-whatsapp')
+    area.replaceChildren(...recentes.map(id => criarCard(produtosPorId.get(id))))
+    document.querySelector('#recentes').hidden = recentes.length === 0
+    if(card){
+        const novo = [...area.children].find(card => card.dataset.produto === id)
+        if(novo){
+            novo.querySelector('.tamanho-sacola').value = tamanho
+            const controle = seletorAtivo ? novo.querySelector('.tamanho-sacola') : whatsappAtivo ? novo.querySelector('.botao-whatsapp') : [...novo.querySelectorAll('[data-acao]')].find(botao => botao.dataset.acao === acao)
+            controle?.focus({preventScroll:true})
+        }
+    }
+}
+function slugProduto(produto){
+    return normalizarTexto(produto.nome).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+}
+function linkProduto(produto){
+    const url = new URL(location.href)
+    url.search = ''
+    url.hash = ''
+    url.searchParams.set('produto', slugProduto(produto))
+    return url.href
+}
+async function compartilharProduto(id){
+    const produto = produtosPorId.get(id)
+    if(!produto) return
+    registrarRecente(id)
+    const dados = {title:'Evelin Boutique', text:'Olha esta peça da Evelin Boutique: ' + produto.nome, url:linkProduto(produto)}
+    if(typeof navigator.share === 'function'){
+        try { await navigator.share(dados); return }
+        catch(erro){ if(erro.name === 'AbortError') return }
+    }
+    const mensagem = dados.text + '\n' + dados.url
+    try {
+        if(!navigator.clipboard?.writeText) throw new Error('Cópia indisponível')
+        await navigator.clipboard.writeText(mensagem)
+        avisarPreferencia('Link da peça copiado. Você pode enviá-lo para quem quiser.')
+    } catch {
+        window.prompt('Copie esta mensagem para compartilhar a peça:', mensagem)
+    }
+}
+const dialogoDetalhe = document.querySelector('#dialogo-produto')
+let focoDetalhe
+function abrirDetalheProduto(id){
+    const produto = produtosPorId.get(id)
+    if(!produto) return
+    focoDetalhe = document.activeElement
+    document.querySelector('#titulo-detalhe').textContent = produto.nome
+    document.querySelector('#conteudo-detalhe').replaceChildren(criarCard(produto))
+    document.querySelector('#conteudo-detalhe .abrir-detalhe').disabled = true
+    document.querySelector('#status-detalhe').textContent = ''
+    if(!dialogoDetalhe.open) dialogoDetalhe.showModal()
+    document.querySelector('#fechar-detalhe').focus()
+    registrarRecente(id)
+}
+// Manter a navegação de Tab dentro do detalhe, inclusive no fechamento do ciclo.
+dialogoDetalhe.addEventListener('keydown', evento => {
+    if(evento.key !== 'Tab') return
+    const controles = [...dialogoDetalhe.querySelectorAll('button, a[href], select, input, [tabindex]')].filter(elemento => !elemento.disabled && elemento.tabIndex >= 0 && elemento.getClientRects().length)
+    const primeiro = controles[0]
+    const ultimo = controles.at(-1)
+    if(evento.shiftKey && document.activeElement === primeiro){ evento.preventDefault(); ultimo?.focus() }
+    else if(!evento.shiftKey && document.activeElement === ultimo){ evento.preventDefault(); primeiro?.focus() }
+})
+document.querySelector('#fechar-detalhe').addEventListener('click', () => dialogoDetalhe.close())
+dialogoDetalhe.addEventListener('close', () => {
+    if(focoDetalhe?.isConnected) focoDetalhe.focus({preventScroll:true})
+    else if(dialogoEscolhas.open){
+        document.querySelector('#fechar-escolhas').focus({preventScroll:true})
+    } else {
+        const id = document.querySelector('#conteudo-detalhe .produto')?.dataset.produto
+        const card = [...document.querySelectorAll('#produtos-recentes .produto')].find(card => card.dataset.produto === id)
+        card?.querySelector('.abrir-detalhe').focus({preventScroll:true})
+    }
+})
+document.addEventListener('change', evento => {
+    if(evento.target.matches('.produto .tamanho-sacola')) registrarRecente(evento.target.closest('.produto').dataset.produto)
+})
+renderizarRecentes()
 atualizarContadoresEscolhas()
 
 campoTamanho.add(new Option('Todos os tamanhos', ''))
@@ -3495,3 +3626,18 @@ campoTamanho.add(new Option('Consultar tamanho', 'consultar'))
 renderizarProdutos(document.querySelector('#produtos-novidades'), selecionarProdutos(undefined, '', true))
 criarCategorias()
 if(location.hash === '#catalogo') abrirCatalogo(false)
+
+const slugSolicitado = new URLSearchParams(location.search).get('produto')
+if(slugSolicitado){
+    const encontrados = produtos.filter(produto => slugProduto(produto) === slugSolicitado)
+    if(encontrados.length === 1){
+        const produto = encontrados[0]
+        mostrarTodos()
+        campoBusca.value = produto.nome
+        textoBuscaAtual = produto.nome
+        mostrarProdutos()
+        const card = [...document.querySelectorAll('#produtos-catalogo .produto')].find(card => card.dataset.produto === identificarProduto(produto))
+        card?.querySelector('.abrir-detalhe').focus({preventScroll:true})
+        abrirDetalheProduto(identificarProduto(produto))
+    }
+}

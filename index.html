@@ -140,6 +140,13 @@
             </div>
         </section>
 
+        <section id="recentes" aria-labelledby="titulo-recentes" hidden>
+            <p class="secao-destaque">Suas descobertas</p>
+            <h2 id="titulo-recentes">Vistos recentemente</h2>
+            <p class="secao-descricao">Volte às Últimas peças que chamaram sua atenção. Deslize para ver mais.</p>
+            <div id="produtos-recentes" class="recentes-produtos" tabindex="0" role="region" aria-label="Últimas peças vistas, em ordem da mais recente"></div>
+        </section>
+
         <section id="sobre">
 
             <div class="sobre-conteudo">
@@ -316,6 +323,16 @@
             ↑
         </a>
 
+        <dialog id="dialogo-produto" aria-labelledby="titulo-detalhe">
+            <div class="cabecalho-escolhas">
+                <h2 id="titulo-detalhe"></h2>
+                <button type="button" id="fechar-detalhe" aria-label="Fechar detalhe do produto">Fechar ×</button>
+            </div>
+            <div class="corpo-escolhas">
+                <p id="status-detalhe" role="status" aria-live="polite"></p>
+                <div id="conteudo-detalhe"></div>
+            </div>
+        </dialog>
         <dialog id="dialogo-escolhas" aria-labelledby="titulo-escolhas" aria-describedby="descricao-escolhas">
             <div class="cabecalho-escolhas">
                 <h2 id="titulo-escolhas"></h2>

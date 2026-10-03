@@ -1,0 +1,3318 @@
+{
+  "fonte": "verificacao/expansao-completa/analise.json",
+  "dataFonte": "2026-10-02T20:56:55.3063920Z",
+  "metodo": "Revisão conservadora local. A resolve identidade, não grade/disponibilidade atual. Referência única deve estar em todas as ocorrências e não estar associada a outro nome nos registros. Nenhum dado de produto foi alterado.",
+  "resumo": {
+    "A": 14,
+    "B": 90,
+    "C": 0
+  },
+  "registros": [
+    {
+      "nome": "Vestido Samantha",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        6,
+        70,
+        179
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Marina",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido mariana; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        15
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Ellen",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido elen; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        17
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Alice",
+      "grupo": "B",
+      "codigos": [
+        "01438",
+        "01322"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        19,
+        91,
+        327
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Telma Plus Sem zíper",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grade ausente, incompleta ou ilegível",
+        "Nome misturado à descrição"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        20
+      ],
+      "grades": [
+        null
+      ]
+    },
+    {
+      "nome": "Vestido Brenda",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        21,
+        22,
+        212
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Lucy",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        23,
+        44
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Raissa",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        24,
+        26,
+        58
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Ana Clara",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Elise",
+      "grupo": "B",
+      "codigos": [
+        "01423"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes",
+        "Grafia próxima de vestido elis; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        32,
+        88
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Lana",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido luana; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        35
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Rose",
+      "grupo": "B",
+      "codigos": [
+        "00972"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        38,
+        110,
+        278,
+        362
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "PP"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Marly",
+      "grupo": "B",
+      "codigos": [
+        "01330"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        40,
+        46,
+        109,
+        199,
+        272,
+        414
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M",
+          "G",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Nathalie",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Grafia próxima de vestido nathalia; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        41,
+        43
+      ],
+      "grades": [
+        [
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Livia",
+      "grupo": "B",
+      "codigos": [
+        "01282"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes",
+        "Grafia próxima de blusa olivia; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        48,
+        242
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Melinda",
+      "grupo": "B",
+      "codigos": [
+        "01064"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        48,
+        132
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Nathalia",
+      "grupo": "B",
+      "codigos": [
+        "01167"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes",
+        "Grafia próxima de vestido nathalie; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        50,
+        365
+      ],
+      "grades": [
+        [
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Lucila",
+      "grupo": "B",
+      "codigos": [
+        "01214"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        55,
+        370
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Ligia",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido livia; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        59
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Milena",
+      "grupo": "B",
+      "codigos": [
+        "01191"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        71,
+        118,
+        165,
+        383
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Conjunto Comfy Lorena",
+      "grupo": "A",
+      "codigos": [
+        "01338"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        79,
+        363
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Mariah",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        82,
+        84
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Cleo",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        83,
+        170
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Camila",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido camily; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        85
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Elen",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido ellen; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        86
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Késia",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        89,
+        262
+      ],
+      "grades": [
+        [
+          "P",
+          "M"
+        ],
+        [
+          "PP",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Rafaela",
+      "grupo": "B",
+      "codigos": [
+        "01449",
+        "01315",
+        "00432"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        90,
+        344,
+        361,
+        385
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ],
+        [
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Luana",
+      "grupo": "B",
+      "codigos": [
+        "01328",
+        "00986"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes",
+        "Grafia próxima de vestido lana; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        93,
+        314,
+        356
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "M"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Vania",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de saia vanda; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        94
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Carina",
+      "grupo": "B",
+      "codigos": [
+        "01442"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido marina; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        96
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Mel",
+      "grupo": "B",
+      "codigos": [
+        "01377"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        98,
+        317
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "PP",
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Camilly",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido camily; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        101
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Alice",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Grafia próxima de blusa aline; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        105,
+        109,
+        110
+      ],
+      "grades": [
+        [
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Sara",
+      "grupo": "B",
+      "codigos": [
+        "01340"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        106,
+        189,
+        195
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Charlotte",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Grafia próxima de blusa charlote; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        111,
+        137
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Body Leticia",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        116,
+        200,
+        210
+      ],
+      "grades": [
+        [
+          "M",
+          "G"
+        ],
+        [
+          "M"
+        ],
+        [
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Conjunto Dara",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de conjunto yara; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        119
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Eliete",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido elizete; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        121
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Amanda",
+      "grupo": "B",
+      "codigos": [
+        "01203"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        125,
+        132,
+        248
+      ],
+      "grades": [
+        [
+          "M"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Júlia",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        125,
+        292
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "G",
+          "GG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Conjunto Marisa",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de conjunto marina; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        126
+      ],
+      "grades": [
+        [
+          "PP",
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Camisa Cléo",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        129,
+        203
+      ],
+      "grades": [
+        [
+          "EXG"
+        ],
+        [
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Fiorella",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        134,
+        190,
+        191
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blazer Joyce",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        142,
+        143,
+        144,
+        145,
+        181
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "50"
+        ],
+        [
+          "50"
+        ],
+        [
+          "P",
+          "M",
+          "48",
+          "50"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Conjunto Raquel",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        155,
+        265
+      ],
+      "grades": [
+        [
+          "P"
+        ],
+        [
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Laura",
+      "grupo": "B",
+      "codigos": [
+        "01110",
+        "01293"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        176,
+        337
+      ],
+      "grades": [
+        [
+          "P",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Clarice",
+      "grupo": "B",
+      "codigos": [
+        "01264"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        180,
+        300
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Sabrina",
+      "grupo": "B",
+      "codigos": [
+        "00165"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        181,
+        424
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Camisa Aline",
+      "grupo": "B",
+      "codigos": [
+        "01286"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        182,
+        348
+      ],
+      "grades": [
+        [
+          "P",
+          "EXG"
+        ],
+        [
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Stela",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        182,
+        253
+      ],
+      "grades": [
+        [
+          "P"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Marieta",
+      "grupo": "B",
+      "codigos": [
+        "01135"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        183,
+        351
+      ],
+      "grades": [
+        [
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "M",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Eva",
+      "grupo": "A",
+      "codigos": [
+        "01241"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        184,
+        185,
+        186
+      ],
+      "grades": [
+        [
+          "P",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Angela",
+      "grupo": "B",
+      "codigos": [
+        "00879"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        189,
+        397
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Camisa Marly",
+      "grupo": "B",
+      "codigos": [
+        "01398"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        196,
+        266,
+        299,
+        325
+      ],
+      "grades": [
+        [
+          "P"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Renata",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        206,
+        218
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Regina",
+      "grupo": "B",
+      "codigos": [
+        "00840"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [
+        {
+          "nome": "Saia Rosane Plus Size",
+          "codigoFornecedor": "00840"
+        }
+      ],
+      "motivos": [
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        207,
+        208
+      ],
+      "grades": [
+        [
+          "50",
+          "52",
+          "54"
+        ],
+        [
+          "50",
+          "52",
+          "54"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Livia",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido ligia; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        209
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Thaís",
+      "grupo": "B",
+      "codigos": [
+        "00987"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        211,
+        216,
+        411
+      ],
+      "grades": [
+        [
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Poliana",
+      "grupo": "A",
+      "codigos": [
+        "01225"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        211,
+        216,
+        366
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Cíntia",
+      "grupo": "B",
+      "codigos": [
+        "01166"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        225,
+        342
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Deise",
+      "grupo": "B",
+      "codigos": [
+        "00983",
+        "00947"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        226,
+        254
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M"
+        ],
+        [
+          "PP",
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Daniela",
+      "grupo": "B",
+      "codigos": [
+        "01291"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Grafia próxima de blusa daniele; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        228,
+        272,
+        401
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Virginia",
+      "grupo": "A",
+      "codigos": [
+        "01048"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grade ausente, incompleta ou ilegível"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        229
+      ],
+      "grades": [
+        null
+      ]
+    },
+    {
+      "nome": "Blusa Olivia",
+      "grupo": "B",
+      "codigos": [
+        "01220",
+        "01012"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        233,
+        238,
+        306
+      ],
+      "grades": [
+        [
+          "M",
+          "G"
+        ],
+        [
+          "M"
+        ],
+        [
+          "50"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Bianca",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        236,
+        255
+      ],
+      "grades": [
+        [
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        [
+          "50",
+          "52",
+          "54"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Karol",
+      "grupo": "B",
+      "codigos": [
+        "00507"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grade ausente, incompleta ou ilegível",
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        236,
+        291,
+        305
+      ],
+      "grades": [
+        null,
+        null,
+        [
+          "48",
+          "50",
+          "52",
+          "54"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Mel",
+      "grupo": "B",
+      "codigos": [
+        "01163",
+        "00019"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        237,
+        281,
+        315,
+        404
+      ],
+      "grades": [
+        [
+          "PP",
+          "P"
+        ],
+        [
+          "PP"
+        ],
+        [
+          "PP",
+          "P",
+          "M"
+        ],
+        [
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Joana",
+      "grupo": "B",
+      "codigos": [
+        "00921"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        238,
+        389
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "P",
+          "G",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Ana",
+      "grupo": "B",
+      "codigos": [
+        "00577",
+        "01053"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        239,
+        354,
+        380
+      ],
+      "grades": [
+        [
+          "G",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Cléo",
+      "grupo": "B",
+      "codigos": [
+        "01008"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        240,
+        412
+      ],
+      "grades": [
+        [
+          "PP",
+          "P"
+        ],
+        [
+          "PP"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Rejane",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido regiane; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        245
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Marisa",
+      "grupo": "B",
+      "codigos": [
+        "01346"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        247,
+        347
+      ],
+      "grades": [
+        [
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Eliz",
+      "grupo": "A",
+      "codigos": [
+        "01273"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        249,
+        332
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Jane",
+      "grupo": "A",
+      "codigos": [
+        "01374"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        251,
+        333
+      ],
+      "grades": [
+        [
+          "GG",
+          "EXG"
+        ],
+        [
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Telma Plus Size",
+      "grupo": "B",
+      "codigos": [],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Nome corresponde a produto atual com diferença apenas do complemento Plus/Plus Size"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        255
+      ],
+      "grades": [
+        [
+          "48",
+          "50",
+          "52",
+          "54"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Tina",
+      "grupo": "B",
+      "codigos": [
+        "01249",
+        "01380"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        256,
+        328
+      ],
+      "grades": [
+        [
+          "P",
+          "M"
+        ],
+        [
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Esmeralda",
+      "grupo": "B",
+      "codigos": [
+        "01402",
+        "01356"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        257,
+        346
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Yara",
+      "grupo": "B",
+      "codigos": [
+        "01255",
+        "01019"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        258,
+        301,
+        387
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "M"
+        ],
+        [
+          "PP"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Isabeli",
+      "grupo": "A",
+      "codigos": [
+        "01091"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        259,
+        260,
+        261
+      ],
+      "grades": [
+        [
+          "P"
+        ],
+        [
+          "P"
+        ],
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Bianca",
+      "grupo": "B",
+      "codigos": [
+        "01260",
+        "01085"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        263,
+        390
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Débora",
+      "grupo": "B",
+      "codigos": [
+        "01428"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        264,
+        285
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Betânia",
+      "grupo": "B",
+      "codigos": [
+        "00179"
+      ],
+      "semCodigo": true,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        269,
+        270
+      ],
+      "grades": [
+        [
+          "G",
+          "50",
+          "52"
+        ],
+        [
+          "50"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Sandy",
+      "grupo": "B",
+      "codigos": [
+        "00902"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido sindy; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        283
+      ],
+      "grades": [
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Aline",
+      "grupo": "B",
+      "codigos": [
+        "01440"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de blusa alice; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        287
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Rosane",
+      "grupo": "A",
+      "codigos": [
+        "00436"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Nome corresponde a produto atual com diferença apenas do complemento Plus/Plus Size"
+      ],
+      "conclusao": "Referência 00436 distingue da Saia Rosane Plus Size 00840. Não importar nesta etapa.",
+      "blocos": [
+        287,
+        294,
+        300,
+        433
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Luiza",
+      "grupo": "B",
+      "codigos": [
+        "01420"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        290,
+        291,
+        298,
+        302
+      ],
+      "grades": [
+        [
+          "48",
+          "52",
+          "54"
+        ],
+        [
+          "52"
+        ],
+        [
+          "48",
+          "52",
+          "54"
+        ],
+        [
+          "52"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Miranda",
+      "grupo": "A",
+      "codigos": [
+        "01246"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        293,
+        355,
+        380
+      ],
+      "grades": [
+        [
+          "P"
+        ],
+        [
+          "P",
+          "M"
+        ],
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Karol",
+      "grupo": "B",
+      "codigos": [
+        "01253",
+        "01337"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        305,
+        335
+      ],
+      "grades": [
+        [
+          "48",
+          "50",
+          "52",
+          "54"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Sabrina",
+      "grupo": "B",
+      "codigos": [
+        "01235",
+        "01069"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        310,
+        311,
+        312,
+        374
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P"
+        ],
+        [
+          "P",
+          "M"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Janaína",
+      "grupo": "B",
+      "codigos": [
+        "01041",
+        "00646",
+        "00493"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        315,
+        357,
+        392,
+        418,
+        434
+      ],
+      "grades": [
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "EXG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ],
+        [
+          "GG"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "T-Shirt Personalizada",
+      "grupo": "A",
+      "codigos": [
+        "00982"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        316,
+        320,
+        321,
+        322,
+        323,
+        324
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Regiane",
+      "grupo": "B",
+      "codigos": [
+        "01022"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido rejane; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        318
+      ],
+      "grades": [
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Ludmila",
+      "grupo": "B",
+      "codigos": [
+        "01117"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Descrições de tecido diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        326,
+        382
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "EXG"
+        ],
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Lara",
+      "grupo": "B",
+      "codigos": [
+        "01326"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido clara; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        341
+      ],
+      "grades": [
+        [
+          "G",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Damares",
+      "grupo": "A",
+      "codigos": [
+        "01128"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        349,
+        350
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "EXG"
+        ],
+        [
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Elizete",
+      "grupo": "B",
+      "codigos": [
+        "01263"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de vestido eliete; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        352
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "GG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Juliana",
+      "grupo": "A",
+      "codigos": [
+        "00138"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        353,
+        355
+      ],
+      "grades": [
+        [
+          "P",
+          "M",
+          "G",
+          "GG"
+        ],
+        [
+          "M",
+          "G"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Luna",
+      "grupo": "B",
+      "codigos": [
+        "01335",
+        "01111"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        354,
+        381
+      ],
+      "grades": [
+        [
+          "GG"
+        ],
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Rebeca",
+      "grupo": "B",
+      "codigos": [
+        "01071",
+        "01287"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        359,
+        427
+      ],
+      "grades": [
+        [
+          "P",
+          "M"
+        ],
+        [
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Vestido Angelina",
+      "grupo": "B",
+      "codigos": [
+        "01228",
+        "01023"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes",
+        "Mesmo nome com preços ou modelos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        371,
+        384
+      ],
+      "grades": [
+        [
+          "P",
+          "G",
+          "GG"
+        ],
+        [
+          "P",
+          "M"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Cecilia",
+      "grupo": "B",
+      "codigos": [
+        "01103",
+        "00385"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome",
+        "Mesmo nome com códigos diferentes"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        379,
+        430
+      ],
+      "grades": [
+        [
+          "EXG"
+        ],
+        [
+          "G",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Blusa Kátia",
+      "grupo": "A",
+      "codigos": [
+        "01073"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        394,
+        409
+      ],
+      "grades": [
+        [
+          "P",
+          "M"
+        ],
+        [
+          "P"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Marê",
+      "grupo": "A",
+      "codigos": [
+        "00988"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grades conflitantes no mesmo nome"
+      ],
+      "conclusao": "Identidade/referência consistente nos registros locais. A grade ou sua disponibilidade permanece pendente; não importar.",
+      "blocos": [
+        396,
+        416,
+        422
+      ],
+      "grades": [
+        [
+          "PP",
+          "EXG"
+        ],
+        [
+          "PP",
+          "EXG"
+        ],
+        [
+          "PP",
+          "P",
+          "M",
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    },
+    {
+      "nome": "Saia Vanda",
+      "grupo": "B",
+      "codigos": [
+        "00957"
+      ],
+      "semCodigo": false,
+      "produtosRelacionados": [],
+      "motivos": [
+        "Grafia próxima de saia vania; identidade requer confirmação"
+      ],
+      "conclusao": "Identidade não demonstrada sem dúvida relevante; manter revisão humana e não unir grades.",
+      "blocos": [
+        417
+      ],
+      "grades": [
+        [
+          "G",
+          "GG",
+          "EXG"
+        ]
+      ]
+    }
+  ]
+}
