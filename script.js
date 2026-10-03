@@ -3095,11 +3095,14 @@ function normalizarTexto(texto){
 }
 
 /* Cada termo deve iniciar uma palavra do nome ou da categoria. */
-function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false){
+function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false, tamanho = ''){
     const termos = normalizarTexto(textoBusca).split(/\s+/).filter(Boolean)
     return produtos.filter(produto => {
         if(somenteNovidades && produto.novidade !== true) return false
         if(categoria && produto.categoria !== categoria) return false
+        if(tamanho === 'consultar'){
+            if(produto.tamanhos !== null) return false
+        } else if(tamanho && !produto.tamanhos?.includes(tamanho)) return false
         const palavras = normalizarTexto(produto.nome + ' ' + produto.categoria).split(/\s+/)
         return termos.every(termo => palavras.some(palavra => palavra.startsWith(termo)))
     })
@@ -3120,13 +3123,26 @@ function renderizarProdutos(area, lista){
 }
 
 const categoriasDisponiveis = [...new Set(produtos.map(produto => produto.categoria))]
+const tamanhosDisponiveis = [...new Set(produtos.flatMap(produto => produto.tamanhos || []))].sort(ordenarTamanhos)
+function ordenarTamanhos(a, b){
+    // Esta lista define só a precedência; as opções vêm exclusivamente dos produtos.
+    const grade = ['PP', 'P', 'M', 'G', 'GG', 'EXG']
+    const grupo = tamanho => grade.includes(tamanho) ? 0 : /^\d+$/.test(tamanho) ? 1 : 2
+    const diferenca = grupo(a) - grupo(b)
+    if(diferenca) return diferenca
+    if(grupo(a) === 0) return grade.indexOf(a) - grade.indexOf(b)
+    if(grupo(a) === 1) return Number(a) - Number(b) || a.localeCompare(b, 'pt-BR')
+    return a.localeCompare(b, 'pt-BR', {numeric: true})
+}
 let categoriaAtual
 let textoBuscaAtual = ''
+let tamanhoAtual = ''
 let ordemAtual = 'original'
 const produtosPorLote = 24
 let limiteVisivel = produtosPorLote
 const campoBusca = document.querySelector('#busca')
 const campoOrdem = document.querySelector('#ordenacao')
+const campoTamanho = document.querySelector('#filtro-tamanho')
 const painelCatalogo = document.querySelector('#painel-catalogo')
 const botaoAbrirCatalogo = document.querySelector('#abrir-catalogo')
 
@@ -3137,7 +3153,7 @@ function atualizarQuantidade(quantidade){
 
 function mostrarProdutos(reiniciar = true){
     if(reiniciar) limiteVisivel = produtosPorLote
-    let lista = selecionarProdutos(categoriaAtual, textoBuscaAtual)
+    let lista = selecionarProdutos(categoriaAtual, textoBuscaAtual, false, tamanhoAtual)
     if(ordemAtual !== 'original'){
         lista = [...lista].sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'))
         if(ordemAtual === 'za') lista.reverse()
@@ -3176,8 +3192,10 @@ function abrirCatalogo(rolar = true){
 function mostrarTodos(){
     categoriaAtual = undefined
     textoBuscaAtual = ''
+    tamanhoAtual = ''
     ordemAtual = 'original'
     campoBusca.value = ''
+    campoTamanho.value = ''
     campoOrdem.value = 'original'
     abrirCatalogo()
 }
@@ -3231,6 +3249,10 @@ campoBusca.addEventListener('input', () => {
 })
 campoOrdem.addEventListener('change', () => {
     ordemAtual = campoOrdem.value
+    mostrarProdutos()
+})
+campoTamanho.addEventListener('change', () => {
+    tamanhoAtual = campoTamanho.value
     mostrarProdutos()
 })
 botaoAbrirCatalogo.addEventListener('click', mostrarTodos)
@@ -3465,6 +3487,10 @@ window.addEventListener('storage', evento => {
     if(dialogoEscolhas.open) renderizarEscolhas()
 })
 atualizarContadoresEscolhas()
+
+campoTamanho.add(new Option('Todos os tamanhos', ''))
+tamanhosDisponiveis.forEach(tamanho => campoTamanho.add(new Option(tamanho, tamanho)))
+campoTamanho.add(new Option('Consultar tamanho', 'consultar'))
 
 renderizarProdutos(document.querySelector('#produtos-novidades'), selecionarProdutos(undefined, '', true))
 criarCategorias()

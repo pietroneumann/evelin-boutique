@@ -1305,8 +1305,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .controle-busca { flex: 1; min-width: 0; }
 .controle-ordem { width: 240px; }
+.controle-tamanho { width: 180px; }
 .catalogo-controles label { display: block; font-size: 14px; font-weight: bold; margin-bottom: 8px; }
-#busca, #ordenacao {
+#busca, #ordenacao, #filtro-tamanho {
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -1368,6 +1369,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
     .categorias { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (min-width: 601px) and (max-width: 1000px) {
+    .catalogo-controles { flex-wrap: wrap; }
+    .controle-busca { flex-basis: 100%; }
+    .controle-tamanho, .controle-ordem { flex: 1; min-width: 0; }
     header { padding: 16px 24px; gap: 12px; justify-content: center; }
     nav { gap: 4px; }
     nav a { padding: 8px 12px; }
@@ -1388,7 +1392,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
     #catalogo { margin-top: 20px; padding: 40px 20px; }
     #catalogo h2 { font-size: 26px; }
     .catalogo-controles { flex-direction: column; gap: 16px; }
-    .controle-ordem { width: 100%; }
+    .controle-ordem, .controle-tamanho { width: 100%; }
     .catalogo-resultados { align-items: flex-start; font-size: 14px; }
     .filtros-categorias { gap: 8px; justify-content: flex-start; }
     .filtros-categorias button { font-size: 14px; padding: 9px 12px; }
