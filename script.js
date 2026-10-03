@@ -2891,6 +2891,7 @@ function criarCard(produto){
 
     let card = document.createElement('article')
     card.className = 'produto'
+    card.dataset.produto = identificarProduto(produto)
 
     if(produto.novidade === true){
 
@@ -2985,13 +2986,44 @@ function criarCard(produto){
 
     card.appendChild(areaImagem)
 
-    card.appendChild(nome)
+    const titulo = document.createElement('div')
+    titulo.className = 'titulo-produto'
+    const favorito = document.createElement('button')
+    favorito.type = 'button'
+    favorito.className = 'favoritar-produto'
+    favorito.dataset.acao = 'favorito'
+    favorito.dataset.produto = card.dataset.produto
+    atualizarBotaoFavorito(favorito, produto)
+    titulo.append(nome, favorito)
+    card.appendChild(titulo)
 
     card.appendChild(categoriaP)
 
     card.appendChild(tamanhos)
 
     card.appendChild(preco)
+
+    const escolha = document.createElement('div')
+    escolha.className = 'escolha-tamanho'
+    const label = document.createElement('label')
+    const seletor = document.createElement('select')
+    seletor.id = 'tamanho-produto-' + (++sequenciaControles)
+    label.htmlFor = seletor.id
+    label.textContent = 'Tamanho para a sacola'
+    seletor.className = 'tamanho-sacola'
+    const consulta = produto.tamanhos === null
+    seletor.add(new Option(consulta ? 'Consultar tamanho' : 'Escolha o tamanho', ''))
+    seletor.disabled = consulta
+    seletor.required = !consulta
+    if(!consulta) produto.tamanhos.forEach(tamanho => seletor.add(new Option(tamanho, tamanho)))
+    const adicionar = document.createElement('button')
+    adicionar.type = 'button'
+    adicionar.className = 'adicionar-sacola'
+    adicionar.dataset.acao = 'adicionar-sacola'
+    adicionar.textContent = 'Adicionar à sacola'
+    adicionar.setAttribute('aria-label', 'Adicionar ' + produto.nome + ' à sacola')
+    escolha.append(label, seletor, adicionar)
+    card.appendChild(escolha)
 
     card.appendChild(whatsapp)
 
@@ -3214,6 +3246,225 @@ document.querySelectorAll('.cta-quantidade').forEach(texto => {
 document.querySelectorAll('a[href="#catalogo"]').forEach(link => {
     link.addEventListener('click', () => abrirCatalogo(false))
 })
+
+/* Preferências locais: reconstruir os itens pelo catálogo, nunca confiar em dados armazenados. */
+const contagemCodigos = new Map()
+produtos.forEach(produto => {
+    if(produto.codigoFornecedor) contagemCodigos.set(produto.codigoFornecedor, (contagemCodigos.get(produto.codigoFornecedor) || 0) + 1)
+})
+function identificarProduto(produto){
+    if(produto.codigoFornecedor && contagemCodigos.get(produto.codigoFornecedor) === 1) return 'codigo:' + produto.codigoFornecedor
+    return 'produto:' + JSON.stringify([produto.categoria, produto.nome, produto.imagem])
+}
+const produtosPorId = new Map(produtos.map(produto => [identificarProduto(produto), produto]))
+let sequenciaControles = 0
+let armazenamentoDisponivel = true
+function lerPreferencia(chave){
+    try {
+        const dados = JSON.parse(localStorage.getItem(chave) || '[]')
+        return Array.isArray(dados) ? dados : []
+    } catch {
+        // JSON inválido ou armazenamento bloqueado não impede o catálogo de funcionar.
+        return []
+    }
+}
+function validarFavoritos(dados){
+    return new Set(dados.filter(id => typeof id === 'string' && produtosPorId.has(id)))
+}
+function tamanhoValido(produto, tamanho){
+    return produto.tamanhos === null ? tamanho === null : typeof tamanho === 'string' && produto.tamanhos.includes(tamanho)
+}
+function validarSacola(dados){
+    const validos = []
+    dados.forEach(item => {
+        if(!item || typeof item !== 'object' || Array.isArray(item)) return
+        const produto = produtosPorId.get(item.id)
+        if(!produto || !tamanhoValido(produto, item.tamanho) || !Number.isSafeInteger(item.quantidade) || item.quantidade < 1) return
+        const anterior = validos.find(entrada => entrada.id === item.id && entrada.tamanho === item.tamanho)
+        if(anterior){
+            const total = anterior.quantidade + item.quantidade
+            if(Number.isSafeInteger(total)) anterior.quantidade = total
+        } else validos.push({id: item.id, tamanho: item.tamanho, quantidade: item.quantidade})
+    })
+    return validos
+}
+let favoritos = validarFavoritos(lerPreferencia('evelinFavoritos'))
+let sacola = validarSacola(lerPreferencia('evelinSacola'))
+const dialogoEscolhas = document.querySelector('#dialogo-escolhas')
+let painelEscolhas = ''
+let focoAnterior
+function avisarPreferencia(texto){
+    const status = document.querySelector('#status-preferencias')
+    const statusPainel = document.querySelector('#status-painel-escolhas')
+    status.textContent = texto
+    statusPainel.textContent = texto
+    clearTimeout(avisarPreferencia.temporizador)
+    avisarPreferencia.temporizador = setTimeout(() => { status.textContent = ''; statusPainel.textContent = '' }, 6000)
+}
+function salvarPreferencia(chave, dados){
+    try {
+        localStorage.setItem(chave, JSON.stringify(dados))
+        armazenamentoDisponivel = true
+    } catch {
+        armazenamentoDisponivel = false
+        avisarPreferencia('Não foi possível salvar no navegador. Suas escolhas serão mantidas nesta sessão.')
+    }
+}
+function atualizarBotaoFavorito(botao, produto){
+    const marcado = favoritos.has(identificarProduto(produto))
+    botao.textContent = marcado ? '♥' : '♡'
+    botao.setAttribute('aria-pressed', String(marcado))
+    botao.setAttribute('aria-label', (marcado ? 'Remover ' : 'Adicionar ') + produto.nome + (marcado ? ' dos favoritos' : ' aos favoritos'))
+}
+function atualizarContadoresEscolhas(){
+    document.querySelector('#abrir-favoritos').textContent = `Favoritos (${favoritos.size})`
+    document.querySelector('#abrir-sacola').textContent = `Sacola (${sacola.reduce((total, item) => total + item.quantidade, 0)})`
+    document.querySelectorAll('[data-acao="favorito"]').forEach(botao => {
+        const produto = produtosPorId.get(botao.dataset.produto)
+        if(produto) atualizarBotaoFavorito(botao, produto)
+    })
+}
+function criarMensagemSacola(itens = sacola){
+    const linhas = itens.map(item => {
+        const produto = produtosPorId.get(item.id)
+        return `${item.quantidade}x ${produto.nome} — ${item.tamanho === null ? 'tamanho a consultar' : 'tamanho ' + item.tamanho}`
+    })
+    return 'Olá! Tenho interesse nestas peças da Evelin Boutique:\n\n' + linhas.join('\n') + '\n\nGostaria de consultar os valores e a disponibilidade dessas peças.'
+}
+function botaoItem(texto, acao, indice, label){
+    const botao = document.createElement('button')
+    botao.type = 'button'
+    botao.textContent = texto
+    botao.dataset.acao = acao
+    botao.dataset.item = indice
+    botao.setAttribute('aria-label', label)
+    return botao
+}
+function renderizarEscolhas(){
+    const area = document.querySelector('#conteudo-escolhas')
+    const ativo = document.activeElement
+    const acaoAnterior = ativo?.dataset.acao
+    const indiceAnterior = ativo?.dataset.item
+    const produtoAnterior = ativo?.dataset.produto
+    const estavaNoConteudo = area.contains(ativo)
+    area.replaceChildren()
+    const orcamento = document.querySelector('#whatsapp-sacola')
+    orcamento.hidden = painelEscolhas !== 'sacola' || sacola.length === 0
+    orcamento.removeAttribute('href')
+    if(painelEscolhas === 'favoritos'){
+        area.className = 'produtos favoritos-produtos'
+        const lista = produtos.filter(produto => favoritos.has(identificarProduto(produto)))
+        if(lista.length) lista.forEach(produto => area.appendChild(criarCard(produto)))
+        else area.appendChild(estadoVazioEscolhas('Você ainda não tem favoritos. Toque no coração de uma peça para guardar suas escolhas.'))
+    } else {
+        area.className = 'itens-sacola'
+        if(sacola.length === 0) area.appendChild(estadoVazioEscolhas('Sua sacola está vazia. Escolha um tamanho e adicione suas peças favoritas para consultar um orçamento.'))
+        sacola.forEach((item, indice) => {
+            const produto = produtosPorId.get(item.id)
+            const linha = document.createElement('article')
+            linha.className = 'item-sacola'
+            const imagem = document.createElement('img')
+            imagem.src = produto.imagem
+            imagem.alt = produto.nome
+            imagem.loading = 'lazy'
+            const detalhes = document.createElement('div')
+            const nome = document.createElement('h3')
+            nome.textContent = produto.nome
+            const descricao = document.createElement('p')
+            descricao.textContent = produto.categoria + ' · ' + (item.tamanho === null ? 'Tamanho a consultar' : 'Tamanho ' + item.tamanho)
+            const quantidade = document.createElement('div')
+            quantidade.className = 'quantidade-sacola'
+            const menos = botaoItem('−', 'diminuir', indice, 'Diminuir quantidade de ' + produto.nome)
+            menos.disabled = item.quantidade === 1
+            const valor = document.createElement('span')
+            valor.textContent = 'Quantidade: ' + item.quantidade
+            quantidade.append(menos, valor, botaoItem('+', 'aumentar', indice, 'Aumentar quantidade de ' + produto.nome))
+            detalhes.append(nome, descricao, quantidade, botaoItem('Remover', 'remover-item', indice, 'Remover ' + produto.nome + ' da sacola'))
+            linha.append(imagem, detalhes)
+            area.appendChild(linha)
+        })
+        if(sacola.length) orcamento.href = 'https://wa.me/5511971949711?text=' + encodeURIComponent(criarMensagemSacola())
+    }
+    if(estavaNoConteudo){
+        const equivalente = [...area.querySelectorAll('button')].find(botao => botao.dataset.acao === acaoAnterior && (produtoAnterior ? botao.dataset.produto === produtoAnterior : botao.dataset.item === indiceAnterior) && !botao.disabled)
+        ;(equivalente || area.querySelector('button:not(:disabled)') || document.querySelector('#fechar-escolhas')).focus({preventScroll: true})
+    }
+}
+function estadoVazioEscolhas(texto){
+    const mensagem = document.createElement('p')
+    mensagem.className = 'mensagem-vazia'
+    mensagem.textContent = texto
+    return mensagem
+}
+function abrirEscolhas(painel){
+    painelEscolhas = painel
+    focoAnterior = document.activeElement
+    dialogoEscolhas.classList.toggle('painel-favoritos', painel === 'favoritos')
+    document.querySelector('#titulo-escolhas').textContent = painel === 'favoritos' ? 'Seus favoritos' : 'Sua sacola de orçamento'
+    document.querySelector('#descricao-escolhas').textContent = painel === 'favoritos' ? 'Guarde as peças que você ama e escolha quais levar para a sacola.' : 'Selecione suas peças para consultar valores e disponibilidade. Adicionar à sacola não conclui uma compra.'
+    renderizarEscolhas()
+    if(!dialogoEscolhas.open) dialogoEscolhas.showModal()
+    document.querySelector('#fechar-escolhas').focus()
+}
+document.querySelector('#abrir-favoritos').addEventListener('click', () => abrirEscolhas('favoritos'))
+document.querySelector('#abrir-sacola').addEventListener('click', () => abrirEscolhas('sacola'))
+document.querySelector('#fechar-escolhas').addEventListener('click', () => dialogoEscolhas.close())
+dialogoEscolhas.addEventListener('close', () => {
+    painelEscolhas = ''
+    focoAnterior?.focus({preventScroll: true})
+})
+// Uma delegação atende também os cards acrescentados pela paginação e os favoritos.
+document.addEventListener('click', evento => {
+    const botao = evento.target.closest('button[data-acao]')
+    if(!botao || botao.disabled) return
+    const acao = botao.dataset.acao
+    if(acao === 'favorito'){
+        const id = botao.dataset.produto
+        if(!produtosPorId.has(id)) return
+        if(favoritos.has(id)) favoritos.delete(id)
+        else favoritos.add(id)
+        salvarPreferencia('evelinFavoritos', [...favoritos])
+        atualizarContadoresEscolhas()
+        if(dialogoEscolhas.open && painelEscolhas === 'favoritos') renderizarEscolhas()
+    } else if(acao === 'adicionar-sacola'){
+        const card = botao.closest('.produto')
+        const id = card.dataset.produto
+        const produto = produtosPorId.get(id)
+        const seletor = card.querySelector('.tamanho-sacola')
+        const tamanho = produto.tamanhos === null ? null : seletor.value
+        if(!tamanhoValido(produto, tamanho)){
+            seletor.reportValidity()
+            seletor.focus()
+            avisarPreferencia('Escolha um tamanho para adicionar esta peça à sacola.')
+            return
+        }
+        const item = sacola.find(entrada => entrada.id === id && entrada.tamanho === tamanho)
+        if(item){
+            if(!Number.isSafeInteger(item.quantidade + 1)) return
+            item.quantidade++
+        } else sacola.push({id, tamanho, quantidade: 1})
+        salvarPreferencia('evelinSacola', sacola)
+        atualizarContadoresEscolhas()
+        if(armazenamentoDisponivel) avisarPreferencia('Peça adicionada à sacola: ' + produto.nome + '.')
+    } else if(['aumentar', 'diminuir', 'remover-item'].includes(acao)){
+        const indice = Number(botao.dataset.item)
+        if(!Number.isInteger(indice) || !sacola[indice]) return
+        if(acao === 'remover-item') sacola.splice(indice, 1)
+        else if(acao === 'aumentar' && Number.isSafeInteger(sacola[indice].quantidade + 1)) sacola[indice].quantidade++
+        else if(acao === 'diminuir' && sacola[indice].quantidade > 1) sacola[indice].quantidade--
+        salvarPreferencia('evelinSacola', sacola)
+        atualizarContadoresEscolhas()
+        renderizarEscolhas()
+    }
+})
+window.addEventListener('storage', evento => {
+    if(evento.key !== null && !['evelinFavoritos', 'evelinSacola'].includes(evento.key)) return
+    favoritos = validarFavoritos(lerPreferencia('evelinFavoritos'))
+    sacola = validarSacola(lerPreferencia('evelinSacola'))
+    atualizarContadoresEscolhas()
+    if(dialogoEscolhas.open) renderizarEscolhas()
+})
+atualizarContadoresEscolhas()
 
 renderizarProdutos(document.querySelector('#produtos-novidades'), selecionarProdutos(undefined, '', true))
 criarCategorias()

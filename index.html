@@ -31,6 +31,10 @@
                 <a href="#sobre">Sobre</a>
                 <a href="#contato">Contato</a>
             </nav>
+            <div class="acoes-cliente" role="group" aria-label="Suas escolhas">
+                <button type="button" id="abrir-favoritos" aria-haspopup="dialog" aria-controls="dialogo-escolhas">Favoritos (0)</button>
+                <button type="button" id="abrir-sacola" aria-haspopup="dialog" aria-controls="dialogo-escolhas">Sacola (0)</button>
+            </div>
         </header>
 
         <main>
@@ -307,6 +311,20 @@
         <a href="#inicio" class="voltar-topo" aria-label="Voltar ao topo">
             ↑
         </a>
+
+        <dialog id="dialogo-escolhas" aria-labelledby="titulo-escolhas" aria-describedby="descricao-escolhas">
+            <div class="cabecalho-escolhas">
+                <h2 id="titulo-escolhas"></h2>
+                <button type="button" id="fechar-escolhas" aria-label="Fechar painel">Fechar ×</button>
+            </div>
+            <div class="corpo-escolhas">
+                <p id="descricao-escolhas"></p>
+                <p id="status-painel-escolhas" role="status" aria-live="polite" aria-atomic="true"></p>
+                <div id="conteudo-escolhas"></div>
+                <a id="whatsapp-sacola" class="botao-whatsapp" target="_blank" rel="noopener noreferrer" hidden>Solicitar orçamento pelo WhatsApp</a>
+            </div>
+        </dialog>
+        <p id="status-preferencias" class="status-preferencias" role="status" aria-live="polite" aria-atomic="true"></p>
 
         <script src="script.js"></script>
 
