@@ -1,0 +1,8 @@
+# Ferramentas, relatórios, auditorias e capturas mantidos somente no computador.
+/verificacao/
+
+# Originais de processamento: os cards usam exclusivamente as imagens finais.
+/assets/imagens/produtos/*-original.*
+
+# Banner anterior preservado localmente; o site utiliza banner-vestido-rejane.png.
+/assets/imagens/banner-evelin.png

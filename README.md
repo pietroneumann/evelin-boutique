@@ -1,91 +1,63 @@
-# Evelin Boutique Delivery
+# Evelin Boutique Delivery — V2
 
-Catálogo web de moda feminina desenvolvido com **HTML, CSS e JavaScript puro**. O projeto permite explorar produtos, pesquisar e filtrar peças, salvar favoritos, montar uma sacola de orçamento e entrar em contato pelo WhatsApp.
+Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar um orçamento pelo WhatsApp. O projeto usa **HTML, CSS e JavaScript puro**, sem framework, backend ou pagamento online.
 
-🌐 **Demonstração:** https://pietroneumann.github.io/evelin-boutique/
+## Catálogo
 
-## Sobre o projeto
+- **387 produtos** em **7 categorias**: Vestidos, Blusas, Saias, Conjuntos, Camisas, Blazers e Outros.
+- Coleção recente na home, atualmente com **11 novidades**, na ordem do catálogo. A seleção acompanha a sequência visual da coleção, sem limite fixo de peças.
+- Catálogo completo inicialmente fechado, sem renderizar seus produtos; CTA **Explorar catálogo completo** com quantidade dinâmica.
+- Busca por nome e categoria, sem distinção de acentos ou maiúsculas/minúsculas, por início de palavra.
+- Categorias dinâmicas e filtros por tamanho, disponibilidade, faixa de preço, **Novidades** e **Black Friday**, combináveis com busca e ordenação. Os filtros mostram contagens e seleções ativas removíveis.
+- Seleção da boutique e ordenação por nome **A–Z / Z–A** ou **menor / maior preço**. Produtos com preço a consultar ficam no fim das duas ordenações por preço.
+- Paginação incremental de **24 produtos**, contador total e quantidade exibida. Alterar filtros, busca ou ordenação reinicia o lote; **Limpar filtros** restaura a seleção inicial.
+- Imagens proporcionais com lazy loading, tamanhos conhecidos e etiquetas que permitem identificar novidades e promoções simultaneamente.
 
-A Evelin Boutique Delivery foi desenvolvida como um catálogo responsivo para facilitar a descoberta de peças e o contato com a loja.
+## Preços e Black Friday
 
-O site funciona sem framework e sem backend, utilizando JavaScript para controlar o catálogo, filtros, favoritos, sacola, produtos vistos recentemente e outras interações da interface.
+- **15% OFF** nos produtos com preço confirmado: preço regular riscado, preço promocional em destaque e etiqueta **Black Friday**.
+- **278 produtos** com preço promocional confirmado; **109 produtos** permanecem com **Consultar preço**, sem valores ou descontos fictícios.
+- O filtro Black Friday mostra somente as ofertas com preço promocional válido, preservando a categoria de cada peça.
+- A sacola e as mensagens do WhatsApp usam o preço promocional durante a campanha. Peças sem preço confirmado ficam identificadas separadamente e não entram no subtotal das peças com preço conhecido.
 
-## Funcionalidades
+## Escolhas e atendimento
 
-- Catálogo com **260 produtos** distribuídos em **7 categorias**.
-- Seção de **novidades** com produtos em destaque.
-- Busca por nome e categoria, sem diferenciação entre letras maiúsculas/minúsculas e acentos.
-- Filtro por categoria e tamanho.
-- Ordenação de produtos por nome **A–Z** e **Z–A**.
-- Paginação incremental com carregamento de **24 produtos por vez**.
-- Sistema de **favoritos**.
-- **Sacola de orçamento** com seleção de tamanho e quantidade.
-- Integração com **WhatsApp** para consultar produtos e solicitar orçamento.
-- Seção de **produtos vistos recentemente**.
-- Modal com **detalhes do produto**.
-- Compartilhamento de produtos por link e recursos nativos do navegador quando disponíveis.
-- Persistência de favoritos, sacola e itens recentes usando **localStorage**.
-- Imagens com **lazy loading**.
-- Layout responsivo para **desktop, tablet e celular**.
-- Cuidados de acessibilidade, como labels, foco visível e navegação por teclado em diferentes componentes.
+- **Favoritos**: guardar/remover peças e consultar um painel próprio.
+- **Sacola de orçamento**: escolher um tamanho, agrupar peças por produto/tamanho, ajustar quantidades e remover itens. Adicionar não conclui uma compra.
+- **WhatsApp individual e coletivo**: mensagens com nomes, tamanhos conhecidos, preços promocionais quando confirmados e consulta de disponibilidade.
+- **Vistos recentemente**: até 8 peças, sem repetição, mais recente primeiro; faixa horizontal acessível por toque e teclado. Registra abertura de detalhe, favorito, escolha de tamanho, adição à sacola, WhatsApp e compartilhamento; rolar a página não registra visualizações.
+- **Detalhe do produto**: toque na imagem para ampliar e usar as mesmas ações; painel com fechamento, Escape e retorno do foco.
+- **Você também pode gostar**: sugestões no detalhe priorizam peças disponíveis da mesma categoria e de categorias relacionadas, sem repetir o produto aberto.
+- **Compartilhar**: Web Share quando disponível; fallback de cópia da mensagem/link e cópia manual se a área de transferência estiver bloqueada. Links localizam e abrem o detalhe; variantes de mesmo nome possuem links próprios.
+- Favoritos, sacola e recentes usam respectivamente `evelinFavoritos`, `evelinSacola` e `evelinRecentes` no localStorage. Armazenam identificadores, não objetos completos; a sacola inclui tamanho e quantidade. Dados inválidos são ignorados; bloqueio de armazenamento permite continuar na sessão.
 
-## Tecnologias utilizadas
+## Dados e interface
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Git**
-- **GitHub**
-- **GitHub Pages**
+Os dados dos produtos ficam no JavaScript. Informações desconhecidas são representadas por `null`; referências internas não são exibidas nos cards. Os identificadores dos produtos anteriores foram preservados para manter favoritos, sacola e recentes já salvos.
 
-## Estrutura do projeto
+A disponibilidade é explícita em todos os produtos: atualmente **15 disponíveis e 372 indisponíveis**, definidos exclusivamente pela boutique. A presença de uma peça no fornecedor não define estoque. Peças indisponíveis continuam visíveis, com imagem acinzentada e identificação prioritária, preservando detalhes, busca e favoritos. Pedidos, adição à sacola e ajustes de quantidade ficam bloqueados, inclusive para itens em sacolas antigas. **Avise-me quando voltar** permite escolher um tamanho de interesse nos detalhes e solicitar aviso pelo WhatsApp, sem quantidade nem garantia de preço futuro. A página não representa estoque automático.
 
-```text
-evelin-boutique/
-├── assets/
-│   └── imagens/
-├── index.html
-├── script.js
-├── style.css
-└── README.md
-```
+A seção **Como comprar** orienta o uso do catálogo, da sacola e do WhatsApp. O Instagram oficial é **[@contato.evelinboutique](https://www.instagram.com/contato.evelinboutique/)**, também acessível no cabeçalho, no contato e no rodapé.
 
-### Arquivos principais
+Layout responsivo para desktop, tablet e celular; identidade rosada/bege, apresentação, novidades, categorias, catálogo, Sobre, Contato e footer preservados. Controles possuem labels, foco visível e ações por botões/links adequados.
 
-- `index.html` — estrutura e conteúdo da página.
-- `style.css` — identidade visual, responsividade e estilos dos componentes.
-- `script.js` — catálogo, busca, filtros, favoritos, sacola, produtos recentes e integrações.
-- `assets/imagens/` — imagens utilizadas no site.
+## Tecnologias e estrutura
 
-## Conceitos praticados
+- `index.html`: estrutura, controles e painéis nativos.
+- `style.css`: identidade visual, cards, painéis e responsividade.
+- `script.js`: produtos, catálogo, filtros, ordenação, paginação, escolhas e WhatsApp.
+- `assets/imagens/produtos/`: imagens utilizadas pelo catálogo.
 
-Durante o desenvolvimento do projeto foram aplicados conceitos como:
+## Publicação e manutenção
 
-- Manipulação do **DOM**.
-- Eventos em JavaScript.
-- Arrays e objetos.
-- Métodos de arrays como `map()`, `filter()`, `find()`, `some()` e `every()`.
-- `Set` e `Map`.
-- Estado da interface.
-- `localStorage` e JSON.
-- Criação dinâmica de elementos HTML.
-- Delegação de eventos.
-- Manipulação de URLs.
-- Web Share API e Clipboard API.
-- Responsividade.
-- Acessibilidade e gerenciamento de foco.
+Projeto estático compatível com **GitHub Pages**, sem compilação. A publicação depende da configuração do repositório e do envio das alterações aprovadas. Consulte `AGENTS.md` antes de modificar o projeto.
 
 ## Limitações atuais
 
-- O projeto não possui backend ou banco de dados.
-- Não possui login ou autenticação.
-- Não realiza pagamentos online.
-- Preços, estoque e disponibilidade são consultados diretamente com a loja pelo WhatsApp.
-- Favoritos, sacola e produtos recentes ficam armazenados apenas no navegador do usuário.
-
-## Autor
-
-**Pietro Klaoss Neumann**
-
-- GitHub: https://github.com/pietroneumann
-- LinkedIn: https://www.linkedin.com/in/pietroneumann/
+- Sem login, autenticação, backend, painel administrativo ou banco de dados.
+- Sem checkout ou pagamento online; a confirmação do pedido e da disponibilidade acontece pelo WhatsApp.
+- Escolhas salvas no navegador/dispositivo; não há sincronização entre dispositivos. Limpar dados do site remove essas escolhas.
+- Armazenamento bloqueado mantém escolhas apenas na sessão; alterações simultâneas entre abas podem substituir o último estado salvo.
+- Links compartilhados dependem de preservar o nome da peça; mudanças futuras de identidade exigem migração das preferências.
+- Compartilhamento e cópia dependem do suporte e das permissões do navegador.
+- Identificações ambíguas e imagens com enquadramento/resolução limitada ficam documentadas para revisão humana.

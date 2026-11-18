@@ -3,6 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descubra moda feminina na Evelin Boutique: novidades, favoritos e orçamento pelo WhatsApp. Consulte preços, tamanhos e disponibilidade das peças.">
+        <meta name="theme-color" content="#d1a5a4">
+        <meta property="og:title" content="Evelin Boutique Delivery — Catálogo de moda feminina">
+        <meta property="og:description" content="Explore o catálogo, guarde seus favoritos e fale com a Evelin Boutique pelo WhatsApp.">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="pt_BR">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="assets/imagens/favicon.png">
         <title>Evelin Boutique Delivery</title>
@@ -24,6 +30,7 @@
                 <a href="#catalogo">Catálogo</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#contato">Contato</a>
+                <a href="https://www.instagram.com/contato.evelinboutique/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Evelin Boutique (abre em nova aba)">Instagram ↗</a>
             </nav>
             <div class="acoes-cliente" role="group" aria-label="Suas escolhas">
                 <button type="button" id="abrir-favoritos" aria-label="Abrir favoritos: 0 peças salvas" aria-haspopup="dialog" aria-controls="dialogo-escolhas">
@@ -59,7 +66,7 @@
             <section id="novidades" aria-labelledby="titulo-novidades">
                 <p class="secao-destaque">Escolhidas para você</p>
                 <h2 id="titulo-novidades">Novidades</h2>
-                <p class="secao-descricao">Conheça as 9 novidades da Evelin Boutique.</p>
+                <p class="secao-descricao">Conheça a coleção mais recente da Evelin Boutique.</p>
                 <div class="produtos" id="produtos-novidades">
                 </div>
             </section>
@@ -83,7 +90,7 @@
                 <div class="catalogo-conteudo">
                     <p class="secao-destaque">Sua próxima peça favorita</p>
                     <h2 id="titulo-catalogo">Catálogo Evelin Boutique</h2>
-                    <p class="secao-descricao">Explore nossas peças e consulte preços, tamanhos e disponibilidade pelo WhatsApp.</p>
+                    <p class="secao-descricao">Explore nossas peças e aproveite a Black Friday: 15% OFF nos produtos com preço confirmado. Consulte tamanhos e disponibilidade pelo WhatsApp.</p>
                     <button type="button" id="abrir-catalogo" class="cta-catalogo" aria-expanded="false" aria-controls="painel-catalogo">
                         <span>
                             Explorar catálogo completo
@@ -109,16 +116,42 @@
                                     <option value="original">Seleção da boutique</option>
                                     <option value="az">Nome A–Z</option>
                                     <option value="za">Nome Z–A</option>
+                                    <option value="preco-menor">Menor preço</option>
+                                    <option value="preco-maior">Maior preço</option>
+                                </select>
+                            </div>
+                            <div class="controle-disponibilidade">
+                                <label for="filtro-disponibilidade">Disponibilidade</label>
+                                <select id="filtro-disponibilidade">
+                                    <option value="">Todos os produtos</option>
+                                    <option value="disponiveis">Disponíveis</option>
+                                    <option value="indisponiveis">Indisponíveis</option>
+                                </select>
+                            </div>
+                            <div class="controle-preco">
+                                <label for="filtro-preco">Faixa de preço</label>
+                                <select id="filtro-preco">
+                                    <option value="">Todos os preços</option>
+                                    <option value="ate-200">Até R$ 200</option>
+                                    <option value="200-400">Acima de R$ 200 até R$ 400</option>
+                                    <option value="acima-400">Acima de R$ 400</option>
+                                    <option value="consultar">Consultar preço</option>
                                 </select>
                             </div>
                         </div>
                         <div id="filtros-categorias" class="filtros-categorias" role="group" aria-label="Filtrar produtos por categoria">
                         </div>
+                        <fieldset class="filtros-especiais">
+                            <legend>Seleções especiais</legend>
+                            <label><input type="checkbox" id="filtro-novidades"> <span id="contagem-novidades">Novidades</span></label>
+                            <label><input type="checkbox" id="filtro-black-friday"> <span id="contagem-black-friday">Black Friday · 15% OFF</span></label>
+                        </fieldset>
                         <div class="catalogo-resultados">
                             <p id="quantidade-produtos" role="status" aria-live="polite" aria-atomic="true">
                             </p>
                             <button type="button" id="limpar-filtros">Limpar filtros</button>
                         </div>
+                        <div id="filtros-ativos" class="filtros-ativos" role="group" aria-label="Filtros ativos; toque para remover um filtro" hidden></div>
                         <div class="produtos" id="produtos-catalogo">
                         </div>
                         <div class="catalogo-paginacao">
@@ -128,6 +161,21 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="como-comprar" aria-labelledby="titulo-como-comprar">
+                <p class="secao-destaque">Atendimento com carinho</p>
+                <h2 id="titulo-como-comprar">Como comprar</h2>
+                <ol class="passos-compra">
+                    <li><h3>Encontre sua peça</h3><p>Explore o catálogo e filtre por categoria, tamanho e disponibilidade.</p></li>
+                    <li><h3>Monte sua sacola</h3><p>Nas peças disponíveis, escolha o tamanho e ajuste a quantidade na sacola de orçamento.</p></li>
+                    <li><h3>Converse com a boutique</h3><p>Envie suas escolhas pelo WhatsApp para confirmar o pedido. Para peças indisponíveis, use Avise-me quando voltar.</p></li>
+                </ol>
+            </section>
+            <section id="instagram" aria-labelledby="titulo-instagram">
+                <p class="secao-destaque">Fique por perto</p>
+                <h2 id="titulo-instagram">Acompanhe a Evelin Boutique</h2>
+                <p>Descubra novidades e acompanhe as atualizações da boutique no nosso Instagram.</p>
+                <a class="botao-secundario" href="https://www.instagram.com/contato.evelinboutique/" target="_blank" rel="noopener noreferrer">@contato.evelinboutique <span class="somente-leitor">(abre em nova aba)</span> ↗</a>
             </section>
             <section id="recentes" aria-labelledby="titulo-recentes" hidden>
                 <p class="secao-destaque">Suas descobertas</p>
@@ -169,10 +217,10 @@
                         <p>Atendimento rápido para pedidos, dúvidas e consulta de tamanhos.</p>
                         <span>Falar agora</span>
                     </a>
-                    <a href="https://www.instagram.com/evelinboutiquedelivery/" target="_blank" rel="noopener noreferrer" class="contato-card">
+                    <a href="https://www.instagram.com/contato.evelinboutique/" target="_blank" rel="noopener noreferrer" class="contato-card">
                         <h3>Instagram</h3>
                         <p>Acompanhe novidades, peças e atualizações da loja.</p>
-                        <span>Ver Instagram</span>
+                        <span>@contato.evelinboutique ↗</span>
                     </a>
                 </div>
             </section>
@@ -196,6 +244,7 @@
                 <div class="footer-atendimento">
                     <h4>Atendimento</h4>
                     <p>Pedidos e dúvidas pelo WhatsApp e Instagram.</p>
+                    <a href="https://www.instagram.com/contato.evelinboutique/" target="_blank" rel="noopener noreferrer">@contato.evelinboutique ↗</a>
                 </div>
             </div>
             <div class="footer-final">
@@ -215,6 +264,10 @@
                 </p>
                 <div id="conteudo-detalhe">
                 </div>
+                <section id="relacionados" aria-labelledby="titulo-relacionados">
+                    <h3 id="titulo-relacionados">Você também pode gostar</h3>
+                    <div id="produtos-relacionados" class="relacionados-produtos"></div>
+                </section>
             </div>
         </dialog>
         <dialog id="dialogo-escolhas" aria-labelledby="titulo-escolhas" aria-describedby="descricao-escolhas">
@@ -233,8 +286,7 @@
                 <a id="whatsapp-sacola" class="botao-whatsapp" target="_blank" rel="noopener noreferrer" hidden>Solicitar orçamento pelo WhatsApp</a>
             </div>
         </dialog>
-        <p id="status-preferencias" class="status-preferencias" role="status" aria-live="polite" aria-atomic="true">
-        </p>
+        <p id="status-preferencias" class="status-preferencias" role="status" aria-live="polite" aria-atomic="true"></p>
         <script src="script.js">
         </script>
     </body>
