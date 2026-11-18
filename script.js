@@ -3682,6 +3682,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 0,
         "imagem": "assets/imagens/produtos/vestido-rute.jpg"
     },
@@ -3704,6 +3705,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 1,
         "imagem": "assets/imagens/produtos/blusa-betania.png"
     },
@@ -3725,6 +3727,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 2,
         "imagem": "assets/imagens/produtos/saia-betania.png"
     },
@@ -3746,6 +3749,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 3,
         "imagem": "assets/imagens/produtos/vestido-louise.jpg"
     },
@@ -3767,6 +3771,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 4,
         "imagem": "assets/imagens/produtos/vestido-helena.jpg"
     },
@@ -3786,6 +3791,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 5,
         "imagem": "assets/imagens/produtos/body-tamires.png"
     },
@@ -3804,6 +3810,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 6,
         "imagem": "assets/imagens/produtos/saia-sonia.png"
     },
@@ -3825,6 +3832,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 7,
         "imagem": "assets/imagens/produtos/vestido-valentina.jpg"
     },
@@ -3846,6 +3854,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 8,
         "imagem": "assets/imagens/produtos/vestido-cassandra.jpg"
     },
@@ -3867,6 +3876,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 9,
         "imagem": "assets/imagens/produtos/conjunto-cibele.jpg"
     },
@@ -3888,6 +3898,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": true,
+        "blackFriday": false,
         "ordemCatalogo": 10,
         "imagem": "assets/imagens/produtos/conjunto-telma.jpg"
     },
@@ -6283,13 +6294,13 @@ function obterPrecos(produto) {
     const regular = Math.round(produto.precoRegular * 100)
     const oferta = Number.isFinite(produto.precoBlackFriday) && produto.precoBlackFriday > 0
         ? Math.round(produto.precoBlackFriday * 100) : null
-    const promocional = campanhaBlackFriday.ativa && oferta !== null && oferta < regular ? oferta : null
+    const promocional = campanhaBlackFriday.ativa && produto.blackFriday !== false && produto.novidade !== true && oferta !== null && oferta < regular ? oferta : null
     return {regular, promocional, atual: promocional ?? regular}
 }
 
 function participaDaBlackFriday(produto) {
-    // A coleção recente participa mesmo quando o preço ainda precisa ser consultado.
-    return campanhaBlackFriday.ativa && (produto.novidade === true || obterPrecos(produto)?.promocional != null)
+    // Coleções recentes excluídas da campanha exibem somente o preço regular.
+    return obterPrecos(produto)?.promocional != null
 }
 
 function moeda(centavos) {
