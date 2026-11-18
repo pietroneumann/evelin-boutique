@@ -6287,6 +6287,11 @@ function obterPrecos(produto) {
     return {regular, promocional, atual: promocional ?? regular}
 }
 
+function participaDaBlackFriday(produto) {
+    // A coleção recente participa mesmo quando o preço ainda precisa ser consultado.
+    return campanhaBlackFriday.ativa && (produto.novidade === true || obterPrecos(produto)?.promocional != null)
+}
+
 function moeda(centavos) {
     return (centavos / 100).toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 }
@@ -6378,7 +6383,7 @@ function criarCard(produto, emDetalhe = false) {
     const estados = []
     if(!disponivel) estados.push(['etiqueta-indisponivel', 'INDISPONÍVEL'])
     if(produto.novidade === true) estados.push(['etiqueta-novo', 'NOVO'])
-    if(obterPrecos(produto)?.promocional != null) estados.push(['etiqueta-black-friday', 'BLACK FRIDAY'])
+    if(participaDaBlackFriday(produto)) estados.push(['etiqueta-black-friday', 'BLACK FRIDAY'])
     estados.forEach(([classe, texto]) => {
         const etiqueta = document.createElement('span')
         etiqueta.className = classe
@@ -6568,7 +6573,7 @@ function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false
     const termos = normalizarTexto(textoBusca).split(/\s+/).filter(Boolean)
     return produtos.filter(produto => {
         if(somenteNovidades && produto.novidade !== true) return false
-        if(somenteBlackFriday && obterPrecos(produto)?.promocional == null) return false
+        if(somenteBlackFriday && !participaDaBlackFriday(produto)) return false
         if(categoria && produto.categoria !== categoria) return false
         if(disponibilidade === 'disponiveis' && !estaDisponivel(produto)) return false
         if(disponibilidade === 'indisponiveis' && estaDisponivel(produto)) return false
@@ -6631,8 +6636,8 @@ function atualizarFiltrosCatalogo() {
     })
     area.hidden = area.childElementCount === 0
     const base = selecionarProdutos(categoriaAtual, textoBuscaAtual, false, tamanhoAtual, false, disponibilidadeAtual, faixaPrecoAtual)
-    document.querySelector('#contagem-novidades').textContent = `Novidades (${base.filter(p => p.novidade && (!somenteBlackFridayAtual || obterPrecos(p)?.promocional != null)).length})`
-    document.querySelector('#contagem-black-friday').textContent = `Black Friday · 15% OFF (${base.filter(p => obterPrecos(p)?.promocional != null && (!somenteNovidadesAtual || p.novidade)).length})`
+    document.querySelector('#contagem-novidades').textContent = `Novidades (${base.filter(p => p.novidade && (!somenteBlackFridayAtual || participaDaBlackFriday(p))).length})`
+    document.querySelector('#contagem-black-friday').textContent = `Black Friday · 15% OFF (${base.filter(p => participaDaBlackFriday(p) && (!somenteNovidadesAtual || p.novidade)).length})`
 }
 
 function atualizarQuantidade(quantidade) {
