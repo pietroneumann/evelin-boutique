@@ -160,8 +160,9 @@ header {
 }
 
 .marca img {
-    width: 58px;
-    height: 58px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
     object-fit: contain;
 }
 
@@ -1336,6 +1337,25 @@ nav a:hover {
     border-radius: 2px;
 }
 
+.sobre-trocas {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid #DCC8B6;
+}
+
+.sobre-trocas h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #6F5147;
+}
+
+.sobre-trocas p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5F5552;
+}
+
 .diferenciais {
     display: flex;
     justify-content: center;
@@ -1750,8 +1770,8 @@ footer {
     }
 
     .marca img {
-        width: 44px;
-        height: 44px;
+        width: 52px;
+        height: 52px;
     }
 
     .marca h1 {
