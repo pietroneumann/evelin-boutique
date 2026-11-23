@@ -751,11 +751,6 @@ nav a:hover {
     accent-color: #823D4C;
 }
 
-.produto-indisponivel .area-imagem-produto img {
-    filter: grayscale(1);
-    opacity: .8;
-}
-
 .etiqueta-indisponivel {
     flex-basis: 100%;
     background: #414141;
@@ -2003,7 +1998,6 @@ footer {
 .relacionados-produtos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .produto-relacionado { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 8px; background: #FFF; min-width: 0; font: inherit; text-align: left; }
 .produto-relacionado img { width: 100%; height: 140px; object-fit: contain; background: #FAF7F2; border-radius: 6px; }
-.relacionado-indisponivel img { filter: grayscale(1); opacity: .8; }
 .produto-relacionado span { font-size: 14px; font-weight: bold; overflow-wrap: anywhere; }
 .produto-relacionado small { line-height: 1.4; }
 .somente-leitor { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

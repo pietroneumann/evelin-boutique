@@ -335,11 +335,12 @@ let produtos = [
         codigoFornecedor: null,
         categoria: "Vestidos",
         preco: null,
-        precoRegular: null,
-        precoBlackFriday: null,
-        tamanhos: ["P","M","EXG"],
+        precoRegular: 417.81,
+        precoBlackFriday: 355.14,
+        tamanhos: ["P","M"],
         cores: null,
         novidade: false,
+        descricao: "C/ zíper C/ botões não funcionais Tecido sedinha estampada",
         imagem: "assets/imagens/produtos/vestido-carolina.jpg",
     },
 
@@ -354,6 +355,7 @@ let produtos = [
         tamanhos: ["P","M","G","GG","EXG"],
         cores: null,
         novidade: false,
+        descricao: "Botões não funcionais / com zíper Tecido crepe c/ elastano",
         imagem: "assets/imagens/produtos/vestido-suzete.jpg",
     },
 
@@ -438,6 +440,7 @@ let produtos = [
         tamanhos: ["P","M","G","GG","EXG"],
         cores: null,
         novidade: false,
+        descricao: "C/ zíper C/ botões não funcionais Tecido malha Jacar",
         imagem: "assets/imagens/produtos/vestido-tamires.jpg",
     },
 
@@ -1082,6 +1085,7 @@ let produtos = [
         tamanhos: ["P"],
         cores: null,
         novidade: false,
+        descricao: "Botões funcionais Tecido Jeans",
         imagem: "assets/imagens/produtos/vestido-isadora.jpg",
     },
 
@@ -1142,17 +1146,26 @@ let produtos = [
     },
 
     {
-        disponivel: false,
-        nome: "Vestido Simône",
-        codigoFornecedor: "01350",
-        categoria: "Vestidos",
-        preco: null,
-        precoRegular: 360.81,
-        precoBlackFriday: 306.69,
-        tamanhos: ["P","M","G","GG","EXG"],
-        cores: null,
-        novidade: false,
-        imagem: "assets/imagens/produtos/vestido-simone.jpg",
+        "disponivel": false,
+        "nome": "Vestido Simône",
+        "codigoFornecedor": "01350",
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 360.81,
+        "precoBlackFriday": 306.69,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "imagem": "assets/imagens/produtos/vestido-simone.jpg",
+        "blackFriday": false,
+        "ordemCatalogo": 5,
+        "descricao": "Com zíper. Tecido Crepe de Pêssego"
     },
 
     {
@@ -1927,6 +1940,7 @@ let produtos = [
         tamanhos: ["P","G"],
         cores: null,
         novidade: false,
+        descricao: "Com Detalhe e Amarração na Gola Tecido Crepe",
         imagem: "assets/imagens/produtos/blusa-elisa.jpg",
     },
 
@@ -2499,11 +2513,12 @@ let produtos = [
         codigoFornecedor: null,
         categoria: "Saias",
         preco: null,
-        precoRegular: null,
-        precoBlackFriday: null,
-        tamanhos: ["PP","P","M","G"],
+        precoRegular: 303.81,
+        precoBlackFriday: 258.24,
+        tamanhos: ["PP"],
         cores: null,
         novidade: false,
+        descricao: "Com zíper Tecido renda",
         imagem: "assets/imagens/produtos/saia-alessandra.png",
     },
 
@@ -3122,6 +3137,7 @@ let produtos = [
         tamanhos: ["P","M","G","GG"],
         cores: null,
         novidade: false,
+        descricao: "Botões funcionais / Detalhes de tweed /com zíper Tecido Malha Paris",
         imagem: "assets/imagens/produtos/conjunto-olivia.jpg",
     },
 
@@ -3666,7 +3682,7 @@ let produtos = [
     /* Atualização atual do catálogo — preços internos confirmados na fonte */
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Vestido Rute",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3681,14 +3697,14 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 0,
         "imagem": "assets/imagens/produtos/vestido-rute.jpg"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Blusa Betania",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -3706,12 +3722,13 @@ let produtos = [
         "cores": null,
         "novidade": true,
         "blackFriday": false,
-        "ordemCatalogo": 1,
-        "imagem": "assets/imagens/produtos/blusa-betania.png"
+        "ordemCatalogo": 9,
+        "imagem": "assets/imagens/produtos/blusa-betania.png",
+        "descricao": "Com 1 botão atrás funcional. Tecido crepe pele de pêssego"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Saia Betania",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -3726,14 +3743,14 @@ let produtos = [
             "GG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 2,
         "imagem": "assets/imagens/produtos/saia-betania.png"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Vestido Louise",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3748,14 +3765,14 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 3,
         "imagem": "assets/imagens/produtos/vestido-louise.jpg"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Vestido Helena",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3770,14 +3787,14 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 4,
         "imagem": "assets/imagens/produtos/vestido-helena.jpg"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Body Tamires",
         "codigoFornecedor": null,
         "categoria": "Outros",
@@ -3790,14 +3807,14 @@ let produtos = [
             "G"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 5,
         "imagem": "assets/imagens/produtos/body-tamires.png"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Saia Sonia",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -3809,14 +3826,14 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 6,
         "imagem": "assets/imagens/produtos/saia-sonia.png"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Vestido Valentina",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3831,14 +3848,14 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 7,
         "imagem": "assets/imagens/produtos/vestido-valentina.jpg"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Vestido Cassandra",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3853,14 +3870,14 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 8,
         "imagem": "assets/imagens/produtos/vestido-cassandra.jpg"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Conjunto Cibele",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -3875,14 +3892,14 @@ let produtos = [
             "GG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 9,
         "imagem": "assets/imagens/produtos/conjunto-cibele.jpg"
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Conjunto Telma",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -3897,7 +3914,7 @@ let produtos = [
             "EXG"
         ],
         "cores": null,
-        "novidade": true,
+        "novidade": false,
         "blackFriday": false,
         "ordemCatalogo": 10,
         "imagem": "assets/imagens/produtos/conjunto-telma.jpg"
@@ -4342,7 +4359,7 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Saia Angela",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4357,9 +4374,11 @@ let produtos = [
             "GG"
         ],
         "cores": null,
-        "novidade": false,
-        "ordemCatalogo": 32,
-        "imagem": "assets/imagens/produtos/saia-angela.png"
+        "novidade": true,
+        "ordemCatalogo": 14,
+        "imagem": "assets/imagens/produtos/saia-angela.png",
+        "blackFriday": false,
+        "descricao": "Com zíper. Com cinto. Tecido alfaiataria"
     },
 
     {
@@ -4463,6 +4482,7 @@ let produtos = [
         "cores": null,
         "novidade": false,
         "ordemCatalogo": 37,
+        descricao: "C/ zíper Tecido crepe c/ elastano",
         "imagem": "assets/imagens/produtos/vestido-nathalia.jpg"
     },
 
@@ -5129,7 +5149,7 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        "disponivel": false,
         "nome": "Saia Lúcia",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5140,12 +5160,15 @@ let produtos = [
             "P",
             "M",
             "G",
-            "GG"
+            "GG",
+            "EXG"
         ],
         "cores": null,
-        "novidade": false,
-        "ordemCatalogo": 71,
-        "imagem": "assets/imagens/produtos/saia-lucia.png"
+        "novidade": true,
+        "ordemCatalogo": 10,
+        "imagem": "assets/imagens/produtos/saia-lucia.png",
+        "blackFriday": false,
+        "descricao": "Com zíper. Com botão funcional. Com bolsos. Tecido alfaiataria marrant"
     },
 
     {
@@ -5289,6 +5312,7 @@ let produtos = [
         "cores": null,
         "novidade": false,
         "ordemCatalogo": 78,
+        descricao: "Botões funcionais Tecido tweed de malha crepe pele de pêssego nas mangas e na gola",
         "imagem": "assets/imagens/produtos/vestido-luana.jpg"
     },
 
@@ -5403,6 +5427,7 @@ let produtos = [
         "cores": null,
         "novidade": false,
         "ordemCatalogo": 84,
+        descricao: "Casaco com botões funcionais / detalhes em fita de veludo / laço removível Saia com zíper Tecido tweed de malha",
         "imagem": "assets/imagens/produtos/conjunto-marisa.jpg"
     },
 
@@ -5806,6 +5831,7 @@ let produtos = [
         "cores": null,
         "novidade": false,
         "ordemCatalogo": 105,
+        descricao: "Detalhes em gripir / lastex nas costas Tecido chiffon bordado",
         "imagem": "assets/imagens/produtos/vestido-rejane.jpg"
     },
 
@@ -5887,6 +5913,7 @@ let produtos = [
         "cores": null,
         "novidade": false,
         "ordemCatalogo": 109,
+        descricao: "com zíper / botões não funcionais Tecido tricoline",
         "imagem": "assets/imagens/produtos/vestido-debora.jpg"
     },
 
@@ -6207,6 +6234,257 @@ let produtos = [
         "ordemCatalogo": 126,
         "imagem": "assets/imagens/produtos/saia-cecilia.jpg"
     },
+    {
+        "disponivel": false,
+        "nome": "Vestido Celene",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 417.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 0,
+        "descricao": "Com zíper. Tecido alfaiataria marrant",
+        "imagem": "assets/imagens/produtos/vestido-celene.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Cleo",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 379.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 1,
+        "descricao": "Sem zíper. Com lastex na cintura atrás. Tecido chiffon estampado",
+        "imagem": "assets/imagens/produtos/vestido-cleo-magnific.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Giovana",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 341.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 2,
+        "descricao": "Com zíper. Tecido crepe pele de pêssego",
+        "imagem": "assets/imagens/produtos/vestido-giovana.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Evelin",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 417.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 3,
+        "descricao": "Com zíper. Tecido alfaiataria",
+        "imagem": "assets/imagens/produtos/vestido-evelin.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Geisa",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 398.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "PP",
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 4,
+        "descricao": "Com zíper. Tecido chiffon estampado",
+        "imagem": "assets/imagens/produtos/vestido-geisa.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Clara",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 398.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "PP",
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 6,
+        "descricao": "Com zíper. Com detalhes em gripir. Tecido sedinha estampada",
+        "imagem": "assets/imagens/produtos/vestido-clara-magnific.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Paula",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 455.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 7,
+        "descricao": "Sem zíper. Com faixa. Com gola laço. Tecido chiffon trabalhado",
+        "imagem": "assets/imagens/produtos/vestido-paula.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Vestido Clarita",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 474.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 8,
+        "descricao": "Com detalhes em gripir. Com zíper. Tecido lese de algodão",
+        "imagem": "assets/imagens/produtos/vestido-clarita.jpg"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Camisa Sara",
+        "codigoFornecedor": null,
+        "categoria": "Camisas",
+        "preco": null,
+        "precoRegular": 170.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 11,
+        "descricao": "Com detalhes. Com botões funcionais. Tecido viscose maquinetada",
+        "imagem": "assets/imagens/produtos/camisa-sara.png"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Saia Joana",
+        "codigoFornecedor": null,
+        "categoria": "Saias",
+        "preco": null,
+        "precoRegular": 265.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 12,
+        "descricao": "Com lastex na cintura atrás. Sem zíper. Com detalhes em gripir. Tecido alfaiataria",
+        "imagem": "assets/imagens/produtos/saia-joana-magnific.png"
+    },
+
+    {
+        "disponivel": false,
+        "nome": "Camisa Lorena",
+        "codigoFornecedor": null,
+        "categoria": "Camisas",
+        "preco": null,
+        "precoRegular": 265.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": 13,
+        "descricao": "Com botões funcionais. Manga longa. Tecido renda",
+        "imagem": "assets/imagens/produtos/camisa-lorena.png"
+    },
 ]
 
 /* 02. Configuração, índices e referências do DOM */
@@ -6292,9 +6570,9 @@ function estaDisponivel(produto) {
 function obterPrecos(produto) {
     if(!Number.isFinite(produto.precoRegular) || produto.precoRegular <= 0) return null
     const regular = Math.round(produto.precoRegular * 100)
-    const oferta = Number.isFinite(produto.precoBlackFriday) && produto.precoBlackFriday > 0
-        ? Math.round(produto.precoBlackFriday * 100) : null
-    const promocional = campanhaBlackFriday.ativa && produto.blackFriday !== false && produto.novidade !== true && oferta !== null && oferta < regular ? oferta : null
+    // As duas coleções mais recentes ficam fora da campanha, mesmo com preço confirmado.
+    const oferta = Math.round(regular * (100 - campanhaBlackFriday.desconto) / 100)
+    const promocional = campanhaBlackFriday.ativa && produto.blackFriday !== false && produto.novidade !== true && oferta > 0 && oferta < regular ? oferta : null
     return {regular, promocional, atual: promocional ?? regular}
 }
 
@@ -6484,6 +6762,13 @@ function criarCard(produto, emDetalhe = false) {
     card.appendChild(categoriaP)
 
     card.appendChild(tamanhos)
+
+    if(emDetalhe && typeof produto.descricao === 'string' && produto.descricao.trim()){
+        const descricao = document.createElement('p')
+        descricao.className = 'descricao-produto'
+        descricao.textContent = produto.descricao
+        card.appendChild(descricao)
+    }
 
     card.appendChild(preco)
 
@@ -7015,7 +7300,7 @@ async function compartilharProduto(id) {
     const produto = produtosPorId.get(id)
     if(!produto) return
     registrarRecente(id)
-    const dados = {title:'Evelin Boutique', text:'Olha esta peça da Evelin Boutique: ' + produto.nome, url:linkProduto(produto)}
+    const dados = {title:'Evelin Boutique Delivery', text:'Olha esta peça da Evelin Boutique Delivery: ' + produto.nome, url:linkProduto(produto)}
     if(typeof navigator.share === 'function'){
         try { await navigator.share(dados); return }
         catch(erro){ if(erro.name === 'AbortError') return }
@@ -7087,7 +7372,7 @@ function criarMensagemSacola(itens = sacola) {
     const resumo = resumirSacola(itens)
     const total = (resumo.consultar ? 'Subtotal das peças com preço confirmado: ' : 'Total das peças: ') + moeda(resumo.total)
     const consulta = resumo.consultar ? '\nHá peças com preço a consultar, não incluídas no subtotal.' : ''
-    return 'Olá! Tenho interesse nestas peças da Evelin Boutique:\n\n' + linhas.join('\n') + '\n\n' + total + consulta + '\nGostaria de confirmar os valores e a disponibilidade dessas peças.'
+    return 'Olá! Tenho interesse nestas peças da Evelin Boutique Delivery:\n\n' + linhas.join('\n') + '\n\n' + total + consulta + '\nGostaria de confirmar os valores e a disponibilidade dessas peças.'
 }
 
 /* 13. Eventos — registrados uma única vez */

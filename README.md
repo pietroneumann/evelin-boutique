@@ -4,8 +4,8 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 
 ## Catálogo
 
-- **387 produtos** em **7 categorias**: Vestidos, Blusas, Saias, Conjuntos, Camisas, Blazers e Outros.
-- Coleção recente na home, atualmente com **11 novidades**, na ordem do catálogo. A seleção acompanha a sequência visual da coleção, sem limite fixo de peças.
+- **398 produtos** em **7 categorias**: Vestidos, Blusas, Saias, Conjuntos, Camisas, Blazers e Outros.
+- Coleção **Magnific** na home, com **15 novidades únicas**, na ordem do catálogo. Peças reapresentadas usam o cadastro existente; modelos diferentes de mesmo nome têm links próprios.
 - Catálogo completo inicialmente fechado, sem renderizar seus produtos; CTA **Explorar catálogo completo** com quantidade dinâmica.
 - Busca por nome e categoria, sem distinção de acentos ou maiúsculas/minúsculas, por início de palavra.
 - Categorias dinâmicas e filtros por tamanho, disponibilidade, faixa de preço, **Novidades** e **Black Friday**, combináveis com busca e ordenação. Os filtros mostram contagens e seleções ativas removíveis.
@@ -15,8 +15,8 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 
 ## Preços e Black Friday
 
-- **15% OFF** nos produtos com preço confirmado: preço regular riscado, preço promocional em destaque e etiqueta **Black Friday**.
-- **278 produtos** com preço promocional confirmado; **109 produtos** permanecem com **Consultar preço**, sem valores ou descontos fictícios.
+- **15% OFF** nas peças participantes das coleções mais antigas: preço regular riscado, preço promocional em destaque e etiqueta **Black Friday**. A coleção atual e a imediatamente anterior ficam fora da promoção.
+- **291 produtos** com preço regular confirmado, dos quais **266** participam da Black Friday; **107 produtos** permanecem com **Consultar preço**, sem valores ou descontos fictícios.
 - O filtro Black Friday mostra somente as ofertas com preço promocional válido, preservando a categoria de cada peça.
 - A sacola e as mensagens do WhatsApp usam o preço promocional durante a campanha. Peças sem preço confirmado ficam identificadas separadamente e não entram no subtotal das peças com preço conhecido.
 
@@ -35,7 +35,7 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 
 Os dados dos produtos ficam no JavaScript. Informações desconhecidas são representadas por `null`; referências internas não são exibidas nos cards. Os identificadores dos produtos anteriores foram preservados para manter favoritos, sacola e recentes já salvos.
 
-A disponibilidade é explícita em todos os produtos: atualmente **15 disponíveis e 372 indisponíveis**, definidos exclusivamente pela boutique. A presença de uma peça no fornecedor não define estoque. Peças indisponíveis continuam visíveis, com imagem acinzentada e identificação prioritária, preservando detalhes, busca e favoritos. Pedidos, adição à sacola e ajustes de quantidade ficam bloqueados, inclusive para itens em sacolas antigas. **Avise-me quando voltar** permite escolher um tamanho de interesse nos detalhes e solicitar aviso pelo WhatsApp, sem quantidade nem garantia de preço futuro. A página não representa estoque automático.
+A disponibilidade é explícita em todos os produtos: atualmente **15 disponíveis e 383 indisponíveis**, definidos exclusivamente pela boutique. A presença de uma peça no fornecedor não define estoque. Peças indisponíveis continuam visíveis, com fotos coloridas e identificação prioritária, preservando detalhes, busca e favoritos. Pedidos, adição à sacola e ajustes de quantidade ficam bloqueados, inclusive para itens em sacolas antigas. **Avise-me quando voltar** permite escolher um tamanho de interesse nos detalhes e solicitar aviso pelo WhatsApp, sem quantidade nem garantia de preço futuro. A página não representa estoque automático.
 
 A seção **Como comprar** orienta o uso do catálogo, da sacola e do WhatsApp. O Instagram oficial é **[@contato.evelinboutique](https://www.instagram.com/contato.evelinboutique/)**, também acessível no cabeçalho, no contato e no rodapé.
 
@@ -49,6 +49,8 @@ Layout responsivo para desktop, tablet e celular; identidade rosada/bege, aprese
 - `assets/imagens/produtos/`: imagens utilizadas pelo catálogo.
 
 ## Publicação e manutenção
+
+O nome oficial da loja é **Evelin Boutique Delivery** e seu domínio oficial é **[evelinboutiquedelivery.com.br](https://evelinboutiquedelivery.com.br/)**.
 
 Projeto estático compatível com **GitHub Pages**, sem compilação. A publicação depende da configuração do repositório e do envio das alterações aprovadas. Consulte `AGENTS.md` antes de modificar o projeto.
 
