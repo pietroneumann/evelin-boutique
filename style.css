@@ -153,6 +153,14 @@ header {
     z-index: 1000;
 }
 
+.conteudo-header, .conteudo-header-interno {
+    display: contents;
+}
+
+#alternar-header {
+    display: none;
+}
+
 .marca {
     display: flex;
     align-items: center;
@@ -2071,4 +2079,99 @@ header nav { align-items: center; }
     .controle-busca { grid-column: auto; }
     .produto-relacionado img { height: 110px; }
     #como-comprar, #instagram { margin: 44px auto; padding: 0 20px; }
+}
+
+/* Recolhimento progressivo: sem JavaScript, a navegação continua visível. */
+@media (max-width: 1000px) {
+    header.header-recolhivel {
+        flex-direction: column;
+        padding: 0 24px;
+        gap: 0;
+    }
+
+    .header-recolhivel .conteudo-header {
+        display: grid;
+        grid-template-rows: 1fr;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 0 8px;
+        opacity: 1;
+        transition: grid-template-rows .24s ease, padding .24s ease, opacity .18s ease;
+    }
+
+    .header-recolhivel .conteudo-header-interno {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    .header-recolhido .conteudo-header {
+        grid-template-rows: 0fr;
+        padding-block: 0;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .header-recolhivel #alternar-header {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex: 0 0 auto;
+        width: 72px;
+        min-height: 44px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 10px;
+        background: transparent;
+        color: #513A32;
+        font: inherit;
+        font-size: 22px;
+        line-height: 1;
+    }
+
+    #alternar-header::before {
+        content: '';
+        width: 22px;
+        height: 3px;
+        border-radius: 2px;
+        background: currentColor;
+        opacity: .55;
+    }
+
+    .header-recolhivel #alternar-header:hover {
+        background: #FAF7F240;
+        color: #513A32;
+    }
+
+    #alternar-header:focus-visible {
+        outline-offset: -3px;
+    }
+
+    section {
+        scroll-margin-top: calc(var(--altura-header-mobile, 280px) + 12px);
+    }
+}
+
+@media (max-width: 600px) {
+    header.header-recolhivel {
+        padding-inline: 15px;
+    }
+
+    .header-recolhivel .conteudo-header {
+        padding-top: 12px;
+    }
+
+    .header-recolhido .conteudo-header {
+        padding-top: 0;
+    }
+
+    .header-recolhivel .conteudo-header-interno {
+        flex-direction: column;
+    }
 }

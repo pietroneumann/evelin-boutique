@@ -19,39 +19,46 @@
     <body>
         <!-- Header: marca, navegação e escolhas da cliente -->
         <header>
-            <div class="marca">
-                <img src="assets/imagens/identidade/logo-evelin.png" alt="Logo Evelin Boutique Delivery" width="256" height="256">
-                <div>
-                    <h1>Evelin Boutique Delivery</h1>
-                    <p>Moda feminina & delivery</p>
+            <div id="conteudo-header" class="conteudo-header">
+                <div class="conteudo-header-interno">
+                    <div class="marca">
+                        <img src="assets/imagens/identidade/logo-evelin.png" alt="Logo Evelin Boutique Delivery" width="256" height="256">
+                        <div>
+                            <h1>Evelin Boutique Delivery</h1>
+                            <p>Moda feminina & delivery</p>
+                        </div>
+                    </div>
+                    <nav aria-label="Navegação principal">
+                        <a href="#inicio">Início</a>
+                        <a href="#novidades">Novidades</a>
+                        <a href="#categorias">Categorias</a>
+                        <a href="#catalogo">Catálogo</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#contato">Contato</a>
+                        <a href="https://www.instagram.com/contato.evelinboutique/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Evelin Boutique Delivery (abre em nova aba)">Instagram ↗</a>
+                    </nav>
+                    <div class="acoes-cliente" role="group" aria-label="Suas escolhas">
+                        <button type="button" id="abrir-favoritos" aria-label="Abrir favoritos: 0 peças salvas" aria-haspopup="dialog" aria-controls="dialogo-escolhas">
+                            <svg class="icone-escolhas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                                <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"></path>
+                            </svg>
+                            <span class="rotulo-escolhas">Favoritos</span>
+                            <span class="contador-escolhas" id="contador-favoritos" aria-hidden="true">0</span>
+                        </button>
+                        <button type="button" id="abrir-sacola" aria-label="Abrir sacola de orçamento: 0 peças" aria-haspopup="dialog" aria-controls="dialogo-escolhas">
+                            <svg class="icone-escolhas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                                <path d="M5 7h14l1 14H4L5 7Z"></path>
+                                <path d="M8 9V6a4 4 0 0 1 8 0v3"></path>
+                            </svg>
+                            <span class="rotulo-escolhas">Sacola</span>
+                            <span class="contador-escolhas" id="contador-sacola" aria-hidden="true">0</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <nav aria-label="Navegação principal">
-                <a href="#inicio">Início</a>
-                <a href="#novidades">Novidades</a>
-                <a href="#categorias">Categorias</a>
-                <a href="#catalogo">Catálogo</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#contato">Contato</a>
-                <a href="https://www.instagram.com/contato.evelinboutique/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Evelin Boutique Delivery (abre em nova aba)">Instagram ↗</a>
-            </nav>
-            <div class="acoes-cliente" role="group" aria-label="Suas escolhas">
-                <button type="button" id="abrir-favoritos" aria-label="Abrir favoritos: 0 peças salvas" aria-haspopup="dialog" aria-controls="dialogo-escolhas">
-                    <svg class="icone-escolhas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"></path>
-                    </svg>
-                    <span class="rotulo-escolhas">Favoritos</span>
-                    <span class="contador-escolhas" id="contador-favoritos" aria-hidden="true">0</span>
-                </button>
-                <button type="button" id="abrir-sacola" aria-label="Abrir sacola de orçamento: 0 peças" aria-haspopup="dialog" aria-controls="dialogo-escolhas">
-                    <svg class="icone-escolhas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                        <path d="M5 7h14l1 14H4L5 7Z"></path>
-                        <path d="M8 9V6a4 4 0 0 1 8 0v3"></path>
-                    </svg>
-                    <span class="rotulo-escolhas">Sacola</span>
-                    <span class="contador-escolhas" id="contador-sacola" aria-hidden="true">0</span>
-                </button>
-            </div>
+            <button type="button" id="alternar-header" aria-expanded="true" aria-controls="conteudo-header" aria-label="Recolher menu" hidden>
+                <span class="indicador-header" aria-hidden="true">↑</span>
+            </button>
         </header>
         <!-- Conteúdo principal -->
         <main>

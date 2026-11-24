@@ -7917,3 +7917,86 @@ if(slugSolicitado){
         abrirDetalheProduto(identificarProduto(produto))
     }
 }
+
+/* 15. Header recolhível em celular e tablet */
+
+function inicializarHeaderMobile() {
+    const cabecalho = document.querySelector('header')
+    const conteudo = document.querySelector('#conteudo-header')
+    const controle = document.querySelector('#alternar-header')
+    const media = matchMedia('(max-width: 1000px)')
+    let recolhido = false
+    let inicioToque = null
+
+    function atualizarAltura() {
+        if(media.matches){
+            document.documentElement.style.setProperty('--altura-header-mobile', Math.ceil(cabecalho.getBoundingClientRect().height) + 'px')
+        } else {
+            document.documentElement.style.removeProperty('--altura-header-mobile')
+        }
+    }
+
+    function definirRecolhido(valor) {
+        valor = media.matches && valor
+        if(valor && document.querySelector('dialog[open]')) return
+        if(valor && conteudo.contains(document.activeElement)) controle.focus({preventScroll: true})
+        recolhido = valor
+        cabecalho.classList.toggle('header-recolhido', valor)
+        conteudo.inert = valor
+        if(valor) conteudo.setAttribute('aria-hidden', 'true')
+        else conteudo.removeAttribute('aria-hidden')
+        controle.setAttribute('aria-expanded', String(!valor))
+        controle.setAttribute('aria-label', valor ? 'Expandir menu' : 'Recolher menu')
+        controle.querySelector('.indicador-header').textContent = valor ? '↓' : '↑'
+        atualizarAltura()
+    }
+
+    function atualizarBreakpoint() {
+        const focoNoControle = document.activeElement === controle
+        inicioToque = null
+        cabecalho.classList.toggle('header-recolhivel', media.matches)
+        controle.hidden = !media.matches
+        definirRecolhido(false)
+        if(!media.matches && focoNoControle) conteudo.querySelector('nav a')?.focus({preventScroll: true})
+        atualizarAltura()
+    }
+
+    controle.addEventListener('click', () => definirRecolhido(!recolhido))
+
+    // Observa somente gestos iniciados no header; o navegador mantém o scroll nativo.
+    cabecalho.addEventListener('touchstart', evento => {
+        inicioToque = null
+        if(!media.matches || evento.touches.length !== 1 || document.querySelector('dialog[open]')) return
+        const toque = evento.touches[0]
+        inicioToque = {id: toque.identifier, x: toque.clientX, y: toque.clientY, recolhido}
+    }, {passive: true})
+
+    cabecalho.addEventListener('touchmove', evento => {
+        if(evento.touches.length !== 1) inicioToque = null
+    }, {passive: true})
+
+    cabecalho.addEventListener('touchend', evento => {
+        const inicio = inicioToque
+        inicioToque = null
+        if(!inicio || !media.matches || inicio.recolhido !== recolhido) return
+        const toque = [...evento.changedTouches].find(t => t.identifier === inicio.id)
+        if(!toque) return
+        const dx = toque.clientX - inicio.x
+        const dy = toque.clientY - inicio.y
+        if(Math.abs(dy) < 50 || Math.abs(dy) < Math.abs(dx) * 1.5) return
+        if(dy < 0 && !recolhido) definirRecolhido(true)
+        else if(dy > 0 && recolhido) definirRecolhido(false)
+    }, {passive: true})
+
+    cabecalho.addEventListener('touchcancel', () => { inicioToque = null }, {passive: true})
+    media.addEventListener('change', atualizarBreakpoint)
+    if(typeof ResizeObserver === 'function'){
+        new ResizeObserver(atualizarAltura).observe(cabecalho)
+    } else {
+        window.addEventListener('resize', atualizarAltura, {passive: true})
+        conteudo.addEventListener('transitionend', atualizarAltura)
+    }
+    atualizarBreakpoint()
+}
+
+inicializarHeaderMobile()
