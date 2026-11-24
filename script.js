@@ -6887,6 +6887,7 @@ let produtos = [
 
 /* 02. Configuração, índices e referências do DOM */
 
+const WHATSAPP_NUMBER = '5511927322981'
 const produtosPorLote = 24
 const limiteRecentes = 8
 const campanhaBlackFriday = {ativa: true, desconto: 15}
@@ -7135,7 +7136,7 @@ function criarCard(produto, emDetalhe = false) {
         encodeURIComponent(mensagem)
 
     whatsapp.href =
-        `https://wa.me/5511971949711?text=${mensagemCodificada}`
+        `https://wa.me/${WHATSAPP_NUMBER}?text=${mensagemCodificada}`
     if(!disponivel){
         whatsapp.removeAttribute('href')
         whatsapp.setAttribute('aria-disabled', 'true')
@@ -7522,7 +7523,7 @@ function renderizarEscolhas() {
             if(resumo.indisponiveis) total.textContent += ' · Remova as peças fora de venda para solicitar o orçamento.'
             area.appendChild(total)
             // Não permite enviar uma sacola com peças explicitamente indisponíveis.
-            if(resumo.indisponiveis === 0) orcamento.href = 'https://wa.me/5511971949711?text=' + encodeURIComponent(criarMensagemSacola())
+            if(resumo.indisponiveis === 0) orcamento.href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(criarMensagemSacola())
             orcamento.hidden = resumo.indisponiveis > 0
         }
     }
