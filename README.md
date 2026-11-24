@@ -8,7 +8,7 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 - Coleção **Magnific** na home, com **15 novidades únicas**, na ordem do catálogo. Peças reapresentadas usam o cadastro existente; modelos diferentes de mesmo nome têm links próprios.
 - Catálogo completo inicialmente fechado, sem renderizar seus produtos; CTA **Explorar catálogo completo** com quantidade dinâmica.
 - Busca por nome e categoria, sem distinção de acentos ou maiúsculas/minúsculas, por início de palavra.
-- Categorias dinâmicas e filtros por tamanho, disponibilidade, faixa de preço, **Novidades** e **Black Friday**, combináveis com busca e ordenação. Os filtros mostram contagens e seleções ativas removíveis.
+- Categorias dinâmicas e filtros por tamanho, entrega rápida, faixa de preço, **Novidades** e **Black Friday**, combináveis com busca e ordenação. Os filtros mostram contagens e seleções ativas removíveis.
 - Seleção da boutique e ordenação por nome **A–Z / Z–A** ou **menor / maior preço**. Produtos com preço a consultar ficam no fim das duas ordenações por preço.
 - Paginação incremental de **24 produtos**, contador total e quantidade exibida. Alterar filtros, busca ou ordenação reinicia o lote; **Limpar filtros** restaura a seleção inicial.
 - Imagens proporcionais com lazy loading, tamanhos conhecidos e etiquetas que permitem identificar novidades e promoções simultaneamente.
@@ -27,7 +27,7 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 - **WhatsApp individual e coletivo**: mensagens com nomes, tamanhos conhecidos, preços promocionais quando confirmados e consulta de disponibilidade.
 - **Vistos recentemente**: até 8 peças, sem repetição, mais recente primeiro; faixa horizontal acessível por toque e teclado. Registra abertura de detalhe, favorito, escolha de tamanho, adição à sacola, WhatsApp e compartilhamento; rolar a página não registra visualizações.
 - **Detalhe do produto**: toque na imagem para ampliar e usar as mesmas ações; painel com fechamento, Escape e retorno do foco.
-- **Você também pode gostar**: sugestões no detalhe priorizam peças disponíveis da mesma categoria e de categorias relacionadas, sem repetir o produto aberto.
+- **Você também pode gostar**: sugestões no detalhe priorizam a mesma categoria e categorias relacionadas, usando entrega rápida como desempate, sem repetir o produto aberto. Todas as peças recomendadas podem ser pedidas.
 - **Compartilhar**: Web Share quando disponível; fallback de cópia da mensagem/link e cópia manual se a área de transferência estiver bloqueada. Links localizam e abrem o detalhe; variantes de mesmo nome possuem links próprios.
 - Favoritos, sacola e recentes usam respectivamente `evelinFavoritos`, `evelinSacola` e `evelinRecentes` no localStorage. Armazenam identificadores, não objetos completos; a sacola inclui tamanho e quantidade. Dados inválidos são ignorados; bloqueio de armazenamento permite continuar na sessão.
 
@@ -35,7 +35,9 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 
 Os dados dos produtos ficam no JavaScript. Informações desconhecidas são representadas por `null`; referências internas não são exibidas nos cards. Os identificadores dos produtos anteriores foram preservados para manter favoritos, sacola e recentes já salvos.
 
-A disponibilidade é explícita em todos os produtos: atualmente **15 disponíveis e 383 indisponíveis**, definidos exclusivamente pela boutique. A presença de uma peça no fornecedor não define estoque. Peças indisponíveis continuam visíveis, com fotos coloridas e identificação prioritária, preservando detalhes, busca e favoritos. Pedidos, adição à sacola e ajustes de quantidade ficam bloqueados, inclusive para itens em sacolas antigas. **Avise-me quando voltar** permite escolher um tamanho de interesse nos detalhes e solicitar aviso pelo WhatsApp, sem quantidade nem garantia de preço futuro. A página não representa estoque automático.
+**Todos os 398 produtos podem ser comprados**, com tamanho quando conhecido, quantidade na sacola e pedido individual ou coletivo pelo WhatsApp. Todos possuem `disponivel: true`; esse campo fica reservado à permissão de compra, separada da entrega. Não há fluxo de reposição ou aviso de retorno nesta versão.
+
+O campo independente `entregaRapida` define somente o benefício de entrega: **15 produtos** confirmados possuem `entregaRapida: true` e exibem o selo **ENTREGA RÁPIDA**; os **383 demais** possuem `entregaRapida: false`, continuam normalmente compráveis e não recebem selo de estado. Os filtros **Entrega rápida** e **Outros produtos** usam esse campo e contagens dinâmicas. Entrega rápida não muda preços, novidades ou Black Friday. Imagens continuam coloridas e itens salvos anteriormente na sacola são preservados, sem limpeza do localStorage. A confirmação do pedido e das condições de entrega acontece pelo atendimento; a página não representa estoque automático.
 
 A seção **Como comprar** orienta o uso do catálogo, da sacola e do WhatsApp. O Instagram oficial é **[@contato.evelinboutique](https://www.instagram.com/contato.evelinboutique/)**, também acessível no cabeçalho, no contato e no rodapé.
 

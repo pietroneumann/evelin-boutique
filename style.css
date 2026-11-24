@@ -677,7 +677,7 @@ nav a:hover {
     min-height: 28px;
 }
 
-.etiqueta-novo, .etiqueta-black-friday, .etiqueta-indisponivel {
+.etiqueta-novo, .etiqueta-black-friday, .etiqueta-entrega-rapida {
     background-color: #A67C68;
     color: #FFFFFF;
     padding: 6px 10px;
@@ -751,11 +751,18 @@ nav a:hover {
     accent-color: #823D4C;
 }
 
-.etiqueta-indisponivel {
+.etiqueta-entrega-rapida {
     flex-basis: 100%;
-    background: #414141;
+    background: #496457;
     border-radius: 8px;
     font-size: 12px;
+}
+
+/* Alinha as fotos de entrega rápida com ou sem uma segunda etiqueta. */
+.produto-entrega-rapida > .etiquetas-produto {
+    min-height: 64px;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 
 .produto [aria-disabled="true"], .adicionar-sacola:disabled, .quantidade-sacola button:disabled {
@@ -817,7 +824,7 @@ nav a:hover {
 }
 
 /* Ancorar o bloco inteiro mantém o CTA principal alinhado, mesmo com preços e grades diferentes. */
-.produto > .escolha-tamanho, .produto > .controle-interesse {
+.produto > .escolha-tamanho {
     margin-top: auto;
 }
 
@@ -884,20 +891,20 @@ nav a:hover {
 
 /* 09. Sacola */
 
-.escolha-tamanho, .controle-interesse {
+.escolha-tamanho {
     margin: 0 0 12px;
     display: grid;
     gap: 8px;
     text-align: left;
 }
 
-.escolha-tamanho label, .controle-interesse label {
+.escolha-tamanho label {
     font-size: 13px;
     font-weight: bold;
     color: #5F5552;
 }
 
-.tamanho-sacola, .tamanho-interesse {
+.tamanho-sacola {
     width: 100%;
     box-sizing: border-box;
     padding: 11px 12px;
@@ -908,7 +915,7 @@ nav a:hover {
     font: inherit;
 }
 
-.adicionar-sacola, .avisar-produto, .avisar-whatsapp {
+.adicionar-sacola {
     margin: 0;
     padding: 12px;
     font: inherit;
@@ -918,20 +925,9 @@ nav a:hover {
     font-weight: bold;
 }
 
-.adicionar-sacola:hover, .avisar-produto:hover, .avisar-whatsapp:hover {
+.adicionar-sacola:hover {
     background: #513A32;
     color: #FFFFFF;
-}
-
-.acoes-secundarias.acoes-interesse {
-    grid-template-columns: 1fr;
-}
-
-.aviso-interesse {
-    margin: 0;
-    color: #5F5552;
-    font-size: 14px;
-    line-height: 1.5;
 }
 
 .itens-sacola {
@@ -2007,8 +2003,6 @@ footer {
 header nav a,
 .acoes-cliente button,
 .produto .adicionar-sacola,
-.produto .avisar-produto,
-.produto .avisar-whatsapp,
 .acoes-secundarias button,
 .produto .acoes-secundarias .botao-whatsapp,
 .filtros-categorias button,
@@ -2029,7 +2023,7 @@ header nav a,
     text-align: center;
 }
 .hero-botoes a { padding: 10px 18px; }
-.produto .adicionar-sacola, .produto .avisar-produto, .produto .avisar-whatsapp {
+.produto .adicionar-sacola {
     width: 100%;
     padding: 10px 12px;
     border-radius: var(--controle-raio);

@@ -7,7 +7,8 @@ let produtos = [
     ========================= */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Clarissa',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -21,7 +22,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Mariel',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -35,7 +37,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Gleide',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -49,7 +52,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Mariana',
         codigoFornecedor: "01367",
         categoria: 'Vestidos',
@@ -63,7 +67,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Karol',
         codigoFornecedor: "01416",
         categoria: 'Vestidos',
@@ -77,7 +82,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Ana',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -91,7 +97,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Camily',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -105,7 +112,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Stella',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -119,7 +127,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Priscila',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -133,7 +142,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Sindy',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -148,7 +158,8 @@ let produtos = [
 
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Clara',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -162,7 +173,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Grace',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -176,7 +188,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Lais',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -190,7 +203,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Julieta',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -204,7 +218,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Vestido Dinah',
         codigoFornecedor: null,
         categoria: 'Vestidos',
@@ -218,7 +233,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Tamara",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -232,7 +248,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Janete",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -246,7 +263,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Cecy",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -260,7 +278,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Malu",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -274,7 +293,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Carla",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -288,7 +308,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Lenita",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -302,7 +323,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Thaila",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -316,7 +338,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Jennifer",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -331,6 +354,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Vestido Carolina",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -346,6 +370,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Vestido Suzete",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -360,7 +385,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Emília",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -374,7 +400,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Laila",
         codigoFornecedor: "01404",
         categoria: "Vestidos",
@@ -388,7 +415,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Analise",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -402,7 +430,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Gildete",
         codigoFornecedor: "01391",
         categoria: "Vestidos",
@@ -416,7 +445,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Nicole",
         codigoFornecedor: "01419",
         categoria: "Vestidos",
@@ -431,6 +461,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Vestido Tamires",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -445,7 +476,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Aquila",
         codigoFornecedor: "01046",
         categoria: "Vestidos",
@@ -459,7 +491,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Jade",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -473,7 +506,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Gislaine",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -487,7 +521,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Solange",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -501,7 +536,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Úrsula",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -515,7 +551,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Maitê",
         codigoFornecedor: "01049",
         categoria: "Vestidos",
@@ -529,7 +566,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Anne",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -543,7 +581,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Lorena",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -557,7 +596,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Jordana",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -571,7 +611,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Sandra",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -585,7 +626,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Joana",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -599,7 +641,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Juliana",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -613,7 +656,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Marion",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -627,7 +671,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Jaqueline",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -641,7 +686,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Ayla",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -655,7 +701,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Zuleica",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -669,7 +716,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Olga",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -683,7 +731,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Alexa",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -697,7 +746,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Composé Rafaela",
         codigoFornecedor: "01183",
         categoria: "Vestidos",
@@ -711,7 +761,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Adele",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -725,7 +776,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Leonora",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -739,7 +791,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Salete",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -753,7 +806,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Roberta",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -767,7 +821,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Julia",
         codigoFornecedor: "01057",
         categoria: "Vestidos",
@@ -781,7 +836,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Rebeca",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -795,7 +851,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Hortência",
         codigoFornecedor: "01224",
         categoria: "Vestidos",
@@ -809,7 +866,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Lavinia",
         codigoFornecedor: "01113",
         categoria: "Vestidos",
@@ -823,7 +881,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Estela",
         codigoFornecedor: "01221",
         categoria: "Vestidos",
@@ -837,7 +896,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Dandara",
         codigoFornecedor: "01168",
         categoria: "Vestidos",
@@ -851,7 +911,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Tânia",
         codigoFornecedor: "01102",
         categoria: "Vestidos",
@@ -865,7 +926,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Paloma",
         codigoFornecedor: "01174",
         categoria: "Vestidos",
@@ -879,7 +941,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Jessica",
         codigoFornecedor: "01254",
         categoria: "Vestidos",
@@ -894,6 +957,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Vestido Leia",
         codigoFornecedor: "01035",
         categoria: "Vestidos",
@@ -907,7 +971,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Celina",
         codigoFornecedor: "01201",
         categoria: "Vestidos",
@@ -921,7 +986,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Liliane",
         codigoFornecedor: "01285",
         categoria: "Vestidos",
@@ -935,7 +1001,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Cacilda",
         codigoFornecedor: "01162",
         categoria: "Vestidos",
@@ -949,7 +1016,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Telma",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -963,7 +1031,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Pamela",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -977,7 +1046,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Gisele",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -991,7 +1061,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Aurora",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -1005,7 +1076,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Sônia",
         codigoFornecedor: "01351",
         categoria: "Vestidos",
@@ -1019,7 +1091,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Letícia",
         codigoFornecedor: "01207",
         categoria: "Vestidos",
@@ -1033,7 +1106,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Emily",
         codigoFornecedor: "01289",
         categoria: "Vestidos",
@@ -1047,7 +1121,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Vivien",
         codigoFornecedor: null,
         categoria: "Vestidos",
@@ -1061,7 +1136,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Sofia",
         codigoFornecedor: "01415",
         categoria: "Vestidos",
@@ -1076,6 +1152,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Vestido Isadora",
         codigoFornecedor: "01336",
         categoria: "Vestidos",
@@ -1090,7 +1167,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Flora",
         codigoFornecedor: "01424",
         categoria: "Vestidos",
@@ -1104,7 +1182,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Guta",
         codigoFornecedor: "01425",
         categoria: "Vestidos",
@@ -1118,7 +1197,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Eliana",
         codigoFornecedor: "01364",
         categoria: "Vestidos",
@@ -1132,7 +1212,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Isaura",
         codigoFornecedor: "01257",
         categoria: "Vestidos",
@@ -1146,7 +1227,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Simône",
         "codigoFornecedor": "01350",
         "categoria": "Vestidos",
@@ -1169,7 +1251,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Raquel",
         codigoFornecedor: "01342",
         categoria: "Vestidos",
@@ -1183,7 +1266,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Vera",
         codigoFornecedor: "01343",
         categoria: "Vestidos",
@@ -1197,7 +1281,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Suzana",
         codigoFornecedor: "01361",
         categoria: "Vestidos",
@@ -1211,7 +1296,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Mayumi",
         codigoFornecedor: "01365",
         categoria: "Vestidos",
@@ -1225,7 +1311,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Thaís",
         codigoFornecedor: "01360",
         categoria: "Vestidos",
@@ -1239,7 +1326,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Edite",
         codigoFornecedor: "00479",
         categoria: "Vestidos",
@@ -1253,7 +1341,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Joyce",
         codigoFornecedor: "01345",
         categoria: "Vestidos",
@@ -1267,7 +1356,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Geane",
         codigoFornecedor: "01092",
         categoria: "Vestidos",
@@ -1281,7 +1371,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Sol",
         codigoFornecedor: "01281",
         categoria: "Vestidos",
@@ -1295,7 +1386,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Thereza",
         codigoFornecedor: "01271",
         categoria: "Vestidos",
@@ -1309,7 +1401,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Elis",
         codigoFornecedor: "00954",
         categoria: "Vestidos",
@@ -1323,7 +1416,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Kyara",
         codigoFornecedor: "01100",
         categoria: "Vestidos",
@@ -1337,7 +1431,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Elizabeth",
         codigoFornecedor: "01231",
         categoria: "Vestidos",
@@ -1351,7 +1446,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Silmara",
         codigoFornecedor: "00187",
         categoria: "Vestidos",
@@ -1365,7 +1461,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Vestido Fernanda",
         codigoFornecedor: "00964",
         categoria: "Vestidos",
@@ -1383,7 +1480,8 @@ let produtos = [
     ========================= */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Jussara',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1397,7 +1495,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Soraya',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1411,7 +1510,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Jêssica',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1425,7 +1525,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Katy',
         codigoFornecedor: "01397",
         categoria: 'Blusas',
@@ -1439,7 +1540,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Adele',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1453,7 +1555,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Sofia',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1467,7 +1570,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Charlote',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1481,7 +1585,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Emanuelly',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1495,7 +1600,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Helena',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1510,7 +1616,8 @@ let produtos = [
 
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Debora',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1524,7 +1631,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Agatha',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1538,7 +1646,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Andreza',
         codigoFornecedor: "01101",
         categoria: 'Blusas',
@@ -1552,7 +1661,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Vera',
         codigoFornecedor: "00598",
         categoria: 'Blusas',
@@ -1566,7 +1676,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blusa Valentina',
         codigoFornecedor: null,
         categoria: 'Blusas',
@@ -1580,7 +1691,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Kelly",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1594,7 +1706,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Tânia",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1608,7 +1721,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Patrícia",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1622,7 +1736,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Marta",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1636,7 +1751,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Guta",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1650,7 +1766,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Bruna",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1664,7 +1781,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Melissa",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1678,7 +1796,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Lenita",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1692,7 +1811,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Lavinia",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1706,7 +1826,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Fabiola",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1720,7 +1841,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Catarina",
         codigoFornecedor: "01362",
         categoria: "Blusas",
@@ -1734,7 +1856,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Yara",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1748,7 +1871,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Valesca",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1762,7 +1886,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Lais",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1776,7 +1901,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Mari",
         codigoFornecedor: "01294",
         categoria: "Blusas",
@@ -1790,7 +1916,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Andréia",
         codigoFornecedor: "01375",
         categoria: "Blusas",
@@ -1804,7 +1931,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Lucilene",
         codigoFornecedor: "01252",
         categoria: "Blusas",
@@ -1818,7 +1946,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Clara",
         codigoFornecedor: null,
         categoria: "Blusas",
@@ -1832,7 +1961,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Solange",
         codigoFornecedor: "01272",
         categoria: "Blusas",
@@ -1847,6 +1977,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Blusa Bella",
         codigoFornecedor: "00424",
         categoria: "Blusas",
@@ -1860,7 +1991,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Fabiana",
         codigoFornecedor: "00699",
         categoria: "Blusas",
@@ -1874,7 +2006,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Alanis",
         codigoFornecedor: "01233",
         categoria: "Blusas",
@@ -1888,7 +2021,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Iolanda Plus Size",
         codigoFornecedor: "01047",
         categoria: "Blusas",
@@ -1902,7 +2036,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Rosana",
         codigoFornecedor: "01028",
         categoria: "Blusas",
@@ -1916,7 +2051,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Jane",
         codigoFornecedor: "01376",
         categoria: "Blusas",
@@ -1931,6 +2067,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Blusa Elisa",
         codigoFornecedor: "01277",
         categoria: "Blusas",
@@ -1945,7 +2082,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Cibele",
         codigoFornecedor: "01316",
         categoria: "Blusas",
@@ -1959,7 +2097,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Cristiane",
         codigoFornecedor: "01192",
         categoria: "Blusas",
@@ -1973,7 +2112,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Paola",
         codigoFornecedor: "00873",
         categoria: "Blusas",
@@ -1987,7 +2127,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Ingrid",
         codigoFornecedor: "01213",
         categoria: "Blusas",
@@ -2001,7 +2142,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Priscila",
         codigoFornecedor: "01279",
         categoria: "Blusas",
@@ -2015,7 +2157,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Edna",
         codigoFornecedor: "01261",
         categoria: "Blusas",
@@ -2029,7 +2172,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Pamela",
         codigoFornecedor: "01297",
         categoria: "Blusas",
@@ -2043,7 +2187,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Leona",
         codigoFornecedor: "01292",
         categoria: "Blusas",
@@ -2057,7 +2202,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Carolina",
         codigoFornecedor: "01232",
         categoria: "Blusas",
@@ -2071,7 +2217,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Thalita",
         codigoFornecedor: "00729",
         categoria: "Blusas",
@@ -2085,7 +2232,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Rafaela",
         codigoFornecedor: "00994",
         categoria: "Blusas",
@@ -2099,7 +2247,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Daniele",
         codigoFornecedor: "00913",
         categoria: "Blusas",
@@ -2113,7 +2262,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Jasmim",
         codigoFornecedor: "00909",
         categoria: "Blusas",
@@ -2127,7 +2277,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Camily",
         codigoFornecedor: "00866",
         categoria: "Blusas",
@@ -2141,7 +2292,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Marê",
         codigoFornecedor: "00707",
         categoria: "Blusas",
@@ -2155,7 +2307,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Betina",
         codigoFornecedor: "00675",
         categoria: "Blusas",
@@ -2169,7 +2322,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Marléia",
         codigoFornecedor: "01399",
         categoria: "Blusas",
@@ -2183,7 +2337,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Sol",
         codigoFornecedor: "01157",
         categoria: "Blusas",
@@ -2197,7 +2352,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Isa",
         codigoFornecedor: "01118",
         categoria: "Blusas",
@@ -2211,7 +2367,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Otília",
         codigoFornecedor: "00046",
         categoria: "Blusas",
@@ -2225,7 +2382,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Ludmila",
         codigoFornecedor: "00959",
         categoria: "Blusas",
@@ -2239,7 +2397,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Nayane",
         codigoFornecedor: "00388",
         categoria: "Blusas",
@@ -2253,7 +2412,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Lucy",
         codigoFornecedor: "00028",
         categoria: "Blusas",
@@ -2267,7 +2427,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Blusa Paula",
         codigoFornecedor: "01369",
         categoria: "Blusas",
@@ -2285,7 +2446,8 @@ let produtos = [
     ========================= */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Paula',
         codigoFornecedor: "00697",
         categoria: 'Saias',
@@ -2299,7 +2461,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Telma',
         codigoFornecedor: null,
         categoria: 'Saias',
@@ -2313,7 +2476,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Andréia',
         codigoFornecedor: "01234",
         categoria: 'Saias',
@@ -2327,7 +2491,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Ema',
         codigoFornecedor: "01188",
         categoria: 'Saias',
@@ -2341,7 +2506,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Bela',
         codigoFornecedor: null,
         categoria: 'Saias',
@@ -2355,7 +2521,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Melissa',
         codigoFornecedor: null,
         categoria: 'Saias',
@@ -2369,7 +2536,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Samara',
         codigoFornecedor: null,
         categoria: 'Saias',
@@ -2383,7 +2551,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Graciela',
         codigoFornecedor: "01301",
         categoria: 'Saias',
@@ -2397,7 +2566,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Rosane Plus Size',
         codigoFornecedor: "00840",
         categoria: 'Saias',
@@ -2410,7 +2580,8 @@ let produtos = [
         imagem: 'assets/imagens/produtos/saia-rosane-plus-size.png',
     },
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Karen',
         codigoFornecedor: null,
         categoria: 'Saias',
@@ -2424,7 +2595,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Luciana',
         codigoFornecedor: null,
         categoria: 'Saias',
@@ -2438,7 +2610,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Yamares',
         codigoFornecedor: "01155",
         categoria: 'Saias',
@@ -2452,7 +2625,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Zelda',
         codigoFornecedor: "00483",
         categoria: 'Saias',
@@ -2466,7 +2640,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Saia Amanda',
         codigoFornecedor: "01052",
         categoria: 'Saias',
@@ -2480,7 +2655,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Kelly",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2494,7 +2670,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Sueli",
         codigoFornecedor: "01180",
         categoria: "Saias",
@@ -2509,6 +2686,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Saia Alessandra",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2523,7 +2701,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Katy",
         codigoFornecedor: "01396",
         categoria: "Saias",
@@ -2537,7 +2716,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Jéssica",
         codigoFornecedor: "00990",
         categoria: "Saias",
@@ -2551,7 +2731,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Marjorie",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2565,7 +2746,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Larissa",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2579,7 +2761,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Ester",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2593,7 +2776,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Nataly",
         codigoFornecedor: "00168",
         categoria: "Saias",
@@ -2607,7 +2791,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Yasmim",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2621,7 +2806,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Gabriele",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2635,7 +2821,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Tamires",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2649,7 +2836,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Nancy",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2663,7 +2851,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Nathalia",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2677,7 +2866,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Thalia",
         codigoFornecedor: "01454",
         categoria: "Saias",
@@ -2691,7 +2881,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Claudia",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2705,7 +2896,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Cibele",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2719,7 +2911,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Eliete",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2733,7 +2926,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Camila",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2747,7 +2941,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Pamela",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2761,7 +2956,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Clara",
         codigoFornecedor: "00754",
         categoria: "Saias",
@@ -2775,7 +2971,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Perla",
         codigoFornecedor: "01082",
         categoria: "Saias",
@@ -2789,7 +2986,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Vilma",
         codigoFornecedor: "00696",
         categoria: "Saias",
@@ -2803,7 +3001,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Eliz",
         codigoFornecedor: "01378",
         categoria: "Saias",
@@ -2817,7 +3016,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Valentina",
         codigoFornecedor: "01348",
         categoria: "Saias",
@@ -2831,7 +3031,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Celeste",
         codigoFornecedor: "01339",
         categoria: "Saias",
@@ -2845,7 +3046,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Breda",
         codigoFornecedor: "01136",
         categoria: "Saias",
@@ -2859,7 +3061,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Ruth",
         codigoFornecedor: "01230",
         categoria: "Saias",
@@ -2873,7 +3076,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Gildete",
         codigoFornecedor: "00450",
         categoria: "Saias",
@@ -2887,7 +3091,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Ayla",
         codigoFornecedor: "00797",
         categoria: "Saias",
@@ -2902,6 +3107,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Saia Patrícia",
         codigoFornecedor: "00872",
         categoria: "Saias",
@@ -2915,7 +3121,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Jamily",
         codigoFornecedor: "00926",
         categoria: "Saias",
@@ -2929,7 +3136,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Marieta",
         codigoFornecedor: "01112",
         categoria: "Saias",
@@ -2943,7 +3151,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Meire",
         codigoFornecedor: "00137",
         categoria: "Saias",
@@ -2957,7 +3166,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Jussara",
         codigoFornecedor: null,
         categoria: "Saias",
@@ -2971,7 +3181,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Reder",
         codigoFornecedor: "01310",
         categoria: "Saias",
@@ -2985,7 +3196,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Saia Carla",
         codigoFornecedor: "00154",
         categoria: "Saias",
@@ -3001,7 +3213,8 @@ let produtos = [
     /* CONJUNTOS */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Conjunto Talita',
         codigoFornecedor: null,
         categoria: 'Conjuntos',
@@ -3015,7 +3228,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Conjunto Yara',
         codigoFornecedor: "01409",
         categoria: 'Conjuntos',
@@ -3029,7 +3243,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Conjunto Eny',
         codigoFornecedor: null,
         categoria: 'Conjuntos',
@@ -3043,7 +3258,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Conjunto Marina',
         codigoFornecedor: null,
         categoria: 'Conjuntos',
@@ -3057,7 +3273,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Conjunto Cecilia',
         codigoFornecedor: null,
         categoria: 'Conjuntos',
@@ -3071,7 +3288,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Tamy",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3085,7 +3303,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Mayara",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3099,7 +3318,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Dandara",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3113,7 +3333,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Katharina",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3128,6 +3349,7 @@ let produtos = [
 
     {
         disponivel: true,
+        entregaRapida: true,
         nome: "Conjunto Olivia",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3142,7 +3364,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Ludmila",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3156,7 +3379,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Magnolia",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3170,7 +3394,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Dione",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3184,7 +3409,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Pamela",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3198,7 +3424,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Lena",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3212,7 +3439,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Tiffany",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3226,7 +3454,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Emma",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3240,7 +3469,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Shirley",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3254,7 +3484,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Laura",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3268,7 +3499,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Alanes",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3282,7 +3514,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Charlotte",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3296,7 +3529,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Clara",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3310,7 +3544,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Jeh",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3324,7 +3559,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Rafaela",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3338,7 +3574,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Edite",
         codigoFornecedor: "01144",
         categoria: "Conjuntos",
@@ -3352,7 +3589,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Ariane",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3366,7 +3604,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Evilyn",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3380,7 +3619,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Nataly",
         codigoFornecedor: "01267",
         categoria: "Conjuntos",
@@ -3394,7 +3634,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Lidia",
         codigoFornecedor: null,
         categoria: "Conjuntos",
@@ -3408,7 +3649,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Mariah",
         codigoFornecedor: "01392",
         categoria: "Conjuntos",
@@ -3422,7 +3664,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Isabela",
         codigoFornecedor: "01401",
         categoria: "Conjuntos",
@@ -3436,7 +3679,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Conjunto Larissa",
         codigoFornecedor: "01295",
         categoria: "Conjuntos",
@@ -3452,7 +3696,8 @@ let produtos = [
     /* CAMISAS */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Camisa Maisa',
         codigoFornecedor: null,
         categoria: 'Camisas',
@@ -3466,7 +3711,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Camisa Eugenia',
         codigoFornecedor: null,
         categoria: 'Camisas',
@@ -3480,7 +3726,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Camisa Beatriz',
         codigoFornecedor: null,
         categoria: 'Camisas',
@@ -3494,7 +3741,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Camisa Jaqueline',
         codigoFornecedor: "01400",
         categoria: 'Camisas',
@@ -3508,7 +3756,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Camisa Relga',
         codigoFornecedor: null,
         categoria: 'Camisas',
@@ -3522,7 +3771,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Camisa Ludmila",
         codigoFornecedor: "01146",
         categoria: "Camisas",
@@ -3538,7 +3788,8 @@ let produtos = [
     /* BLAZERS */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Blazer Helena',
         codigoFornecedor: null,
         categoria: 'Blazers',
@@ -3554,7 +3805,8 @@ let produtos = [
     /* OUTROS */
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Chemise Beth',
         codigoFornecedor: null,
         categoria: 'Outros',
@@ -3568,7 +3820,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Salopete com blusa Luiza',
         codigoFornecedor: null,
         categoria: 'Outros',
@@ -3582,7 +3835,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Sobretudo Tamires',
         codigoFornecedor: null,
         categoria: 'Outros',
@@ -3596,7 +3850,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Sobretudo Michelle',
         codigoFornecedor: null,
         categoria: 'Outros',
@@ -3610,7 +3865,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: 'Casaquinho Iolanda',
         codigoFornecedor: null,
         categoria: 'Outros',
@@ -3624,7 +3880,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Jardineira com Blusa Olivia",
         codigoFornecedor: "01186",
         categoria: "Outros",
@@ -3638,7 +3895,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Trijunto Julia",
         codigoFornecedor: null,
         categoria: "Outros",
@@ -3652,7 +3910,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "Tubinho Laura",
         codigoFornecedor: "01209",
         categoria: "Outros",
@@ -3666,7 +3925,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         nome: "T-Shirt Sara",
         codigoFornecedor: "00612",
         categoria: "Outros",
@@ -3682,7 +3942,8 @@ let produtos = [
     /* Atualização atual do catálogo — preços internos confirmados na fonte */
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Rute",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3704,7 +3965,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Blusa Betania",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -3728,7 +3990,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Saia Betania",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -3750,7 +4013,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Louise",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3772,7 +4036,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Helena",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3794,7 +4059,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Body Tamires",
         "codigoFornecedor": null,
         "categoria": "Outros",
@@ -3814,7 +4080,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Saia Sonia",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -3833,7 +4100,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Valentina",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3855,7 +4123,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Cassandra",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3877,7 +4146,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Conjunto Cibele",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -3899,7 +4169,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Conjunto Telma",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -3921,7 +4192,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Mayara",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -3942,7 +4214,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Marlene",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3963,7 +4236,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Cintia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -3984,7 +4258,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Mel",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4005,7 +4280,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Dara",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4026,7 +4302,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Camilly",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4047,7 +4324,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Conjunto Carlota",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -4068,7 +4346,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Laisa",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -4089,7 +4368,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Sara",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4110,7 +4390,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Zaila",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4129,7 +4410,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Flor",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -4150,7 +4432,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Flor",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4171,7 +4454,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Ligia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4191,7 +4475,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Serena",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4213,7 +4498,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Conjunto Petra",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -4234,7 +4520,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Dayane",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4255,7 +4542,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Liz",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4276,7 +4564,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Matilde",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4297,7 +4586,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Nubia",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -4317,7 +4607,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Raica",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4338,7 +4629,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Camisa Dolores",
         "codigoFornecedor": null,
         "categoria": "Camisas",
@@ -4359,7 +4651,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Saia Angela",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4382,7 +4675,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Iris",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4403,7 +4697,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Iza",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4424,7 +4719,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Catarina",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4445,7 +4741,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Zenilda",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4467,6 +4764,7 @@ let produtos = [
 
     {
         "disponivel": true,
+        "entregaRapida": true,
         "nome": "Vestido Nathalia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4487,7 +4785,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Janaina",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -4508,7 +4807,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Poliana",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4529,7 +4829,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Perola",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4550,7 +4851,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Virgínia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4571,7 +4873,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Rosángela",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4591,7 +4894,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Lana",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4611,7 +4915,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Brenda",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4631,7 +4936,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Luiza",
         "codigoFornecedor": "01420",
         "categoria": "Blusas",
@@ -4652,7 +4958,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Livia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4669,7 +4976,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Melissa",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4690,7 +4998,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Cristal",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4711,7 +5020,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Adriana",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4732,7 +5042,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Milena",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4749,7 +5060,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Jamily",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4767,7 +5079,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Conjunto Alika",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -4788,7 +5101,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Isla",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4806,7 +5120,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Sabrina",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -4826,7 +5141,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Zaia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4845,7 +5161,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "T-Shirt Personalizada",
         "codigoFornecedor": "00982",
         "categoria": "Outros",
@@ -4865,7 +5182,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Joana",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -4885,7 +5203,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Samantha",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4905,7 +5224,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Ellen",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4926,7 +5246,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Alice",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4944,7 +5265,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Marina",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4963,7 +5285,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Lucy",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -4982,7 +5305,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Raissa",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5003,7 +5327,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Ana Clara",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5024,7 +5349,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Elise",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5042,7 +5368,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Rose",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5064,7 +5391,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Marly",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5085,7 +5413,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Livia",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5106,7 +5435,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Melinda",
         "codigoFornecedor": "01064",
         "categoria": "Saias",
@@ -5128,7 +5458,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Lucila",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5149,7 +5480,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Saia Lúcia",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5172,7 +5504,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Mariah",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5192,7 +5525,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Cleo",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5213,7 +5547,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Camila",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5234,7 +5569,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Elen",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5255,7 +5591,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Késia",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5275,7 +5612,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Vania",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5297,6 +5635,7 @@ let produtos = [
 
     {
         "disponivel": true,
+        "entregaRapida": true,
         "nome": "Vestido Luana",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5317,7 +5656,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Alice",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5336,7 +5676,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Body Leticia",
         "codigoFornecedor": null,
         "categoria": "Outros",
@@ -5354,7 +5695,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Conjunto Dara",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -5373,7 +5715,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Eliete",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5393,7 +5736,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Júlia",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5414,6 +5758,7 @@ let produtos = [
 
     {
         "disponivel": true,
+        "entregaRapida": true,
         "nome": "Conjunto Marisa",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -5432,7 +5777,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Camisa Cléo",
         "codigoFornecedor": null,
         "categoria": "Camisas",
@@ -5449,7 +5795,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Amanda",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5470,7 +5817,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Fiorella",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5491,7 +5839,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blazer Joyce",
         "codigoFornecedor": null,
         "categoria": "Blazers",
@@ -5511,7 +5860,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Conjunto Raquel",
         "codigoFornecedor": null,
         "categoria": "Conjuntos",
@@ -5528,7 +5878,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Clarice",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5548,7 +5899,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Sabrina",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5569,7 +5921,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Camisa Aline",
         "codigoFornecedor": null,
         "categoria": "Camisas",
@@ -5586,7 +5939,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Marieta",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5605,7 +5959,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Angela",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5626,7 +5981,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Camisa Marly",
         "codigoFornecedor": null,
         "categoria": "Camisas",
@@ -5643,7 +5999,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Renata",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5663,7 +6020,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Regina",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5681,7 +6039,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Thaís",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5701,7 +6060,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Daniela",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5722,7 +6082,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Olivia",
         "codigoFornecedor": "01220",
         "categoria": "Blusas",
@@ -5740,7 +6101,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Olivia",
         "codigoFornecedor": "01012",
         "categoria": "Blusas",
@@ -5757,7 +6119,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Ana",
         "codigoFornecedor": "00577",
         "categoria": "Saias",
@@ -5775,7 +6138,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Bianca",
         "codigoFornecedor": null,
         "categoria": "Blusas",
@@ -5795,7 +6159,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Karol (Plus)",
         "codigoFornecedor": "00507",
         "categoria": "Saias",
@@ -5815,6 +6180,7 @@ let produtos = [
 
     {
         "disponivel": true,
+        "entregaRapida": true,
         "nome": "Vestido Rejane",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5836,7 +6202,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Eliz",
         "codigoFornecedor": "01273",
         "categoria": "Blusas",
@@ -5855,7 +6222,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Stela",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -5876,7 +6244,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Bianca",
         "codigoFornecedor": "01260",
         "categoria": "Vestidos",
@@ -5898,6 +6267,7 @@ let produtos = [
 
     {
         "disponivel": true,
+        "entregaRapida": true,
         "nome": "Vestido Débora",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -5918,7 +6288,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Rosane",
         "codigoFornecedor": "00436",
         "categoria": "Saias",
@@ -5939,7 +6310,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Karol",
         "codigoFornecedor": "01253",
         "categoria": "Blusas",
@@ -5959,7 +6331,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Ludmila",
         "codigoFornecedor": "01117",
         "categoria": "Saias",
@@ -5979,7 +6352,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Jane",
         "codigoFornecedor": "01374",
         "categoria": "Saias",
@@ -5997,7 +6371,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Janaína",
         "codigoFornecedor": "00646",
         "categoria": "Saias",
@@ -6016,7 +6391,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Janaina",
         "codigoFornecedor": "00493",
         "categoria": "Saias",
@@ -6033,7 +6409,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Marisa",
         "codigoFornecedor": "01346",
         "categoria": "Blusas",
@@ -6054,7 +6431,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Damares",
         "codigoFornecedor": "01128",
         "categoria": "Vestidos",
@@ -6074,7 +6452,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Elizete",
         "codigoFornecedor": "01263",
         "categoria": "Vestidos",
@@ -6093,7 +6472,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Luna",
         "codigoFornecedor": "01111",
         "categoria": "Blusas",
@@ -6111,7 +6491,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Vestido Rafaela",
         "codigoFornecedor": "00432",
         "categoria": "Vestidos",
@@ -6128,7 +6509,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Kátia",
         "codigoFornecedor": "01073",
         "categoria": "Blusas",
@@ -6146,7 +6528,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Blusa Mel",
         "codigoFornecedor": "00019",
         "categoria": "Blusas",
@@ -6163,7 +6546,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Marê",
         "codigoFornecedor": "00988",
         "categoria": "Saias",
@@ -6180,7 +6564,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Vanda",
         "codigoFornecedor": "00957",
         "categoria": "Saias",
@@ -6199,7 +6584,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Rebeca",
         "codigoFornecedor": "01287",
         "categoria": "Saias",
@@ -6219,7 +6605,8 @@ let produtos = [
     },
 
     {
-        disponivel: false,
+        disponivel: true,
+        entregaRapida: false,
         "nome": "Saia Cecília",
         "codigoFornecedor": "00385",
         "categoria": "Saias",
@@ -6235,7 +6622,8 @@ let produtos = [
         "imagem": "assets/imagens/produtos/saia-cecilia.jpg"
     },
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Celene",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6257,7 +6645,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Cleo",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6280,7 +6669,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Giovana",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6302,7 +6692,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Evelin",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6324,7 +6715,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Geisa",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6348,7 +6740,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Clara",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6372,7 +6765,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Paula",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6395,7 +6789,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Vestido Clarita",
         "codigoFornecedor": null,
         "categoria": "Vestidos",
@@ -6418,7 +6813,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Camisa Sara",
         "codigoFornecedor": null,
         "categoria": "Camisas",
@@ -6441,7 +6837,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Saia Joana",
         "codigoFornecedor": null,
         "categoria": "Saias",
@@ -6464,7 +6861,8 @@ let produtos = [
     },
 
     {
-        "disponivel": false,
+        "disponivel": true,
+        "entregaRapida": false,
         "nome": "Camisa Lorena",
         "codigoFornecedor": null,
         "categoria": "Camisas",
@@ -6502,7 +6900,7 @@ const produtosPorId = new Map(produtos.map(produto => [identificarProduto(produt
 const campoBusca = document.querySelector('#busca')
 const campoOrdem = document.querySelector('#ordenacao')
 const campoTamanho = document.querySelector('#filtro-tamanho')
-const campoDisponibilidade = document.querySelector('#filtro-disponibilidade')
+const campoEntrega = document.querySelector('#filtro-disponibilidade')
 const campoPreco = document.querySelector('#filtro-preco')
 const painelCatalogo = document.querySelector('#painel-catalogo')
 const botaoAbrirCatalogo = document.querySelector('#abrir-catalogo')
@@ -6517,7 +6915,7 @@ let tamanhoAtual = ''
 let ordemAtual = 'original'
 let somenteNovidadesAtual = false
 let somenteBlackFridayAtual = false
-let disponibilidadeAtual = ''
+let entregaAtual = ''
 let faixaPrecoAtual = ''
 let limiteVisivel = produtosPorLote
 let sequenciaControles = 0
@@ -6563,8 +6961,12 @@ function formatarPreco(preco) {
 }
 
 function estaDisponivel(produto) {
-    // Estoque da boutique é explícito e independente do catálogo do fornecedor.
+    // A permissão de compra é independente do benefício de entrega.
     return produto?.disponivel === true
+}
+
+function temEntregaRapida(produto) {
+    return produto?.entregaRapida === true
 }
 
 function obterPrecos(produto) {
@@ -6667,10 +7069,11 @@ function criarCard(produto, emDetalhe = false) {
 
     const disponivel = estaDisponivel(produto)
     card.classList.toggle('produto-indisponivel', !disponivel)
+    card.classList.toggle('produto-entrega-rapida', temEntregaRapida(produto))
     const etiquetas = document.createElement('div')
     etiquetas.className = 'etiquetas-produto'
     const estados = []
-    if(!disponivel) estados.push(['etiqueta-indisponivel', 'INDISPONÍVEL'])
+    if(temEntregaRapida(produto)) estados.push(['etiqueta-entrega-rapida', 'ENTREGA RÁPIDA'])
     if(produto.novidade === true) estados.push(['etiqueta-novo', 'NOVO'])
     if(participaDaBlackFriday(produto)) estados.push(['etiqueta-black-friday', 'BLACK FRIDAY'])
     estados.forEach(([classe, texto]) => {
@@ -6736,7 +7139,7 @@ function criarCard(produto, emDetalhe = false) {
     if(!disponivel){
         whatsapp.removeAttribute('href')
         whatsapp.setAttribute('aria-disabled', 'true')
-        whatsapp.textContent = 'Indisponível para pedido'
+        whatsapp.textContent = 'Pedido bloqueado'
     }
 
     const abrirDetalhe = document.createElement('button')
@@ -6793,8 +7196,7 @@ function criarCard(produto, emDetalhe = false) {
     adicionar.textContent = 'Adicionar à sacola'
     adicionar.setAttribute('aria-label', 'Adicionar ' + produto.nome + ' à sacola')
     escolha.append(label, seletor, adicionar)
-    if(disponivel) card.appendChild(escolha)
-    else card.appendChild(criarControleInteresse(produto, emDetalhe))
+    card.appendChild(escolha)
 
     const acoes = document.createElement('div')
     acoes.className = 'acoes-secundarias'
@@ -6804,49 +7206,11 @@ function criarCard(produto, emDetalhe = false) {
     compartilhar.dataset.produto = card.dataset.produto
     compartilhar.textContent = 'Compartilhar'
     compartilhar.setAttribute('aria-label', 'Compartilhar ' + produto.nome)
-    if(disponivel) acoes.appendChild(whatsapp)
+    acoes.appendChild(whatsapp)
     acoes.appendChild(compartilhar)
-    acoes.classList.toggle('acoes-interesse', !disponivel)
     card.appendChild(acoes)
 
     return card
-}
-
-function criarControleInteresse(produto, emDetalhe) {
-    const area = document.createElement('div')
-    area.className = 'controle-interesse'
-    const botao = document.createElement('button')
-    botao.type = 'button'
-    botao.className = emDetalhe ? 'avisar-whatsapp' : 'avisar-produto'
-    botao.dataset.acao = emDetalhe ? 'avisar-whatsapp' : 'interesse'
-    botao.dataset.produto = identificarProduto(produto)
-    botao.textContent = 'Avise-me quando voltar'
-    botao.setAttribute('aria-label', 'Avise-me quando ' + produto.nome + ' voltar')
-    if(emDetalhe){
-        const tamanhos = produto.tamanhos || []
-        if(tamanhos.length > 1){
-            const label = document.createElement('label')
-            const seletor = document.createElement('select')
-            seletor.id = 'tamanho-interesse-' + (++sequenciaControles)
-            seletor.className = 'tamanho-interesse'
-            seletor.required = true
-            label.htmlFor = seletor.id
-            label.textContent = 'Tamanho de interesse'
-            seletor.add(new Option('Escolha o tamanho de interesse', ''))
-            tamanhos.forEach(tamanho => seletor.add(new Option(tamanho, tamanho)))
-            area.append(label, seletor)
-        } else {
-            const descricao = document.createElement('p')
-            descricao.textContent = tamanhos.length === 1 ? 'Tamanho de interesse: ' + tamanhos[0] : 'Tamanhos: consultar'
-            area.appendChild(descricao)
-        }
-        const aviso = document.createElement('p')
-        aviso.className = 'aviso-interesse'
-        aviso.textContent = 'Registre seu interesse pelo WhatsApp. A peça está indisponível para compra no momento.'
-        area.appendChild(aviso)
-    }
-    area.appendChild(botao)
-    return area
 }
 
 function renderizarProdutos(area, lista) {
@@ -6865,14 +7229,14 @@ function renderizarProdutos(area, lista) {
 
 /* 06. Catálogo, busca, categorias, filtros e ordenação */
 
-function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false, tamanho = '', somenteBlackFriday = false, disponibilidade = '', faixaPreco = '') {
+function selecionarProdutos(categoria, textoBusca = '', somenteNovidades = false, tamanho = '', somenteBlackFriday = false, entrega = '', faixaPreco = '') {
     const termos = normalizarTexto(textoBusca).split(/\s+/).filter(Boolean)
     return produtos.filter(produto => {
         if(somenteNovidades && produto.novidade !== true) return false
         if(somenteBlackFriday && !participaDaBlackFriday(produto)) return false
         if(categoria && produto.categoria !== categoria) return false
-        if(disponibilidade === 'disponiveis' && !estaDisponivel(produto)) return false
-        if(disponibilidade === 'indisponiveis' && estaDisponivel(produto)) return false
+        if(entrega === 'entrega-rapida' && !temEntregaRapida(produto)) return false
+        if(entrega === 'sem-entrega-rapida' && temEntregaRapida(produto)) return false
         const preco = obterPrecos(produto)?.atual ?? null
         if(faixaPreco === 'consultar' && preco !== null) return false
         if(faixaPreco && faixaPreco !== 'consultar'){
@@ -6903,11 +7267,11 @@ function ordenarProdutos(lista, ordem = ordemAtual) {
 }
 
 function atualizarFiltrosCatalogo() {
-    const disponiveis = produtos.filter(estaDisponivel).length
-    campoDisponibilidade.options[0].textContent = `Todos os produtos (${produtos.length})`
-    campoDisponibilidade.options[1].textContent = `Disponíveis (${disponiveis})`
-    campoDisponibilidade.options[2].textContent = `Indisponíveis (${produtos.length - disponiveis})`
-    const semCategoria = selecionarProdutos(undefined, textoBuscaAtual, somenteNovidadesAtual, tamanhoAtual, somenteBlackFridayAtual, disponibilidadeAtual, faixaPrecoAtual)
+    const entregaRapida = produtos.filter(temEntregaRapida).length
+    campoEntrega.options[0].textContent = `Todos os produtos (${produtos.length})`
+    campoEntrega.options[1].textContent = `Entrega rápida (${entregaRapida})`
+    campoEntrega.options[2].textContent = `Outros produtos (${produtos.length - entregaRapida})`
+    const semCategoria = selecionarProdutos(undefined, textoBuscaAtual, somenteNovidadesAtual, tamanhoAtual, somenteBlackFridayAtual, entregaAtual, faixaPrecoAtual)
     document.querySelectorAll('#filtros-categorias button').forEach(botao => {
         const categoria = botao.dataset.categoria
         const total = semCategoria.filter(p => !categoria || p.categoria === categoria).length
@@ -6918,7 +7282,7 @@ function atualizarFiltrosCatalogo() {
     const filtros = [
         ['categoria', categoriaAtual], ['busca', textoBuscaAtual && 'Busca: ' + textoBuscaAtual],
         ['tamanho', tamanhoAtual && 'Tamanho: ' + (tamanhoAtual === 'consultar' ? 'Consultar' : tamanhoAtual)],
-        ['disponibilidade', disponibilidadeAtual && (disponibilidadeAtual === 'disponiveis' ? 'Disponíveis' : 'Indisponíveis')],
+        ['entrega', entregaAtual && (entregaAtual === 'entrega-rapida' ? 'Entrega rápida' : 'Outros produtos')],
         ['preco', faixaPrecoAtual && campoPreco.selectedOptions[0].textContent],
         ['novidades', somenteNovidadesAtual && 'Novidades'], ['black-friday', somenteBlackFridayAtual && 'Black Friday']
     ]
@@ -6931,7 +7295,7 @@ function atualizarFiltrosCatalogo() {
         area.appendChild(botao)
     })
     area.hidden = area.childElementCount === 0
-    const base = selecionarProdutos(categoriaAtual, textoBuscaAtual, false, tamanhoAtual, false, disponibilidadeAtual, faixaPrecoAtual)
+    const base = selecionarProdutos(categoriaAtual, textoBuscaAtual, false, tamanhoAtual, false, entregaAtual, faixaPrecoAtual)
     document.querySelector('#contagem-novidades').textContent = `Novidades (${base.filter(p => p.novidade && (!somenteBlackFridayAtual || participaDaBlackFriday(p))).length})`
     document.querySelector('#contagem-black-friday').textContent = `Black Friday · 15% OFF (${base.filter(p => participaDaBlackFriday(p) && (!somenteNovidadesAtual || p.novidade)).length})`
 }
@@ -6943,7 +7307,7 @@ function atualizarQuantidade(quantidade) {
 
 function mostrarProdutos(reiniciar = true) {
     if(reiniciar) limiteVisivel = produtosPorLote
-    const lista = ordenarProdutos(selecionarProdutos(categoriaAtual, textoBuscaAtual, somenteNovidadesAtual, tamanhoAtual, somenteBlackFridayAtual, disponibilidadeAtual, faixaPrecoAtual))
+    const lista = ordenarProdutos(selecionarProdutos(categoriaAtual, textoBuscaAtual, somenteNovidadesAtual, tamanhoAtual, somenteBlackFridayAtual, entregaAtual, faixaPrecoAtual))
     const area = document.querySelector('#produtos-catalogo')
     const exibidos = lista.slice(0, limiteVisivel)
     if(reiniciar){
@@ -6983,9 +7347,9 @@ function mostrarTodos() {
     ordemAtual = 'original'
     somenteNovidadesAtual = false
     somenteBlackFridayAtual = false
-    disponibilidadeAtual = ''
+    entregaAtual = ''
     faixaPrecoAtual = ''
-    campoDisponibilidade.value = ''
+    campoEntrega.value = ''
     campoPreco.value = ''
     document.querySelector('#filtro-novidades').checked = false
     document.querySelector('#filtro-black-friday').checked = false
@@ -7133,7 +7497,7 @@ function renderizarEscolhas() {
             const valores = obterPrecos(produto)
             const subtotal = document.createElement('p')
             subtotal.className = 'subtotal-sacola'
-            subtotal.textContent = !disponivel ? 'INDISPONÍVEL — remova esta peça para pedir.' : valores
+            subtotal.textContent = !disponivel ? 'Remova esta peça da sacola para continuar o pedido.' : valores
                 ? (valores.promocional !== null ? 'Black Friday · ' : '') + moeda(valores.atual) + ' cada · Subtotal: ' + moeda(valores.atual * item.quantidade)
                 : 'Consultar preço'
             const quantidade = document.createElement('div')
@@ -7146,15 +7510,6 @@ function renderizarEscolhas() {
             mais.disabled = !disponivel
             quantidade.append(menos, valor, mais)
             detalhes.append(nome, descricao, criarPreco(produto), subtotal, quantidade, botaoItem('Remover', 'remover-item', indice, 'Remover ' + produto.nome + ' da sacola'))
-            if(!disponivel){
-                const interesse = document.createElement('button')
-                interesse.type = 'button'
-                interesse.className = 'avisar-produto'
-                interesse.dataset.acao = 'interesse'
-                interesse.dataset.produto = item.id
-                interesse.textContent = 'Avise-me quando voltar'
-                detalhes.appendChild(interesse)
-            }
             linha.append(imagem, detalhes)
             area.appendChild(linha)
         })
@@ -7164,7 +7519,7 @@ function renderizarEscolhas() {
             total.className = 'total-sacola'
             total.textContent = (resumo.consultar || resumo.indisponiveis ? 'Subtotal das peças com preço confirmado: ' : 'Total das peças: ') + moeda(resumo.total)
             if(resumo.consultar) total.textContent += ' · ' + resumo.consultar + ' peça(s) com preço a consultar, não incluídas no subtotal.'
-            if(resumo.indisponiveis) total.textContent += ' · Remova as peças indisponíveis para solicitar o orçamento.'
+            if(resumo.indisponiveis) total.textContent += ' · Remova as peças fora de venda para solicitar o orçamento.'
             area.appendChild(total)
             // Não permite enviar uma sacola com peças explicitamente indisponíveis.
             if(resumo.indisponiveis === 0) orcamento.href = 'https://wa.me/5511971949711?text=' + encodeURIComponent(criarMensagemSacola())
@@ -7247,11 +7602,9 @@ function selecionarRelacionados(produto, limite = 3) {
         Saias: ['Blusas', 'Camisas'], Conjuntos: ['Vestidos', 'Blazers'],
         Camisas: ['Blusas', 'Blazers'], Blazers: ['Camisas', 'Conjuntos'], Outros: ['Blusas', 'Vestidos']
     }
-    const prioridade = p => estaDisponivel(p)
-        ? p.categoria === produto.categoria ? 0 : proximas[produto.categoria]?.includes(p.categoria) ? 1 : 2
-        : p.categoria === produto.categoria ? 3 : 4
+    const prioridadeCategoria = p => p.categoria === produto.categoria ? 0 : proximas[produto.categoria]?.includes(p.categoria) ? 1 : 2
     return produtos.filter(p => identificarProduto(p) !== identificarProduto(produto))
-        .sort((a,b) => prioridade(a) - prioridade(b)).slice(0, limite)
+        .sort((a,b) => prioridadeCategoria(a) - prioridadeCategoria(b) || Number(temEntregaRapida(b)) - Number(temEntregaRapida(a))).slice(0, limite)
 }
 
 function renderizarRelacionados(produto) {
@@ -7261,19 +7614,21 @@ function renderizarRelacionados(produto) {
         const botao = document.createElement('button')
         botao.type = 'button'
         botao.className = 'produto-relacionado'
-        botao.classList.toggle('relacionado-indisponivel', !estaDisponivel(p))
         botao.dataset.acao = 'detalhe'
         botao.dataset.produto = identificarProduto(p)
-        botao.setAttribute('aria-label', 'Ver detalhes de ' + p.nome + (estaDisponivel(p) ? ', disponível' : ', indisponível'))
+        botao.setAttribute('aria-label', 'Ver detalhes de ' + p.nome + (temEntregaRapida(p) ? ', entrega rápida' : ''))
         const imagem = document.createElement('img')
         imagem.src = p.imagem
         imagem.alt = p.nome
         imagem.loading = 'lazy'
         const nome = document.createElement('span')
         nome.textContent = p.nome
-        const estado = document.createElement('small')
-        estado.textContent = estaDisponivel(p) ? 'Disponível' : 'Indisponível · Avise-me'
-        botao.append(imagem, nome, estado)
+        botao.append(imagem, nome)
+        if(temEntregaRapida(p)){
+            const entrega = document.createElement('small')
+            entrega.textContent = 'ENTREGA RÁPIDA'
+            botao.appendChild(entrega)
+        }
         area.appendChild(botao)
     })
 }
@@ -7350,17 +7705,6 @@ function criarMensagem(produto) {
     return mensagem
 }
 
-function criarMensagemInteresse(produto, tamanho) {
-    if(estaDisponivel(produto) || !tamanhoValido(produto, tamanho)) return ''
-    let mensagem = 'Olá! Tenho interesse no ' + produto.nome + (tamanho === null ? '' : ', tamanho ' + tamanho) + '.'
-    const valores = obterPrecos(produto)
-    if(valores) mensagem += ' Vi o valor exibido atualmente no site de ' + moeda(valores.atual) + '.'
-    mensagem += ' Pode me avisar quando ele estiver disponível novamente?'
-    if(!valores) mensagem += ' Também gostaria de consultar o preço.'
-    if(tamanho === null) mensagem += ' Gostaria de consultar os tamanhos disponíveis.'
-    return mensagem
-}
-
 function criarMensagemSacola(itens = sacola) {
     if(resumirSacola(itens).indisponiveis > 0) return ''
     const linhas = itens.map(item => {
@@ -7389,8 +7733,8 @@ campoTamanho.addEventListener('change', () => {
     tamanhoAtual = campoTamanho.value
     mostrarProdutos()
 })
-campoDisponibilidade.addEventListener('change', () => {
-    disponibilidadeAtual = campoDisponibilidade.value
+campoEntrega.addEventListener('change', () => {
+    entregaAtual = campoEntrega.value
     mostrarProdutos()
 })
 campoPreco.addEventListener('change', () => {
@@ -7404,7 +7748,7 @@ document.querySelector('#filtros-ativos').addEventListener('click', evento => {
     if(tipo === 'categoria') categoriaAtual = undefined
     if(tipo === 'busca') textoBuscaAtual = campoBusca.value = ''
     if(tipo === 'tamanho') tamanhoAtual = campoTamanho.value = ''
-    if(tipo === 'disponibilidade') disponibilidadeAtual = campoDisponibilidade.value = ''
+    if(tipo === 'entrega') entregaAtual = campoEntrega.value = ''
     if(tipo === 'preco') faixaPrecoAtual = campoPreco.value = ''
     if(tipo === 'novidades') somenteNovidadesAtual = document.querySelector('#filtro-novidades').checked = false
     if(tipo === 'black-friday') somenteBlackFridayAtual = document.querySelector('#filtro-black-friday').checked = false
@@ -7439,7 +7783,7 @@ document.querySelector('#whatsapp-sacola').addEventListener('click', evento => {
     if(resumirSacola().indisponiveis === 0) return
     evento.preventDefault()
     renderizarEscolhas()
-    avisarPreferencia('Remova as peças indisponíveis para solicitar o orçamento. Use Avise-me nos detalhes para registrar interesse.')
+    avisarPreferencia('Remova as peças fora de venda para solicitar o orçamento.')
 })
 dialogoEscolhas.addEventListener('close', () => {
     painelEscolhas = ''
@@ -7460,27 +7804,6 @@ document.addEventListener('click', evento => {
     const acao = botao.dataset.acao
     if(acao === 'detalhe'){
         abrirDetalheProduto(botao.dataset.produto)
-        return
-    } else if(acao === 'interesse'){
-        if(!dialogoDetalhe.open) botao.focus({preventScroll:true})
-        abrirDetalheProduto(botao.dataset.produto)
-        document.querySelector('#conteudo-detalhe .tamanho-interesse, #conteudo-detalhe .avisar-whatsapp')?.focus()
-        return
-    } else if(acao === 'avisar-whatsapp'){
-        const produto = produtosPorId.get(botao.dataset.produto)
-        if(!produto || estaDisponivel(produto)) return
-        const seletor = botao.closest('.controle-interesse').querySelector('.tamanho-interesse')
-        const tamanho = seletor ? seletor.value : produto.tamanhos?.[0] ?? null
-        if(!tamanhoValido(produto, tamanho)){
-            seletor?.reportValidity()
-            seletor?.focus()
-            avisarPreferencia('Escolha o tamanho de interesse antes de abrir o WhatsApp.')
-            return
-        }
-        const mensagem = criarMensagemInteresse(produto, tamanho)
-        if(!mensagem) return
-        registrarRecente(identificarProduto(produto))
-        window.open('https://wa.me/5511971949711?text=' + encodeURIComponent(mensagem), '_blank', 'noopener,noreferrer')
         return
     } else if(acao === 'compartilhar'){
         compartilharProduto(botao.dataset.produto)
@@ -7558,7 +7881,7 @@ dialogoDetalhe.addEventListener('close', () => {
     }
 })
 document.addEventListener('change', evento => {
-    if(evento.target.matches('.produto .tamanho-sacola, .produto .tamanho-interesse')) registrarRecente(evento.target.closest('.produto').dataset.produto)
+    if(evento.target.matches('.produto .tamanho-sacola')) registrarRecente(evento.target.closest('.produto').dataset.produto)
 })
 
 /* 14. Inicialização */
