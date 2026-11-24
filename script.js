@@ -7918,26 +7918,21 @@ if(slugSolicitado){
     }
 }
 
-/* 15. Header recolhível em celular e tablet */
+/* 15. Header recolhível em todas as telas */
 
-function inicializarHeaderMobile() {
+function inicializarHeader() {
     const cabecalho = document.querySelector('header')
     const conteudo = document.querySelector('#conteudo-header')
     const controle = document.querySelector('#alternar-header')
-    const media = matchMedia('(max-width: 1000px)')
     let recolhido = false
-    let inicioToque = null
+    let inicioGesto = null
+    let cliqueDoArraste = false
 
     function atualizarAltura() {
-        if(media.matches){
-            document.documentElement.style.setProperty('--altura-header-mobile', Math.ceil(cabecalho.getBoundingClientRect().height) + 'px')
-        } else {
-            document.documentElement.style.removeProperty('--altura-header-mobile')
-        }
+        document.documentElement.style.setProperty('--altura-header', Math.ceil(cabecalho.getBoundingClientRect().height) + 'px')
     }
 
     function definirRecolhido(valor) {
-        valor = media.matches && valor
         if(valor && document.querySelector('dialog[open]')) return
         if(valor && conteudo.contains(document.activeElement)) controle.focus({preventScroll: true})
         recolhido = valor
@@ -7951,52 +7946,96 @@ function inicializarHeaderMobile() {
         atualizarAltura()
     }
 
-    function atualizarBreakpoint() {
-        const focoNoControle = document.activeElement === controle
-        inicioToque = null
-        cabecalho.classList.toggle('header-recolhivel', media.matches)
-        controle.hidden = !media.matches
-        definirRecolhido(false)
-        if(!media.matches && focoNoControle) conteudo.querySelector('nav a')?.focus({preventScroll: true})
-        atualizarAltura()
+    function cancelarGesto() {
+        const inicio = inicioGesto
+        inicioGesto = null
+        cabecalho.classList.remove('header-arrastando')
+        if(inicio?.captura?.hasPointerCapture(inicio.id)) inicio.captura.releasePointerCapture(inicio.id)
+    }
+
+    function finalizarGesto(id, x, y) {
+        const inicio = inicioGesto
+        cancelarGesto()
+        if(!inicio || inicio.id !== id || inicio.recolhido !== recolhido) return false
+        const dx = x - inicio.x
+        const dy = y - inicio.y
+        if(Math.abs(dy) < 50 || Math.abs(dy) < Math.abs(dx) * 1.5) return false
+        if(dy < 0 && !recolhido) definirRecolhido(true)
+        else if(dy > 0 && recolhido) definirRecolhido(false)
+        return inicio.recolhido !== recolhido
     }
 
     controle.addEventListener('click', () => definirRecolhido(!recolhido))
 
-    // Observa somente gestos iniciados no header; o navegador mantém o scroll nativo.
+    // Touch permanece passivo: Pointer Events pode ser cancelado pelo scroll nativo.
+    // Os dois tipos de entrada compartilham o mesmo limite e a mesma direção de gesto.
     cabecalho.addEventListener('touchstart', evento => {
-        inicioToque = null
-        if(!media.matches || evento.touches.length !== 1 || document.querySelector('dialog[open]')) return
+        cancelarGesto()
+        if(evento.touches.length !== 1 || document.querySelector('dialog[open]')) return
         const toque = evento.touches[0]
-        inicioToque = {id: toque.identifier, x: toque.clientX, y: toque.clientY, recolhido}
+        inicioGesto = {id: toque.identifier, x: toque.clientX, y: toque.clientY, recolhido, tipo: 'touch'}
     }, {passive: true})
 
     cabecalho.addEventListener('touchmove', evento => {
-        if(evento.touches.length !== 1) inicioToque = null
+        if(evento.touches.length !== 1) cancelarGesto()
     }, {passive: true})
 
     cabecalho.addEventListener('touchend', evento => {
-        const inicio = inicioToque
-        inicioToque = null
-        if(!inicio || !media.matches || inicio.recolhido !== recolhido) return
+        const inicio = inicioGesto
+        if(inicio?.tipo !== 'touch') return
         const toque = [...evento.changedTouches].find(t => t.identifier === inicio.id)
-        if(!toque) return
-        const dx = toque.clientX - inicio.x
-        const dy = toque.clientY - inicio.y
-        if(Math.abs(dy) < 50 || Math.abs(dy) < Math.abs(dx) * 1.5) return
-        if(dy < 0 && !recolhido) definirRecolhido(true)
-        else if(dy > 0 && recolhido) definirRecolhido(false)
+        if(toque) finalizarGesto(toque.identifier, toque.clientX, toque.clientY)
+        else cancelarGesto()
     }, {passive: true})
 
-    cabecalho.addEventListener('touchcancel', () => { inicioToque = null }, {passive: true})
-    media.addEventListener('change', atualizarBreakpoint)
+    cabecalho.addEventListener('touchcancel', cancelarGesto, {passive: true})
+
+    cabecalho.addEventListener('pointerdown', evento => {
+        if(evento.pointerType === 'touch' || !evento.isPrimary || evento.button !== 0) return
+        if(document.querySelector('dialog[open]')) return
+        const naAlca = controle.contains(evento.target)
+        if(!naAlca && evento.target.closest('a, button, input, select, textarea, img, [role="button"], [contenteditable]')) return
+        cancelarGesto()
+        const captura = naAlca ? controle : cabecalho
+        inicioGesto = {id: evento.pointerId, x: evento.clientX, y: evento.clientY, recolhido, tipo: 'pointer', captura}
+        cabecalho.classList.add('header-arrastando')
+        captura.setPointerCapture(evento.pointerId)
+    })
+
+    cabecalho.addEventListener('pointerup', evento => {
+        if(inicioGesto?.tipo !== 'pointer' || inicioGesto.id !== evento.pointerId) return
+        const deslocamento = Math.hypot(evento.clientX - inicioGesto.x, evento.clientY - inicioGesto.y)
+        const mudou = finalizarGesto(evento.pointerId, evento.clientX, evento.clientY)
+        if(mudou || deslocamento > 8){
+            // Um arraste ignorado pelo limiar também não deve virar um click na seta.
+            cliqueDoArraste = true
+            setTimeout(() => { cliqueDoArraste = false }, 0)
+        }
+    })
+
+    cabecalho.addEventListener('click', evento => {
+        if(!cliqueDoArraste) return
+        cliqueDoArraste = false
+        evento.preventDefault()
+        evento.stopPropagation()
+    }, true)
+    cabecalho.addEventListener('pointercancel', evento => {
+        if(inicioGesto?.tipo === 'pointer' && inicioGesto.id === evento.pointerId) cancelarGesto()
+    })
+    cabecalho.addEventListener('lostpointercapture', evento => {
+        if(inicioGesto?.tipo === 'pointer' && inicioGesto.id === evento.pointerId) cancelarGesto()
+    })
+    window.addEventListener('blur', cancelarGesto)
+    window.addEventListener('resize', cancelarGesto, {passive: true})
     if(typeof ResizeObserver === 'function'){
         new ResizeObserver(atualizarAltura).observe(cabecalho)
     } else {
         window.addEventListener('resize', atualizarAltura, {passive: true})
         conteudo.addEventListener('transitionend', atualizarAltura)
     }
-    atualizarBreakpoint()
+    cabecalho.classList.add('header-recolhivel')
+    controle.hidden = false
+    definirRecolhido(false)
 }
 
-inicializarHeaderMobile()
+inicializarHeader()
