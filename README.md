@@ -4,8 +4,8 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 
 ## Catálogo
 
-- **398 produtos** em **7 categorias**: Vestidos, Blusas, Saias, Conjuntos, Camisas, Blazers e Outros.
-- Coleção **Magnific** na home, com **15 novidades únicas**, na ordem do catálogo. Peças reapresentadas usam o cadastro existente; modelos diferentes de mesmo nome têm links próprios.
+- **409 produtos** em **7 categorias**: Vestidos, Blusas, Saias, Conjuntos, Camisas, Blazers e Outros.
+- **27 novidades** dos dois lotes mais recentes: o lote técnico **lote-2026-11-28** e **Magnific**, sem limite fixo de peças. Peças reapresentadas usam o cadastro existente; modelos diferentes de mesmo nome têm links próprios.
 - Catálogo completo inicialmente fechado, sem renderizar seus produtos; CTA **Explorar catálogo completo** com quantidade dinâmica.
 - Busca por nome e categoria, sem distinção de acentos ou maiúsculas/minúsculas, por início de palavra.
 - Categorias dinâmicas e filtros por tamanho, entrega rápida, faixa de preço, **Novidades** e **Black Friday**, combináveis com busca e ordenação. Os filtros mostram contagens e seleções ativas removíveis.
@@ -16,7 +16,7 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 ## Preços e Black Friday
 
 - **15% OFF** nas peças participantes das coleções mais antigas: preço regular riscado, preço promocional em destaque e etiqueta **Black Friday**. A coleção atual e a imediatamente anterior ficam fora da promoção.
-- **291 produtos** com preço regular confirmado, dos quais **266** participam da Black Friday; **107 produtos** permanecem com **Consultar preço**, sem valores ou descontos fictícios.
+- **302 produtos** com preço regular confirmado, dos quais **275** participam da Black Friday; **107 produtos** permanecem com **Consultar preço**, sem valores ou descontos fictícios.
 - O filtro Black Friday mostra somente as ofertas com preço promocional válido, preservando a categoria de cada peça.
 - A sacola e as mensagens do WhatsApp usam o preço promocional durante a campanha. Peças sem preço confirmado ficam identificadas separadamente e não entram no subtotal das peças com preço conhecido.
 
@@ -35,9 +35,9 @@ Catálogo de moda feminina para descobrir peças, guardar escolhas e solicitar u
 
 Os dados dos produtos ficam no JavaScript. Informações desconhecidas são representadas por `null`; referências internas não são exibidas nos cards. Os identificadores dos produtos anteriores foram preservados para manter favoritos, sacola e recentes já salvos.
 
-**Todos os 398 produtos podem ser comprados**, com tamanho quando conhecido, quantidade na sacola e pedido individual ou coletivo pelo WhatsApp. Todos possuem `disponivel: true`; esse campo fica reservado à permissão de compra, separada da entrega. Não há fluxo de reposição ou aviso de retorno nesta versão.
+**Todos os 409 produtos podem ser comprados**, com tamanho quando conhecido, quantidade na sacola e pedido individual ou coletivo pelo WhatsApp. Todos possuem `disponivel: true`; esse campo fica reservado à permissão de compra, separada da entrega. Não há fluxo de reposição ou aviso de retorno nesta versão.
 
-O campo independente `entregaRapida` define somente o benefício de entrega: **15 produtos** confirmados possuem `entregaRapida: true` e exibem o selo **ENTREGA RÁPIDA**; os **383 demais** possuem `entregaRapida: false`, continuam normalmente compráveis e não recebem selo de estado. Os filtros **Entrega rápida** e **Outros produtos** usam esse campo e contagens dinâmicas. Entrega rápida não muda preços, novidades ou Black Friday. Imagens continuam coloridas e itens salvos anteriormente na sacola são preservados, sem limpeza do localStorage. A confirmação do pedido e das condições de entrega acontece pelo atendimento; a página não representa estoque automático.
+O campo independente `entregaRapida` define somente o benefício de entrega: **15 produtos** confirmados possuem `entregaRapida: true` e exibem o selo **ENTREGA RÁPIDA**; os **394 demais** possuem `entregaRapida: false`, continuam normalmente compráveis e não recebem selo de estado. Os filtros **Entrega rápida** e **Outros produtos** usam esse campo e contagens dinâmicas. Entrega rápida não muda preços, novidades ou Black Friday. Imagens continuam coloridas e itens salvos anteriormente na sacola são preservados, sem limpeza do localStorage. A confirmação do pedido e das condições de entrega acontece pelo atendimento; a página não representa estoque automático.
 
 A seção **Como comprar** orienta o uso do catálogo, da sacola e do WhatsApp. O Instagram oficial é **[@contato.evelinboutique](https://www.instagram.com/contato.evelinboutique/)**, também acessível no cabeçalho, no contato e no rodapé.
 
@@ -55,6 +55,24 @@ Layout responsivo para desktop, tablet e celular; identidade rosada/bege, aprese
 O nome oficial da loja é **Evelin Boutique Delivery** e seu domínio oficial é **[evelinboutiquedelivery.com.br](https://evelinboutiquedelivery.com.br/)**.
 
 Projeto estático compatível com **GitHub Pages**, sem compilação. A publicação depende da configuração do repositório e do envio das alterações aprovadas. Consulte `AGENTS.md` antes de modificar o projeto.
+
+## Atualização automática do catálogo
+
+**Agendamento semanal ainda não ativado; workflow em validação manual.** O workflow **Atualizar catálogo** (`.github/workflows/atualizar-catalogo.yml`) possui somente `workflow_dispatch`. Ele consulta o [catálogo público autorizado da Maria Amore](https://sites.google.com/view/mariaamorecatalogo/cat%C3%A1logo) em modo `--dry-run`, sem gravar produtos, imagens ou histórico. Se encontrar novidades ou divergências, a validação é interrompida para revisão. A execução de sexta-feira às 09:00, America/Sao_Paulo, depende de autorização posterior; não há gatilho `schedule` nesta versão.
+
+Somente os produtos dos **dois lotes mais recentes** recebem `NOVO` e ficam fora da Black Friday. A detecção busca uma subsequência ordenada e compacta do último lote conhecido e considera candidatos somente os blocos anteriores a essa fronteira. O bootstrap local aceito manualmente registrou 12 modelos no lote técnico `lote-2026-11-28`, com 11 cadastros novos e reutilização da Camisa Maisa. As duas fotos de Pamela e Mikaelly são evidências alternativas de um único cadastro de cada modelo.
+
+A âncora principal desse lote exige pelo menos 10 dos 12 modelos corroborados, densidade de 80% e janela efetiva de até 14 itens. Magnific permanece como âncora secundária original, sem recalibrar sua ordem silenciosamente. O fallback só pode confirmar o contexto e uma fronteira principal parcial segura; nunca oferece o lote principal conhecido como lançamento. Se nenhuma fronteira for segura, a execução é interrompida. Tipos explícitos, nomes normalizados e evidências de referências, imagens e metadados corroboram o reconhecimento. Preço e tamanho são auxiliares; custos do fornecedor não são guardados no histórico. O bootstrap manual não ativa o workflow semanal.
+
+Uma execução com a âncora no topo informa **Nenhum produto novo encontrado**, preserva os lotes e não cria commit. Alterações e ambiguidades no histórico abaixo da fronteira não geram lançamentos. Um inventário compacto dos blocos já observados também impede tratar um bloco histórico reposicionado como lançamento. Produtos antigos não são removidos porque desapareceram da fonte; Entrega rápida permanece uma classificação própria da loja. A rotina confere duas leituras HTTP contra o Chrome renderizado, incluindo visibilidade e ordem real; diferenças materiais ou instabilidade interrompem a execução. O Chrome deve estar instalado (`CHROME_PATH` permite indicar seu executável).
+
+Para apenas investigar a fonte, use `npm run catalogo:diagnosticar` ou `node scripts/atualizar-catalogo.mjs --diagnostico-fronteira`. Esse modo nunca cria lote ou altera dados/imagens do catálogo. Gera o relatório detalhado e capturas somente na pasta local ignorada, com comparação HTTP/Chrome e desktop/celular; preços da fonte ficam apenas nesse material de revisão. Uma hipótese abaixo do quórum é identificada como não aprovada, sem autorizar cadastro.
+
+Para executar a validação manual, abra **GitHub → Actions → Atualizar catálogo → Run workflow**, selecionando `main`. O resumo mostra a âncora, score, duas leituras, contagens e ambiguidades históricas ignoradas. Nesta fase, somente zero lotes e zero produtos novos são aceitos; qualquer diferença exige revisão. Se a âncora não for encontrada, a fonte estiver parcial ou algum candidato do novo bloco exigir revisão, a execução inteira é interrompida. Para conferir localmente, instale as ferramentas com `npm ci --ignore-scripts` e use `node scripts/atualizar-catalogo.mjs --dry-run`, que não grava dados ou imagens. Os testes são executados com `npm test`.
+
+O passo de publicação permanece preparado, mas está explicitamente bloqueado durante esta validação manual: não cria commit, não faz push e não solicita deploy. Foram preservadas as permissões futuras do token temporário do GitHub: `contents: write` e `pages: write`, para o **mesmo build de Pages já configurado**, sem PAT ou chaves gravadas. A liberação desse passo e do agendamento exige revisão posterior. Não há novo sistema de deploy nem alteração de domínio, DNS, HTTPS ou CNAME.
+
+Para desativar inclusive a execução manual, abra o menu do workflow no GitHub Actions e escolha **Disable workflow**. **Enable workflow** reativa somente os gatilhos existentes no arquivo; atualmente, apenas o manual. A automação não usa IA, API paga ou credenciais gravadas no repositório.
 
 ## Limitações atuais
 

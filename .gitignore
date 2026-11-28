@@ -1,5 +1,6 @@
 # Ferramentas, relatórios, auditorias e capturas mantidos somente no computador.
 /verificacao/
+/node_modules/
 
 # Originais de processamento: os cards usam exclusivamente as imagens finais.
 /assets/imagens/produtos/*-original.*

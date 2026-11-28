@@ -1,0 +1,104 @@
+name: Atualizar catálogo
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: atualizar-catalogo-main
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    if: github.repository == 'pietroneumann/evelin-boutique' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      # Pushes feitos com GITHUB_TOKEN não iniciam o build do Pages por si só.
+      pages: write
+    steps:
+      - name: Obter main
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+
+      - name: Instalar dependências fixadas
+        run: npm ci --ignore-scripts
+
+      - name: Conferir Node e Chrome do runner
+        run: |
+          node --version
+          command -v google-chrome
+          google-chrome --version
+
+      - name: Conferir main e a configuração existente do Pages
+        id: preflight
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/catalogo/publicar.mjs --preflight
+
+      - name: Validar fonte real sem alterar o catálogo
+        id: catalogo
+        run: |
+          node scripts/atualizar-catalogo.mjs --dry-run > "$RUNNER_TEMP/catalogo-relatorio.json"
+          cat "$RUNNER_TEMP/catalogo-relatorio.json"
+          cat "$GITHUB_STEP_SUMMARY" > "$RUNNER_TEMP/catalogo-resumo.md"
+
+      - name: Exigir zero novidades nesta validação manual
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs/promises'
+          import assert from 'node:assert/strict'
+          const report = JSON.parse(await fs.readFile(process.env.RUNNER_TEMP + '/catalogo-relatorio.json', 'utf8'))
+          assert.equal(report.changed, false, 'Fonte mudou: há alterações para revisar.')
+          assert.equal(report.novos, 0, 'Fonte mudou: há produtos novos para revisar.')
+          assert.equal(report.novosLotes, 0, 'Fonte mudou: há lote novo para revisar.')
+          assert.equal(report.commitNecessario, false)
+          for (const [field, expected] of Object.entries({total:409, novidades:27, blackFriday:275, entregaRapida:15, precosConfirmados:302, consultarPreco:107, leiturasFonte:2, ocorrenciasFonte:496, fronteira:0, candidatosAntesFronteira:0, scoreFronteira:100, confiancaFronteira:'alta', fallbackUtilizado:false})) assert.equal(report[field], expected, 'Estado inesperado: ' + field)
+          assert.equal(report.ancoraUtilizada, 'lote-2026-11-28')
+          const history = JSON.parse(await fs.readFile('data/catalog-history.json', 'utf8'))
+          assert.ok(history.source.fallbackFrontiers.some(anchor => anchor.batchId === 'magnific'), 'Fallback Magnific não carregado.')
+          await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, '\n### Validação manual sem agendamento\nProdutos atuais: 409. Novos lotes encontrados: 0. Produtos novos encontrados: 0. Commit necessário: não.\nÂncora: ' + report.ancoraUtilizada + '; score: ' + report.scoreFronteira + '; confiança: ' + report.confiancaFronteira + '; leituras: ' + report.leiturasFonte + '.\nNenhum commit, push, imagem ou histórico alterado. Agendamento semanal ainda não ativado.\n')
+          await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, 'Fallback Magnific carregado e validado; não utilizado nesta execução.\n')
+          NODE
+          cat "$GITHUB_STEP_SUMMARY" >> "$RUNNER_TEMP/catalogo-resumo.md"
+          test -z "$(git status --porcelain)"
+
+      - name: Testar os dados preparados e o atualizador
+        run: |
+          npm test
+          node scripts/atualizar-catalogo.mjs --validate-only
+          node --check script.js
+          git diff --check
+
+      - name: Criar commit validado, enviar e solicitar o build existente
+        # Publicação automática permanece preparada, mas bloqueada nesta fase manual.
+        if: ${{ false && steps.catalogo.outputs.changed == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CATALOG_BASE_SHA: ${{ steps.preflight.outputs.base_sha }}
+          CATALOG_PUBLISH_ALLOWED: 'true'
+        run: node scripts/catalogo/publicar.mjs --publish
+
+      - name: Registrar falha sem publicar dados parciais
+        if: failure()
+        run: |
+          printf '%s\n' '### Execução interrompida' 'Consulte a etapa que falhou. Validações impedem o commit/push de dados incompletos; nenhum envio usa force. Se o envio já ocorreu e somente o build do Pages falhou, o resumo da publicação identifica o commit enviado.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Exibir o resumo da validação
+        if: always()
+        run: |
+          if test -f "$RUNNER_TEMP/catalogo-resumo.md"; then
+            cat "$RUNNER_TEMP/catalogo-resumo.md"
+          else
+            printf '%s\n' 'Resumo não gerado; consulte a etapa que falhou.'
+          fi

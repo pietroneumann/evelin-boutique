@@ -1,0 +1,17 @@
+{
+  "name": "evelin-boutique-catalogo",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "catalogo:dry-run": "node scripts/atualizar-catalogo.mjs --dry-run",
+    "catalogo:diagnosticar": "node scripts/atualizar-catalogo.mjs --diagnostico-fronteira",
+    "catalogo:validar": "node scripts/atualizar-catalogo.mjs --validate-only"
+  },
+  "dependencies": {
+    "acorn": "8.19.0",
+    "parse5": "8.1.1",
+    "sharp": "0.35.5"
+  }
+}

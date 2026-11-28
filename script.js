@@ -3703,11 +3703,12 @@ let produtos = [
         categoria: 'Camisas',
         preco: null,
         precoRegular: 189.81,
-        precoBlackFriday: 161.34,
+        precoBlackFriday: null,
         tamanhos: ['P', 'M', 'G', 'GG', 'EXG'],
         cores: null,
-        novidade: false,
+        novidade: true,
         imagem: 'assets/imagens/produtos/camisa-maisa.png',
+        "blackFriday": false,
     },
 
     {
@@ -3959,7 +3960,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 0,
         "imagem": "assets/imagens/produtos/vestido-rute.jpg"
     },
@@ -4007,7 +4008,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 2,
         "imagem": "assets/imagens/produtos/saia-betania.png"
     },
@@ -4030,7 +4031,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 3,
         "imagem": "assets/imagens/produtos/vestido-louise.jpg"
     },
@@ -4053,7 +4054,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 4,
         "imagem": "assets/imagens/produtos/vestido-helena.jpg"
     },
@@ -4074,7 +4075,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 5,
         "imagem": "assets/imagens/produtos/body-tamires.png"
     },
@@ -4094,7 +4095,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 6,
         "imagem": "assets/imagens/produtos/saia-sonia.png"
     },
@@ -4117,7 +4118,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 7,
         "imagem": "assets/imagens/produtos/vestido-valentina.jpg"
     },
@@ -4140,7 +4141,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 8,
         "imagem": "assets/imagens/produtos/vestido-cassandra.jpg"
     },
@@ -4163,7 +4164,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 9,
         "imagem": "assets/imagens/produtos/conjunto-cibele.jpg"
     },
@@ -4186,7 +4187,7 @@ let produtos = [
         ],
         "cores": null,
         "novidade": false,
-        "blackFriday": false,
+        "blackFriday": true,
         "ordemCatalogo": 10,
         "imagem": "assets/imagens/produtos/conjunto-telma.jpg"
     },
@@ -6882,6 +6883,269 @@ let produtos = [
         "ordemCatalogo": 13,
         "descricao": "Com botões funcionais. Manga longa. Tecido renda",
         "imagem": "assets/imagens/produtos/camisa-lorena.png"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Roberta",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 436.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -12,
+        "descricao": "Sem zíper. Com lastex. Tecido chiffon trabalhado",
+        "imagem": "assets/imagens/produtos/vestido-roberta-6a3c9ea45892.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Isabel",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 455.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -11,
+        "descricao": "Com zíper. Tecido tule de renda",
+        "imagem": "assets/imagens/produtos/vestido-isabel-7139e3962f61.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Yasmim",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 417.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -10,
+        "descricao": "Sem zíper. Tecido malha premium",
+        "imagem": "assets/imagens/produtos/vestido-yasmim-f53f0580eb1f.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Mariah",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 455.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -9,
+        "descricao": "Sem zíper. Com elástico na cintura. Com faixa. Tecido viscose com fios de lurex",
+        "imagem": "assets/imagens/produtos/vestido-mariah-ceb9d8a7061d.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Tina",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 379.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "PP",
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -8,
+        "descricao": "Com zíper. Com lastex no ombro. Com botões não funcionais. Com bordado. Tecido crepe pele de pêssego",
+        "imagem": "assets/imagens/produtos/vestido-tina-4be54d33fb52.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Fernanda",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 379.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -7,
+        "descricao": "Sem zíper. Com detalhes em gripir. Tecido chiffon estampado",
+        "imagem": "assets/imagens/produtos/vestido-fernanda-7fa1badc301a.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Vestido Amanda",
+        "codigoFornecedor": null,
+        "categoria": "Vestidos",
+        "preco": null,
+        "precoRegular": 322.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "PP",
+            "P",
+            "M",
+            "G",
+            "GG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -6,
+        "descricao": "Sem zíper. Com lastex na cintura. Tecido jeans",
+        "imagem": "assets/imagens/produtos/vestido-amanda-e87c9361cfaf.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Conjunto Pamela",
+        "codigoFornecedor": null,
+        "categoria": "Conjuntos",
+        "preco": null,
+        "precoRegular": 455.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -5,
+        "descricao": "Blusa. Com botões funcionais. Com elástico na cintura. Saia. Com zíper. Tecido alfaiataria marrant",
+        "imagem": "assets/imagens/produtos/conjunto-pamela-fb0960f67f63.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Conjunto Mikaelly",
+        "codigoFornecedor": null,
+        "categoria": "Conjuntos",
+        "preco": null,
+        "precoRegular": 303.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -4,
+        "descricao": "Blusa. Manga curta. Saia. Sem zíper. Com elástico. Tecido viscolycra premium",
+        "imagem": "assets/imagens/produtos/conjunto-mikaelly-6c6fd8ab173b.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Conjunto Dafne",
+        "codigoFornecedor": null,
+        "categoria": "Conjuntos",
+        "preco": null,
+        "precoRegular": 303.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -3,
+        "descricao": "Sem zíper. Com elástico na cintura. Tecido malha premium",
+        "imagem": "assets/imagens/produtos/conjunto-dafne-231ab4b2a2e7.jpg"
+    },
+
+    {
+        "disponivel": true,
+        "entregaRapida": false,
+        "nome": "Saia Rafaela",
+        "codigoFornecedor": null,
+        "categoria": "Saias",
+        "preco": null,
+        "precoRegular": 246.81,
+        "precoBlackFriday": null,
+        "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG",
+            "EXG"
+        ],
+        "cores": null,
+        "novidade": true,
+        "blackFriday": false,
+        "ordemCatalogo": -1,
+        "descricao": "Com zíper. Tecido renda chenille com elastano",
+        "imagem": "assets/imagens/produtos/saia-rafaela-65c7afbfd293.png"
     },
 ]
 
